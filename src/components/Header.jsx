@@ -1,7 +1,11 @@
+import Nav from "./Nav";
+
+
 export default function Header() {
   return (
     <div>
-      <div className="container flex ">
+    <Nav/>
+      <div className=" flex container mt-[10rem]">
         <div className="logo">
           <img
             src="https://icicc-conf.com/static/media/icicc.8fdf59f44e037ad83293.jpg"
@@ -9,7 +13,7 @@ export default function Header() {
           />
         </div>
         <div className="header-text">
-          <p className="font-thin">
+          <p className="font-bold sm:mt-[5rem] md:mt-3">
             7th INTERNATIONAL CONFERENCE ON INNOVATIVE COMPUTING AND<br/>
             COMMUNICATION<br/> (ICICC 2024)
           </p>
@@ -31,6 +35,8 @@ export default function Header() {
             </div>
         </div>
       </div>
+      
     </div>
+    
   );
 }
