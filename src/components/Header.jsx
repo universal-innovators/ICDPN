@@ -12,7 +12,7 @@ export default function Header() {
             alt=""
           />
         </div>
-        <div className="header-text">
+        <div className="header-text text-center">
           <p className="font-bold sm:mt-[5rem] md:mt-3">
             7th INTERNATIONAL CONFERENCE ON INNOVATIVE COMPUTING AND<br/>
             COMMUNICATION<br/> (ICICC 2024)
