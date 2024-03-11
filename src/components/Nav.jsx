@@ -32,12 +32,12 @@ const Nav = () => {
         </div>
         {/* linke items */}
         <ul
-          className={`md:flex md:justify-around md:items-center md:pb-0 pb-12 md:static bg-white md:z-auto z-[-1] left-0 w-full md:full md:pl-0  transition-all duration-500 ease-in ${
-            open ? "top-12" : "top-[-990px]"
-          }`}
+          className={`md:flex md:justify-between md:items-center md:pb-0 pb-12 md:static bg-white md:z-auto z-[-1] 
+          left-0 w-full md:full md:pl-0  transition-all duration-500 ease-in
+          ${open?'visible':'hidden'}`}
         >
           {Links.map((link) => (
-            <li key={link.name} className="md:my-0 my-7 font-semibold">
+            <li key={link.name} className=" md:my-0 my-7 font-semibold">
               <a
                 href={link.link}
                 className="text-gray-800 hover:text-blue-400 duration-500"
