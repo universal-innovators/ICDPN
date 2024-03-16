@@ -43,7 +43,7 @@ import { RxDotFilled } from 'react-icons/rx';
 
     const newIndex = isLast ? 0 : currentIndex + 1;
     setCurrentIndex(newIndex);
-  },10000)},[currentIndex])
+  },5000)})
 
   return (
     
