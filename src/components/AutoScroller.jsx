@@ -1,4 +1,4 @@
-import React,{useState} from 'react'
+import {useState} from 'react'
 import Marquee from 'react-fast-marquee'
 
 
@@ -20,7 +20,7 @@ const AutoScroller = () => {
       </Marquee>
       
       
-      {/* <div className='Scroller1 '>hiiii</div>  */}
+      
      </div>
     </div>
      
