@@ -10,6 +10,10 @@ import Registration from './Pages/Registration'
 import SpecialSessions from './Pages/SpecialSessions'
 import Sponsorships from './Pages/Sponsorships'
 import Workshops from './Pages/Workshops'
+
+
+import Footer from './components/Footer'
+
 import Header from './components/Header'
 import {Routes,Route} from 'react-router-dom'
 
@@ -20,6 +24,7 @@ function App() {
     
       
       <Header />
+
       <Routes>
         <Route path='/' element={<Home/>}></Route>
         <Route path='/about' element={<About/>}></Route>
@@ -35,6 +40,10 @@ function App() {
         <Route path='/Workshops' element={<Workshops/>}></Route>
       </Routes>
       
+
+      
+      <Footer />
+
     </>
   )
 }

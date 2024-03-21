@@ -1,5 +1,7 @@
-import  { useState } from "react";
-import { Menu } from "@mui/icons-material";
+
+import { useState } from "react";
+import { Menu} from "@mui/icons-material";
+
 import { GrClose } from "react-icons/gr";
 
 
@@ -8,8 +10,8 @@ const Nav = () => {
   let [open, setOpen] = useState(false);
 
   return (
-    <div className=" sm:h-8 w-full top-0 left-0 fixed z-10">
-      <div className="shadow-lg w-full h-16 md:h-24 md:flex items-center md:justify-around text-[15px] bg-white py-4  left-0">
+    <div className="sm:h-8 w-full top-0 left-0 fixed z-10">
+      <div className="navbar shadow-lg w-full h-16 md:h-24 md:flex items-center md:justify-around text-[15px] bg-white py-4  left-0">
         <div
           onClick={() => setOpen(!open)}
           className="absolute right-8 top-6 cursor-pointer md:hidden w-7 h-7"
@@ -18,7 +20,7 @@ const Nav = () => {
         </div>
         {/* linke items */}
         <ul
-          className={`md:flex md:justify-between md:items-center md:pb-0 pb-12 md:static bg-white md:z-auto z-[-1] 
+          className={`navbar md:flex md:justify-between md:items-center md:pb-0 pb-12 md:static bg-white md:z-auto z-[-1] 
           left-0 w-full md:full md:pl-0  transition-all duration-500 ease-in
           ${open?'visible':'hidden'}`}
         >
