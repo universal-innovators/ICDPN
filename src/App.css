@@ -196,3 +196,28 @@ ul li a{
 ul li a:hover{
   color: #fff;
 }
+
+.sponsor-heading{
+  margin: 20px 40px;
+  font-size: 2rem;
+}
+
+.sponsor-text-container{
+  margin: 20px;
+  width: 60%;
+  margin-bottom: 100px;
+}
+
+.sponsor-text-container h4{
+  font-size: 1.5rem;
+}
+
+.sponsor-text-container ul{
+  list-style-type: disc;
+  margin-left: 20px;
+  line-height: 1;
+}
+
+.sponsor-text-container p{
+  text-align: justify;
+}
