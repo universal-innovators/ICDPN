@@ -1,12 +1,16 @@
-
 import { useState } from "react";
-import { Menu} from "@mui/icons-material";
+import { Menu } from "@mui/icons-material";
+import {
+  DropdownMenu,
+  DropdownMenuContent,
+  DropdownMenuItem,
+  DropdownMenuTrigger,
+} from "@/components/ui/dropdown-menu";
 
 import { GrClose } from "react-icons/gr";
-
+import { Link } from "react-router-dom";
 
 const Nav = () => {
-  
   let [open, setOpen] = useState(false);
 
   return (
@@ -22,157 +26,352 @@ const Nav = () => {
         <ul
           className={`navbar md:flex md:justify-between md:items-center md:pb-0 pb-12 md:static bg-white md:z-auto z-[-1] 
           left-0 w-full md:full md:pl-0  transition-all duration-500 ease-in
-          ${open?'visible':'hidden'}`}
+          ${open ? "visible" : "hidden"}`}
         >
-          
-            <li  className=" md:my-0 my-7 font-semibold">
-              <a
-                href="/"
-                className="text-gray-800 hover:text-blue-400 duration-500"
-              >
-                <p className="m-[10px] text-center">
-                  <p className="custom px-[2.5px]">Home</p>
-                </p>
-              </a>
-            </li>
-            <li  className=" md:my-0 my-7 font-semibold">
-             
-                  {/* <label htmlFor="About" className="custom px-[2.5px]">About
-                  <select name="About">
-                    <option value='About institute'><a href="/"
-                className="text-gray-800 hover:text-blue-400 duration-500"
-              >
-                <p className="m-[10px] text-center">About institute</p></a> </option>
-                    <option value='about'>About Universal Innovator</option>
-                    
-                    <option value='about'>Policy</option>
-                  </select> */}
-                  
-                  
-                
-              
-            </li>
-            <li  className=" md:my-0 my-7 font-semibold">
-              <a
-                href="/"
-                className="text-gray-800 hover:text-blue-400 duration-500"
-              >
-                <p className="m-[10px] text-center">
-                  <p className="custom px-[2.5px]">Home</p>
-                </p>
-              </a>
-            </li>
-            <li  className=" md:my-0 my-7 font-semibold">
-              <a
-                href="/Poster-Paper Presentation"
-                className="text-gray-800 hover:text-blue-400 duration-500"
-              >
-                <p className="m-[10px] text-center">
-                  <p className="custom px-[2.5px]">Poster Paper Presentation</p>
-                </p>
-              </a>
-            </li>
-            <li  className=" md:my-0 my-7 font-semibold">
-              <a
-                href="/Special-Sessions"
-                className="text-gray-800 hover:text-blue-400 duration-500"
-              >
-                <p className="m-[10px] text-center">
-                  <p className="custom px-[2.5px]">Special Sessions</p>
-                </p>
-              </a>
-            </li>
-            <li  className=" md:my-0 my-7 font-semibold">
-              <a
-                href="/Workshops"
-                className="text-gray-800 hover:text-blue-400 duration-500"
-              >
-                <p className="m-[10px] text-center">
-                  <p className="custom px-[2.5px]">Workshops</p>
-                </p>
-              </a>
-            </li>
-            <li  className=" md:my-0 my-7 font-semibold">
-              <a
-                href="/Registration"
-                className="text-gray-800 hover:text-blue-400 duration-500"
-              >
-                <p className="m-[10px] text-center">
-                  <p className="custom px-[2.5px]">Registration</p>
-                </p>
-              </a>
-            </li>
-            <li  className=" md:my-0 my-7 font-semibold">
-              <a
-                href="/Sponsorships"
-                className="text-gray-800 hover:text-blue-400 duration-500"
-              >
-                <p className="m-[10px] text-center">
-                  <p className="custom px-[2.5px]">Sponsorships</p>
-                </p>
-              </a>
-            </li>
-            <li  className=" md:my-0 my-7 font-semibold">
-              <a
-                href="/Publications"
-                className="text-gray-800 hover:text-blue-400 duration-500"
-              >
-                <p className="m-[10px] text-center">
-                  <p className="custom px-[2.5px]">Publications</p>
-                </p>
-              </a>
-            </li>
-            <li  className=" md:my-0 my-7 font-semibold">
-              <a
-                href="/"
-                className="text-gray-800 hover:text-blue-400 duration-500"
-              >
-                <p className="m-[10px] text-center">
-                  <p className="custom px-[2.5px]">Home</p>
-                </p>
-              </a>
-            </li>
-            <li  className=" md:my-0 my-7 font-semibold">
-              <a
-                href="/Awards"
-                className="text-gray-800 hover:text-blue-400 duration-500"
-              >
-                <p className="m-[10px] text-center">
-                  <p className="custom px-[2.5px]">Awards</p>
-                </p>
-              </a>
-            </li>
-            <li  className=" md:my-0 my-7 font-semibold">
-              <a
-                href="/ConferenceVenue"
-                className="text-gray-800 hover:text-blue-400 duration-500"
-              >
-                <p className="m-[10px] text-center">
-                  <p className="custom px-[2.5px]">Conference Venue</p>
-                </p>
-              </a>
-            </li>
-            <li  className=" md:my-0 my-7 font-semibold">
-              <a
-                href="/Downloads"
-                className="text-gray-800 hover:text-blue-400 duration-500"
-              >
-                <p className="m-[10px] text-center">
-                  <p className="custom px-[2.5px]">Downloads</p>
-                </p>
-              </a>
-            </li>
-            <li  className=" md:my-0 my-7 font-semibold">
-              <a
-                href="/"
-                className="text-gray-800 hover:text-blue-400 duration-500"
-              >
-                <p className="m-[10px] text-center">
-                  <p className="custom px-[2.5px]">Home</p>
-                </p>
-              </a>
-            </li>
-          
+          <li className=" md:my-0 my-7 font-semibold">
+            <Link
+              to="/"
+              className="text-gray-800 hover:text-blue-400 duration-500"
+            >
+              <p className="m-[10px] text-center">
+                <p className="custom px-[2.5px]">Home</p>
+              </p>
+            </Link>
+          </li>
+          <li className=" md:my-0 my-7 font-semibold mx-3">
+            <DropdownMenu>
+              <DropdownMenuTrigger className="text-white custom">About</DropdownMenuTrigger>
+              <DropdownMenuContent>
+                <DropdownMenuItem>
+                  <Link
+                    to="/"
+                    className="text-gray-800 hover:text-blue-400 duration-500"
+                  >
+                    <p className="m-[10px] text-center ">
+                      <p className="custom px-[2.5px] text-gray-800">
+                        About Institute
+                      </p>
+                    </p>
+                  </Link>
+                </DropdownMenuItem>
+                <DropdownMenuItem>
+                  <Link
+                    to="/"
+                    className="text-gray-800 hover:text-blue-400 duration-500"
+                  >
+                    <p className="m-[10px] text-center ">
+                      <p className="custom px-[2.5px] text-gray-800">
+                        About Universal Innovators
+                      </p>
+                    </p>
+                  </Link>
+                </DropdownMenuItem>
+                <DropdownMenuItem>
+                  <Link
+                    to="/"
+                    className="text-gray-800 hover:text-blue-400 duration-500"
+                  >
+                    <p className="m-[10px] text-center ">
+                      <p className="custom px-[2.5px] text-gray-800">
+                        Policy
+                      </p>
+                    </p>
+                  </Link>
+                </DropdownMenuItem>
+              </DropdownMenuContent>
+            </DropdownMenu>
+          </li>
+          <li className=" md:my-0 my-7 font-semibold mx-3">
+          <DropdownMenu>
+          <DropdownMenuTrigger className="text-white custom">Papers</DropdownMenuTrigger>
+              <DropdownMenuContent>
+                <DropdownMenuItem>
+                  <Link
+                    to="/"
+                    className="text-gray-800 hover:text-blue-400 duration-500"
+                  >
+                    <p className="m-[10px] text-center ">
+                      <p className="custom px-[2.5px] text-gray-800">
+                        Call for Papers
+                      </p>
+                    </p>
+                  </Link>
+                </DropdownMenuItem>
+                <DropdownMenuItem>
+                  <Link
+                    to="/"
+                    className="text-gray-800 hover:text-blue-400 duration-500"
+                  >
+                    <p className="m-[10px] text-center ">
+                      <p className="custom px-[2.5px] text-gray-800">
+                        Paper Submission
+                      </p>
+                    </p>
+                  </Link>
+                </DropdownMenuItem>
+                <DropdownMenuItem>
+                  <Link
+                    to="/"
+                    className="text-gray-800 hover:text-blue-400 duration-500"
+                  >
+                    <p className="m-[10px] text-center ">
+                      <p className="custom px-[2.5px] text-gray-800">
+                        Call for Special Sessions
+                      </p>
+                    </p>
+                  </Link>
+                </DropdownMenuItem>
+                <DropdownMenuItem>
+                  <Link
+                    to="/"
+                    className="text-gray-800 hover:text-blue-400 duration-500"
+                  >
+                    <p className="m-[10px] text-center ">
+                      <p className="custom px-[2.5px] text-gray-800">
+                        Call for International Workshops
+                      </p>
+                    </p>
+                  </Link>
+                </DropdownMenuItem>
+              </DropdownMenuContent>
+            </DropdownMenu>
+          </li>
+          <li className=" md:my-0 my-7 font-semibold">
+            <Link
+              to="/Poster-Paper Presentation"
+              className="text-gray-800 hover:text-blue-400 duration-500"
+            >
+              <p className="m-[10px] text-center">
+                <p className="custom px-[2.5px]">Poster Paper Presentation</p>
+              </p>
+            </Link>
+          </li>
+          <li className=" md:my-0 my-7 font-semibold">
+            <Link
+              to="/Special-Sessions"
+              className="text-gray-800 hover:text-blue-400 duration-500"
+            >
+              <p className="m-[10px] text-center">
+                <p className="custom px-[2.5px]">Special Sessions</p>
+              </p>
+            </Link>
+          </li>
+          <li className=" md:my-0 my-7 font-semibold">
+            <Link
+              to="/Workshops"
+              className="text-gray-800 hover:text-blue-400 duration-500"
+            >
+              <p className="m-[10px] text-center">
+                <p className="custom px-[2.5px]">Workshops</p>
+              </p>
+            </Link>
+          </li>
+          <li className=" md:my-0 my-7 font-semibold">
+            <Link
+              to="/Registration"
+              className="text-gray-800 hover:text-blue-400 duration-500"
+            >
+              <p className="m-[10px] text-center">
+                <p className="custom px-[2.5px]">Registration</p>
+              </p>
+            </Link>
+          </li>
+          <li className=" md:my-0 my-7 font-semibold">
+            <Link
+              to="/Sponsorships"
+              className="text-gray-800 hover:text-blue-400 duration-500"
+            >
+              <p className="m-[10px] text-center">
+                <p className="custom px-[2.5px]">Sponsorships</p>
+              </p>
+            </Link>
+          </li>
+          <li className=" md:my-0 my-7 font-semibold">
+            <Link
+              to="/Publications"
+              className="text-gray-800 hover:text-blue-400 duration-500"
+            >
+              <p className="m-[10px] text-center">
+                <p className="custom px-[2.5px]">Publications</p>
+              </p>
+            </Link>
+          </li>
+          <li className=" md:my-0 my-7 font-semibold">
+          <DropdownMenu>
+          <DropdownMenuTrigger className="text-white custom mx-3">Committee</DropdownMenuTrigger>
+              <DropdownMenuContent>
+                <DropdownMenuItem>
+                  <Link
+                    to="/"
+                    className="text-gray-800 hover:text-blue-400 duration-500"
+                  >
+                    <p className="m-[10px] text-center ">
+                      <p className="custom px-[2.5px] text-gray-800">
+                        Steering Committee
+                      </p>
+                    </p>
+                  </Link>
+                </DropdownMenuItem>
+                <DropdownMenuItem>
+                  <Link
+                    to="/"
+                    className="text-gray-800 hover:text-blue-400 duration-500"
+                  >
+                    <p className="m-[10px] text-center ">
+                      <p className="custom px-[2.5px] text-gray-800">
+                        Technical Program Committee
+                      </p>
+                    </p>
+                  </Link>
+                </DropdownMenuItem>
+                <DropdownMenuItem>
+                  <Link
+                    to="/"
+                    className="text-gray-800 hover:text-blue-400 duration-500"
+                  >
+                    <p className="m-[10px] text-center ">
+                      <p className="custom px-[2.5px] text-gray-800">
+                        Industry Experts
+                      </p>
+                    </p>
+                  </Link>
+                </DropdownMenuItem>
+                <DropdownMenuItem>
+                  <Link
+                    to="/"
+                    className="text-gray-800 hover:text-blue-400 duration-500"
+                  >
+                    <p className="m-[10px] text-center ">
+                      <p className="custom px-[2.5px] text-gray-800">
+                        Call for International Workshops
+                      </p>
+                    </p>
+                  </Link>
+                </DropdownMenuItem>
+              </DropdownMenuContent>
+            </DropdownMenu>
+          </li>
+          <li className=" md:my-0 my-7 font-semibold">
+            <Link
+              to="/Awards"
+              className="text-gray-800 hover:text-blue-400 duration-500"
+            >
+              <p className="m-[10px] text-center">
+                <p className="custom px-[2.5px]">Awards</p>
+              </p>
+            </Link>
+          </li>
+          <li className=" md:my-0 my-7 font-semibold">
+            <Link
+              to="/ConferenceVenue"
+              className="text-gray-800 hover:text-blue-400 duration-500"
+            >
+              <p className="m-[10px] text-center">
+                <p className="custom px-[2.5px]">Conference Venue</p>
+              </p>
+            </Link>
+          </li>
+          <li className=" md:my-0 my-7 font-semibold">
+            <Link
+              to="/Downloads"
+              className="text-gray-800 hover:text-blue-400 duration-500"
+            >
+              <p className="m-[10px] text-center">
+                <p className="custom px-[2.5px]">Downloads</p>
+              </p>
+            </Link>
+          </li>
+          <li className=" md:my-0 my-7 font-semibold mx-3">
+          <DropdownMenu>
+          <DropdownMenuTrigger className="text-white custom">Previous Conferences</DropdownMenuTrigger>
+              <DropdownMenuContent>
+                <DropdownMenuItem>
+                  <Link
+                    to="/"
+                    className="text-gray-800 hover:text-blue-400 duration-500"
+                  >
+                    <p className="m-[10px] text-center ">
+                      <p className=" px-[2.5px] text-gray-800">
+                        ICICC 2024
+                      </p>
+                    </p>
+                  </Link>
+                </DropdownMenuItem>
+                <DropdownMenuItem>
+                <Link
+                    to="/"
+                    className="text-gray-800 hover:text-blue-400 duration-500"
+                  >
+                    <p className="m-[10px] text-center ">
+                      <p className=" px-[2.5px] text-gray-800">
+                        ICICC 2023
+                      </p>
+                    </p>
+                  </Link>
+                </DropdownMenuItem>
+                <DropdownMenuItem>
+                  <Link
+                    to="/"
+                    className="text-gray-800 hover:text-blue-400 duration-500"
+                  >
+                    <p className="m-[10px] text-center ">
+                      <p className=" px-[2.5px] text-gray-800">
+                        ICICC 2022
+                      </p>
+                    </p>
+                  </Link>
+                </DropdownMenuItem>
+                <DropdownMenuItem>
+                  <Link
+                    to="/"
+                    className="text-gray-800 hover:text-blue-400 duration-500"
+                  >
+                    <p className="m-[10px] text-center ">
+                      <p className=" px-[2.5px] text-gray-800">
+                        ICICC 2021
+                      </p>
+                    </p>
+                  </Link>
+                </DropdownMenuItem>
+                <DropdownMenuItem>
+                  <Link
+                    to="/"
+                    className="text-gray-800 hover:text-blue-400 duration-500"
+                  >
+                    <p className="m-[10px] text-center ">
+                      <p className=" px-[2.5px] text-gray-800">
+                        ICICC 2020
+                      </p>
+                    </p>
+                  </Link>
+                </DropdownMenuItem>
+                <DropdownMenuItem>
+                  <Link
+                    to="/"
+                    className="text-gray-800 hover:text-blue-400 duration-500"
+                  >
+                    <p className="m-[10px] text-center ">
+                      <p className=" px-[2.5px] text-gray-800">
+                        ICICC 2019
+                      </p>
+                    </p>
+                  </Link>
+                </DropdownMenuItem>
+                <DropdownMenuItem>
+                  <Link
+                    to="/"
+                    className="text-gray-800 hover:text-blue-400 duration-500"
+                  >
+                    <p className="m-[10px] text-center ">
+                      <p className=" px-[2.5px] text-gray-800">
+                        ICICC 2018
+                      </p>
+                    </p>
+                  </Link>
+                </DropdownMenuItem>
+              </DropdownMenuContent>
+            </DropdownMenu>
+          </li>
         </ul>
       </div>
     </div>

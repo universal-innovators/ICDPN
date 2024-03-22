@@ -5,7 +5,7 @@ export default function Header() {
   return (
     <div>
     <Nav/>
-      <div className=" flex container w-full mt-[10rem] justify-around items-center ml-10 gap-[30px]">
+      <div className=" flex container mr-auto ml-[-15px] mt-[8rem] mb-8 justify-center items-center  gap-[30px]">
         <div className="logo">
           <img
             src="https://icicc-conf.com/static/media/icicc.8fdf59f44e037ad83293.jpg"
@@ -31,7 +31,7 @@ export default function Header() {
             </div>
             <div className="set2 flex">
                 <img className="w-[100px] h-[100px] m-[10px]" src="https://icicc-conf.com/static/media/logospain.8d22e3a92a5c92f69b26.png" alt="" />
-                <img className="w-[100px] h-[100px] m-[10px]" src="https://icicc-conf.com/static/media/logospain.8d22e3a92a5c92f69b26.png" alt="" />
+                <img className="w-[100px] h-[100px] m-[10px]" src="springer.jpeg" alt="" />
             </div>
         </div>
       </div>
