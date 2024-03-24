@@ -44,7 +44,7 @@ const Nav = () => {
               <DropdownMenuContent>
                 <DropdownMenuItem>
                   <Link
-                    to="/"
+                    to="/about-institute"
                     className="text-gray-800 hover:text-blue-400 duration-500"
                   >
                     <p className="m-[10px] text-center ">
@@ -56,7 +56,7 @@ const Nav = () => {
                 </DropdownMenuItem>
                 <DropdownMenuItem>
                   <Link
-                    to="/"
+                    to="/about-uni"
                     className="text-gray-800 hover:text-blue-400 duration-500"
                   >
                     <p className="m-[10px] text-center ">
@@ -68,7 +68,7 @@ const Nav = () => {
                 </DropdownMenuItem>
                 <DropdownMenuItem>
                   <Link
-                    to="/"
+                    to="/policy"
                     className="text-gray-800 hover:text-blue-400 duration-500"
                   >
                     <p className="m-[10px] text-center ">
@@ -202,7 +202,7 @@ const Nav = () => {
               <DropdownMenuContent>
                 <DropdownMenuItem>
                   <Link
-                    to="/"
+                    to="/steering-committee"
                     className="text-gray-800 hover:text-blue-400 duration-500"
                   >
                     <p className="m-[10px] text-center ">
@@ -214,7 +214,7 @@ const Nav = () => {
                 </DropdownMenuItem>
                 <DropdownMenuItem>
                   <Link
-                    to="/"
+                    to="/technical-program-committee"
                     className="text-gray-800 hover:text-blue-400 duration-500"
                   >
                     <p className="m-[10px] text-center ">
@@ -226,7 +226,7 @@ const Nav = () => {
                 </DropdownMenuItem>
                 <DropdownMenuItem>
                   <Link
-                    to="/"
+                    to="/industry-experts"
                     className="text-gray-800 hover:text-blue-400 duration-500"
                   >
                     <p className="m-[10px] text-center ">
@@ -238,12 +238,12 @@ const Nav = () => {
                 </DropdownMenuItem>
                 <DropdownMenuItem>
                   <Link
-                    to="/"
+                    to="/advisory-committee"
                     className="text-gray-800 hover:text-blue-400 duration-500"
                   >
                     <p className="m-[10px] text-center ">
                       <p className="custom px-[2.5px] text-gray-800">
-                        Call for International Workshops
+                        Advisory Committee
                       </p>
                     </p>
                   </Link>

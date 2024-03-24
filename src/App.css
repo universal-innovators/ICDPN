@@ -117,6 +117,23 @@
   transform: scaleY(1);
 }
 
+.btn{
+  background: #ee6352;
+  color: white;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  box-shadow: 0 0.5rem 1rem -0.25rem hsl(215, 25%, 27%);
+  /* transition: background 0.3s; */
+  transition: all 0.3s;
+}
+
+.btn:hover{
+  background: #f70808;
+  
+}
+
 .tag-list {
   margin: 0;
   padding-inline: 0;
@@ -155,6 +172,7 @@
   background-size: cover;
   width: 300px;
   height: 300px;
+  box-shadow: 0 0.5rem 1rem -0.25rem hsl(215, 25%, 27%);
 }
 .swiper-slide img {
   display: block;
@@ -199,7 +217,7 @@
 }
 
 ul li {
-  list-style: none;
+  /* list-style: none; */
   margin-bottom: 7px;
 }
 
@@ -213,13 +231,12 @@ ul li a:hover {
 }
 
 .sponsor-heading {
-  margin: 20px 40px;
+  margin: 20px 0;
   font-size: 2rem;
 }
 
 .sponsor-text-container {
-  margin: 20px;
-  width: 60%;
+  margin: 20px 0;
   margin-bottom: 100px;
 }
 
@@ -235,6 +252,11 @@ ul li a:hover {
 
 .sponsor-text-container p {
   text-align: justify;
+}
+
+.books li{
+  list-style-type: none;
+
 }
 
 .books li img {
@@ -270,11 +292,6 @@ ul li a:hover {
   padding: 10px;
 }
 
-.awards-text-container {
-  margin: 20px;
-  width: auto;
-}
-
 .awards-text-container h4 {
   font-size: 1.25rem;
 }
@@ -307,6 +324,37 @@ ul li a:hover {
   padding: 2rem;
   border-radius: 0.5rem;
   box-shadow: 2.5rem 3.75rem 3rem -3rem hsl(217 19% 35% / 0.25);
+}
+
+.downloads{
+
+  border-top-right-radius: 0.5rem;
+  border-top-left-radius: 0.5rem;
+  /* box-shadow: 2.5rem 3.75rem 3rem -3rem hsl(217 19% 35% / 0.25); */
+  box-shadow: 0 0.5rem 1rem -0.25rem hsl(215, 25%, 27%);
+
+}
+.clicks{
+
+  border-bottom-right-radius: 0.5rem;
+  border-bottom-left-radius: 0.5rem;
+  /* box-shadow: 2.5rem 3.75rem 3rem -3rem hsl(217 19% 35% / 0.25); */
+  box-shadow: 0 0.5rem 1rem -0.25rem hsl(215, 25%, 27%);
+
+}
+
+.testimonials{
+  padding: 2rem;
+  border-radius: 0.5rem;
+  box-shadow: 2.5rem 3.75rem 3rem -3rem hsl(217 19% 35% / 0.25);
+}
+
+.testimonials h3{
+  font-size: 1.25rem;
+}
+
+.testimonials hr{
+  margin-bottom: 1rem ;
 }
 
 .testimonial > p:first-of-type {
@@ -362,7 +410,7 @@ ul li a:hover {
     "thirtyfive";
 
   padding-block: 2rem;
-  width: min(95%);
+  /* width: min(95%); */
   margin-inline: auto;
 }
 

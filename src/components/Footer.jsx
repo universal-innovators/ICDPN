@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const Footer = () => {
   return (
     <div className="footer">
@@ -5,9 +7,15 @@ const Footer = () => {
         <div className="col">
           <h3>Social Media</h3>
           <div className="flex gap-3 items-center justify-between">
-            <img className=" h-[31px]" src="/envelope-solid.svg" alt="" />
-            <img className="w-[31px] h-7" src="linkedin.svg" alt="" />
-            <img className="w-[31px] h-7" src="square-facebook.svg" alt="" />
+            <a href="mailto:icicc.ui@gmail.com">
+              <img className=" h-[31px]" src="/envelope-solid.svg" alt="" />
+            </a>
+            <a href="https://www.linkedin.com/in/icicc-conf-31a3b6151/">
+              <img className="w-[31px] h-7" src="linkedin.svg" alt="" />
+            </a>
+            <a href="https://www.facebook.com/profile.php?id=100022446397656">
+              <img className="w-[31px] h-7" src="square-facebook.svg" alt="" />
+            </a>
           </div>
         </div>
         <div className="col">
@@ -24,16 +32,18 @@ const Footer = () => {
               <a href="">Call for Papers</a>
             </li>
             <li>
-              <a href="">Important Dates</a>
+              <Link to="/">Important Dates</Link>
             </li>
             <li>
-              <a href="">Conference Venue</a>
+              <Link to="/ConferenceVenue">Conference Venue</Link>
             </li>
             <li>
               <a href="">Downloads</a>
             </li>
             <li>
-              <a href="">Paper Submission</a>
+              <Link to="https://cmt3.research.microsoft.com/ICICC2025">
+                Paper Submission
+              </Link>
             </li>
           </ul>
         </div>

@@ -2,18 +2,18 @@ import ImpDates from "../components/ImpDates"
 
 const Publications = () => {
   return (
-    <div>
+    <div className="container">
       <hr />
       <h2 className="sponsor-heading">Publications</h2>
       <hr />
-      <div className="flex justify-around mt-10">
+      <div className="flex justify-around mt-10 gap-7">
         <div className="sponsor-text-container">
           <h4 className="text-center">PUBLICATION-PROCEEDINGS</h4>
           <br />
-          <p className="mb-[1rem]">All the accepted papers of ICICC - 2025 will be published as proceedings of ICICC - 2025 indexed by Scopus, Ei, WoS, and other reputed databases. High-quality selected extended conference papers will be invited to submit for publication in the special issues.</p>
+          <p className="mb-[1rem] ">All the accepted papers of ICICC - 2025 will be published as proceedings of ICICC - 2025 indexed by Scopus, Ei, WoS, and other reputed databases. High-quality selected extended conference papers will be invited to submit for publication in the special issues.</p>
           <br />
           <div className="mb-[30px]">
-            <ul className="books flex justify-between flex-wrap m-[10px]">
+            <ul className="books flex justify-between flex-wrap m-[10px] list-none">
               <li>
                 <img src="physics.jpg" alt="" />
                 <p>Physical Communication, Elsevier (SCIE indexed) IF 2.37</p>
@@ -66,7 +66,7 @@ const Publications = () => {
           </div>
           <h4 className="text-center">INDEXING</h4>
           <br />
-          <div className="indexing flex justify-around flex-wrap">
+          <div className="indexing flex justify-around flex-wrap gap-3">
             <img src="scopus.png" alt="" />
             <img src="iet.jpeg" alt="" />
             <img src="wti.jpeg" alt="" />
