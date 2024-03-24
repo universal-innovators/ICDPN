@@ -15,7 +15,7 @@ Once Your paper is accepted, the registration process begins. you have to comple
 5)Coffee breaks<br/>
 6)Lunch<br/>
 7)Banquet</p>
-    <div className='w-10/12 m-auto  border-black border-[1px] '>
+    <div className='w-10/12 m-auto flex-col content-center border-black border-[1px] '>
     <div className='text-center font-bold text-lg mt-5'>Pay via Bank Transfer</div>
 
       <table className='m-auto w-10/12 mt-5'>
@@ -51,21 +51,25 @@ Once Your paper is accepted, the registration process begins. you have to comple
       <div className='w-10/12 h-[1px] m-auto mt-4 bg-gray-400'></div><br/>
       <div className='text-center font-bold text-lg '>Pay via Paypal</div>
       <div className='text-center  '>For Payment from International Authors/Attendees, use the following paypal link with additional 5% service charges applies</div><br/>
-      
-      <button className='border-black border-[1px] ml-[36rem] bg-blue-600 rounded-lg hover:bg-gradient-to-t from-blue-900 to-cyan-500 '>
+      <div className=" text-center">
+      <a href="https://www.paypal.com/paypalme/ICICCConference?locale.x=en_GB" target="_blank" className=" ">
+      <button className=' self-center  bg-blue-600 rounded-lg hover:bg-gradient-to-t from-blue-900 to-cyan-500  '>
         <div className='m-auto p-[0.5rem] text-white'>Pay with Paypal</div>
-      </button>
+      </button></a></div>
       <br/>
       <div className='text-center '>OR</div>
-      <button className='border-black border-[1px] ml-[36rem]  bg-blue-600 rounded-lg hover:bg-gradient-to-t from-blue-900 to-cyan-500 '>
+      <div className="text-center">
+      <a href="https://buy.stripe.com/dR602n7dZ06g1JmbIJ" target="_blank" className="">
+      <button className='   bg-blue-600 rounded-lg hover:bg-gradient-to-t from-blue-900 to-cyan-500 '>
         <div className='m-auto p-[0.5rem] text-white'>Pay with Stripe</div>
-      </button>
+      </button></a></div>
       <div className='w-10/12 h-[1px] m-auto mt-4 bg-gray-400'></div><br/>
       <div className='text-center font-bold text-lg '>Pay via RazorPay</div>
       <div className='text-center  '>For payment from Indian Authors/Attendees, use the following payment link</div><br/>
-      <button className='border-black border-[1px] ml-[35rem]  bg-blue-600 rounded-lg hover:bg-gradient-to-t from-blue-900 to-cyan-500 '>
+      <div className="text-center"><a href="https://pages.razorpay.com/pl_IOTJy0iZ8kxq43/view" target="_blank">
+      <button className='   bg-blue-600 rounded-lg hover:bg-gradient-to-t from-blue-900 to-cyan-500 '>
         <div className='m-auto p-[0.5rem] text-white'>Pay with Razorpay</div>
-      </button>
+      </button></a></div>
       <div className='text-center '>OR</div><br/>
       <div className='text-center font-bold text-lg '>Pay via UPI</div><br/>
       <img src='https://icicc-conf.com/static/media/upi.5db4b1e81bc7b43c8e51.png' className='m-auto ' width={'160rem'} height={'200rem'}/>

@@ -9,7 +9,7 @@ function Body() {
             href="https://scholar.google.com/citations?hl=en&user=fFvhHUAAAAAJ"
             className="card__title"
           >
-            A FLAGSHIP CONFERENCE: ICICC-2024
+            A FLAGSHIP CONFERENCE: ICICC-2025
           </a>
           <p className="card__body">
             Online presentation of papers is allowed due to pandemic

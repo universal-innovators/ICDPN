@@ -20,6 +20,8 @@ const ImpDatesAndNotices = () => {
       <div className='w-10/12 h-[1px] m-auto  bg-gray-400'></div>
       <div className=' text-blue-400 hover:scale-125'><p className='font-bold '>Paper Submission Deadline:</p>December 31st, 2024</div>
       <div className='w-10/12 h-[1px] m-auto  bg-gray-400'></div>
+      <div className=' text-blue-400 hover:scale-125'><p className='font-bold '>Paper Submission Deadline:</p>December 31st, 2024</div>
+      <div className='w-10/12 h-[1px] m-auto  bg-gray-400'></div>
 
       </div>
       </Marquee>
