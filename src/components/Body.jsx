@@ -3,7 +3,7 @@ import Marquee from "react-fast-marquee";
 function Body() {
   return (
     <>
-      <div className="max-w-[1400px] w-full m-auto px-4 flex items-center justify-center">
+      <div className="max-w-[1400px] w-full m-auto px-4 flex flex-col gap-5 items-center">
         <div className="card">
           <a
             href="https://scholar.google.com/citations?hl=en&user=fFvhHUAAAAAJ"
@@ -15,10 +15,17 @@ function Body() {
             Online presentation of papers is allowed due to pandemic
           </p>
         </div>
+        <div>
+          <button className="btn">
+            <a href="https://cmt3.research.microsoft.com/ICICC2025">Submit Paper</a>
+          </button>
+        </div>
       </div>
-      <div className="scroller m-auto mt-[4rem]">
+      <div className="scroller m-auto mt-[4rem] ">
         <ul className="tag-list scroller_inner">
-          <Marquee>
+          <Marquee
+            gradient={true}
+          >
             <li>
               <p>3575</p>
               <p>Citations</p>
