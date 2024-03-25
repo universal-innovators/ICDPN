@@ -13,15 +13,15 @@ const ICICC2023 = () => {
     <tbody>
         <tr  className='hover:bg-gray-300'>
             <td><b>Volume 1:</b></td>
-            <td><a className='text-blue-500' href='https://www.springer.com/gp/book/9789811625930'>https://www.springer.com/gp/book/9789811625930</a></td>
+            <td><a className='text-blue-500' href='https://link.springer.com/book/10.1007/978-981-99-3315-0'>https://link.springer.com/book/10.1007/978-981-99-3315-0</a></td>
         </tr>
         <tr  className='hover:bg-gray-300'>
             <td><b>Volume 2:</b></td>
-            <td><a className='text-blue-500' href='https://www.springer.com/gp/book/9789811625961'>https://www.springer.com/gp/book/9789811625961</a></td>
+            <td><a className='text-blue-500' href='https://link.springer.com/book/9789819940721'>https://link.springer.com/book/9789819940721</a></td>
         </tr>
         <tr>
             <td><b>Volume 3:</b></td>
-            <td><a className='text-blue-500' href='https://www.springer.com/gp/book/9789811630705'>https://www.springer.com/gp/book/9789811630705</a></td>
+            <td><a className='text-blue-500' href='	https://link.springer.com/book/9789819930098'>	https://link.springer.com/book/9789819930098</a></td>
         </tr></tbody>
         
     </table>

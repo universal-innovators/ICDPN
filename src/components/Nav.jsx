@@ -133,7 +133,7 @@ const Nav = () => {
                 </DropdownMenuItem>
                 <DropdownMenuItem>
                   <Link
-                    to="/"
+                    to="/call_for_international_workshops"
                     className="text-gray-800 hover:text-blue-400 duration-500"
                     onClick={<DropdownMenu close/>}
                   >

@@ -32,6 +32,7 @@ import Footer from './components/Footer'
 
 import Header from './components/Header'
 import {Routes,Route} from 'react-router-dom'
+import CallForINTWork from './Pages/CallForINTWork'
 
 function App() {
 
@@ -47,6 +48,8 @@ function App() {
         <Route path='/Call-For-Papers' element={<CallForPapers/>}></Route>
         <Route path='/Paper-Submission' element={<PaperSubmission/>}></Route>
         <Route path='/Call-For-Special-Sessions' element={<CallForSpecialSessions/>}></Route>
+        <Route path='/call_for_international_workshops' element={<CallForINTWork/>}></Route>
+
         <Route path='/ICICC2024' element={<ICICC2024/>}></Route>
         <Route path='/ICICC2023' element={<ICICC2023/>}></Route>
         <Route path='/ICICC2022' element={<ICICC2022/>}></Route>
