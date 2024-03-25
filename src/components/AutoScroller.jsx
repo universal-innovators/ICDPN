@@ -6,7 +6,7 @@ const AutoScroller = () => {
     //
     <div className="flex-col justify-between items-center max-w-[418px] m-auto mt-8 mb-9 h-[40rem] ">
       <div
-        className={`w-[418px] text-center bg-slate-900 downloads text-white h-8 font-bold text-xl p-12 `}
+        className={`sm:w-[418px] text-center bg-slate-900 downloads text-white h-8 font-bold text-xl p-12 `}
       >
         Downloads
       </div>
@@ -15,6 +15,7 @@ const AutoScroller = () => {
           direction="up"
           speed={50}
           pauseOnHover="true"
+          className="marquee"
           style={{ textAlign: "center", width: "27rem", height: "30rem" }}
         >
           <div className="flex-col items-center h-[20rem] ">

@@ -17,7 +17,7 @@
 }
 
 body{
-  overflow-x: hidden;
+  overflow-x: scroll;
 }
 .mySwiper {
   width: 80%;
@@ -656,7 +656,7 @@ tr:hover{
 
   
 }
-@media screen and (max-width:500px) {
+@media screen and (max-width:640px) {
   .mySwiper{
     height: 27rem;
     width: 90%;
@@ -669,5 +669,26 @@ tr:hover{
   .impdatesmarquee{
     height: 40rem;
   }
+  .discount{
+    animation-play-state: paused;
+    flex-wrap: wrap;
+    
+    font-size:smaller;
+    margin: auto;
+  }
+  .downloads{
+    width: 90%;
+
+  }
+  .clicks{
+    width: 90%}
+  .table1{
+    width: 40%;
+  }
+  .gallery{
+    left: 2rem;
+  }
+
+  
 }
 

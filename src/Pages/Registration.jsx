@@ -18,7 +18,7 @@ Once Your paper is accepted, the registration process begins. you have to comple
     <div className='w-10/12 m-auto flex-col content-center border-black border-[1px] '>
     <div className='text-center font-bold text-lg mt-5'>Pay via Bank Transfer</div>
 
-      <table className='m-auto w-10/12 mt-5'>
+      <table className='table1 m-auto sm:w-10/12 mt-5'>
         <tr>
           <td>ACCOUNT NAME</td>
           <td>ui-educon</td>
@@ -76,7 +76,7 @@ Once Your paper is accepted, the registration process begins. you have to comple
 
 
     </div>
-      <table className='m-auto w-10/12 mt-11'>
+      <table className='table1 m-auto sm:w-10/12 mt-11'>
         <thead>
         
           <th>Category</th>
@@ -107,27 +107,27 @@ Once Your paper is accepted, the registration process begins. you have to comple
         </tr>
         <tr>
         <td>Foreigner Research Scholar/Student (Outside India)</td>
-        <td></td>
-        <td></td>
+        <td>USD 200</td>
+        <td>USD 250</td>
         </tr>
         <tr>
         <td>Foreigner Academician (Outside India)</td>
-        <td></td>
-        <td></td>
+        <td>USD 250</td>
+        <td>USD 300</td>
         </tr>
         <tr>
         <td>Foreigner Industrial Participant (Outside India)</td>
-        <td></td>
-        <td></td>
+        <td>USD 300</td>
+        <td>USD 350</td>
         </tr>
         <tr>
         <td>Attendee (Outside India)</td>
-        <td></td>
-        <td></td>
+        <td>USD 100</td>
+        <td>USD 150</td>
         </tr>
         </tbody>
       </table>
-      <table className='m-auto w-10/12 mt-11'>
+      <table className=' table1 m-auto sm:w-10/12 mt-11'>
         <thead>
         
           <th>Category</th>
@@ -138,33 +138,33 @@ Once Your paper is accepted, the registration process begins. you have to comple
         <tbody>
         <tr>
         <td>Research Scholar/Student</td>
-        <td>INR 10000</td>
-        <td>INR 11000</td>
+        <td>INR 5000</td>
+        <td>INR 5500</td>
         </tr>
         <tr>
         <td>Academician</td>
-        <td>INR 11000</td>
-        <td>INR 12000</td>
-        </tr>
-        <tr>
-        <td>Industrial Participants</td>
-        <td>INR 12000</td>
-        <td>INR 13000</td>
-        </tr>
-        <tr>
-        <td>Attendee</td>
-        <td>INR 5000</td>
+        <td>INR 5500</td>
         <td>INR 6000</td>
         </tr>
         <tr>
+        <td>Industrial Participants</td>
+        <td>INR 6000</td>
+        <td>INR 6500</td>
+        </tr>
+        <tr>
         <td>Foreigner Research Scholar/Student (Outside India)</td>
-        <td></td>
-        <td></td>
+        <td>USD 120</td>
+        <td>USD 150</td>
         </tr>
         <tr>
         <td>Foreigner Academician (Outside India)</td>
-        <td></td>
-        <td></td>
+        <td>USD 150</td>
+        <td>USD 200</td>
+        </tr>
+        <tr>
+        <td>Foreigner Industrial Participant (Outside India)</td>
+        <td>USD 200</td>
+        <td>USD 250</td>
         </tr>
         
         </tbody>
