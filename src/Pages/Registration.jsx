@@ -18,9 +18,9 @@ Once Your paper is accepted, the registration process begins. you have to comple
     <div className='w-10/12 m-auto flex-col content-center border-black border-[1px] '>
     <div className='text-center font-bold text-lg mt-5'>Pay via Bank Transfer</div>
 
-      <table className='table1 m-auto sm:w-10/12 mt-5'>
+      <table className='table1 m-auto  sm:w-10/12 mt-5'>
         <tr>
-          <td>ACCOUNT NAME</td>
+          <td className="">ACCOUNT NAME</td>
           <td>ui-educon</td>
         </tr>
         <tr>
@@ -76,7 +76,7 @@ Once Your paper is accepted, the registration process begins. you have to comple
 
 
     </div>
-      <table className='table1 m-auto sm:w-10/12 mt-11'>
+      <table className='table1 m-auto w-[90%] sm:w-10/12 mt-11'>
         <thead>
         
           <th>Category</th>

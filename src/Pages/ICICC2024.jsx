@@ -6,7 +6,7 @@ const ICICC2024= () => {
     <div>
     <h1 className='ml-[10rem] underline font-bold text-blue-950 text-4xl'>ICICC 2024</h1>
     <div className='w-10/12 h-[1px]  mt-4 bg-gray-300'></div>
-    <div className='flex justify-around ml-10 gap-x-[10rem]'>
+    <div className='sm:flex justify-around ml-10 gap-x-[10rem]'>
 
     <div className=' mt-10 flex-col mb-10'>
     <h1 className=' text-blue-950 text-3xl'>VIDEOS OF ICICC 2024</h1><br/><br/>

@@ -8,7 +8,7 @@ export default function Header() {
 
       {/* <div className=" flex container w-full mt-[5rem] justify-center items-center  gap-[30px]"> */}
 
-      <div className=" flex container mr-auto ml-[-15px] mt-[8rem] mb-8 justify-around items-center  gap-[30px]"> 
+      <div className=" sm:flex container mr-auto ml-[-15px] mt-[8rem] mb-8 justify-around items-center  gap-[30px]"> 
         <div className="logo">
           <img
             src="https://icicc-conf.com/static/media/icicc.8fdf59f44e037ad83293.jpg"

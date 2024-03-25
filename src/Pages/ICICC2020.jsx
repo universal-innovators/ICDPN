@@ -13,7 +13,7 @@ const ICICC2020 = () => {
     <div>
     <h1 className='ml-[10rem] underline font-bold text-blue-950 text-4xl'>ICICC 2020</h1>
     <div className='w-10/12 h-[1px]  mt-11 bg-gray-300'></div>
-    <div className='relative flex justify-around ml-10 gap-x-[10rem]'>
+    <div className='relative sm:flex justify-around ml-10 '>
     <div className=' mt-10 flex-col '>
     <p>Third version of International Conference in innovative Computing and Communication (ICICC-2020) was organized at Shaheed Sukhdev College of Business Studies in association with National institute of Technology Patna and University of Valladolid, Spain on 21-23 rd February 2020 at New Delhi, India. ICICC-2020 received 803 papers from approximately 3212 authors and a total of 196 papers were accepted with an acceptance ratio of 24%. All accepted papers were published in Springer’s Advances in Intelligent Systems and Computing, an scopus indexed series. A total of 544 participants attended the conference including authors, keynotes, delegates, academicians, and industry experts. ICICC-2020 received papers from 29 countries.</p>
     <h1 className=' text-blue-950 text-3xl mt-11'>LINK OF PROCEEDINGS OF ICICC 2020</h1><br/>
@@ -30,7 +30,7 @@ const ICICC2020 = () => {
        </tbody>
         
     </table>
-    <h1 className=' absolute bottom-0 left-[18rem] font-bold text-blue-950 text-4xl '>IMAGE GALLERY</h1><br/>
+    <h1 className=' absolute bottom-0 sm:left-[18rem] font-bold text-blue-950 text-4xl '>IMAGE GALLERY</h1><br/>
 
     
     
@@ -62,7 +62,7 @@ const ICICC2020 = () => {
         loop={true}
         pagination={true}
         modules={[EffectCoverflow,Autoplay, Pagination,Navigation]}
-        className="mySwiper ml-[5rem] mt-3 width-[10rem]"
+        className="mySwiper sm:ml-[5rem] mt-3 width-[10rem]"
       >
         
         

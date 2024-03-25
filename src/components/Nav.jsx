@@ -14,7 +14,7 @@ const Nav = () => {
   let [open, setOpen] = useState(false);
 
   return (
-    <div className="sm:h-8 w-full top-0 left-0 fixed z-10">
+    <div className="sm:h-8  w-full top-0 left-0 fixed z-10">
       <div className="navbar shadow-lg w-full h-16 md:h-24 md:flex items-center md:justify-around text-[15px] bg-white py-4  left-0">
         <div
           onClick={() => setOpen(!open)}

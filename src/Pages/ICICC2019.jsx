@@ -15,7 +15,7 @@ const ICICC2019 = () => {
     <div>
     <h1 className='ml-[10rem] underline font-bold text-blue-950 text-4xl'>ICICC 2019</h1>
     <div className='w-10/12 h-[1px]  mt-11 bg-gray-300'></div>
-    <div className='relative flex flex-wrap md:flex-nowrap justify-around ml-10 gap-x-[10rem]'>
+    <div className='relative sm:flex  justify-around ml-10 '>
     <div className=' mt-10 flex-col '>
     <p>Second version of International Conference in innovative Computing and Communication (ICICC-2019) was organized at VSB-Technical University of Ostrava, Czech Republic, Europe on 21-22nd March 2019 with a pre-conference symposium at New Delhi, India on 16th March 2019. ICICC-2019 received 552 papers from approximately 2208 authors and a total of 125 papers were accepted with an acceptance ratio of 22%. All accepted papers were published in Springer’s Advances in Intelligent Systems and Computing, an scopus indexed series. A total of 524 participants attended the conference and pre-conference symposium including authors, keynotes, delegates, academicians, and industry experts. ICICC-2019 received papers from 25 countries.</p>
     <h1 className=' text-blue-950 text-3xl mt-11'>LINK OF PROCEEDINGS OF ICICC 2019</h1><br/>
@@ -32,7 +32,7 @@ const ICICC2019 = () => {
        </tbody>
         
     </table>
-    <h1 className=' absolute bottom-0 md:left-[18rem] font-bold text-blue-950 text-4xl '>IMAGE GALLERY</h1><br/>
+    <h1 className=' absolute bottom-0 sm:left-[18rem] font-bold text-blue-950 text-4xl '>IMAGE GALLERY</h1><br/>
 
     
     
@@ -64,7 +64,7 @@ const ICICC2019 = () => {
         loop={true}
         pagination={true}
         modules={[EffectCoverflow,Autoplay, Pagination,Navigation]}
-        className="mySwiper ml-[5rem] mt-3 "
+        className="mySwiper sm:ml-[5rem] mt-3 "
       >
         
         
