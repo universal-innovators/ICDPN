@@ -6,7 +6,7 @@ const ConferenceVenue = () => {
       <hr />
       <h2 className="sponsor-heading">We are located at ...</h2>
       <hr />
-      <div className="flex justify-around mt-10 gap-7">
+      <div className="sm:flex justify-around mt-10 gap-7">
         <div className="sponsor-text-container">
           <div className="venue">
             <img src="venue.jpeg" alt="" />

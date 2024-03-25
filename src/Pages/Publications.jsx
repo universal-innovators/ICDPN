@@ -6,7 +6,7 @@ const Publications = () => {
       <hr />
       <h2 className="sponsor-heading">Publications</h2>
       <hr />
-      <div className="flex justify-around mt-10 gap-7">
+      <div className="sm:flex justify-around mt-10 gap-7">
         <div className="sponsor-text-container">
           <h4 className="text-center">PUBLICATION-PROCEEDINGS</h4>
           <br />
