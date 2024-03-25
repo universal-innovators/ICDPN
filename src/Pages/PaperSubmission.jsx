@@ -6,7 +6,7 @@ const PaperSubmission = () => {
     <div className='w-10/12 h-[1px]  mt-4 bg-gray-200'></div>
     <h1 className=' underline font-bold text-blue-950 text-4xl ml-[3rem]'>Paper Submission</h1>
     <div className='w-10/12 h-[1px]  mt-4 bg-gray-200 '></div>
-    <div className='flex mt-6 ml-[3rem]'>
+    <div className='sm:flex mt-6 ml-[3rem]'>
     <div><p>The Original unpublished Research Papers, Articles & Working papers having maximum length 8 pages on the topics related to the<br/> theme are invited for presentation/publication in the conference proceedings.<br/>
 
 1)Kindly ensure that your paper is formatted as per <a className='text-blue-500 ' href='https://icicc-conf.com/static/media/Manuscript%20guidelines%20for%20English%20books.b4c0e227c2235ee1639f.pdf'>Springer Guidelines</a> (not exceeding 8 pages written in A4 size). Please refer the attached springer template for preparation of your paper.<br/>

@@ -6,7 +6,7 @@ const TechProgC = () => {
       <hr />
       <h2 className="sponsor-heading">Technical Committee</h2>
       <hr />
-      <div className="flex justify-around gap-7">
+      <div className="sm:flex justify-around gap-7">
         <div className="flex flex-wrap justify-around mt-8 mb-8 gap-[16px]">
           <div className="testimonials w-[385px] bg-neutral-100 text-secondary-400">
             <p>Prof (Dr.) Vincenzo Piuri : University of Milan Italy.</p>

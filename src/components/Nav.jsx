@@ -12,6 +12,9 @@ import { Link } from "react-router-dom";
 
 const Nav = () => {
   let [open, setOpen] = useState(false);
+  const closeHandler=()=>{
+    open?setOpen((prev)=>!prev):setOpen((prev)=>prev)
+  }
 
   return (
     <div className="sm:h-8  w-full top-0 left-0 fixed z-10">
@@ -32,7 +35,7 @@ const Nav = () => {
             <Link
               to="/"
               className="text-gray-800 hover:text-blue-400 duration-500"
-              onClick={()=>setOpen((prev)=>!prev)}
+              onClick={closeHandler}
             >
               <p className="m-[10px] text-center">
                 <p className="custom px-[2.5px]">Home</p>
@@ -148,7 +151,7 @@ const Nav = () => {
             <Link
               to="/Poster-Paper-Presentation"
               className="text-gray-800 hover:text-blue-400 duration-500"
-              onClick={()=>setOpen((prev)=>!prev)}
+              onClick={closeHandler}
             >
               <p className="m-[10px] text-center">
                 <p className="custom px-[2.5px]">Poster Paper Presentation</p>
@@ -159,7 +162,7 @@ const Nav = () => {
             <Link
               to="/Special-Sessions"
               className="text-gray-800 hover:text-blue-400 duration-500"
-              onClick={()=>setOpen((prev)=>!prev)}
+              onClick={closeHandler}
             >
               <p className="m-[10px] text-center">
                 <p className="custom px-[2.5px]">Special Sessions</p>
@@ -170,7 +173,7 @@ const Nav = () => {
             <Link
               to="/Workshops"
               className="text-gray-800 hover:text-blue-400 duration-500"
-              onClick={()=>setOpen((prev)=>!prev)}
+              onClick={closeHandler}
             >
               <p className="m-[10px] text-center">
                 <p className="custom px-[2.5px]">Workshops</p>
@@ -181,7 +184,7 @@ const Nav = () => {
             <Link
               to="/Registration"
               className="text-gray-800 hover:text-blue-400 duration-500"
-              onClick={()=>setOpen((prev)=>!prev)}
+              onClick={closeHandler}
             >
               <p className="m-[10px] text-center">
                 <p className="custom px-[2.5px]">Registration</p>
@@ -192,7 +195,7 @@ const Nav = () => {
             <Link
               to="/Sponsorships"
               className="text-gray-800 hover:text-blue-400 duration-500"
-              onClick={()=>setOpen((prev)=>!prev)}
+              onClick={closeHandler}
             >
               <p className="m-[10px] text-center">
                 <p className="custom px-[2.5px]">Sponsorships</p>
@@ -203,7 +206,7 @@ const Nav = () => {
             <Link
               to="/Publications"
               className="text-gray-800 hover:text-blue-400 duration-500"
-              onClick={()=>setOpen((prev)=>!prev)}
+              onClick={closeHandler}
             >
               <p className="m-[10px] text-center">
                 <p className="custom px-[2.5px]">Publications</p>
@@ -273,7 +276,7 @@ const Nav = () => {
             <Link
               to="/Awards"
               className="text-gray-800 hover:text-blue-400 duration-500"
-              onClick={()=>setOpen((prev)=>!prev)}
+              onClick={closeHandler}
             >
               <p className="m-[10px] text-center">
                 <p className="custom px-[2.5px]">Awards</p>
@@ -284,7 +287,7 @@ const Nav = () => {
             <Link
               to="/ConferenceVenue"
               className="text-gray-800 hover:text-blue-400 duration-500"
-              onClick={()=>setOpen((prev)=>!prev)}
+              onClick={closeHandler}
             >
               <p className="m-[10px] text-center">
                 <p className="custom px-[2.5px]">Conference Venue</p>
@@ -296,7 +299,7 @@ const Nav = () => {
             <Link
               to="/Downloads"
               className="text-gray-800 hover:text-blue-400 duration-500"
-              onClick={()=>setOpen((prev)=>!prev)}
+              onClick={closeHandler}
             >
               <p className="m-[10px] text-center">
                 <p className="custom px-[2.5px]">Downloads</p>
