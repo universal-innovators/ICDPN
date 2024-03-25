@@ -3,7 +3,8 @@ import {Swiper,SwiperSlide} from 'swiper/react'
 import 'swiper/css';
 import 'swiper/css/effect-coverflow';
 import 'swiper/css/pagination';
-import { EffectCoverflow, Pagination } from 'swiper/modules';
+import 'swiper/css/navigation';
+import { EffectCoverflow, Pagination,Navigation } from 'swiper/modules';
 
 const Speaker = () => {
   return (
@@ -13,6 +14,7 @@ const Speaker = () => {
         effect={'coverflow'}
         grabCursor={true}
         centeredSlides={true}
+        navigation={true}
         slidesPerView={'2'}
         coverflowEffect={{
           rotate: 50,
@@ -21,9 +23,10 @@ const Speaker = () => {
           modifier: 1,
           slideShadows: true,
         }}
+        loop={true}
         pagination={true}
-        modules={[EffectCoverflow, Pagination]}
-        className="mySwiper"
+        modules={[EffectCoverflow, Pagination,Navigation]}
+        className="mySwiper  "
       >
         <SwiperSlide className='swiper-slide rounded-2xl text-gray-900 bg-gradient-to-r from-cyan-300 to-blue-900' >
           <img className='h-[150px] w-[150px] m-auto mt-4 rounded-full' src="https://icicc-conf.com/static/media/Bal_Virdee.84db0adf9416088a9be5.jpg" />
@@ -41,6 +44,11 @@ const Speaker = () => {
           <p className='text-center'>South Asian University, India</p>
         </SwiperSlide>
         <SwiperSlide className='swiper-slide rounded-2xl bg-gradient-to-r from-cyan-300 to-blue-900'>
+          <img className='h-[150px] w-[150px] m-auto mt-4 rounded-full' src="https://icicc-conf.com/static/media/sp4.899282303527893daa52.jpg" />
+          <h6 className='font-bold text-center mt-4 '>Prof. Vivek Bohara</h6>
+          <p className='text-center'>IIIT DELHI</p>
+        </SwiperSlide>
+        <SwiperSlide className='swiper-slide bg-gradient-to-r from-cyan-300 to-blue-900'>
           <img className='h-[150px] w-[150px] m-auto mt-4 rounded-full' src="https://icicc-conf.com/static/media/sp4.899282303527893daa52.jpg" />
           <h6 className='font-bold text-center mt-4 '>Prof. Vivek Bohara</h6>
           <p className='text-center'>IIIT DELHI</p>

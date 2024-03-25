@@ -16,6 +16,38 @@
   --fs-500: 1.25rem;
 }
 
+body{
+  -overflow-x: scroll;
+}
+.mySwiper {
+  width: 80%;
+  height: 100vh;
+  margin: auto;
+  margin-top: 6rem;
+  margin-bottom: 7rem;
+  
+}
+
+.myswiper-slide {
+   text-align: center; 
+  font-size: 18px;
+  background: #c1a5a5;
+  
+
+  /* Center slide text vertically */
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+}
+
+ .myswiper-slide img {
+  /* display: block; */
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+} 
+
+
 .navbar {
   /* background: linear-gradient(90deg, #3F2B96 0%, #A8C0FF 100%); */
   background: linear-gradient(90deg, #4b6cb7 0%, #182848 100%);
@@ -229,6 +261,64 @@ ul li a {
 ul li a:hover {
   color: #fff;
 }
+
+table,th,td{
+  border: 1px solid black ;
+  padding: 1rem;
+  
+}
+th{
+  background-color: black;
+  color: white;
+  
+}
+tr:hover{
+  background-color: gray;
+  color: white;
+  
+}
+
+.discount{
+  animation-name: pump;
+  animation-iteration-count: infinite;
+  text-align: center;
+  animation-direction: normal;
+  animation-duration: 3s;
+  margin-bottom: 3rem;
+  margin-top: 3rem;
+  
+}
+@keyframes pump {
+  0%{
+    transform: scale(1);
+  }
+  50%{
+    transform: scale(1.5);
+  }
+  100%{
+    transform: scale(1);
+  }
+}
+
+/* .Gswiper {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.Gswiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 300px;
+  height: 300px;
+}
+
+.Gswiper-slide-img {
+  
+  width: 100%;
+  object-fit: fill;
+} */
+
 
 .sponsor-heading {
   margin: 20px 0;
@@ -557,3 +647,47 @@ ul li a:hover {
       " thirtyfive thirtyfive thirtyfour thirtyfour thirtyfour";
   }
 }
+@media screen  and (min-width:300px) {
+  .download-blocks{
+    margin-left: 2rem;
+}
+
+
+
+
+  
+}
+@media screen and (max-width:640px) {
+  .mySwiper{
+    height: 27rem;
+    width: 90%;
+  }
+  .impdates{
+    margin: auto;
+    width: 90%;
+    
+  }
+  .impdatesmarquee{
+    height: 40rem;
+  }
+  .discount{
+    animation-play-state: paused;
+    flex-wrap: wrap;
+    
+    font-size:smaller;
+  }
+  .downloads{
+  }
+  .clicks{
+    
+  }
+  .table1{
+    width: 40%;
+  }
+  .gallery{
+    left: 2rem;
+  }
+
+  
+}
+

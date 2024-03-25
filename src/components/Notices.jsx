@@ -3,7 +3,7 @@ const Notices = () => {
   return (
     <div className="flex-col justify-between items-center max-w-[418px] m-auto mt-8 mb-9 h-[40rem] ">
       <div
-        className={`w-[418px] text-center bg-slate-900 downloads text-white h-8 font-bold text-xl p-12 `}
+        className={`sm:w-[418px] text-center bg-slate-900 downloads text-white h-8 font-bold text-xl p-12 `}
       >
         Notices
       </div>

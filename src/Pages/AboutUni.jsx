@@ -6,7 +6,7 @@ const AboutUni = () => {
       <hr />
       <h2 className="sponsor-heading">About Universal Innnovators</h2>
       <hr />
-      <div className="flex justify-around gap-7">
+      <div className="sm:flex justify-around gap-7">
         <div className="sponsor-text-container">
             <br />
           <p>

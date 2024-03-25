@@ -12,7 +12,7 @@ const Home = () => {
       <Body />
       <Conference />
       <Speaker />
-      <div className="flex mt-20">
+      <div className="flex flex-wrap md:flex-nowrap mt-20">
         <ImpDates />
         <Notices />
       </div>

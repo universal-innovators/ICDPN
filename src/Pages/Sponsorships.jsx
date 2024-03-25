@@ -6,7 +6,7 @@ const Sponsorships = () => {
       <hr />
       <h2 className="sponsor-heading">Sponsorship</h2>
       <hr />
-      <div className="flex justify-around gap-7">
+      <div className="flex flex-wrap sm:flex-nowrap justify-around gap-7">
         <div className="sponsor-text-container">
           <h4>INVITATION LETTER FOR SPONSORSHIP</h4>
           <br />
