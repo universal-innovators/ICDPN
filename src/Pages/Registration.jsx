@@ -76,7 +76,8 @@ Once Your paper is accepted, the registration process begins. you have to comple
 
 
     </div>
-      <table className='table1 m-auto w-[90%] sm:w-10/12 mt-11'>
+    <div className="w-[90%] overflow-scroll m-auto">
+          <table className='table1 m-auto w-[90%] sm:w-10/12 mt-11'>
         <thead>
         
           <th>Category</th>
@@ -127,6 +128,8 @@ Once Your paper is accepted, the registration process begins. you have to comple
         </tr>
         </tbody>
       </table>
+      </div>
+      <div className="w-[90%] overflow-scroll m-auto">
       <table className=' table1 m-auto sm:w-10/12 mt-11'>
         <thead>
         
@@ -169,6 +172,7 @@ Once Your paper is accepted, the registration process begins. you have to comple
         
         </tbody>
       </table>
+      </div>
       <div className='discount text-violet-700'>*Special Discount of 10% for Universal Inovator (UI) Member</div>
     </div>
   )

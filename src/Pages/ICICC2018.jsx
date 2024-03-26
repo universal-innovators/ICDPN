@@ -18,7 +18,7 @@ const ICICC2018 = () => {
     <div className=' mt-10 flex-col '>
     <p>First International Conference on Innovative Computing and Communication (ICICC-2018) was organized at Guru Nanak Institute of Management, New Delhi, India on 5-6th May 2018. ICICC-2018 received 468 papers from approximately 1872 authors and a total of 92 papers were accepted with an acceptance ratio of 19%. All accepted papers were published in Springer’s Lecture Notes on Networks and Systems, an scopus indexed series. A total of 462 participants attended the conference including authors, keynotes, delegates, academicians, and industry experts. ICICC-2018 received papers from 20 countries and got lot of recommendations from the science community for the organization and the quality of papers.</p>
     <h1 className=' text-blue-950 text-3xl mt-11'>LINK OF PROCEEDINGS OF ICICC 2018</h1><br/>
-    <table className='mb-6 mt-7'>
+    <div className=' overflow-scroll'><table className='mb-6 mt-7'>
     <tbody>
         <tr  className='hover:bg-gray-300'>
             <td><b>Volume 1:</b></td>
@@ -30,7 +30,7 @@ const ICICC2018 = () => {
         </tr>
        </tbody>
         
-    </table>
+    </table></div>
     <h1 className=' absolute bottom-0 sm:left-[18rem] font-bold text-blue-950 text-4xl '>IMAGE GALLERY</h1><br/>
 
     

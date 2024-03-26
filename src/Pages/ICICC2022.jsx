@@ -16,6 +16,7 @@ const ICICC2022 = () => {
      conference including authors, keynotes, delegates, academicians, and industry experts. ICICC-2022 received papers from 30 countries.
       Due to unexpected COVID-19, ICICC-2022 was organized in hybrid mode.</p>
     <h1 className=' text-blue-950 text-3xl mt-8'>LINK OF PROCEEDINGS OF ICICC 2022</h1><br/>
+    <div className=' overflow-scroll'>
     <table className='mb-6 mt-7'>
     <tbody>
         <tr  className='hover:bg-gray-300'>
@@ -31,7 +32,7 @@ const ICICC2022 = () => {
             <td><a className='text-blue-500' href='	https://link.springer.com/book/9789811936807'>	https://link.springer.com/book/9789811936807</a></td>
         </tr></tbody>
         
-    </table>
+    </table></div>
     </div>
         <div className='mt-10'>
             <ImpDates/>

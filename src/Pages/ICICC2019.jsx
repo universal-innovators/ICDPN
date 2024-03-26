@@ -19,6 +19,7 @@ const ICICC2019 = () => {
     <div className=' mt-10 flex-col '>
     <p>Second version of International Conference in innovative Computing and Communication (ICICC-2019) was organized at VSB-Technical University of Ostrava, Czech Republic, Europe on 21-22nd March 2019 with a pre-conference symposium at New Delhi, India on 16th March 2019. ICICC-2019 received 552 papers from approximately 2208 authors and a total of 125 papers were accepted with an acceptance ratio of 22%. All accepted papers were published in Springer’s Advances in Intelligent Systems and Computing, an scopus indexed series. A total of 524 participants attended the conference and pre-conference symposium including authors, keynotes, delegates, academicians, and industry experts. ICICC-2019 received papers from 25 countries.</p>
     <h1 className=' text-blue-950 text-3xl mt-11'>LINK OF PROCEEDINGS OF ICICC 2019</h1><br/>
+    <div className=' overflow-scroll'>
     <table className='mb-6 mt-7'>
     <tbody>
         <tr  className='hover:bg-gray-300'>
@@ -31,7 +32,7 @@ const ICICC2019 = () => {
         </tr>
        </tbody>
         
-    </table>
+    </table></div>
     <h1 className=' absolute bottom-0 sm:left-[18rem] font-bold text-blue-950 text-4xl '>IMAGE GALLERY</h1><br/>
 
     

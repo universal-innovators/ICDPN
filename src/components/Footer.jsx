@@ -38,7 +38,7 @@ const Footer = () => {
               <Link to="/ConferenceVenue">Conference Venue</Link>
             </li>
             <li>
-              <a href="">Downloads</a>
+              <a href="/Downloads">Downloads</a>
             </li>
             <li>
               <Link to="https://cmt3.research.microsoft.com/ICICC2025">
