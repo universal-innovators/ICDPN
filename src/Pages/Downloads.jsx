@@ -54,7 +54,7 @@ const Downloads = () => {
             </div>
             <div className="relative">
               <a
-                href="src\assets\Special_Session_Proposal_Template.31f347006f168f90d745 (1).docx"
+                href="Special_Session_Proposal_Template.31f347006f168f90d745 (1).docx"
                 download={"Special_Session_Proposal_Template.docx"}
                 target="_blank"
               >
@@ -83,7 +83,7 @@ const Downloads = () => {
             </div>
             <div className="relative w-[20rem]">
               <a
-                href="src\assets\Workshop_Proposal_Template.d18afe1b387bf6e93015.docx"
+                href="Workshop_Proposal_Template.d18afe1b387bf6e93015.docx"
                 target="_blank"
                 download={"Workshop_Proposal_Template.docx"}
               >
@@ -99,7 +99,7 @@ const Downloads = () => {
           <div className="flex gap-2 mb-5 flex-wrap">
             <div className="relative">
               <a
-                href="src\assets\INTERNATIONAL WORKSHOP -2024.54c7fb366801469b55a8 (1).docx"
+                href="INTERNATIONAL WORKSHOP -2024.54c7fb366801469b55a8 (1).docx"
                 target="_blank"
                 download={"INTERNATIONAL WORKSHOP-2024.docx"}
               >
@@ -113,7 +113,7 @@ const Downloads = () => {
             </div>
             <div className="relative">
               <a
-                href="src\assets\License to Publish Agreement form 2024.77a3e6fd19ec29d60036 (1).docx"
+                href="License to Publish Agreement form 2024.77a3e6fd19ec29d60036 (1).docx"
                 target="_blank"
                 download={"License to Publish Agreement form 2024.docx"}
               >

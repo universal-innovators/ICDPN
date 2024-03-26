@@ -108,7 +108,7 @@ const CallForSpecialSessions = ()  => {
       </div>
       <br />
       <a
-        href="src\assets\Session_Proposal_Template.0f17863ff9e16d5c9c77 (3) .docx"
+        href="Session_Proposal_Template.0f17863ff9e16d5c9c77 (3) .docx"
         download={"Session_Proposal_Template.docx"}
       >
         <button className=" ml-[1rem] mb-5  bg-blue-600 rounded-lg hover:bg-gradient-to-t from-blue-900 to-cyan-500 ">
