@@ -39,9 +39,11 @@ Kindly see the various sponsorship packages and offers and give us an opportunit
           <p className="font-bold">Yours Sincerely,</p>
           <p className="font-bold">General Chair</p>
           <br />
-          <a href="">Sponsorship</a>
+          <a href="sponsorship.pdf">
+            <button className="btn">Sponsorship</button>
+          </a>
         </div>
-        <div>
+        <div className="mt-8">
           <ImpDates />
         </div>
       </div>

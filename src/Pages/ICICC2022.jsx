@@ -3,10 +3,11 @@ import ImpDates from '@/components/ImpDates'
 
 const ICICC2022 = () => {
   return (
-    <div>
-    <h1 className='ml-[10rem] underline font-bold text-blue-950 text-4xl'>ICICC 2022</h1>
-    <div className='w-10/12 h-[1px]  mt-4 bg-gray-300'></div>
-    <div className='sm:flex justify-around ml-10 gap-x-[10rem]'>
+    <div className='container'>
+        <hr />
+    <h1 className='sponsor-heading'>ICICC 2022</h1>
+<hr />
+    <div className='sm:flex justify-around gap-x-[10rem]'>
     <div className=' mt-10 flex-col mb-10'>
     <p>Fifth version of International Conference in innovative Computing and Communication (ICICC-2022) was organized at Shaheed Sukhdev
      College of Business Studies in association with National Institute of Technology Patna, University of Valladolid Spain and Korea 

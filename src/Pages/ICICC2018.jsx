@@ -11,10 +11,12 @@ import { EffectCoverflow, Pagination,Navigation,Autoplay } from 'swiper/modules'
 
 const ICICC2018 = () => {
   return (
-    <div>
-    <h1 className='ml-[10rem] underline font-bold text-blue-950 text-4xl'>ICICC 2018</h1>
-    <div className='w-10/12 h-[1px]  mt-11 bg-gray-300'></div>
-    <div className='relative sm:flex  justify-around ml-10 gap-x-[10rem]'>
+    <div className='container'>
+      <hr />
+    <h1 className='sponsor-heading'>ICICC 2018</h1>
+    <hr />
+
+    <div className='relative sm:flex  justify-around gap-7'>
     <div className=' mt-10 flex-col '>
     <p>First International Conference on Innovative Computing and Communication (ICICC-2018) was organized at Guru Nanak Institute of Management, New Delhi, India on 5-6th May 2018. ICICC-2018 received 468 papers from approximately 1872 authors and a total of 92 papers were accepted with an acceptance ratio of 19%. All accepted papers were published in Springer’s Lecture Notes on Networks and Systems, an scopus indexed series. A total of 462 participants attended the conference including authors, keynotes, delegates, academicians, and industry experts. ICICC-2018 received papers from 20 countries and got lot of recommendations from the science community for the organization and the quality of papers.</p>
     <h1 className=' text-blue-950 text-3xl mt-11'>LINK OF PROCEEDINGS OF ICICC 2018</h1><br/>

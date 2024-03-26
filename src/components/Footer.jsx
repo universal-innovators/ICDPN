@@ -29,7 +29,7 @@ const Footer = () => {
           <h3>Quick Links</h3>
           <ul>
             <li>
-              <a href="">Call for Papers</a>
+              <Link to="/Call-For-Papers">Call for Papers</Link>
             </li>
             <li>
               <Link to="/">Important Dates</Link>
@@ -38,7 +38,7 @@ const Footer = () => {
               <Link to="/ConferenceVenue">Conference Venue</Link>
             </li>
             <li>
-              <a href="/Downloads">Downloads</a>
+              <Link to="/Downloads">Downloads</Link>
             </li>
             <li>
               <Link to="https://cmt3.research.microsoft.com/ICICC2025">
