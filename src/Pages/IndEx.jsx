@@ -6,7 +6,7 @@ const IndEx = () => {
         <hr />
       <h2 className="sponsor-heading">Industry Experts</h2>
       <hr />
-      <div>
+      <div className="mt-8">
         <ImpDates />
       </div>
     </div>

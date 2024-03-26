@@ -10,10 +10,11 @@ import { EffectCoverflow, Pagination,Navigation,Autoplay } from 'swiper/modules'
 
 const ICICC2021 = () => {
   return (
-    <div>
-    <h1 className='ml-[12rem] underline font-bold text-blue-950 text-4xl'>ICICC 2021</h1>
-    <div className='w-10/12 h-[1px]  mt-11 bg-gray-300'></div>
-    <div className='relative sm:flex  justify-around ml-0    gap-x-[0rem]'>
+    <div className='container'>
+    <hr />
+    <h1 className='sponsor-heading'>ICICC 2021</h1>
+<hr />
+    <div className='relative sm:flex  justify-around gap-7'>
     <div className=' mt-10 flex-col    '>
     <p>Fourth version of International Conference in innovative Computing and Communication (ICICC-2021) was organized at Shaheed Sukhdev College of Business Studies in association with National institute of Technology Patna and University of Valladolid, Spain on 20-21 February 2021 at New Delhi, India. ICICC-2021 received 900 papers from approximately 3600 authors and a total of 210 papers were accepted with an acceptance ratio of 23%. All accepted papers were published in Springer’s Advances in Intelligent Systems and Computing, an scopus indexed series. A total of 590 participants attended the conference including authors, keynotes, delegates, academicians, and industry experts. ICICC-2021 received papers from 28 countries. Due to unexpected COVID-19, ICICC-2021 was organized in virtual mode.</p>
     <h1 className=' text-blue-950 text-xl sm:text-3xl mt-11'>LINK OF PROCEEDINGS OF ICICC 2021</h1><br/>

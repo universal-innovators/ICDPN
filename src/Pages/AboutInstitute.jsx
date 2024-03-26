@@ -36,7 +36,7 @@ const AboutInstitute = () => {
           </p>
           <br />
         </div>
-        <div>
+        <div className="mt-7">
             <ImpDates />
         </div>
       </div>

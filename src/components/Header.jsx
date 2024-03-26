@@ -32,8 +32,8 @@ export default function Header() {
         </div>
         <div className="logos">
             <div className="set1 flex">
-                <img className="w-[100px] h-[100px] mt-[12px]" src="https://icicc-conf.com/static/media/logo.844ec7fc649a50eba5a3.png" alt="" />
-                <img className="w-[100px] h-[100px] mt-[12px]" src="https://icicc-conf.com/static/media/logo2.408dbd4beaf34f2a2a21.jpeg" alt="" />
+                <img className="w-[100px] h-[100px] m-[10px]" src="https://icicc-conf.com/static/media/logo.844ec7fc649a50eba5a3.png" alt="" />
+                <img className="w-[100px] h-[100px] m-[10px]" src="https://icicc-conf.com/static/media/logo2.408dbd4beaf34f2a2a21.jpeg" alt="" />
             </div>
             <div className="set2 flex">
 

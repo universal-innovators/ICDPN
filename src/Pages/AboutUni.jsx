@@ -16,7 +16,7 @@ const AboutUni = () => {
           </p>
           <br />
         </div>
-        <div>
+        <div >
             <br />
             <ImpDates />
         </div>

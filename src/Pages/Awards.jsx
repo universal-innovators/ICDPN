@@ -1,6 +1,6 @@
 const Awards = () => {
   return (
-    <div className="container">
+    <div className="container mb-9">
       <hr />
       <h2 className="sponsor-heading">
         5th Universal Inovators LEADERSHIP AWARDS (UILA 2025)
