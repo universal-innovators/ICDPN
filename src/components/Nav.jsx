@@ -1,4 +1,4 @@
-// import { useState } from "react";
+import { useState } from "react";
 import { Menu } from "@mui/icons-material";
 import {
   DropdownMenu,
@@ -11,16 +11,16 @@ import { GrClose } from "react-icons/gr";
 import { Link } from "react-router-dom";
 
 const Nav = () => {
-  // let [open, setOpen] = useState(false);
-  // const closeHandler=()=>{
-  //   open?setOpen((prev)=>!prev):setOpen((prev)=>prev)
-  // }
+  let [open, setOpen] = useState(false);
+  const closeHandler=()=>{
+    open?setOpen((prev)=>!prev):setOpen((prev)=>prev)
+  }
 
   return (
     <div className="sm:h-8  w-full top-0 left-0 fixed z-10">
       <div className="navbar shadow-lg w-full h-16 md:h-24 md:flex items-center md:justify-around text-[15px] bg-white py-4  left-0">
         <div
-          // onClick={() => setOpen(!open)}
+          onClick={() => setOpen(!open)}
           className="absolute left-8 top-6 cursor-pointer md:hidden w-7 h-7 text-white"
         >
           {open ? <GrClose /> : <Menu/>}
