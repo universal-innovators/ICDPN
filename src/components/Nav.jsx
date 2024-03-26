@@ -21,7 +21,7 @@ const Nav = () => {
       <div className="navbar shadow-lg w-full h-16 md:h-24 md:flex items-center md:justify-around text-[15px] bg-white py-4  left-0">
         <div
           onClick={() => setOpen(!open)}
-          className="absolute right-8 top-6 cursor-pointer md:hidden w-7 h-7 text-white"
+          className="absolute left-8 top-6 cursor-pointer md:hidden w-7 h-7 text-white"
         >
           {open ? <GrClose /> : <Menu/>}
         </div>

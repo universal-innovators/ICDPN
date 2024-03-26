@@ -17,7 +17,8 @@
 }
 
 body{
-  -overflow-x: scroll;
+  overflow-x: scroll;
+  
 }
 .mySwiper {
   width: 80%;
@@ -679,17 +680,22 @@ tr:hover{
     
     font-size:smaller;
   }
-  .downloads{
-  }
-  .clicks{
-    
-  }
+  
   .table1{
     width: 40%;
   }
   .gallery{
     left: 2rem;
   }
+  .logos{
+    margin-left:5rem;
+  }
+  .logo{
+    margin-left: 0rem;
+    margin-top: 2rem;
+  }
+
+
 
   
 }

@@ -1,5 +1,8 @@
 
+
 import AutoScroller from "./AutoScroller";
+import { Paper } from "@mui/material";
+
 
 const Conference = () => {
   return (
@@ -14,7 +17,8 @@ const Conference = () => {
     <div className="flex md:flex-nowrap flex-wrap container mt-10 justify-around ">
       <div className=" mr-6 gap-[4rem]">
         <h1 className="font-bold  text-[35px] underline">About Conference</h1>
-        <p className="mt-10 text-justify">
+        <Paper elevation={10}>
+        <p className="mt-10 p-5 text-justify ">
           International Conference on Innovative Computing and Communication
           (ICICC 2025) is organized to bring together innovative scientists,
           professors, research scholars, students, and industrial experts in the
@@ -32,7 +36,7 @@ const Conference = () => {
           University of Delhi, New Delhi. All the accepted papers (after
           double-blinded peer review) will be published as proceedings of
           ICICC-2025 in Springer LNNS Series (Accepted)
-        </p>
+        </p></Paper>
         <div className="flex mt-7">
           Paper Submission Link: &nbsp;
           <a

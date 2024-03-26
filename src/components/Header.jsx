@@ -8,7 +8,7 @@ export default function Header() {
 
       {/* <div className=" flex container w-full mt-[5rem] justify-center items-center  gap-[30px]"> */}
 
-      <div className=" sm:flex container mr-auto ml-[-15px] mt-[8rem] mb-8 justify-around items-center  gap-[30px]"> 
+      <div className=" sm:flex  container mr-auto ml-[-15px] sm:mt-[8rem] mb-8 justify-around items-center  gap-[30px]"> 
         <div className="logo">
           <img
             src="https://icicc-conf.com/static/media/icicc.8fdf59f44e037ad83293.jpg"
@@ -30,7 +30,7 @@ export default function Header() {
           16-17th FEBRUARY 2025
           </p>
         </div>
-        <div className="logos">
+        <div className="logos  ">
             <div className="set1 flex">
                 <img className="w-[100px] h-[100px] m-[10px]" src="https://icicc-conf.com/static/media/logo.844ec7fc649a50eba5a3.png" alt="" />
                 <img className="w-[100px] h-[100px] m-[10px]" src="https://icicc-conf.com/static/media/logo2.408dbd4beaf34f2a2a21.jpeg" alt="" />

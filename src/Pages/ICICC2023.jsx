@@ -10,6 +10,7 @@ const ICICC2023 = () => {
     <div className='sm:flex justify-around ml-10 '>
     <div className=' mt-10 flex-col mb-10'>
     <h1 className=' text-blue-950 text-3xl'>LINK OF PROCEEDINGS OF ICICC 2023</h1><br/>
+    <div className=' overflow-scroll'>
     <table className='mb-6 mt-7'>
     <tbody>
         <tr  className='hover:bg-gray-300'>
@@ -25,7 +26,7 @@ const ICICC2023 = () => {
             <td><a className='text-blue-500' href='	https://link.springer.com/book/9789819930098'>	https://link.springer.com/book/9789819930098</a></td>
         </tr></tbody>
         
-    </table>
+    </table></div>
     </div>
         <div className='mt-10'>
             <ImpDates/>
