@@ -50,7 +50,7 @@ const Nav = () => {
                   <Link
                     to="/about-institute"
                     className="text-gray-800 hover:text-blue-400 duration-500"
-                    onClick={<DropdownMenu close/>}
+                    onClick={closeHandler}
                   >
                     <p className="m-[10px] text-center ">
                       <p className="custom px-[2.5px] text-gray-800">
@@ -63,7 +63,7 @@ const Nav = () => {
                   <Link
                     to="/about-uni"
                     className="text-gray-800 hover:text-blue-400 duration-500"
-                    onClick={<DropdownMenu close/>}
+                    onClick={closeHandler}
                   >
                     <p className="m-[10px] text-center ">
                       <p className="custom px-[2.5px] text-gray-800">
@@ -76,7 +76,7 @@ const Nav = () => {
                   <Link
                     to="/policy"
                     className="text-gray-800 hover:text-blue-400 duration-500"
-                    onClick={<DropdownMenu close/>}
+                    onClick={closeHandler}
                   >
                     <p className="m-[10px] text-center ">
                       <p className="custom px-[2.5px] text-gray-800">
@@ -96,7 +96,7 @@ const Nav = () => {
                   <Link
                     to="/Call-For-Papers" 
                     className="text-gray-800 hover:text-blue-400 duration-500"
-                    onClick={<DropdownMenu close/>}
+                    onClick={closeHandler}
                   >
                     <p className="m-[10px] text-center ">
                       <p className="custom px-[2.5px] text-gray-800">
@@ -109,7 +109,7 @@ const Nav = () => {
                   <Link
                     to="/Paper-Submission"
                     className="text-gray-800 hover:text-blue-400 duration-500"
-                    onClick={<DropdownMenu close/>}
+                    onClick={closeHandler}
                   >
                     <p className="m-[10px] text-center ">
                       <p className="custom px-[2.5px] text-gray-800">
@@ -122,7 +122,7 @@ const Nav = () => {
                   <Link
                     to="/Call-For-Special-Sessions"
                     className="text-gray-800 hover:text-blue-400 duration-500"
-                    onClick={<DropdownMenu close/>}
+                    onClick={closeHandler}
                   >
                     <p className="m-[10px] text-center ">
                       <p className="custom px-[2.5px] text-gray-800">
@@ -135,7 +135,7 @@ const Nav = () => {
                   <Link
                     to="/call_for_international_workshops"
                     className="text-gray-800 hover:text-blue-400 duration-500"
-                    onClick={<DropdownMenu close/>}
+                    onClick={closeHandler}
                   >
                     <p className="m-[10px] text-center ">
                       <p className="custom px-[2.5px] text-gray-800">
@@ -221,7 +221,7 @@ const Nav = () => {
                   <Link
                     to="/steering-committee"
                     className="text-gray-800 hover:text-blue-400 duration-500"
-                    onClick={<DropdownMenu close/>}
+                    onClick={closeHandler}
                   >
                     <p className="m-[10px] text-center ">
                       <p className="custom px-[2.5px] text-gray-800">
@@ -234,7 +234,7 @@ const Nav = () => {
                   <Link
                     to="/technical-program-committee"
                     className="text-gray-800 hover:text-blue-400 duration-500"
-                    onClick={<DropdownMenu close/>}
+                    onClick={closeHandler}
                   >
                     <p className="m-[10px] text-center ">
                       <p className="custom px-[2.5px] text-gray-800">
@@ -247,7 +247,7 @@ const Nav = () => {
                   <Link
                     to="/industry-experts"
                     className="text-gray-800 hover:text-blue-400 duration-500"
-                    onClick={<DropdownMenu close/>}
+                    onClick={closeHandler}
                   >
                     <p className="m-[10px] text-center ">
                       <p className="custom px-[2.5px] text-gray-800">
@@ -260,7 +260,7 @@ const Nav = () => {
                   <Link
                     to="/advisory-committee"
                     className="text-gray-800 hover:text-blue-400 duration-500"
-                    onClick={<DropdownMenu close/>}
+                    onClick={closeHandler}
                   >
                     <p className="m-[10px] text-center ">
                       <p className="custom px-[2.5px] text-gray-800">
@@ -313,7 +313,8 @@ const Nav = () => {
                 <DropdownMenuItem >
                   <Link
                     to="/ICICC2024"
-                    className="text-gray-800 hover:text-blue-400 duration-500" onClick={<DropdownMenu close/>}
+                    className="text-gray-800 hover:text-blue-400 duration-500" 
+                    onClick={closeHandler}
                   >
                     <p className="m-[10px] text-center ">
                       <p className=" px-[2.5px] text-gray-800">
@@ -326,7 +327,7 @@ const Nav = () => {
                 <Link
                     to="/ICICC2023"
                     className="text-gray-800 hover:text-blue-400 duration-500 "
-                    onClick={<DropdownMenu close/>}
+                    onClick={closeHandler}
                   >
                     <p className="m-[10px] text-center ">
                       <p className=" px-[2.5px] text-gray-800">
@@ -339,7 +340,7 @@ const Nav = () => {
                   <Link
                     to="/ICICC2022"
                     className="text-gray-800 hover:text-blue-400 duration-500"
-                    onClick={<DropdownMenu close/>}
+                    onClick={closeHandler}
                   >
                     <p className="m-[10px] text-center ">
                       <p className=" px-[2.5px] text-gray-800">
@@ -352,7 +353,7 @@ const Nav = () => {
                   <Link
                     to="/ICICC2021"
                     className="text-gray-800 hover:text-blue-400 duration-500"
-                    onClick={<DropdownMenu close/>}
+                    onClick={closeHandler}
                   >
                     <p className="m-[10px] text-center ">
                       <p className=" px-[2.5px] text-gray-800">
@@ -365,7 +366,7 @@ const Nav = () => {
                   <Link
                     to="/ICICC2020"
                     className="text-gray-800 hover:text-blue-400 duration-500"
-                    onClick={<DropdownMenu close/>}
+                    onClick={closeHandler}
                   >
                     <p className="m-[10px] text-center ">
                       <p className=" px-[2.5px] text-gray-800">
@@ -378,7 +379,7 @@ const Nav = () => {
                   <Link
                     to="/ICICC2019"
                     className="text-gray-800 hover:text-blue-400 duration-500"
-                    onClick={<DropdownMenu close/>}
+                    onClick={closeHandler}
                   >
                     <p className="m-[10px] text-center ">
                       <p className=" px-[2.5px] text-gray-800">
@@ -391,7 +392,7 @@ const Nav = () => {
                   <Link
                     to="/ICICC2018"
                     className="text-gray-800 hover:text-blue-400 duration-500"
-                    onClick={<DropdownMenu close/>}
+                    onClick={closeHandler}
                   >
                     <p className="m-[10px] text-center ">
                       <p className=" px-[2.5px] text-gray-800">

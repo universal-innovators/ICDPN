@@ -95,7 +95,7 @@ const CallForINTWork = ()  => {
       </div>
       <br />
       <a
-        href="src\assets\Workshop_Proposal_Template.d18afe1b387bf6e93015.docx"
+        href="Workshop_Proposal_Template.d18afe1b387bf6e93015.docx"
         download={"Workshop_Proposal_Template.docx"}
       >
         <button className=" ml-[1rem] mb-5  bg-blue-600 rounded-lg hover:bg-gradient-to-t from-blue-900 to-cyan-500 ">

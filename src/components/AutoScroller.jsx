@@ -43,7 +43,7 @@ const AutoScroller = () => {
               <li>
                 <a
                   className="text-neutral-100 hover:shadow-lg hover:scale-125 underline text-lg font-semibold cursor-pointer"
-                  href="src/assets/Special_Session_Proposal_Template.31f347006f168f90d745 (1).docx"
+                  href="Special_Session_Proposal_Template.31f347006f168f90d745 (1).docx"
                   download={"Special_Session_Proposal_Template.docx"}
                 >
                   Special Session Proposal Template
