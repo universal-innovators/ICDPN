@@ -1,95 +1,137 @@
-import ImpDates from '@/components/ImpDates'
-
+import ImpDates from "@/components/ImpDates";
 
 const CallForPapers = () => {
   return (
-    <div>
-    <div className='w-10/12 h-[1px]  mt-4 bg-gray-200'></div>
-    <h1 className=' ml-[3rem] underline font-bold text-blue-950 text-4xl'>Call For Papers</h1>
-    <div className='w-10/12 h-[1px]  mt-4 bg-gray-200'></div>
-    <div className='flex justify-center mt-6'>
-        <div className='ml-[3rem]'>
-        <p>The scope of this conference is to provide a platform for researchers, engineers, academicians, and industry professionals from all<br/> over the world to present their research results and development activities in various topics of Engineering and Technology. It<br/> allows participants to discuss the recent developments in the solidification of computer science and management and review<br/> challenges faced by the community in the 21st century. The conference consists of invited.<br/>
+    <div className="container">
+      <hr />
+      <h2 className="sponsor-heading">Call for Papers</h2>
+      <hr />
+      <br />
+      <div className="sm:flex justify around gap-7 mt-5">
+        <div className="sponser-text-container mb-8">
+          <p>
+            The scope of this conference is to provide a platform for
+            researchers, engineers, academicians, and industry professionals
+            from all over the world to present their research results and
+            development activities in various topics of Engineering and
+            Technology. It allows participants to discuss the recent
+            developments in the solidification of computer science and
+            management and review challenges faced by the community in the 21st
+            century. The conference consists of invited.
+          </p>
+          <br />
+          <hr />
+          <br />
+          <p>
+            <b>
+              ICICC 2025 will be an amalgamation of four different Tracks
+              organized parallel to each other, as listed below: 
+            </b>
+            
+          </p>
+          <br />
+          <b>
 
-<b>ICICC 2025 will be an amalgamation of four different Tracks organized parallel to each other, as listed below:<br/>
-Innovative Communication Networks and Security</b><br/>
+              Innovative
+              Communication Networks and Security
+            </b>
+          <ul className="list-disc list-inside mt-2 mb-5">
+            <li>Wireless sensor networks</li>
+            <li>Mobile ad hoc networks</li>
+            <li>Software defined networks</li>
+            <li>Information theory and coding</li>
+            <li>Cloud communications and networking</li>
+            <li>Wearable network and systems</li>
+            <li>Personal communication systems</li>
+            <li>Vehicular networks and applications</li>
+            <li>Wireless communications</li>
+            <li>Future Internet</li>
+            <li>Architecture Satellite Communication</li>
+            <li>Next Generation Networking</li>
+            <li>Quantum Networking</li>
+            <li>QoS Provisioning and Architectures</li>
+            <li>Telecommunication Services and Applications</li>
+            <li>Optical Communication</li>
+            <li>Network Performance</li>
+            <li>Computer Security</li>
+            <li>Digital Signature</li>
+            <li>Information Security</li>
+            <li>Network Security</li>
+            <li>Cyber Security MANET’s</li>
+          </ul>
+          <b>Innovative Computing</b>
+          <ul className="list-disc list-inside mt-2 mb-5">
+            <li>Computational Intelligence</li>
+            <li>Machine Learning</li>
+            <li>Artificial Intelligence</li>
+            <li>Signal Processing</li>
+            <li>Computer vision</li>
+            <li>Soft Computing</li>
+            <li>Decision Support and Decision making</li>
+            <li>Parallel computing</li>
+            <li>Distributed computing</li>
+            <li>Grid computing</li>
+            <li>Cloud computing</li>
+            <li>Mobile computing</li>
+            <li>Biomedical computing</li>
+            <li>Ubiquitous computing</li>
+            <li>Image processing</li>
+            <li>Information retrieval</li>
+            <li>Deep learning</li>
+            <li>Expert system</li>
+            <li>Internet computing</li>
+            <li>High performance computing</li>
+          </ul>
+          <b>Internet of things</b>
+          <ul className="list-disc list-inside mt-2 mb-5">
+          <li>Intelligent Systems for IoT</li>
+            <li>Environmental Monitoring</li>
+            <li>Machine to Machine/Device Communications</li>
+            <li>Network Design and Architecture</li>
+            <li>Wireless Systems and Applications</li>
+            <li>Infrastructure Management</li>
+            <li>IoT and Big Data</li>
+            <li>Home Automation</li>
+            <li>Security and Privacy</li>
+            <li>Social Implications of IoT</li>
+            <li>Technological focus for Smart Environments</li>
+            <li>Smart City Case Studies</li>
+            <li>Data Analysis and Visualization</li>
+            <li>Architecture for secure and interactive IoT</li>
+            <li>Sensor, Wireless Technologies and APIs</li>
+            <li>Emerging IoT</li>
+          </ul>
 
--Wireless sensor networks<br/>
--Mobile ad-hoc networks<br/>
--Software defined networks<br/>
--Information theory and coding<br/>
--Cloud communications and networking<br/>
--Wearable network and systems<br/>
--Personal communication systems<br/>
--Vehicular networks and applications<br/>
--Wireless communications<br/>
--Virtual and overlay networks<br/>
--Future Internet Architecture<br/>
--Satellite Communication<br/>
--Next Generation Networking<br/>
--Quantum Networking<br/>
--QoS Provisioning and Architectures<br/>
--Telecommunication Services and Applications<br/>
--Optical Communication<br/>
--Network Performance<br/>
--Computer Security<br/>
--Digital Signature<br/>
--Information Security<br/>
--Network Security<br/>
--Cyber Security<br/>
--MANET’s<br/><br/>
+           <p>
 
-<b>Innovative Computing</b><br/>
+            <b>Social Sciences for Computer Applications</b>
+            <br />
+            <b>
+              The papers submitted to the conference will be peer reviewed and
+              published as proceedings in Springer(Proposed)
+            </b>
+            <br />
+            <hr />
+            <br />
+            <p>
 
--Computational Intelligence<br/>
--Machine Learning<br/>
--Artificial Intelligence<br/>
--Signal Processing<br/>
--Computer vision<br/>
--Soft Computing<br/>
--Decision Support and Decision making<br/>
--Parallel computing<br/>
--Distributed computing<br/>
--Grid computing<br/>
--Cloud computing<br/>
--Mobile computing<br/>
--Biomedical computing<br/>
--Ubiquitous computing<br/>
--Image processing<br/>
--Information retrieval<br/>
--Deep learning<br/>
--Expert system<br/>
--Internet computing<br/>
--High performance computing<br/><br/>
-
-<b>Internet of Things</b><br/>
-
--Intelligent Systems for IoT<br/>
--Environmental Monitoring<br/>
--Machine to Machine/Device Communications<br/>
--Network Design and Architecture<br/>
--Wireless Systems and Applications<br/>
--Infrastructure Management<br/>
--IoT and Big Data<br/>
--Home Automation<br/>
--Security and Privacy<br/>
--Social Implications of IoT<br/>
--Technological focus for Smart Environments<br/>
--Smart City Case Studies<br/>
--Data Analysis and Visualization<br/>
--Architecture for secure and interactive IoT<br/>
--Sensor, Wireless Technologies and APIs<br/>
--Emerging IoT<br/><br/>
-
-<b>Social Sciences for Computer Applications</b><br/><br/>
-
-<b>The papers submitted to the conference will be peer reviewed and published as proceedings in Springer(Proposed)</b><br/>
-All papers will undergo a blind peer review process and all accepted papers will be published in the SHORT NAME conference e-proceedings with an e-ISBN<br/> number. The conference organizer encourages submissions of academic and research papers that consider the multidisciplinary/interdisciplinary themes<br/> covering the Management, Science and Social Studies, through one of the following sub-themes, although submissions of other topics for consideration are<br/> also welcome.</p>
+            All papers will undergo a blind peer review process and all accepted
+            papers will be published in the SHORT NAME conference e proceedings
+            with an e ISBN number. The conference organizer encourages
+            submissions of academic and research papers that consider the
+            multidisciplinary/interdisciplinary themes covering the Management,
+            Science and Social Studies, through one of the following sub themes,
+            although submissions of other topics for consideration are also
+            welcome.
+            </p>
+           </p>
         </div>
-        <ImpDates/>
+        <div>
+          <ImpDates />
+        </div>
+      </div>
     </div>
-    </div>
-  )
-}
+  );
+};
 
-export default CallForPapers
+export default CallForPapers;

@@ -323,6 +323,9 @@ tr:hover{
 .sponsor-heading {
   margin: 20px 0;
   font-size: 2rem;
+  color: rgb(23 37 84);
+  /* text-align: center; */
+  font-weight: 700;
 }
 
 .sponsor-text-container {

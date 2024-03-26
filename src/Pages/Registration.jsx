@@ -1,11 +1,16 @@
 
 const Registration = () => {
   return (
-    <div className=''>
-    <h1 className=' underline font-bold text-blue-950 text-4xl ml-10'>Registration</h1><br/>
+    <div className='container mb-9'>
+      <hr />
+    <h1 className='sponsor-heading font-bold text-blue-950 '>Registration</h1>
+    <hr />
+    <br/>
     {/* <div className='w-10/12 h-[1px] ml-10 mt-4 bg-gray-400'></div><br/> */}
-    <p className='ml-10 mb-9'>
-Once Your paper is accepted, the registration process begins. you have to complete the following steps.<br/>
+    <p className='mb-9'>
+Once Your paper is accepted, the registration process begins. you have to complete the following steps.
+<br/>
+<br/>
 <b>Step1 - Registration Fee:</b> It is mandatory for at least one author of an accepted paper to register in order for the paper to appear in the proceedings and included in the Technical Program.<br/>
 <b>Author/Co-Author Registration Fee Includes</b><br/>
 1)Welcome reception<br/>

@@ -185,7 +185,7 @@ const SteeringCommittee = () => {
             </p>
           </div>
         </div>
-        <div>
+        <div className="mt-8">
           <ImpDates />
         </div>
       </div>
