@@ -14,7 +14,7 @@ const SpecialSessions = () => {
       <h1 className=' underline font-bold text-blue-950 text-4xl ml-10'> Special Sessions</h1><br/>
     <div className='w-10/12 h-[1px] ml-10 mt-4 bg-gray-400'></div><br/>
     <div className='grid gap-y-11 grid-cols-4'>
-    <Card className=' h-[300px] bg-black text-white w-[300px]  rounded-tr-3xl rounded-tl-none rounded-br-none rounded-bl-3xl'>
+    <Card className='hover:scale-110 h-[300px] bg-violet-950 shadow-xl shadow-violet-950 text-white duration-1000 w-[300px]  rounded-tr-3xl rounded-tl-none rounded-br-none rounded-bl-3xl'>
   <CardHeader>
     <CardTitle className='text-sm'>Session - 1:Media and Games in Education and Learning</CardTitle>
     
@@ -29,7 +29,7 @@ Momina Shaheen, University of Roehampton London, UK</p>
 SS 001.pdf</p>
   </CardFooter>
 </Card>
-<Card className='min-h-[300px] text-sm bg-black text-white w-[300px] rounded-tr-3xl rounded-tl-none rounded-br-none rounded-bl-3xl'>
+<Card className='min-h-[300px] text-sm hover:scale-110 duration-1000  bg-violet-950 shadow-xl shadow-violet-950 text-white w-[300px] rounded-tr-3xl rounded-tl-none rounded-br-none rounded-bl-3xl'>
   <CardHeader>
     <CardTitle className='text-sm' >Session - 2:Advancements in Secure Communication Technologies: Unveiling the latest in wireless communication, IoT, and 5G networks with a dedicated security focus)</CardTitle>
     
@@ -46,7 +46,7 @@ Mr. Mandeep Singh, Raj Kumar Goel Institute of Technology, AKTU, India</p>
 SS 002.pdf</p>
   </CardFooter>
 </Card>
-<Card className=' hover:scale-110 transition duration-1000 text-sm bg-black text-white w-[300px] rounded-tr-3xl rounded-tl-none rounded-br-none rounded-bl-3xl'>
+<Card className=' shadow-violet-950  shadow-xl hover:scale-110 transition duration-1000 text-sm bg-violet-950 text-white w-[300px] rounded-tr-3xl rounded-tl-none rounded-br-none rounded-bl-3xl'>
   <CardHeader>
     <CardTitle className='text-sm'>Session - 3:Recent Advances in Computational Intelligence & Technologies</CardTitle>
   </CardHeader>
@@ -61,7 +61,7 @@ Mr. Navjot Singh Talwandi, Chandigarh University, Mohali, Punjab, India</p>
 SS 003.pdf</p>
   </CardFooter>
 </Card>
-<Card className='text-sm bg-black text-white w-[300px] rounded-tr-3xl rounded-tl-none rounded-br-none rounded-bl-3xl'>
+<Card className='text-sm  bg-violet-950 shadow-xl shadow-violet-950 hover:scale-110 duration-1000 text-white w-[300px] rounded-tr-3xl rounded-tl-none rounded-br-none rounded-bl-3xl'>
   <CardHeader>
     <CardTitle className='text-sm'>Session - 4:Recent Advances in Software and System Engineering</CardTitle>
     
@@ -76,7 +76,148 @@ Zeeshan Ahmed, Institute of Software, University of Chinese Academy of Sciences,
 SS 004.pdf</p>
   </CardFooter>
 </Card>
-<Card className=' bg-black text-white w-[300px] rounded-tr-3xl rounded-tl-none rounded-br-none rounded-bl-3xl'>
+<Card className='   bg-violet-950 shadow-xl shadow-violet-950 hover:scale-110 duration-1000 text-white w-[300px] rounded-tr-3xl rounded-tl-none rounded-br-none rounded-bl-3xl'>
+  <CardHeader>
+    <CardTitle>Card Title</CardTitle>
+  </CardHeader>
+  <CardContent>
+    <p>Card Content</p>
+  </CardContent>
+  <CardFooter>
+    <p><p>Listing<br/>
+SS 005.pdf</p></p>
+  </CardFooter>
+</Card>
+<Card className='hover:scale-110 duration-1000  bg-violet-950 shadow-xl shadow-violet-950 text-white w-[300px] rounded-tr-3xl rounded-tl-none rounded-br-none rounded-bl-3xl'>
+  <CardHeader>
+    <CardTitle>Card Title</CardTitle>
+  </CardHeader>
+  <CardContent>
+    <p>Card Content</p>
+  </CardContent>
+  <CardFooter>
+    <p><p>Listing<br/>
+SS 006.pdf</p></p>
+  </CardFooter>
+</Card>
+<Card className='hover:scale-110 duration-1000  bg-violet-950 shadow-xl shadow-violet-950 text-white w-[300px] rounded-tr-3xl rounded-tl-none rounded-br-none rounded-bl-3xl'>
+  <CardHeader>
+    <CardTitle>Card Title</CardTitle>
+    
+  </CardHeader>
+  <CardContent>
+    <p>Card Content</p>
+  </CardContent>
+  <CardFooter>
+    <p><p>Listing<br/>
+SS 007.pdf</p></p>
+  </CardFooter>
+</Card>
+<Card className='hover:scale-110 duration-1000  bg-violet-950 shadow-xl shadow-violet-950 text-white w-[300px] rounded-tr-3xl rounded-tl-none rounded-br-none rounded-bl-3xl'>
+  <CardHeader>
+    <CardTitle>Card Title</CardTitle>
+    
+  </CardHeader>
+  <CardContent>
+    <p>Card Content</p>
+  </CardContent>
+  <CardFooter>
+    <p><p>Listing<br/>
+SS 008.pdf</p></p>
+  </CardFooter>
+</Card>
+<Card className='hover:scale-110 duration-1000  bg-violet-950 shadow-xl shadow-violet-950 text-white w-[300px] rounded-tr-3xl rounded-tl-none rounded-br-none rounded-bl-3xl'>
+  <CardHeader>
+    <CardTitle>Card Title</CardTitle>
+    
+  </CardHeader>
+  <CardContent>
+    <p>Card Content</p>
+  </CardContent>
+  <CardFooter>
+    <p><p>Listing<br/>
+SS 009.pdf</p></p>
+  </CardFooter>
+</Card>
+<Card className='hover:scale-110 duration-1000  bg-violet-950 shadow-xl shadow-violet-950 text-white w-[300px] rounded-tr-3xl rounded-tl-none rounded-br-none rounded-bl-3xl'>
+  <CardHeader>
+    <CardTitle>Card Title</CardTitle>
+    
+  </CardHeader>
+  <CardContent>
+    <p>Card Content</p>
+  </CardContent>
+  <CardFooter>
+    <p><p>Listing<br/>
+SS 010.pdf</p></p>
+  </CardFooter>
+</Card>
+<Card className='hover:scale-110 duration-1000  bg-violet-950 shadow-xl shadow-violet-950 text-white w-[300px] rounded-tr-3xl rounded-tl-none rounded-br-none rounded-bl-3xl'>
+  <CardHeader>
+    <CardTitle>Card Title</CardTitle>
+    
+  </CardHeader>
+  <CardContent>
+    <p>Card Content</p>
+  </CardContent>
+  <CardFooter>
+    <p><p>Listing<br/>
+SS 011.pdf</p></p>
+  </CardFooter>
+</Card>
+<Card className='hover:scale-110 duration-1000  bg-violet-950 shadow-xl shadow-violet-950 text-white w-[300px] rounded-tr-3xl rounded-tl-none rounded-br-none rounded-bl-3xl'>
+  <CardHeader>
+    <CardTitle>Card Title</CardTitle>
+    
+  </CardHeader>
+  <CardContent>
+    <p>Card Content</p>
+  </CardContent>
+  <CardFooter>
+    <p><p>Listing<br/>
+SS 012.pdf</p></p>
+  </CardFooter>
+</Card>
+<Card className='hover:scale-110 duration-1000  bg-violet-950 shadow-xl shadow-violet-950 text-white w-[300px] rounded-tr-3xl rounded-tl-none rounded-br-none rounded-bl-3xl'>
+  <CardHeader>
+    <CardTitle>Card Title</CardTitle>
+    
+  </CardHeader>
+  <CardContent>
+    <p>Card Content</p>
+  </CardContent>
+  <CardFooter>
+    <p><p>Listing<br/>
+SS 013.pdf</p></p>
+  </CardFooter>
+</Card>
+<Card className='hover:scale-110 duration-1000  bg-violet-950 shadow-xl shadow-violet-950 text-white w-[300px] rounded-tr-3xl rounded-tl-none rounded-br-none rounded-bl-3xl'>
+  <CardHeader>
+    <CardTitle>Card Title</CardTitle>
+  
+  </CardHeader>
+  <CardContent>
+    <p>Card Content</p>
+  </CardContent>
+  <CardFooter>
+    <p><p>Listing<br/>
+SS 014.pdf</p></p>
+  </CardFooter>
+</Card>
+<Card className='hover:scale-110 duration-1000  bg-violet-950 shadow-xl shadow-violet-950 text-white w-[300px] rounded-tr-3xl rounded-tl-none rounded-br-none rounded-bl-3xl'>
+  <CardHeader>
+    <CardTitle>Card Title</CardTitle>
+    
+  </CardHeader>
+  <CardContent>
+    <p>Card Content</p>
+  </CardContent>
+  <CardFooter>
+  <p>Listing<br/>
+SS 015.pdf</p>
+  </CardFooter>
+</Card>
+<Card className='hover:scale-110 duration-1000  bg-violet-950 shadow-xl shadow-violet-950 text-white w-[300px] rounded-tr-3xl rounded-tl-none rounded-br-none rounded-bl-3xl'>
   <CardHeader>
     <CardTitle>Card Title</CardTitle>
     <CardDescription>Card Description</CardDescription>
@@ -88,7 +229,7 @@ SS 004.pdf</p>
     <p>Card Footer</p>
   </CardFooter>
 </Card>
-<Card className=' bg-black text-white w-[300px] rounded-tr-3xl rounded-tl-none rounded-br-none rounded-bl-3xl'>
+<Card className='hover:scale-110 duration-1000  bg-violet-950 shadow-xl shadow-violet-950 text-white w-[300px] rounded-tr-3xl rounded-tl-none rounded-br-none rounded-bl-3xl'>
   <CardHeader>
     <CardTitle>Card Title</CardTitle>
     <CardDescription>Card Description</CardDescription>
@@ -100,139 +241,7 @@ SS 004.pdf</p>
     <p>Card Footer</p>
   </CardFooter>
 </Card>
-<Card className=' bg-black text-white w-[300px] rounded-tr-3xl rounded-tl-none rounded-br-none rounded-bl-3xl'>
-  <CardHeader>
-    <CardTitle>Card Title</CardTitle>
-    <CardDescription>Card Description</CardDescription>
-  </CardHeader>
-  <CardContent>
-    <p>Card Content</p>
-  </CardContent>
-  <CardFooter>
-    <p>Card Footer</p>
-  </CardFooter>
-</Card>
-<Card className=' bg-black text-white w-[300px] rounded-tr-3xl rounded-tl-none rounded-br-none rounded-bl-3xl'>
-  <CardHeader>
-    <CardTitle>Card Title</CardTitle>
-    <CardDescription>Card Description</CardDescription>
-  </CardHeader>
-  <CardContent>
-    <p>Card Content</p>
-  </CardContent>
-  <CardFooter>
-    <p>Card Footer</p>
-  </CardFooter>
-</Card>
-<Card className=' bg-black text-white w-[300px] rounded-tr-3xl rounded-tl-none rounded-br-none rounded-bl-3xl'>
-  <CardHeader>
-    <CardTitle>Card Title</CardTitle>
-    <CardDescription>Card Description</CardDescription>
-  </CardHeader>
-  <CardContent>
-    <p>Card Content</p>
-  </CardContent>
-  <CardFooter>
-    <p>Card Footer</p>
-  </CardFooter>
-</Card>
-<Card className=' bg-black text-white w-[300px] rounded-tr-3xl rounded-tl-none rounded-br-none rounded-bl-3xl'>
-  <CardHeader>
-    <CardTitle>Card Title</CardTitle>
-    <CardDescription>Card Description</CardDescription>
-  </CardHeader>
-  <CardContent>
-    <p>Card Content</p>
-  </CardContent>
-  <CardFooter>
-    <p>Card Footer</p>
-  </CardFooter>
-</Card>
-<Card className=' bg-black text-white w-[300px] rounded-tr-3xl rounded-tl-none rounded-br-none rounded-bl-3xl'>
-  <CardHeader>
-    <CardTitle>Card Title</CardTitle>
-    <CardDescription>Card Description</CardDescription>
-  </CardHeader>
-  <CardContent>
-    <p>Card Content</p>
-  </CardContent>
-  <CardFooter>
-    <p>Card Footer</p>
-  </CardFooter>
-</Card>
-<Card className=' bg-black text-white w-[300px] rounded-tr-3xl rounded-tl-none rounded-br-none rounded-bl-3xl'>
-  <CardHeader>
-    <CardTitle>Card Title</CardTitle>
-    <CardDescription>Card Description</CardDescription>
-  </CardHeader>
-  <CardContent>
-    <p>Card Content</p>
-  </CardContent>
-  <CardFooter>
-    <p>Card Footer</p>
-  </CardFooter>
-</Card>
-<Card className=' bg-black text-white w-[300px] rounded-tr-3xl rounded-tl-none rounded-br-none rounded-bl-3xl'>
-  <CardHeader>
-    <CardTitle>Card Title</CardTitle>
-    <CardDescription>Card Description</CardDescription>
-  </CardHeader>
-  <CardContent>
-    <p>Card Content</p>
-  </CardContent>
-  <CardFooter>
-    <p>Card Footer</p>
-  </CardFooter>
-</Card>
-<Card className=' bg-black text-white w-[300px] rounded-tr-3xl rounded-tl-none rounded-br-none rounded-bl-3xl'>
-  <CardHeader>
-    <CardTitle>Card Title</CardTitle>
-    <CardDescription>Card Description</CardDescription>
-  </CardHeader>
-  <CardContent>
-    <p>Card Content</p>
-  </CardContent>
-  <CardFooter>
-    <p>Card Footer</p>
-  </CardFooter>
-</Card>
-<Card className=' bg-black text-white w-[300px] rounded-tr-3xl rounded-tl-none rounded-br-none rounded-bl-3xl'>
-  <CardHeader>
-    <CardTitle>Card Title</CardTitle>
-    <CardDescription>Card Description</CardDescription>
-  </CardHeader>
-  <CardContent>
-    <p>Card Content</p>
-  </CardContent>
-  <CardFooter>
-    <p>Card Footer</p>
-  </CardFooter>
-</Card>
-<Card className=' bg-black text-white w-[300px] rounded-tr-3xl rounded-tl-none rounded-br-none rounded-bl-3xl'>
-  <CardHeader>
-    <CardTitle>Card Title</CardTitle>
-    <CardDescription>Card Description</CardDescription>
-  </CardHeader>
-  <CardContent>
-    <p>Card Content</p>
-  </CardContent>
-  <CardFooter>
-    <p>Card Footer</p>
-  </CardFooter>
-</Card>
-<Card className=' bg-black text-white w-[300px] rounded-tr-3xl rounded-tl-none rounded-br-none rounded-bl-3xl'>
-  <CardHeader>
-    <CardTitle>Card Title</CardTitle>
-    <CardDescription>Card Description</CardDescription>
-  </CardHeader>
-  <CardContent>
-    <p>Card Content</p>
-  </CardContent>
-  <CardFooter>
-    <p>Card Footer</p>
-  </CardFooter>
-</Card>
-<Card className=' bg-black text-white w-[300px] rounded-tr-3xl rounded-tl-none rounded-br-none rounded-bl-3xl'>
+<Card className='hover:scale-110 duration-1000  bg-violet-950 shadow-xl shadow-violet-950 text-white w-[300px] rounded-tr-3xl rounded-tl-none rounded-br-none rounded-bl-3xl'>
   <CardHeader>
     <CardTitle>Card Title</CardTitle>
     <CardDescription>Card Description</CardDescription>
