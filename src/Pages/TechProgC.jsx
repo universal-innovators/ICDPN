@@ -37,7 +37,7 @@ const TechProgC = () => {
             <p>Prof (Dr.) Ashiq Anjum : University of Derby Bristol UK.</p>
           </div>
           <div className="testimonials w-[385px] bg-neutral-100 text-secondary-400">
-            <p>Prof (Dr.) Mischa Dohler : King's College London UK.</p>
+            <p>Prof (Dr.) Mischa Dohler : King&aposs College London UK.</p>
           </div>
           <div className="testimonials w-[385px] bg-neutral-100 text-secondary-400">
             <p>
@@ -507,7 +507,7 @@ const TechProgC = () => {
             </p>
           </div>
           <div className="testimonials w-[385px] bg-neutral-100 text-secondary-400">
-            <p>Prof(Dr.) S. Pushpa : St.Peter's University Avadi Chennai</p>
+            <p>Prof(Dr.) S. Pushpa : St.Peters University Avadi Chennai</p>
           </div>
           <div className="testimonials w-[385px] bg-neutral-100 text-secondary-400">
             <p>
