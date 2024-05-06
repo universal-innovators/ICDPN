@@ -422,8 +422,8 @@ tr:hover{
 
 .downloads{
 
-  border-top-right-radius: 0.5rem;
-  border-top-left-radius: 0.5rem;
+  border-radius: 0.5rem;
+  border-radius: 0.5rem;
   /* box-shadow: 2.5rem 3.75rem 3rem -3rem hsl(217 19% 35% / 0.25); */
   box-shadow: 0 0.5rem 1rem -0.25rem hsl(215, 25%, 27%);
 
@@ -699,4 +699,35 @@ tr:hover{
 
   
 }
+
+.dateNotice{
+  margin-top: 4rem;
+  margin-bottom: 3rem;
+  display: grid;
+  gap: 1.5rem;
+  grid-auto-columns: 1fr;
+  grid-template-areas:
+    "one"
+    "two";
+
+    padding-block: 2rem;
+    /* width: min(95%); */
+    margin-inline: auto;
+  }
+  
+  .imp:nth-child(1) {
+    grid-area: one;
+  }
+  .imp:nth-child(2) {
+    grid-area: two;
+  }
+  @media screen and (min-width: 936px) {
+    .dateNotice {
+        grid-template-areas:
+        "one one one two two two two "
+        "one one one two two two two "
+    }
+  }
+
+
 

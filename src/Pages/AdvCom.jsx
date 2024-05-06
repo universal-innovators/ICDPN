@@ -259,7 +259,7 @@ const AdvCom = () => {
             </p>
           </div>
         </div>
-        <div className="mt-8">
+        <div className="mt-8 min-w-fit">
           <ImpDates />
         </div>
       </div>

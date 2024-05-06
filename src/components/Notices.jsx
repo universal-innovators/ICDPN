@@ -1,25 +1,17 @@
 
 const Notices = () => {
   return (
-    <div className="flex-col justify-between items-center max-w-[418px] m-auto mt-8 mb-9 h-[40rem] ">
-      <div
-        className={`sm:w-[418px] text-center bg-slate-900 downloads text-white h-8 font-bold text-xl p-12 `}
-      >
-        Notices
+    <div className="flex imp testimonials bg-neutral-100 flex-col gap-5">
+      <div className="flex gap-2 items-center">
+        <img src="notice.svg" alt="" />
+        <h2 className="font-medium tracking-wider text-2xl text-gray-600"><span className="text-red-600">Important</span>  Notice<span className="text-red-600">:</span></h2>
       </div>
-      <div className={`overflow-hidden bg-slate-900	clicks text-white flex-col  `}>
-        <marquee
-          direction="up"
-          style={{ textAlign: "center", width: "27rem", height: "30rem" }}
-        >
-          <div className="flex-col items-center p-8">
-            <p>
-
-              ICICC - 2025 will be organized by Shaheed Sukhdev College of Business Studies, Delhi university, India, on 16-17 February 2025
-            </p>
-              
-          </div>
-        </marquee>
+      <hr />
+      <div className="flex flex-col text-lg">
+        <p className="text-gray-600">
+        SDCN-2024 will be organised by Institute of Technology and Business in České Budějovice, Near Prague, Czech Republic, Europe (Venue) & Guru Tegh Bahadur Institute of Technology (GTBIT) affiliated to Guru Gobind Singh Indraprastha University , Delhi, India on 19th - 20th September 2024.
+        </p>
+        
       </div>
     </div>
   )

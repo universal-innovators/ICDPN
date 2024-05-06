@@ -6,7 +6,7 @@ const Publications = () => {
       <hr />
       <h2 className="sponsor-heading">Publications</h2>
       <hr />
-      <div className="sm:flex justify-around mt-10 gap-7">
+      <div className="flex justify-around mt-10 gap-7">
         <div className="sponsor-text-container">
           <h4 className="text-center">PUBLICATION-PROCEEDINGS</h4>
           <br />
@@ -30,7 +30,7 @@ const Publications = () => {
                 <img src="intelligent.jpg" alt="" />
                 <p>Intelligent Decision Technologies (Indexed by SCOPUS & ESCI)</p>
               </li>
-              <li>
+              {/* <li>
                 <img src="cmes.jpeg" alt="" />
                 <p>Computer Modeling in Engineering & Sciences (SCIE Indexed IF 2.0)</p>
               </li>
@@ -61,7 +61,7 @@ const Publications = () => {
               <li>
                 <img src="slas.jpg" alt="" />
                 <p>SLAS TECHNOLOGY, ELSEVIER-SCIE (IF-2.8)</p>
-              </li>
+              </li> */}
             </ul>
           </div>
           <h4 className="text-center">INDEXING</h4>
@@ -75,11 +75,9 @@ const Publications = () => {
             <img src="zbmath.png" alt="" />
             <img src="scholar.png" alt="" />
             <img src="isi.png" alt="" />
-            <img src="springer.jpeg" alt="" />
-            <img src="ssrn.png" alt="" />
           </div>
         </div>
-        <div>
+        <div className="w-full">
           <ImpDates />
         </div>
       </div>

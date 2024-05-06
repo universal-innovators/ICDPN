@@ -1,19 +1,15 @@
-import Notices from "@/components/Notices";
-import Body from "../components/Body";
+import ImpDates from "@/components/ImpDates";
 import Conference from "../components/Conference";
-import ImpDates from "../components/ImpDates";
 import Slider from "../components/Slider";
-import Speaker from "../components/Speaker";
+import Notices from "@/components/Notices";
 
 const Home = () => {
   
   return (
     <>
-      <Slider/>
-      <Body />
+      <Slider />
       <Conference />
-      <Speaker />
-      <div className="flex flex-wrap md:flex-nowrap mt-20">
+      <div className="container dateNotice">
         <ImpDates />
         <Notices />
       </div>

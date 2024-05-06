@@ -67,7 +67,10 @@ const PaperSubmission = ()  => {
             permission from the copyright holder.</p>
           </p>
         </div>
+        <div className="min-w-fit">
+
         <ImpDates />
+        </div>
       </div>
     </div>
   ) ;
