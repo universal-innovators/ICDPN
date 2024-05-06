@@ -26,7 +26,7 @@ Once Your paper is accepted, the registration process begins. you have to comple
 </p>
 </p>
     <div className='w-10/12 m-auto flex-col content-center bg-black text-white border-black border-[1px] '>
-    <div className='text-center font-bold text-lg mt-5'>Pay via Bank Transfer</div>
+    <div className='text-center font-bold text-lg mt-5 bg-green-700 '>Pay via Bank Transfer</div>
 
       <table className='table1 m-auto  sm:w-10/12 mt-5'>
         <tr>

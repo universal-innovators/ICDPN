@@ -5,7 +5,7 @@ export default function Header() {
     <div>
       <Nav />
 
-      <div className=" sm:flex  container text-lg sm:mt-[8rem] mb-8 justify-around items-center  gap-[30px]">
+      <div className=" sm:flex  container text-lg sm:mt-[8rem]  mt-[5rem] mb-8 justify-around items-center  gap-[30px]">
         <div className="logos  ">
           <div className="set1 flex">
             <img
@@ -56,9 +56,9 @@ export default function Header() {
             (Indo-Czech Collaborative Conference)
           </p>
         </div>
-        <div className="logo">
+        <div className="logo ">
           <img
-          className="w-[150px] h-[150px] "
+          className="w-[150px] h-[150px] mx-auto "
             src="sdcn.png"
             alt=""
           />

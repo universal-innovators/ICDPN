@@ -4,9 +4,12 @@ const Publications = () => {
   return (
     <div className="container">
       <hr />
-      <h2 className="sponsor-heading">Publications</h2>
+      <div className="text-center  bg-green-500 p-3 rounded-tl-3xl rounded-br-3xl">
+        <b className="underline font-extrabold text-xl ">
+          Publications
+        </b></div>
       <hr />
-      <div className="flex justify-around mt-10 gap-7">
+      <div className="sm:flex justify-around mt-10 gap-7">
         <div className="sponsor-text-container">
           <h4 className="text-center">PUBLICATION-PROCEEDINGS</h4>
           <br />

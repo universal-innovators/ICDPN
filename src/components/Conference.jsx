@@ -6,7 +6,7 @@ const Conference = () => {
       <div className="mt-10 mb-7 border-l-[5px] border-red-600">
         <h1 className="pl-[20px] text-gray-600 text-3xl tracking-wide">About Conference</h1>
       </div>
-      <div className="flex justify-around gap-10">
+      <div className="sm:flex justify-around gap-11">
         <div className="text-justify">
           <p className="tracking-wide mb-2 text-lg font-light">
             SmartDataCom: International Conference on Smart Data-Processing ,
