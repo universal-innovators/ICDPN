@@ -11,181 +11,236 @@ const SteeringCommittee = () => {
           <div className="testimonials w-[385px] bg-neutral-100 text-secondary-400">
             <h3>Patron(s):</h3>
             <hr />
-            <p>Dr. Poonam Verma</p>
-            <p>(Principal, SSCBS, University of Delhi)</p>
+            <p>Doc. Ing. Vojtech Stehel</p>
+            <p>
+              (Rector, Institute of Technology and Business in České Budějovice)
+            </p>
             <br />
-            <p>Prof. Pradip Kumar Jain</p>
-            <p>(Director, National Institute of Technology Patna)</p>
+            <p>Prof. (Dr). Rominder Kaur Randhawa</p>
+            <p>(Director, Guru Tegh Bahadur Institute of Technology)</p>
+            <br />
+            <p>Prof. Luis Loures</p>
+            <p>
+              (President, Portalegre Polytechnic University, Portalegre,
+              Portugal)
+            </p>
+            <br />
+            <p>Prof Madhu Pruthi</p>
+            <p>Principal, Keshav Mahavidyalaya</p>
+            <br />
+            <p>Prof. (Dr.) Mayank Garg</p>
+            <p>(Director, ITS Engineering College, Greater Noida)</p>
           </div>
           <div className="testimonials w-[385px] bg-neutral-100 text-secondary-400">
             <h3>General Chair(s):</h3>
             <hr />
-            <p>Dr. Prabhat Kumar</p>
-            <p>(Professor, CSE, National Institute of Technology Patna)</p>
+            <p>Prof. Aboul Ella Hassanien</p>
+            <p>
+              (College of Business Administration, Kuwait University, Kuwait)
+            </p>
             <br />
-            <p>Prof. Oscar Castillo</p>
-            <p>(Tijuana Institute of Technology, Mexico)</p>
+            <p>Oscar Castillo</p>
+            <p>(Tijuana Institute Technology, Tijuana, Mexico )</p>
+            <br />
+            <p>Prof. Sergio Duarte Correia</p>
+            <p>(Polytechnic Institute of Portalegre, Portugal)</p>
+            <br />
+            <p>Jan Valicek</p>
+            <p>(Institute of Technology and Business in České Budějovice)</p>
           </div>
           <div className="testimonials w-[385px] bg-neutral-100 text-secondary-400">
             <h3>Honorary Chair(s):</h3>
             <hr />
             <p>Prof. Janusz Kacprzyk</p>
             <p>
-              (Head, Intelligent Systems Laboratory, System Research Institute,
-              Polish Academy of Sciences, Warsaw, Poland)
+              (Polish Academy of Sciences, Systems Research Institute, Poland )
             </p>
             <br />
-            <p>Prof. Vaclav Snasel</p>
-            <p>(Rector, VSB-Technical University of Ostrava, Czech Republic)</p>
+            <p>Prof. Vaclav Snasel, Rector</p>
+            <p>(VSB-Technical University of Ostrava, Czech Republic)</p>
           </div>
           <div className="testimonials w-[385px] bg-neutral-100 text-secondary-400">
             <h3>Conference Chair(s):</h3>
             <hr />
-            <p>Prof. Aboul Ella Hassanien</p>
-            <p>(Cairo University, Egypt)</p>
+            <p>Prof. A.K. Singh</p>
+            <p>(National Institute of Technology Kurukshetra, India)</p>
+            <br />
+            <p>Dr. João Manuel R. S. Tavares</p>
+            <p>(Universidade do Porto (FEUP), PORTUGAL)</p>
             <br />
             <p>Prof. Joel J P C Rodrigues</p>
             <p>(National Institute of Telecommunications (Inatel), Brazil)</p>
             <br />
-            <p>Prof. R. K. Agrawal</p>
-            <p>(Jawaharlal Nehru University, Delhi)</p>
+            <p>Roman Danel</p>
+            <p>(Institute of Technology and Business in České Budějovice)</p>
           </div>
           <div className="testimonials w-[385px] bg-neutral-100 text-secondary-400">
             <h3>Technical Program Chair(s):</h3>
             <hr />
-            <p>Prof. Anil K Ahlawat</p>
-            <p>(KIET Group of Institutes, Ghaziabad)</p>
+            <p>Prof. Giancarlo Fortino</p>
+            <p>(Università della Calabria, Italy)</p>
             <br />
-            <p>Prof. A. K. Singh</p>
-            <p>(National Institute of Technology, Kurukshetra)</p>
-          </div>
-          <div className="testimonials w-[385px] bg-neutral-100 text-secondary-400">
-            <h3>Editorial Chair(s):</h3>
-            <hr />
-            <p>Dr. Arun Sharma</p>
-            <p>(Indira Gandhi Delhi Technical University for Womens, Delhi)</p>
+            <p>Prof. Sanjay Mishra</p>
+            <p>(Covenant University, Nigeria)</p>
             <br />
-            <p>Prof. Abhishek Swaroop</p>
-            <p>(Bhagwan Parshuram Institute of Technology, Delhi)</p>
-          </div>
-          <div className="testimonials w-[385px] bg-neutral-100 text-secondary-400">
-            <h3>Publication Chair(s):</h3>
-            <hr />
-            <p>Dr. Vicente García Díaz</p>
-            <p>(University of Oviedo, Spain)</p>
-            <br />
-            <p>Dr. Deepak Gupta</p>
+            <p>Dr. Zdzislaw Polkowski</p>
             <p>
-              (Maharaja Agrasen Institute of Technology (GGSIPU), New Delhi)
-            </p>
-          </div>
-          <div className="testimonials w-[385px] bg-neutral-100 text-secondary-400">
-            <h3>Co-Convener(s):</h3>
-            <hr />
-            <p>Moolchand Sharma</p>
-            <p>
-              (Maharaja Agrasen Institute of Technology (GGSIPU), New Delhi)
+              (The Karkonosze University of Applied Sciences in Jelenia Góra,
+              Poland)
             </p>
             <br />
-            <p>Dr. Simar Preet Singh</p>
-            <p>
-              (School of Computer Science Engineering and Technology (SCSET),
-              Bennett University, Greater Noida, Uttar Pradesh, India)
-            </p>
+            <p>Valentina Emilia Balas</p>
+            <p>(Aurel Vlaicu University of Arad, Romania)</p>
+            <br />
+            <p>Prof Punam Bedi</p>
+            <p>(Department of Computer Science, University of Delhi)</p>
           </div>
           <div className="testimonials w-[385px] bg-neutral-100 text-secondary-400">
-            <h3>Publicity Chair(s):</h3>
+            <h3>Organising Chair(s):</h3>
             <hr />
-            <p>Dr. Jafar A. Alzubi</p>
-            <p>(Al-Balqa Applied University, Salt – Jordan)</p>
+            <p>Marta Harnicarova</p>
+            <p>(Institute of Technology and Business in České Budějovice)</p>
             <br />
-            <p>Dr. Hamid Reza Boveiri</p>
-            <p>(Sama College, IAU, Shoushtar Branch, Shoushtar, Iran)</p>
-            <br />
-            <p>Dr. M. Tanveer</p>
-            <p>(Indian Institute of Technology, Indore)</p>
-            <br />
-            <p>Dr. Umesh Gupta</p>
-            <p>(Bennett University, Greater Noida)</p>
-            <br />
-            <p>Dr. Nitish Pathak</p>
-            <p>(Bhagwan Parshuram Institute of Technology, New Delhi, India)</p>
-            <br />
-            <p>Ahmed J. Obaid</p>
-            <p>(University of Kufa, Iraq)</p>
-            <br />
-            <p>Dr. Sushil Kumar Singh</p>
-            <p>
-              (Department of Computer Engineering,Marwadi University, Rajkot,
-              Gujrat, India)
-            </p>
-            <br />
-            <p>Dr. Sherin Zafar</p>
-            <p>
-              (Jamia Hamdard,Deputy Director Innovation Cell,Coordinator Unnat
-              Bharat Abhiyan Jamia Hamdard)
-            </p>
-          </div>
-          <div className="flex flex-col gap-4">
-            <div className="testimonials h-full w-[385px] bg-neutral-100 text-secondary-400">
-              <h3>Organizing Chair(s):</h3>
-              <hr />
-              <p>Dr. Kumar Bijoy</p>
-              <p>(SSCBS, University of Delhi)</p>
-              <br />
-              <p>Dr. Rishi Ranjan</p>
-              <p>(SSCBS, University of Delhi)</p>
-              <br />
-              <p>Dr. Amrina Kausar</p>
-              <p>(SSCBS, University of Delhi)</p>
-              <br />
-              <p>Dr. Abhishek Tandon</p>
-              <p>(SSCBS, University of Delhi)</p>
-            </div>
-            <div className="testimonials w-[385px] bg-neutral-100 text-secondary-400">
-              <h3>Organizing Team:</h3>
-              <hr />
-              <p>Dr. Gurjeet Kaur</p>
-              <p>(SSCBS, University of Delhi)</p>
-              <br />
-              <p>Dr. Onkar Singh</p>
-              <p>(SSCBS, University of Delhi)</p>
-              <br />
-              <p>Dr. Abhimanyu Verma</p>
-              <p>(SSCBS, University of Delhi)</p>
-              <br />
-              <p>Dr. Mona Verma</p>
-              <p>(SSCBS, University of Delhi)</p>
-              <p>Dr. Suresh Chavhan</p>
-              <p>(Vellore Institute of Technology, Vellore)</p>
-            </div>
-          </div>
-          <div className="testimonials w-[385px] bg-neutral-100 text-secondary-400">
-            <h3>Organising Secretary:</h3>
-            <hr />
             <p>Dr. Ashish Khanna</p>
-            <p>(Maharaja Agrasen Institute of Technology (GGSIPU), New Delhi)</p>
-            <br />
-            <p>Dr. Gulshan Shrivastava</p>
             <p>
-            ( Galgotias University, India.)
+              (Maharaja Agrasen Institute of Technology (GGSIPU), New Delhi.)
+            </p>
+            <br />
+            <p>Prof. Sergio Duarte Correia</p>
+            <p>(Polytechnic Institute of Portalegre, Portugal.)</p>
+          </div>
+          <div className="testimonials w-[385px] bg-neutral-100 text-secondary-400">
+            <h3>Local Organising Chair(s):</h3>
+            <hr />
+            <p>Prof. (Dr.) Monika Jain</p>
+            <p>(HOD - ECE, ITS Engineering College, Greater Noida)</p>
+            <br />
+            <p>Dr. Setu Garg</p>
+            <p>
+              (Associate Professor, ECE, ITS Engineering College, Greater Noida)
             </p>
           </div>
           <div className="testimonials w-[385px] bg-neutral-100 text-secondary-400">
             <h3>Convener(s):</h3>
             <hr />
-            <p>Dr. Ajay Jaiswal</p>
+            <p>Dr. Deepak Gupta</p>
             <p>
-            (SSCBS, University of Delhi, India)
+              (Maharaja Agrasen Institute of Technology (GGSIPU), New Delhi)
             </p>
             <br />
-            <p>Dr. Sameer Anand</p>
+            <p>Dr. Utku Kose</p>
+            <p>(Suleyman Demirel University, Isparta, Turkey)</p>
+            <br />
+            <p>Dr. Jameel Ahamed</p>
             <p>
-            (SSCBS, University of Delhi, India)
+              (Maulana Azad National Urdu University (MANUU), Hyderabad, India)
             </p>
+            <br />
+            <p>Parminder Singh Bedi (HOD, IT department)</p>
+            <p>Guru Tegh Bahadur Institute of Technology</p>
+          </div>
+          <div className="testimonials w-[385px] bg-neutral-100 text-secondary-400">
+            <h3>Publicity Chair(s):</h3>
+            <hr />
+            <p>Dr. Prayag Tiwari</p>
+            <p>(Aalto University, Finland)</p>
+            <br />
+            <p>Dr. Ahmed J. Obaid</p>
+            <p>(University of Kufa, Iraq)</p>
+            <br />
+            <p>Dr. Akshi Kumar</p>
+            <p>(Manchester Metropolitan University, UK)</p>
+            <br />
+            <p>Prof. Pradeep Malik</p>
+            <p>(KIIT University, India)</p>
+            <br />
+            <p>Dr. Sushil Kumar Singh</p>
+            <p>(Marwadi University, Rajkot, Gujrat, India)</p>
+          </div>
+          <div className="flex flex-col gap-4">
+            <div className="testimonials h-full w-[385px] bg-neutral-100 text-secondary-400">
+              <h3>Publication Chair(s):</h3>
+              <hr />
+              <p>Prof. Abhishek Swaroop</p>
+              <p>(Bhagwan Parshuram Institute of Technology, India)</p>
+              <br />
+              <p>Prof. Sérgio Duarte Correia</p>
+              <p>(Polytechnic Institute of Portalegre, Portugal. )</p>
+              <br />
+              <p>Prof. P. Sanjeevi kumar</p>
+              <p>(Aarhus University, Herning, Denmark)</p>
+            </div>
+            <div className="testimonials w-[385px] bg-neutral-100 text-secondary-400">
+              <h3>Co-Convener(s):</h3>
+              <hr />
+              <p>Moolchand Sharma</p>
+              <p>
+                (Maharaja Agrasen Institute of Technology (GGSIPU), New Delhi)
+              </p>
+              <br />
+              <p>Dr Aman Dureja</p>
+              <p>
+                (Bhagwan Parshuram Institute of Technology, New Delhi, India)
+              </p>
+              <br />
+              <p>Dr Ajay Dureja</p>
+              <p>(Bharati Vidyapeeth's College of Engineering, Delhi)</p>
+              <br />
+              <p>Dr. Gulshan Shrivastava</p>
+              <p>(Galgotia University, Gr. Noida, India)</p>
+              <br />
+              <p>Dr. Aditya Khamparia</p>
+              <p>(Babasaheb Bhimrao Ambedkar University, Lucknow, India)</p>
+            </div>
+          </div>
+          <div className="testimonials w-[385px] bg-neutral-100 text-secondary-400">
+            <h3>Editorial Board:</h3>
+            <hr />
+            <p>Prof. Aboul Ella Hassanien</p>
+            <p>
+              (College of Business Administration, Kuwait University, Kuwait)
+            </p>
+            <br />
+            <p>Dr Gurmeet Singh</p>
+            <p>(Guru Tegh Bahadur institute of Technology, Delhi, India)</p>
+          </div>
+          <div className="testimonials w-[385px] bg-neutral-100 text-secondary-400">
+            <h3>Organising Team:</h3>
+            <hr />
+            <p>Prof Vinita Jindal</p>
+            <p>Keshav Mahavidyalaya, University of Delhi</p>
+            <br />
+            <p>Prof Hema Banati</p>
+            <p>Dayal Singh College, University of Delhi</p>
+            <br />
+            <p>Dr Anjali Thukral</p>
+            <p>Keshav Mahavidyalaya, University of Delhi</p>
+            <br />
+            <p>Dr Bhavna Gupta</p>
+            <p>Keshav Mahavidyalaya, University of Delhi</p>
+            <br />
+            <p>Ms Richa Gupta</p>
+            <p>Keshav Mahavidyalaya, University of Delhi</p>
+            <br />
+            <p>Rahul Arora</p>
+            <p>B.Sc. (H) Computer Science, 2nd Year, KMV</p>
+            <br /> <p>Nancy Gupta</p>
+            <p>B.Sc. (H) Computer Science, 2nd Year, KMV</p>
+            <br />
+            <p>Anjali</p>
+            <p>B.Sc. (H) Computer Science, 1st Year, KMV</p>
+            <br />
+            <p>Ayser Islam</p>
+            <p>B.Sc. (H) Computer Science, 1st Year, KMV</p>
+            <br />
+            <p>Jhalak Arora</p>
+            <p>B.Sc. (H) Computer Science, 1st Year, KMV</p>
+            <br />
+            <p>Mohit Kumar</p>
+            <p>B.Sc. (H) Computer Science, 1st Year, KMV</p>
           </div>
         </div>
-        <div className="mt-8">
+        <div className="mt-8 min-w-fit">
           <ImpDates />
         </div>
       </div>

@@ -43,7 +43,7 @@ Kindly see the various sponsorship packages and offers and give us an opportunit
             <button className="btn">Sponsorship</button>
           </a>
         </div>
-        <div className="mt-8">
+        <div className="mt-8 min-w-fit">
           <ImpDates />
         </div>
       </div>

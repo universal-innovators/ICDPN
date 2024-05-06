@@ -1,28 +1,21 @@
-import Marquee from 'react-fast-marquee'
-
-
 const ImpDates = () => {
   return (
-    <div className='flex-col justify-between items-center max-w-[418px] sm:m-auto mt-8 mb-9 h-[40rem] ' >
-    <div className={`sm:w-[418px] text-center  text-white h-8 bg-slate-900 font-bold text-xl p-12 downloads`}  >Important Dates</div>
-    <div  className={`overflow-hidden bg-slate-900  text-white flex-col   clicks`} >
-    <Marquee direction='up'   speed={50} pauseOnHover='true' className='marquee'  style={{textAlign:'center',width:'27rem',height:'30rem'}}>
-      
-     <div className='flex-col items-center h-[20rem] '>
-      <div className=' text-blue-100 hover:scale-125'><p className='font-bold '>Paper Submission Deadline:</p>December 31st, 2024</div><br/>
-      <div className=' text-blue-100 hover:scale-125'><p className='font-bold '>Notification of first Review:</p>January 05th, 2025</div><br/>
-      <div className=' text-blue-100 hover:scale-125'><p className='font-bold '>Submission of revised manuscript:</p>January 10th, 2025</div><br/>
-      <div className=' text-blue-100 hover:scale-125'><p className='font-bold '>Notification of Acceptance/Rejection:</p>January 15th, 2025</div><br/>
-      <div className=' text-blue-100 hover:scale-125'><p className='font-bold '>Final manuscript due:</p>January 20th, 2025</div><br/>
-      <div className=' text-blue-100 hover:scale-125'><p className='font-bold '>Registration Deadline:</p>January 5th, 2025</div><br/>
+    <div className="flex imp testimonials bg-neutral-100 flex-col gap-5">
+      <div className="flex gap-2 items-center">
+        <img src="calendar.svg" alt="" />
+        <h2 className="font-medium tracking-wider text-2xl text-gray-600"><span className="text-red-600">Important</span>  Dates<span className="text-red-600">:</span></h2>
       </div>
-      </Marquee>
-      
-      {/*  */}
-      
-     </div>
+      <hr />
+      <div className="flex flex-col text-lg leading-loose">
+        <h2 className="text-gray-600">Deadline for Manuscript submission: <span className="text-gray-500">20th May 2024</span></h2>
+        <h2 className="text-gray-600">Notification of first review: <span className="text-gray-500">20th May 2024</span></h2>
+        <h2 className="text-gray-600">Submission of revised Manuscript: <span className="text-gray-500">5th June 2024</span></h2>
+        <h2 className="text-gray-600">Notification of final acceptance: <span className="text-gray-500">20th June 2024</span></h2>
+        <h2 className="text-gray-600">Final Manuscript due: <span className="text-gray-500">10th July 2024</span></h2>
+        <h2 className="text-gray-600">Conference Date: <span className="text-gray-500">19th-20th September 2024</span></h2>
+      </div>
     </div>
-  )
-}
+  );
+};
 
-export default ImpDates
+export default ImpDates;

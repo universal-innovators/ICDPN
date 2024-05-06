@@ -126,7 +126,7 @@ const CallForPapers = () => {
             </p>
            </p>
         </div>
-        <div>
+        <div className="min-w-fit">
           <ImpDates />
         </div>
       </div>

@@ -16,7 +16,7 @@ const AboutUni = () => {
           </p>
           <br />
         </div>
-        <div >
+        <div className="min-w-fit">
             <br />
             <ImpDates />
         </div>

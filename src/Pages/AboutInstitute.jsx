@@ -36,7 +36,7 @@ const AboutInstitute = () => {
           </p>
           <br />
         </div>
-        <div className="mt-7">
+        <div className="mt-7 min-w-fit">
             <ImpDates />
         </div>
       </div>
