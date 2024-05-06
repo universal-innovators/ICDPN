@@ -6,27 +6,27 @@ export default function Header() {
       <Nav />
 
       <div className=" sm:flex  container text-lg sm:mt-[8rem]  mt-[5rem] mb-8 justify-around items-center  gap-[30px]">
-        <div className="logos  ">
+        <div className="logos flex sm:flex-col ml-0   ">
           <div className="set1 flex">
             <img
-              className="w-[100px] h-[100px] m-[10px]"
+              className="sm:w-[100px] sm:h-[100px] w-[70px] h-[70px] m-[10px]"
               src="vste-logo.jpg"
               alt=""
             />
             <img
-              className="w-[100px] h-[100px] m-[10px]"
+              className="sm:w-[100px] sm:h-[100px] w-[70px] h-[70px]  m-[10px]"
               src="portagal-logo.jpg"
               alt=""
             />
           </div>
           <div className="set2 flex">
             <img
-              className="w-[100px] h-[100px] m-[10px]"
+              className="sm:w-[100px] sm:h-[100px] w-[70px] h-[70px] m-[10px]"
               src="ksmv-logo.png"
               alt=""
             />
             <img
-              className="w-[100px] h-[100px] m-[10px]"
+              className="sm:w-[100px] sm:h-[100px] w-[70px] h-[70px] m-[10px]"
               src="gtbit-logo.png"
               alt=""
             />
@@ -58,7 +58,7 @@ export default function Header() {
         </div>
         <div className="logo ">
           <img
-          className="w-[150px] h-[150px] mx-auto "
+          className=" sm:w-[150px] sm:h-[150px] w-[120px] h-[120px] mx-auto "
             src="sdcn.png"
             alt=""
           />
