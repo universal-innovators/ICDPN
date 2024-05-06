@@ -1,5 +1,4 @@
 
-
 const Slider = () => {
   return (
     <div className='container'>

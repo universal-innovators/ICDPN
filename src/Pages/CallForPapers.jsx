@@ -4,7 +4,10 @@ const CallForPapers = () => {
   return (
     <div className="container">
       <hr />
-      <h2 className="sponsor-heading">Call for Papers</h2>
+      <div className="text-center  bg-green-500 p-3 rounded-tl-3xl rounded-br-3xl">
+        <b className="underline font-extrabold text-xl ">
+          Paper Submission
+        </b></div>
       <hr />
       <br />
       <div className="sm:flex justify around gap-7 mt-5">
@@ -22,20 +25,19 @@ const CallForPapers = () => {
           <br />
           <hr />
           <br />
-          <p>
-            <b>
-              ICICC 2025 will be an amalgamation of four different Tracks
-              organized parallel to each other, as listed below: 
+          <p className=" text-center bg-green-500 p-3 rounded-tl-3xl rounded-br-3xl" >
+            <b >
+              SDCN 2024 TRACKS:
             </b>
             
           </p>
           <br />
-          <b>
+          <b className=" bg-black p-3 text-white rounded-tl-3xl rounded-br-3xl">
 
               Innovative
               Communication Networks and Security
             </b>
-          <ul className="list-disc list-inside mt-2 mb-5">
+          <ul className="list-disc list-inside text-white mt-2 mb-5 bg-violet-700">
             <li>Wireless sensor networks</li>
             <li>Mobile ad hoc networks</li>
             <li>Software defined networks</li>
@@ -59,8 +61,8 @@ const CallForPapers = () => {
             <li>Network Security</li>
             <li>Cyber Security MANET’s</li>
           </ul>
-          <b>Innovative Computing</b>
-          <ul className="list-disc list-inside mt-2 mb-5">
+          <b className=" bg-black p-3 text-white rounded-tl-3xl rounded-br-3xl">Innovative Computing</b>
+          <ul className="list-disc list-inside text-white mt-2 mb-5 bg-violet-700">
             <li>Computational Intelligence</li>
             <li>Machine Learning</li>
             <li>Artificial Intelligence</li>
@@ -82,8 +84,8 @@ const CallForPapers = () => {
             <li>Internet computing</li>
             <li>High performance computing</li>
           </ul>
-          <b>Internet of things</b>
-          <ul className="list-disc list-inside mt-2 mb-5">
+          <b className="  bg-black p-3 text-white rounded-tl-3xl rounded-br-3xl">Internet of things</b>
+          <ul className="list-disc list-inside text-white mt-2 mb-5 p-3 bg-violet-700  ">
           <li>Intelligent Systems for IoT</li>
             <li>Environmental Monitoring</li>
             <li>Machine to Machine/Device Communications</li>
@@ -104,7 +106,7 @@ const CallForPapers = () => {
 
            <p>
 
-            <b>Social Sciences for Computer Applications</b>
+            
             <br />
             <b>
               The papers submitted to the conference will be peer reviewed and
@@ -113,7 +115,7 @@ const CallForPapers = () => {
             <br />
             <hr />
             <br />
-            <p>
+            <p className=" bg-black p-3 text-white rounded-tl-3xl rounded-br-3xl">
 
             All papers will undergo a blind peer review process and all accepted
             papers will be published in the SHORT NAME conference e proceedings
@@ -123,6 +125,12 @@ const CallForPapers = () => {
             Science and Social Studies, through one of the following sub themes,
             although submissions of other topics for consideration are also
             welcome.
+            </p>
+            <p className=" mt-7 bg-black p-3 text-white rounded-tl-3xl rounded-br-3xl">
+
+            Join us at SDCN to connect with researchers, industry experts, and fellow enthusiasts from around the world. Together, let's advance the frontiers of computer science and information technology. For more information, please visit the conference website . Should you have any inquiries, feel free to contact us at <span className="text-blue-400 cursor-pointer">sdcn.conf@gmail.com</span>
+
+<p className="text-violet-400">We look forward to your valuable contributions and your presence at SDCN 2024.</p>
             </p>
            </p>
         </div>

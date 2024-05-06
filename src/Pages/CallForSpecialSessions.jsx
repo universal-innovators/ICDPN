@@ -4,17 +4,17 @@ const CallForSpecialSessions = ()  => {
     <div className="container mb-8">
       <hr />
 
-      <div className=" ml-3 mt-6 ">
-        <b className="underline font-extrabold text-xl">
-          Invitation to conduct special session in ICICC 2025
-        </b>
+      <div className=" ml-3 mt-6  ">
+      <div className="text-center  bg-green-500 p-3 rounded-tl-3xl rounded-br-3xl">
+        <b className="underline font-extrabold text-xl ">
+          Invitation to conduct special session in SDCN 2024 
+        </b></div>
         <br />
         <br />
-        <b>Dear Sir/ Mam</b>
-        <br />
-        <br />
+        <b className="text-orange-400">Dear Sir/ Mam</b>
+        <br/>
         Greeting from ICICC-2025!
-        <br />
+        <br /><p className="text-white bg-violet-700 p-3 rounded-3xl">
         ICICC Conference team invites you to organize the special session in
         sixth version of International Conference on Innovative Computing and
         Communications (ICICC-2025) , to be held at Shaheed Sukhdev College of
@@ -38,12 +38,12 @@ const CallForSpecialSessions = ()  => {
         conference by being part of this conference as a session chair and
         heading your own session in this esteemed conference. We are aware about
         your networking skills and of having an eye to identify quality research
-        papers.
+        papers.</p>
         <br />
         <br />
-        <b>Highlights of the conference and Special Session Benefits:</b>
+        <b className="bg-green-500 p-3 rounded-tl-3xl rounded-br-3xl">Highlights of the conference and Special Session Benefits:</b>
         <br />
-        <br />
+        <br /><p className="bg-violet-700 p-3 rounded-3xl text-white">
         1) All accepted papers will be published in the proceedings of ICICC-2025
         (Scopus Indexed) 
         <br />
@@ -70,35 +70,27 @@ const CallForSpecialSessions = ()  => {
         9) Many international and national key note speakers will be delivering
         their lectures on latest innovative technologies in the conference.
         <br />
-        10) Easy accessibility of the well-connected conference venue.
+        10) Easy accessibility of the well-connected conference venue.</p>
         <br />
-        <br />
+        <br /><p className="text-white bg-black p-3 rounded-tr-3xl rounded-bl-3xl">
         If you are interested to conduct a special session, kindly mail us the
         special session proposal at{" "}
-        <a href="" className="text-blue-400 underline">
-          icicc.ui@gmail.com
+        <a className="cursor-pointer text-blue-400 underline">
+        sdcn.conf@gmail.com
         </a>{" "}
-        latest by 30th November 2022 as per the format attached with this mail.
+        latest by 30th June 2024 as per the format attached with this mail.</p>
         <br />
-        <br />
+        <br /><p className="text-white bg-black p-3 rounded-tr-3xl rounded-bl-3xl" >
         ICICC brings together the innovative research in the field of Computing
         and Communication to a common platform. The primary goal of the
         conference is to promote research and developmental activities. Another
         goal is to promote scientific information interchange between
         researchers, developers, engineers, students, and practitioners working
         in and around the world.
+        <br /></p>
         <br />
-        <br />
-        <b>
-          All the accepted papers (after double blinded peer review)  will be
-          published in a Springer series (Proposed)  and further extended
-          accepted papers will be published in the special issues of
-          SCI/SCOPUS/WoS/DBLP/ACM/EI indexed Journals.
-        </b>
-        <br />
-        <br />
+        
         Looking to see you in ICICC-2025.
-        <br />
         <br />
         Sincerely,
         <br />

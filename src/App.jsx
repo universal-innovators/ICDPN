@@ -2,7 +2,8 @@ import './App.css'
 import AboutInstitute from './Pages/AboutInstitute'
 import AboutUni from './Pages/AboutUni'
 import AdvCom from './Pages/AdvCom'
-import Awards from './Pages/Awards'
+//import Awards from './Pages/Awards'
+import VisitorsGuide from './Pages/VisitorsGuide'
 import CallForPapers from './Pages/CallForPapers'
 import CallForSpecialSessions from './Pages/CallForSpecialSessions'
 import ConferenceVenue from './Pages/ConferenceVenue'
@@ -63,7 +64,7 @@ function App() {
         <Route path='/policy' element={<Policy/>}></Route>
         <Route path='/Poster-Paper-Presentation' element={<PosterPaper/>}></Route>
         <Route path='/Special-Sessions' element={<SpecialSessions/>}></Route>
-        <Route path='/Awards' element={<Awards/>}></Route>
+       <Route path='/VisitorsGuide' element={<VisitorsGuide/>}></Route> 
         <Route path='/Downloads' element={<Downloads/>}></Route>
         <Route path='/Publications' element={<Publications/>}></Route>
         <Route path='/Registration' element={<Registration/>}></Route>

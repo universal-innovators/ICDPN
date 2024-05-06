@@ -4,6 +4,7 @@ import Slider from "../components/Slider";
 import Notices from "@/components/Notices";
 
 const Home = () => {
+  
   return (
     <>
       <Slider />

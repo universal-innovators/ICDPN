@@ -4,13 +4,16 @@ const AboutInstitute = () => {
   return (
     <div className="container">
       <hr />
-      <h2 className="sponsor-heading">About Institute</h2>
+      <div className="text-center  bg-green-500 p-3 rounded-tl-3xl rounded-br-3xl">
+        <b className="underline font-extrabold text-xl ">
+          About Institute
+        </b></div>
       <hr />
       <div className="sm:flex justify-around gap-7">
         <div className="sponsor-text-container">
-          <h4>About SSCBS</h4>
+          <h4 className="text-center  bg-green-500 p-3 rounded-tl-3xl rounded-br-3xl" >Guru Tegh Bahadur Institute of Technology (GTBIT) (GGSIPU)</h4>
           <br />
-          <p>
+          <p className=" bg-violet-700 text-white p-3 rounded-tl-3xl rounded-br-3xl">
             The high standards of excellence give CBS the phenomenal and
             undeniable edge we are recognized for. And these standards are
             endlessly pushed beyond the horizon. This lays down the foundation

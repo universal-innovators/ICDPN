@@ -264,12 +264,12 @@ ul li a:hover {
 }
 
 table,th,td{
-  border: 1px solid black ;
+  border: 1px solid rgb(246, 239, 239) ;
   padding: 1rem;
   
 }
 th{
-  background-color: black;
+  background-color: gray;
   color: white;
   
 }
