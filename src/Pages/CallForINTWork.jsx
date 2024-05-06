@@ -6,43 +6,28 @@ const CallForINTWork = ()  => {
 <hr />
 
       <div className="mt-4 ml-3">
-        <b className="underline text-xl font-extrabold">
-          Invitation to conduct International Workshop in ICICC 2025
-        </b>
+      <div className="text-center  bg-green-500 p-3 rounded-tl-3xl rounded-br-3xl">
+        <b className="underline font-extrabold text-xl ">
+          Invitation to conduct International Workshop in SDCN 2024 
+        </b></div>
         <br />
         <br />
-        <b>Dear Researcher/Colleagues</b>
+        <b className="text-orange-400">Dear Researcher/Colleagues</b>
 
         <br />
         <br />
-        Greeting from ICICC-2025!
+        Greeting from SDCN 2024!
+        <br /><p className="text-white bg-violet-700 p-3 rounded-3xl">
+        SDCN Conference team invites you to organize the International Workshop in the "SmartDataCom: International Conference on Smart Data-Processing , Communication and Networking" (SDCN-2024) , to be held at Institute of Technology and Business in České Budějovice, Near Prague, Czech Republic, Europe (Venue) & Guru Tegh Bahadur Institute of Technology (GGSIPU), New Delhi during 19th - 20th September of your research domain.
+
+We are diligently working to bring some of the most knowledgeable academician from all over the world and business leaders to discuss critical research topics. The two-day conference will include a workshop, technical workshops and keynotes on our industry's cutting-edge technologies.
+
+By being part of this conference as a session chair and leading your own session at this esteemed conference, please increase the importance of the conference. We understand your networking skills and have an eye on identifying quality research papers.</p>
         <br />
-        ICICC Conference team invites you to organize the International Workshop
-        in the sixth version of International Conference on Innovative Computing
-        and Communications (ICICC-2025) , to be held at Shaheed Sukhdev College
-        of Business Studies (University of Delhi) , Sector 16, Rohini,
-        Delh110089, India during 16-17th February 2025 of your research domain.
-        We are diligently working to bring some of the most knowledgeable
-        academician from all over the world and business leaders to discuss
-        critical research topics. The two-day conference will include a
-        workshop, technical workshops and keynotes on our industry's
-        cutting-edge technologies.
-        <br />
-        The URL for the conference:{" "}
-        <a className="text-blue-500 underline" href="">
-          icicc-conf.com
-        </a>
-        <br />
-        By being part of this conference as a session chair and leading your own
-        session at this esteemed conference, please increase the importance of
-        the conference. We understand your networking skills and have an eye on
-        identifying quality research papers.
-        <br />
-        <br />
-        <b>Highlights of the conference and Special Session Benefits:</b>
-        <br />
-        <br />
-        1) All accepted papers will be published in the proceedings of ICICC-2025
+       
+        
+        <div className="text-center font-bold  bg-green-500 p-3 rounded-tl-3xl ">Highlights of the conference and Special Session Benefits:</div>
+        <p className=" bg-violet-500 p-3  rounded-br-3xl">1) All accepted papers will be published in the proceedings of ICICC-2025
         (Scopus Indexed) 
         <br />
         2) The workshop organizers will be entitled to receive a renumeration of
@@ -70,28 +55,27 @@ const CallForINTWork = ()  => {
         8) Many international and national key note speakers will be delivering
         their lectures on latest innovative technologies in the conference.
         <br />
-        19) Easy accessibility of the well-connected conference venue.
+        19) Easy accessibility of the well-connected conference venue.</p>
+        
         <br />
-        <br />
+        <br /><p className="text-white bg-black p-3 rounded-3xl">
         If you are interested to conduct an International Workshop, please email
         us the workshop proposal at{" "}
-        <a className="text-blue-500 underline">icicc.ui@gmail.com</a> with
-        subject line as “Proposal for ICICC 2025 International Workshop” by 30th
-        August 2022 as per the format given on link:{" "}
-        <a className="text-blue-500 underline" href="#">
-          http://icicc-conf.com/call_for_international_workshops
-        </a>
+        <a className="text-blue-500 underline">sdcn.conf@gmail.com</a> with
+        subject line as “Proposal for ICICC 2025 International Workshop”
+        </p>
+        
         <br />
         <br />
         <br />
-        Looking to see you in ICICC-2025.
+        Looking to see you in SDCN 2024.
         <br />
         <br />
         Sincerely,
         <br />
         Organizer and Convener
         <br />
-        <b>ICICC-2025</b>
+        <b>SDCN 2024</b>
       </div>
       <br />
       <a

@@ -5,7 +5,7 @@ const ICICC2022 = () => {
   return (
     <div className='container'>
         <hr />
-    <h1 className='sponsor-heading'>ICICC 2022</h1>
+    <h1 className='sponsor-heading '>ICICC 2022</h1>
 <hr />
     <div className='sm:flex justify-around gap-x-[10rem]'>
     <div className=' mt-10 flex-col mb-10'>

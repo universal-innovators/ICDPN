@@ -4,12 +4,15 @@ const PaperSubmission = ()  => {
   return (
     <div className="container">
       <hr />
-      <h2 className="sponsor-heading">Paper Submission</h2>
+      <div className="text-center  bg-green-500 p-3 rounded-tl-3xl rounded-br-3xl">
+        <b className="underline font-extrabold text-xl ">
+          Paper Submission
+        </b></div>
       <hr />
       <br />
       <div className="sm:flex justify around gap-7 mt-5">
         <div>
-          <p>
+          <p className=" bg-violet-500 p-3 rounded-tl-3xl rounded-br-3xl">
             The Original unpublished Research Papers, Articles & Working papers
             having maximum length 8 pages on the topics related to the theme are invited for presentation/publication in the
             conference proceedings.
@@ -38,10 +41,10 @@ const PaperSubmission = ()  => {
           <br />
           <br />
           <p>
-            <h4 className=" font-bold text-blue-950 text-xl">
+            <h4 className=" font-bold text-blue-950 text-xl text-center  bg-green-500 p-3 rounded-tl-3xl ">
               Plagiarism Policy
             </h4>
-            <br />
+            <p className="text-white bg-black rounded-br-3xl p-3">
             1) The paper prior to submission should be checked for plagiarism
             from licensed plagiarism softwares like Turnitin/iAuthenticate{" "}
             <br />
@@ -61,7 +64,7 @@ const PaperSubmission = ()  => {
             the work from which you have adopted it.
             <br />
             If you are using any copyrighted material, you should acquire prior
-            permission from the copyright holder.
+            permission from the copyright holder.</p>
           </p>
         </div>
         <ImpDates />

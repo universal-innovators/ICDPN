@@ -12,7 +12,7 @@ const VisitorsGuide = () => {
   return (
     <div>
         <Slider/>
-        <div className='w-[90%] mt-6 mx-auto text-center text-white p-1 text-xl bg-violet-500'>Visitors Guide</div>
+        <div className='w-[90%] mt-6 mx-auto text-center text-blue-950 underline font-bold text-3xl bg-green-500 p-3 rounded-tl-3xl rounded-br-3xl'>Visitors Guide</div>
         <div className='w-[90%] mt-6 mx-auto text-center underline  p-1 text-xl text-green-900 '>Places to visit in Prague</div>
         
         <div className='grid sm:grid-cols-4 ml-11 gap-y-10 mt-10 '>
