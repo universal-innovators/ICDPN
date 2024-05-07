@@ -8,7 +8,7 @@ const CallForINTWork = ()  => {
       <div className="mt-4 ml-3">
       <div className="text-center  bg-green-500 p-3 rounded-tl-3xl rounded-br-3xl">
         <b className="underline font-extrabold text-xl ">
-          Invitation to conduct International Workshop in SDCN 2024 
+          Invitation to conduct International Workshop in ICDPN 2024 
         </b></div>
         <br />
         <br />
@@ -16,9 +16,9 @@ const CallForINTWork = ()  => {
 
         <br />
         <br />
-        Greeting from SDCN 2024!
+        Greeting from ICDPN 2024!
         <br /><p className="text-white bg-violet-700 p-3 rounded-3xl">
-        SDCN Conference team invites you to organize the International Workshop in the "SmartDataCom: International Conference on Smart Data-Processing , Communication and Networking" (SDCN-2024) , to be held at Institute of Technology and Business in České Budějovice, Near Prague, Czech Republic, Europe (Venue) & Guru Tegh Bahadur Institute of Technology (GGSIPU), New Delhi during 19th - 20th September of your research domain.
+        ICDPN Conference team invites you to organize the International Workshop in the " International Conference on  Data-Processing  and Networking" (ICDPN-2024) , to be held at Institute of Technology and Business in České Budějovice, Near Prague, Czech Republic, Europe (Venue) & Guru Tegh Bahadur Institute of Technology (GGSIPU), New Delhi during 19th - 20th September of your research domain.
 
 We are diligently working to bring some of the most knowledgeable academician from all over the world and business leaders to discuss critical research topics. The two-day conference will include a workshop, technical workshops and keynotes on our industry's cutting-edge technologies.
 
@@ -27,7 +27,7 @@ By being part of this conference as a session chair and leading your own session
        
         
         <div className="text-center font-bold  bg-green-500 p-3 rounded-tl-3xl ">Highlights of the conference and Special Session Benefits:</div>
-        <p className=" bg-violet-500 p-3  rounded-br-3xl">1) All accepted papers will be published in the proceedings of ICICC-2025
+        <p className=" bg-violet-500 p-3  rounded-br-3xl">1) All accepted papers will be published in the proceedings of ICDPN-2024
         (Scopus Indexed) 
         <br />
         2) The workshop organizers will be entitled to receive a renumeration of
@@ -61,21 +61,21 @@ By being part of this conference as a session chair and leading your own session
         <br /><p className="text-white bg-black p-3 rounded-3xl">
         If you are interested to conduct an International Workshop, please email
         us the workshop proposal at{" "}
-        <a className="text-blue-500 underline">sdcn.conf@gmail.com</a> with
-        subject line as “Proposal for ICICC 2025 International Workshop”
+        <a className="text-blue-500 underline">icdpn.conf@gmail.com</a> with
+        subject line as “Proposal for ICDPN 2024 International Workshop”
         </p>
         
         <br />
         <br />
         <br />
-        Looking to see you in SDCN 2024.
+        Looking to see you in ICDPN 2024.
         <br />
         <br />
         Sincerely,
         <br />
         Organizer and Convener
         <br />
-        <b>SDCN 2024</b>
+        <b>ICDPN 2024</b>
       </div>
       <br />
       <a

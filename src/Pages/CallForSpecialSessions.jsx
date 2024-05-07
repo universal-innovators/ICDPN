@@ -7,17 +7,17 @@ const CallForSpecialSessions = ()  => {
       <div className=" ml-3 mt-6  ">
       <div className="text-center  bg-green-500 p-3 rounded-tl-3xl rounded-br-3xl">
         <b className="underline font-extrabold text-xl ">
-          Invitation to conduct special session in SDCN 2024 
+          Invitation to conduct special session in ICDPN 2024 
         </b></div>
         <br />
         <br />
         <b className="text-orange-400">Dear Sir/ Mam</b>
         <br/>
-        Greeting from ICICC-2025!
+        Greeting from ICDPN-2024!
         <br /><p className="text-white bg-violet-700 p-3 rounded-3xl">
-        ICICC Conference team invites you to organize the special session in
+        ICDPN Conference team invites you to organize the special session in
         sixth version of International Conference on Innovative Computing and
-        Communications (ICICC-2025) , to be held at Shaheed Sukhdev College of
+        Communications (ICDPN-2024) , to be held at Shaheed Sukhdev College of
         Business Studies (University of Delhi) , Sector 16, Rohini, Delhi -
         110089, India during 16-17th February 2025 of your research domain. We
         are diligently working to bring some of the most knowledgeable
@@ -26,7 +26,7 @@ const CallForSpecialSessions = ()  => {
         conference will include workshop, technical sessions and keynotes on
         cutting edge technologies related to our industry. The URL for the
         conference: icicc-conf.com. International Conference on Innovative
-        Computing and Communication (ICICC)  is organised with the objective of
+        Computing and Communication (ICDPN)  is organised with the objective of
         bringing together innovative scientists, professors, research scholars,
         students and industrial experts in the field of Computing and
         Communication to a common forum. The primary goal of the conference is
@@ -44,7 +44,7 @@ const CallForSpecialSessions = ()  => {
         <b className="bg-green-500 p-3 rounded-tl-3xl rounded-br-3xl">Highlights of the conference and Special Session Benefits:</b>
         <br />
         <br /><p className="bg-violet-700 p-3 rounded-3xl text-white">
-        1) All accepted papers will be published in the proceedings of ICICC-2025
+        1) All accepted papers will be published in the proceedings of ICDPN-2024
         (Scopus Indexed) 
         <br />
         2) You will get 20% of the total fees collected in your session.
@@ -76,12 +76,12 @@ const CallForSpecialSessions = ()  => {
         If you are interested to conduct a special session, kindly mail us the
         special session proposal at{" "}
         <a className="cursor-pointer text-blue-400 underline">
-        sdcn.conf@gmail.com
+        icdpn.conf@gmail.com
         </a>{" "}
         latest by 30th June 2024 as per the format attached with this mail.</p>
         <br />
         <br /><p className="text-white bg-black p-3 rounded-tr-3xl rounded-bl-3xl" >
-        ICICC brings together the innovative research in the field of Computing
+        ICDPN brings together the innovative research in the field of Computing
         and Communication to a common platform. The primary goal of the
         conference is to promote research and developmental activities. Another
         goal is to promote scientific information interchange between
@@ -90,13 +90,13 @@ const CallForSpecialSessions = ()  => {
         <br /></p>
         <br />
         
-        Looking to see you in ICICC-2025.
+        Looking to see you in ICDPN-2024.
         <br />
         Sincerely,
         <br />
         Organizer and Convener
         <br />
-        <b>ICICC-2025</b>
+        <b>ICDPN-2024</b>
       </div>
       <br />
       <a

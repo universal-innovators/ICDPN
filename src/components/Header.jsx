@@ -35,9 +35,8 @@ export default function Header() {
 
         <div className="header-text text-center">
           <p className=" sm:mt-[5rem] md:mt-3">
-            SmartDataCom: International Conference on Smart Data-Processing,
-            Communication and Networking
-            <br /> (SDCN-2024)
+             International Conference on Data-Processing and Networking
+            <br /> (ICDPN-2024)
           </p>
           <br />
           <p className="">

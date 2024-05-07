@@ -9,8 +9,8 @@ const Conference = () => {
       <div className="sm:flex justify-around gap-11">
         <div className="text-justify">
           <p className="tracking-wide mb-2 text-lg font-light">
-            SmartDataCom: International Conference on Smart Data-Processing ,
-            Communication and Networking (SDCN-2024) is organised with the
+            International Conference on Data-Processing 
+             and Networking (ICDPN-2024) is organised with the
             objective of bringing together innovative scientists, professors,
             research scholars, students and industrial experts in the field of
             Computing and Communication to a common forum. The primary goal of
@@ -22,14 +22,14 @@ const Conference = () => {
             Overall, the conference will provide the researchers and attendees
             with prospects for national and international collaboration and
             networking among universities and institutions from India and abroad
-            for promoting research. SDCN- 2024 will be held at Institute of
+            for promoting research. ICDPN- 2024 will be held at Institute of
             Technology and Business in České Budějovice, Near Prague, Czech
             Republic, Europe (Venue) & Guru Tegh Bahadur Institute of Technology
             (GTBIT), Guru Gobind Singh Indraprastha University (GGSIPU), New
             Delhi.
           </p>
           <p className="tracking-wide text-lg text-red-600">
-          All the papers and the proceedings of SDCN-2024 will be sent to SCOPUS for evalution!
+          All the papers and the proceedings of ICDPN-2024 will be sent to SCOPUS for evalution!
           </p>
           <br />
           <b className="tracking-wide text-lg mr-3">All papers must be submitted online via this link:</b>

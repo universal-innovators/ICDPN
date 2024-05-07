@@ -128,9 +128,9 @@ const CallForPapers = () => {
             </p>
             <p className=" mt-7 bg-black p-3 text-white rounded-tl-3xl rounded-br-3xl">
 
-            Join us at SDCN to connect with researchers, industry experts, and fellow enthusiasts from around the world. Together, let's advance the frontiers of computer science and information technology. For more information, please visit the conference website . Should you have any inquiries, feel free to contact us at <span className="text-blue-400 cursor-pointer">sdcn.conf@gmail.com</span>
+            Join us at ICDPN to connect with researchers, industry experts, and fellow enthusiasts from around the world. Together, let's advance the frontiers of computer science and information technology. For more information, please visit the conference website . Should you have any inquiries, feel free to contact us at <span className="text-blue-400 cursor-pointer">icdpn.conf@gmail.com</span>
 
-<p className="text-violet-400">We look forward to your valuable contributions and your presence at SDCN 2024.</p>
+<p className="text-violet-400">We look forward to your valuable contributions and your presence at ICDPN 2024.</p>
             </p>
            </p>
         </div>

@@ -13,7 +13,7 @@ const Publications = () => {
         <div className="sponsor-text-container">
           <h4 className="text-center">PUBLICATION-PROCEEDINGS</h4>
           <br />
-          <p className="mb-[1rem] ">All the accepted papers of ICICC - 2025 will be published as proceedings of ICICC - 2025 indexed by Scopus, Ei, WoS, and other reputed databases. High-quality selected extended conference papers will be invited to submit for publication in the special issues.</p>
+          <p className="mb-[1rem] ">All the accepted papers of ICDPN-2024 will be published as proceedings of ICDPN - 2024 indexed by Scopus, Ei, WoS, and other reputed databases. High-quality selected extended conference papers will be invited to submit for publication in the special issues.</p>
           <br />
           <div className="mb-[30px]">
             <ul className="books flex justify-between flex-wrap m-[10px] list-none">
