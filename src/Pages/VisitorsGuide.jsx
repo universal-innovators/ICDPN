@@ -15,7 +15,7 @@ const VisitorsGuide = () => {
         <div className='w-[90%] mt-6 mx-auto text-center text-blue-950 underline font-bold text-3xl bg-green-500 p-3 rounded-tl-3xl rounded-br-3xl'>Visitors Guide</div>
         <div className='w-[90%] mt-6 mx-auto text-center underline  p-1 text-xl text-green-900 '>Places to visit in Prague</div>
         
-        <div className='grid sm:grid-cols-4 ml-11 gap-y-10 mt-10 '>
+        <div className='grid sm:grid-cols-4 ml-11  gap-y-10 mt-10 '>
         <Card className='hover:scale-110  bg-black shadow-xl shadow-violet-950 text-white duration-1000 w-[300px]  rounded-tr-3xl rounded-tl-none rounded-br-none rounded-bl-3xl'>
 
   <CardContent>
