@@ -4,7 +4,10 @@ const TechProgC = () => {
   return (
     <div className="container">
       <hr />
-      <h2 className="sponsor-heading">Technical Committee</h2>
+      <div className="text-center  bg-green-500 p-3 rounded-tl-3xl rounded-br-3xl">
+        <b className="underline font-extrabold text-xl ">
+          Technical Committee
+        </b></div>
       <hr />
       <div className="sm:flex justify-around gap-7">
         <div className="flex flex-wrap justify-around mt-8 mb-8 gap-[16px]">

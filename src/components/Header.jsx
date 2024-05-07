@@ -5,28 +5,28 @@ export default function Header() {
     <div>
       <Nav />
 
-      <div className=" sm:flex  container text-lg sm:mt-[8rem] mb-8 justify-around items-center  gap-[30px]">
-        <div className="logos  ">
+      <div className=" sm:flex  container text-lg sm:mt-[8rem]  mt-[5rem] mb-8 justify-around items-center  gap-[30px]">
+        <div className="logos flex sm:flex-col ml-0   ">
           <div className="set1 flex">
             <img
-              className="w-[100px] h-[100px] m-[10px]"
+              className="sm:w-[100px] sm:h-[100px] w-[70px] h-[70px] m-[10px]"
               src="vste-logo.jpg"
               alt=""
             />
             <img
-              className="w-[100px] h-[100px] m-[10px]"
+              className="sm:w-[100px] sm:h-[100px] w-[70px] h-[70px]  m-[10px]"
               src="portagal-logo.jpg"
               alt=""
             />
           </div>
           <div className="set2 flex">
             <img
-              className="w-[100px] h-[100px] m-[10px]"
+              className="sm:w-[100px] sm:h-[100px] w-[70px] h-[70px] m-[10px]"
               src="ksmv-logo.png"
               alt=""
             />
             <img
-              className="w-[100px] h-[100px] m-[10px]"
+              className="sm:w-[100px] sm:h-[100px] w-[70px] h-[70px] m-[10px]"
               src="gtbit-logo.png"
               alt=""
             />
@@ -56,9 +56,9 @@ export default function Header() {
             (Indo-Czech Collaborative Conference)
           </p>
         </div>
-        <div className="logo">
+        <div className="logo ">
           <img
-          className="w-[150px] h-[150px] "
+          className=" sm:w-[150px] sm:h-[150px] w-[120px] h-[120px] mx-auto "
             src="sdcn.png"
             alt=""
           />
