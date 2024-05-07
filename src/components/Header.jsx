@@ -55,13 +55,13 @@ export default function Header() {
             (Indo-Czech Collaborative Conference)
           </p>
         </div>
-        <div className="logo ">
+        {/* <div className="logo ">
           <img
           className=" sm:w-[150px] sm:h-[150px] w-[120px] h-[120px] mx-auto "
             src="sdcn.png"
             alt=""
           />
-        </div>
+        </div> */}
       </div>
     </div>
   );
