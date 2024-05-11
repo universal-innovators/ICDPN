@@ -39,12 +39,12 @@ const Registration = () => {
           7)Banquet
         </p>
       </p>
-      <div className="w-10/12 m-auto flex-col content-center bg-black text-white border-black border-[1px] ">
-        <div className="text-center font-bold text-lg mt-5 bg-green-700 ">
+      <div className="w-10/12 m-auto flex-col content-center rounded-2xl p-3 bg-black text-white border-black border-[1px] ">
+        {/* <div className="text-center font-bold text-lg mt-5 bg-green-700 ">
           Pay via Bank Transfer
-        </div>
+        </div> */}
 
-        <table className="table1 m-auto  sm:w-10/12 mt-5">
+        {/* <table className="table1 m-auto  sm:w-10/12 mt-5">
           <tr>
             <td className="">ACCOUNT NAME</td>
             <td>UI CONSULTANTS</td>
@@ -77,13 +77,13 @@ const Registration = () => {
             <td>ACCOUNT TYPE</td>
             <td>CURRENT</td>
           </tr>
-        </table>
-        <div className="w-10/12 h-[1px] m-auto mt-4 bg-gray-400 shadow-white shadow-2xl"></div>
+        </table> */}
+        {/* <div className="w-10/12 h-[1px] m-auto mt-4 bg-gray-400 shadow-white shadow-2xl"></div> */}
         <br />
         <div className="text-center font-bold text-lg ">Pay via Paypal</div>
         <div className="text-center  ">
           For Payment from International Authors/Attendees, use the following
-          paypal link with additional 5% service charges applies
+          Paypal/Stripe link with additional 5% service charges applies
         </div>
         <br />
         <div className=" text-center">
@@ -100,10 +100,29 @@ const Registration = () => {
           </a>
         </div>
         <br />
+        <div className="flex  items-stretch"><div className="w-[45%] h-[1px] m-auto mt-4  bg-gray-400"></div>
+        <div className="text-center ">OR</div>
+        <div className="w-[45%] h-[1px] m-auto mt-4  bg-gray-400"></div></div><br/>
+        
+        <div className="text-center font-bold text-lg ">Pay via Stripe</div><br/>
+        <div className=" text-center">
+          <a
+            href="https://buy.stripe.com/00gcP969V3is1Jm5kn"
+            target="_blank"
+            className=" "
+          >
+            <button className=" self-center  bg-blue-600 rounded-lg hover:bg-gradient-to-t from-blue-900 to-cyan-500  ">
+              <div className="m-auto p-[0.5rem] text-white">
+                Pay with Stripe
+              </div>
+            </button>
+          </a>
+        </div>
 
-        <div className="w-10/12 h-[1px] m-auto mt-4 bg-gray-400"></div>
+
+        {/* <div className="w-10/12 h-[1px] m-auto mt-4  bg-gray-400"></div> */}
         <br />
-        <div className="text-center font-bold text-lg ">Pay via RazorPay</div>
+        {/* <div className="text-center font-bold text-lg ">Pay via Razorpay</div>
         <div className="text-center  ">
           For payment from Indian Authors/Attendees, use the following payment
           link
@@ -111,7 +130,7 @@ const Registration = () => {
         <br />
         <div className="text-center">
           <a
-            href="https://pages.razorpay.com/pl_IOTJy0iZ8kxq43/view"
+            href="https://pages.razorpay.com/pl_O9GXsuOr0CaWwE/view"
             target="_blank"
           >
             <button className="   bg-blue-600 rounded-lg hover:bg-gradient-to-t from-blue-900 to-cyan-500 ">
@@ -131,33 +150,33 @@ const Registration = () => {
           className="m-auto "
           width={"160rem"}
           height={"200rem"}
-        />
+        /> */}
       </div>
 
-      <div className="w-[90%] overflow-scroll m-auto">
+      <div className="w-[90%] sm:overflow-auto overflow-scroll m-auto">
         <table className=" table1 bg-black text-white m-auto sm:w-10/12 mt-11">
           <thead>
             <th>Category</th>
-            <th>Early Registration (before 05th January, 2025)</th>
-            <th>Late Registration (after 05th January, 2025)</th>
+            <th>Early Registration (before 30th July, 2024)</th>
+            <th>Late Registration (after 30th July, 2024)</th>
           </thead>
           <tbody>
             <tr>
               <td>Research Scholar/Student</td>
-              <td>INR 5000</td>
-              <td>INR 5500</td>
+              <td>USD 300</td>
+              <td>USD 350</td>
             </tr>
             <tr>
               <td>Academician</td>
-              <td>INR 5500</td>
-              <td>INR 6000</td>
+              <td>USD 350</td>
+              <td>USD 400</td>
             </tr>
             <tr>
               <td>Industrial Participants</td>
-              <td>INR 6000</td>
-              <td>INR 6500</td>
+              <td>USD 400</td>
+              <td>USD 450</td>
             </tr>
-            <tr>
+            {/* <tr>
               <td>Foreigner Research Scholar/Student (Outside India)</td>
               <td>USD 120</td>
               <td>USD 150</td>
@@ -171,13 +190,38 @@ const Registration = () => {
               <td>Foreigner Industrial Participant (Outside India)</td>
               <td>USD 200</td>
               <td>USD 250</td>
-            </tr>
+            </tr> */}
           </tbody>
         </table>
+        
+      </div>
+      <div className="w-[90%] sm:overflow-auto overflow-scroll m-auto">
+      <table className=" table1 bg-black text-white m-auto sm:w-10/12 mt-11">
+          <thead>
+            <th>Category</th>
+            <th>Early Registration (before 30th July, 2024)</th>
+            <th>Late Registration (after 30th July, 2024)</th>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Research Student Attendee</td>
+              <td>USD 150</td>
+              <td>USD 200</td>
+            </tr>
+            <tr>
+              <td>Standard Attendee</td>
+              <td>USD 200</td>
+              <td>USD 250</td>
+            </tr>
+            
+            </tbody>
+            </table>
+
       </div>
       <div className="discount text-violet-700">
         *Special Discount of 10% for Universal Inovator (UI) Member
       </div>
+      
     </div>
   );
 };
