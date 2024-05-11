@@ -4,15 +4,14 @@ const CallForPapers = () => {
   return (
     <div className="container">
       <hr />
-      <div className="text-center  bg-green-500 p-3 rounded-tl-3xl rounded-br-3xl">
-        <b className="underline font-extrabold text-xl ">
-          Paper Submission
-        </b></div>
+      <div className="text-center mt-3 mb-3 bg-green-500 p-3 rounded-tl-3xl rounded-br-3xl">
+        <b className="tracking-wider font-bold text-xl ">Call for Papers</b>
+      </div>
       <hr />
       <br />
       <div className="sm:flex justify around gap-7 mt-5">
         <div className="sponser-text-container mb-8">
-          <p>
+          <p className="text-justify tracking-wide mb-2 text-lg font-light">
             The scope of this conference is to provide a platform for
             researchers, engineers, academicians, and industry professionals
             from all over the world to present their research results and
@@ -25,114 +24,135 @@ const CallForPapers = () => {
           <br />
           <hr />
           <br />
-          <p className=" text-center bg-green-500 p-3 rounded-tl-3xl rounded-br-3xl" >
-            <b >
-              SDCN 2024 TRACKS:
-            </b>
-            
+          <p className=" text-center font-semibold bg-lime-400 text-lg p-3 rounded-tl-3xl rounded-br-3xl">
+            ICDPN 2024 TRACKS:
           </p>
           <br />
-          <b className=" bg-black p-3 text-white rounded-tl-3xl rounded-br-3xl">
+          <div className="border-l-[5px] border-red-800 ">
+            <p className="tracking-wide mb-2 text-lg font-semibold pl-5">
+              1. Artificial Intelligence and Machine Learning
+            </p>
+          </div>
+          <ul className="list-disc list-inside tracking-wide text-base font-light mt-2 mb-5 ">
+            <li>Deep learning algorithms</li>
+            <li>Natural language processing</li>
+            <li>Pattern recognition and computer vision</li>
+            <li>Intelligent systems and robotics</li>
+            <li>Data Science and Analytics</li>
+          </ul>
+          <div className="border-l-[5px] border-red-800">
+            <p className=" tracking-wide mb-2 text-lg font-semibold pl-5">
+              2. Big data processing and management
+            </p>
+          </div>
+          <ul className="list-disc list-inside tracking-wide text-base font-light mt-2 mb-5 ">
+            <li>Data mining and knowledge discovery</li>
+            <li>Predictive modeling and analysis</li>
+            <li>Data visualization and exploration</li>
+            <li>Cybersecurity and Privacy</li>
+          </ul>
+          <div className="border-l-[5px] border-red-800 ">
 
-              Innovative
-              Communication Networks and Security
-            </b>
-          <ul className="list-disc list-inside text-white mt-2 mb-5 bg-violet-700">
-            <li>Wireless sensor networks</li>
-            <li>Mobile ad hoc networks</li>
-            <li>Software defined networks</li>
-            <li>Information theory and coding</li>
-            <li>Cloud communications and networking</li>
-            <li>Wearable network and systems</li>
-            <li>Personal communication systems</li>
-            <li>Vehicular networks and applications</li>
-            <li>Wireless communications</li>
-            <li>Future Internet</li>
-            <li>Architecture Satellite Communication</li>
-            <li>Next Generation Networking</li>
-            <li>Quantum Networking</li>
-            <li>QoS Provisioning and Architectures</li>
-            <li>Telecommunication Services and Applications</li>
-            <li>Optical Communication</li>
-            <li>Network Performance</li>
-            <li>Computer Security</li>
-            <li>Digital Signature</li>
-            <li>Information Security</li>
-            <li>Network Security</li>
-            <li>Cyber Security MANET’s</li>
-          </ul>
-          <b className=" bg-black p-3 text-white rounded-tl-3xl rounded-br-3xl">Innovative Computing</b>
-          <ul className="list-disc list-inside text-white mt-2 mb-5 bg-violet-700">
-            <li>Computational Intelligence</li>
-            <li>Machine Learning</li>
-            <li>Artificial Intelligence</li>
-            <li>Signal Processing</li>
-            <li>Computer vision</li>
-            <li>Soft Computing</li>
-            <li>Decision Support and Decision making</li>
-            <li>Parallel computing</li>
-            <li>Distributed computing</li>
-            <li>Grid computing</li>
-            <li>Cloud computing</li>
-            <li>Mobile computing</li>
-            <li>Biomedical computing</li>
-            <li>Ubiquitous computing</li>
-            <li>Image processing</li>
-            <li>Information retrieval</li>
-            <li>Deep learning</li>
-            <li>Expert system</li>
-            <li>Internet computing</li>
-            <li>High performance computing</li>
-          </ul>
-          <b className="  bg-black p-3 text-white rounded-tl-3xl rounded-br-3xl">Internet of things</b>
-          <ul className="list-disc list-inside text-white mt-2 mb-5 p-3 bg-violet-700  ">
-          <li>Intelligent Systems for IoT</li>
+          <p className="tracking-wide mb-2 text-lg font-semibold pl-5">
+            3. Network security and intrusion detection
+          </p>
+          </div>
+          <ul className="list-disc list-inside tracking-wide text-base font-light mt-2 mb-5 ">
+            <li>Cryptography and encryption techniques</li>
             <li>Environmental Monitoring</li>
-            <li>Machine to Machine/Device Communications</li>
-            <li>Network Design and Architecture</li>
-            <li>Wireless Systems and Applications</li>
-            <li>Infrastructure Management</li>
-            <li>IoT and Big Data</li>
-            <li>Home Automation</li>
-            <li>Security and Privacy</li>
-            <li>Social Implications of IoT</li>
-            <li>Technological focus for Smart Environments</li>
-            <li>Smart City Case Studies</li>
-            <li>Data Analysis and Visualization</li>
-            <li>Architecture for secure and interactive IoT</li>
-            <li>Sensor, Wireless Technologies and APIs</li>
-            <li>Emerging IoT</li>
+            <li>Secure software development</li>
+            <li>Cloud Computing and Distributed Systems</li>
+          </ul>
+          <div className="border-l-[5px] border-red-800 ">
+            <p className="tracking-wide mb-2 text-lg font-semibold pl-5">
+              4. Cloud infrastructure and services
+            </p>
+          </div>
+          <ul className="list-disc list-inside tracking-wide text-base font-light mt-2 mb-5 ">
+            <li>Virtualization technologies</li>
+            <li>Edge and fog computing</li>
+            <li>Distributed algorithms and systems</li>
+            <li>Human-Computer Interaction</li>
+          </ul>
+          <div className="border-l-[5px] border-red-800 ">
+            <p className="tracking-wide mb-2 text-lg font-semibold pl-5">
+              5. User interface design and evaluation
+            </p>
+          </div>
+          <ul className="list-disc list-inside tracking-wide text-base font-light mt-2 mb-5 ">
+            <li>User experience and usability</li>
+            <li>Interaction techniques and technologies</li>
+            <li>Accessibility and assistive technologies</li>
+            <li>Internet of Things and Sensor Networks</li>
+          </ul>
+          <div className="border-l-[5px] border-red-800 ">
+            <p className="tracking-wide mb-2 text-lg font-semibold pl-5">
+              6. IoT architectures and protocols
+            </p>
+          </div>
+          <ul className="list-disc list-inside tracking-wide text-base font-light mt-2 mb-5 ">
+            <li>Wireless sensor networks</li>
+            <li>IoT data analytics and applications</li>
+            <li>Security and privacy in IoT</li>
+            <li>Software Engineering and Agile Development</li>
+          </ul>
+          <div className="border-l-[5px] border-red-800 ">
+            <p className="tracking-wide mb-2 text-lg font-semibold pl-5">
+              7. Software testing and quality assurance
+            </p>
+          </div>
+          <ul className="list-disc list-inside tracking-wide text-base font-light mt-2 mb-5 ">
+            <li>Agile methodologies and practices</li>
+            <li>Requirements engineering</li>
+            <li>Software maintenance and evolution</li>
+            <li>Computer Networks and Communications</li>
+          </ul>
+          <div className="border-l-[5px] border-red-800 ">
+            <p className="tracking-wide mb-2 text-lg font-semibold pl-5">
+              8. Network protocols and architectures
+            </p>
+          </div>
+          <ul className="list-disc list-inside tracking-wide text-base font-light mt-2 mb-5 ">
+            <li>Wireless and mobile networks</li>
+            <li>Network performance analysis</li>
+            <li>Internet of Everything (IoE)</li>
           </ul>
 
-           <p>
-
-            
+          <p>
             <br />
-            <b>
+            <p className="tracking-wide text-lg font-semibold">
               The papers submitted to the conference will be peer reviewed and
               published as proceedings in Springer(Proposed)
-            </b>
+            </p>
             <br />
             <hr />
             <br />
             <p className=" bg-black p-3 text-white rounded-tl-3xl rounded-br-3xl">
-
-            All papers will undergo a blind peer review process and all accepted
-            papers will be published in the SHORT NAME conference e proceedings
-            with an e ISBN number. The conference organizer encourages
-            submissions of academic and research papers that consider the
-            multidisciplinary/interdisciplinary themes covering the Management,
-            Science and Social Studies, through one of the following sub themes,
-            although submissions of other topics for consideration are also
-            welcome.
+              All papers will undergo a blind peer review process and all
+              accepted papers will be published in the SHORT NAME conference e
+              proceedings with an e ISBN number. The conference organizer
+              encourages submissions of academic and research papers that
+              consider the multidisciplinary/interdisciplinary themes covering
+              the Management, Science and Social Studies, through one of the
+              following sub themes, although submissions of other topics for
+              consideration are also welcome.
             </p>
             <p className=" mt-7 bg-black p-3 text-white rounded-tl-3xl rounded-br-3xl">
-
-            Join us at ICDPN to connect with researchers, industry experts, and fellow enthusiasts from around the world. Together, let's advance the frontiers of computer science and information technology. For more information, please visit the conference website . Should you have any inquiries, feel free to contact us at <span className="text-blue-400 cursor-pointer">icdpn.conf@gmail.com</span>
-
-<p className="text-violet-400">We look forward to your valuable contributions and your presence at ICDPN 2024.</p>
+              Join us at ICDPN to connect with researchers, industry experts,
+              and fellow enthusiasts from around the world. Together, let's
+              advance the frontiers of computer science and information
+              technology. For more information, please visit the conference
+              website . Should you have any inquiries, feel free to contact us
+              at{" "}
+              <span className="text-blue-400 cursor-pointer">
+                icdpn.conf@gmail.com
+              </span>
+              <p className="text-lime-400">
+                We look forward to your valuable contributions and your presence
+                at ICDPN 2024.
+              </p>
             </p>
-           </p>
+          </p>
         </div>
         <div className="min-w-fit">
           <ImpDates />

@@ -6,10 +6,9 @@ const Downloads = () => {
     <div className="container">
       <hr />
       
-      <h1 className="text-center sponsor-heading  bg-green-500 p-3 rounded-tl-3xl rounded-br-3xl">
-        <b className="underline font-extrabold text-3xl ">
-          Downloads
-        </b></h1>
+      <div className="text-center mt-3 mb-3 bg-green-500 p-3 rounded-tl-3xl rounded-br-3xl">
+        <b className=" font-extrabold text-xl tracking-wider">Downloads</b>
+      </div>
       <hr />
 
       <div className="sm:flex flex-wrap gap-7 justify-around">

@@ -4,17 +4,16 @@ const PaperSubmission = ()  => {
   return (
     <div className="container">
       <hr />
-      <div className="text-center  bg-green-500 p-3 rounded-tl-3xl rounded-br-3xl">
-        <b className="underline font-extrabold text-xl ">
-          Paper Submission
-        </b></div>
+      <div className="text-center mt-3 mb-3 bg-green-500 p-3 rounded-tl-3xl rounded-br-3xl">
+        <b className="tracking-wider font-bold text-xl ">Paper Submission</b>
+      </div>
       <hr />
       <br />
       <div className="sm:flex justify around gap-7 mt-5">
         <div>
-          <p className=" bg-violet-500 p-3 rounded-tl-3xl rounded-br-3xl">
+          <p className=" bg-orange-100 tracking-wide text-gray-800 text-justify p-7 rounded-tl-3xl rounded-br-3xl">
             The Original unpublished Research Papers, Articles & Working papers
-            having maximum length 8 pages on the topics related to the theme are invited for presentation/publication in the
+            having maximum length 10 pages on the topics related to the theme are invited for presentation/publication in the
             conference proceedings.
             <br />
             <br />
@@ -25,7 +24,7 @@ const PaperSubmission = ()  => {
             >
               Springer Guidelines
             </a>{" "}
-            (not exceeding 8 pages written in A4 size) . Please refer the
+            (not exceeding 10 pages written in A4 size) . Please refer the
             attached springer template for preparation of your paper.
             <br />
             2) All papers must be submitted online. via
@@ -44,7 +43,7 @@ const PaperSubmission = ()  => {
             <h4 className=" font-bold text-blue-950 text-xl text-center  bg-green-500 p-3 rounded-tl-3xl ">
               Plagiarism Policy
             </h4>
-            <p className="text-white bg-black rounded-br-3xl p-3">
+            <p className="mb-8 bg-secondary-500 text-neutral-100 rounded-br-3xl p-7 text-justify tracking-wide">
             1) The paper prior to submission should be checked for plagiarism
             from licensed plagiarism softwares like Turnitin/iAuthenticate{" "}
             <br />

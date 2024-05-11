@@ -4,20 +4,8 @@ const Footer = () => {
   return (
     <div className="footer">
       <div className="row">
-        <div className="col flex flex-col gap-2">
-          <div className="flex gap-2">
-            <img className="w-[70px] h-[70px]" src="vste-logo.jpg" alt="" />
-            <img className="w-[80px] h-[80px]" src="du.png" alt="" />
-            <img className="w-[70px] h-[70px]" src="portagal-logo.jpg" alt="" />
-          </div>
-          <div className="flex gap-2">
-            <img className="w-[100px] h-[100px]" src="ksmv-logo.png" alt="" />
-            <img
-              className="w-[80px] h-[80px] mt-2"
-              src="gtbit-logo.png"
-              alt=""
-            />
-          </div>
+        <div className="col ">
+            <img className="w-[110px] h-[110px] rounded-3xl	" src="vste-logo.jpg" alt="" />
         </div>
         <div className="flex flex-col">
           <div className="col">

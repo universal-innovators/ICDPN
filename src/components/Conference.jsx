@@ -24,16 +24,15 @@ const Conference = () => {
             networking among universities and institutions from India and abroad
             for promoting research. ICDPN- 2024 will be held at Institute of
             Technology and Business in České Budějovice, Near Prague, Czech
-            Republic, Europe (Venue) & Guru Tegh Bahadur Institute of Technology
-            (GTBIT), Guru Gobind Singh Indraprastha University (GGSIPU), New
-            Delhi.
+            Republic, Europe (Venue).
           </p>
           <p className="tracking-wide text-lg text-red-600">
           All the papers and the proceedings of ICDPN-2024 will be sent to SCOPUS for evalution!
           </p>
           <br />
+          
           <b className="tracking-wide text-lg mr-3">All papers must be submitted online via this link:</b>
-          <button className="btn">Paper Submission Link</button>
+          <button className="btn"><a href="https://cmt3.research.microsoft.com/SDCN2024" target="_blank" >Paper Submission Link</a></button>
         </div>
         <div>
           <AutoScroller />
