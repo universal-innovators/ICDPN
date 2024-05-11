@@ -4,10 +4,9 @@ const Publications = () => {
   return (
     <div className="container">
       <hr />
-      <div className="text-center  bg-green-500 p-3 rounded-tl-3xl rounded-br-3xl">
-        <b className="underline font-extrabold text-xl ">
-          Publications
-        </b></div>
+      <div className="text-center mt-3 mb-3 bg-green-500 p-3 rounded-tl-3xl rounded-br-3xl">
+        <b className=" font-extrabold text-xl tracking-wider">Publications</b>
+      </div>
       <hr />
       <div className="sm:flex justify-around mt-10 gap-7">
         <div className="sponsor-text-container">

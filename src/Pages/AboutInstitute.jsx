@@ -4,11 +4,12 @@ const AboutInstitute = () => {
   return (
     <div className="container">
       <hr />
-      <div className="text-center  bg-green-500 p-3 rounded-tl-3xl rounded-br-3xl">
-        <b className="underline font-extrabold text-xl ">
-          About Institute
-        </b></div>
-      <hr />
+      <div className="text-center mt-3 mb-3 bg-green-500 p-3 rounded-tl-3xl rounded-br-3xl">
+          <b className=" font-extrabold text-xl tracking-wider">
+            About Institute
+          </b>
+        </div>
+        <hr />
       <div className="sm:flex justify-around gap-7">
         <div className="sponsor-text-container">
           <h4 className="text-center  bg-green-500 p-3 rounded-tl-3xl rounded-br-3xl" >About Institute of Technology and Business in České Budějovice, Near Prague, Czech Republic, Europe</h4>

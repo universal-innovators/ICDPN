@@ -17,7 +17,7 @@ const Nav = () => {
   }
 
   return (
-    <div className="sm:h-8  w-full top-0 left-0 fixed z-10">
+    <div className="sm:h-8  w-full top-0 left-0 fixed z-10 ">
       <div className="navbar shadow-lg w-full h-16 md:h-24 md:flex items-center md:justify-around text-[15px] bg-white py-4  left-0">
         <div
           onClick={() => setOpen(!open)}
@@ -27,7 +27,7 @@ const Nav = () => {
         </div>
         {/* linke items */}
         <ul
-          className={`navbar md:flex md:justify-between md:items-center md:pb-0 pb-12 md:static bg-white md:z-auto z-[-1] 
+          className={`navbar container md:flex md:justify-between md:items-center md:pb-0 pb-12 md:static bg-white md:z-auto z-[-1] 
           left-0 w-full md:full md:pl-0  transition-all duration-500 ease-in 
           ${open ? "visible" : "hidden"}`}
         >
@@ -263,7 +263,7 @@ const Nav = () => {
                     </p>
                   </Link>
                 </DropdownMenuItem>
-                <DropdownMenuItem>
+                {/* <DropdownMenuItem>
                   <Link
                     to="/industry-experts"
                     className="text-gray-800 hover:text-blue-400 duration-500"
@@ -279,7 +279,7 @@ const Nav = () => {
                       </p>
                     </p>
                   </Link>
-                </DropdownMenuItem>
+                </DropdownMenuItem> */}
                 <DropdownMenuItem>
                   <Link
                     to="/advisory-committee"

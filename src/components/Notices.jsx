@@ -9,7 +9,7 @@ const Notices = () => {
       <hr />
       <div className="flex flex-col text-lg">
         <p className="text-gray-600">
-        ICDPN-2024 will be organised by Institute of Technology and Business in České Budějovice, Near Prague, Czech Republic, Europe (Venue) & Guru Tegh Bahadur Institute of Technology (GTBIT) affiliated to Guru Gobind Singh Indraprastha University , Delhi, India on 19th - 20th September 2024.
+        ICDPN-2024 will be organised by Institute of Technology and Business in České Budějovice, Near Prague, Czech Republic, Europe (Venue) on 19th - 20th September 2024.
         </p>
         
       </div>

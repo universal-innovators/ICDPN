@@ -1,12 +1,6 @@
-import Slider from '@/components/Slider'
-import React from 'react'
-import {
-    Card,
-    CardContent,
-  } from '@/components/ui/card'
-
-
-
+import Slider from "@/components/Slider";
+import React from "react";
+import { Card, CardContent } from "@/components/ui/card";
 
 const VisitorsGuide = () => {
   return (
@@ -65,47 +59,101 @@ Charles Bridge is a historic bridge over the Vltava River, connecting the Old To
         {/* <div className='grid sm:grid-cols-4 mt-10 gap-y-10 ml-10 mb-10 '>
         <Card className='hover:scale-110  bg-black shadow-xl shadow-violet-950 text-white duration-1000 w-[300px]  rounded-tr-3xl rounded-tl-none rounded-br-none rounded-bl-3xl'>
 
-  <CardContent>
-    <p><p className='text-center font-bold underline text-yellow-200'>Charles Bridge</p><br/>
-Charles Bridge is a historic bridge over the Vltava River, connecting the Old Town with the Lesser Town (Malá Strana). It's adorned with statues and offers beautiful views of Prague Castle.<br/>
-<img src='https://www.sdcn-conf.com/static/media/1.4cf429d4831d584a7fa9.jpeg' className=' object-fill rounded-xl'/></p>
-  </CardContent>
-  
-</Card>
-<Card className='hover:scale-110  bg-black shadow-xl shadow-violet-950 text-white duration-1000 w-[300px]  rounded-tr-3xl rounded-tl-none rounded-br-none rounded-bl-3xl'>
-  
-  <CardContent>
-  <p><p className='text-center font-bold underline text-yellow-200'>Charles Bridge</p><br/>
-Charles Bridge is a historic bridge over the Vltava River, connecting the Old Town with the Lesser Town (Malá Strana). It's adorned with statues and offers beautiful views of Prague Castle.<br/>
-<img src='https://www.sdcn-conf.com/static/media/1.4cf429d4831d584a7fa9.jpeg' className=' object-fill rounded-xl'/></p>
-  </CardContent>
-  
-</Card>
-<Card className='hover:scale-110  bg-black shadow-xl shadow-violet-950 text-white duration-1000 w-[300px]  rounded-tr-3xl rounded-tl-none rounded-br-none rounded-bl-3xl'>
-  
-  <CardContent>
-  <p><p className='text-center font-bold underline text-yellow-200'>Charles Bridge</p><br/>
-Charles Bridge is a historic bridge over the Vltava River, connecting the Old Town with the Lesser Town (Malá Strana). It's adorned with statues and offers beautiful views of Prague Castle.<br/>
-<img src='https://www.sdcn-conf.com/static/media/1.4cf429d4831d584a7fa9.jpeg' className=' object-fill rounded-xl'/></p>
-  </CardContent>
-  
-</Card>
-<Card className='hover:scale-110  bg-black shadow-xl shadow-violet-950 text-white duration-1000 w-[300px]  rounded-tr-3xl rounded-tl-none rounded-br-none rounded-bl-3xl'>
-  
-  <CardContent>
-  <p><p className='text-center font-bold underline text-yellow-200'>Charles Bridge</p><br/>
-Charles Bridge is a historic bridge over the Vltava River, connecting the Old Town with the Lesser Town (Malá Strana). It's adorned with statues and offers beautiful views of Prague Castle.<br/>
-<img src='https://www.sdcn-conf.com/static/media/1.4cf429d4831d584a7fa9.jpeg' className=' object-fill rounded-xl'/></p>
-  </CardContent>
-  
-</Card>
-<Card className='hover:scale-110  bg-black shadow-xl shadow-violet-950 text-white duration-1000 w-[300px]  rounded-tr-3xl rounded-tl-none rounded-br-none rounded-bl-3xl'>
-  <CardContent>
-  <p><p className='text-center font-bold underline text-yellow-200'>Charles Bridge</p><br/>
-Charles Bridge is a historic bridge over the Vltava River, connecting the Old Town with the Lesser Town (Malá Strana). It's adorned with statues and offers beautiful views of Prague Castle.<br/>
-<img src='https://www.sdcn-conf.com/static/media/1.4cf429d4831d584a7fa9.jpeg' className=' object-fill rounded-xl'/></p>
-  </CardContent>
-</Card>
+      <div className="grid sm:grid-cols-4 mt-10 gap-y-10 ml-10 mb-10 ">
+        <Card className="hover:scale-110  bg-black shadow-xl shadow-violet-950 text-white duration-1000 w-[300px]  rounded-tr-3xl rounded-tl-none rounded-br-none rounded-bl-3xl">
+          <CardContent>
+            <p>
+              <p className="text-center font-bold underline text-yellow-200">
+                Charles Bridge
+              </p>
+              <br />
+              Charles Bridge is a historic bridge over the Vltava River,
+              connecting the Old Town with the Lesser Town (Malá Strana). It's
+              adorned with statues and offers beautiful views of Prague Castle.
+              <br />
+              <img
+                src="https://www.sdcn-conf.com/static/media/1.4cf429d4831d584a7fa9.jpeg"
+                className=" object-fill rounded-xl"
+              />
+            </p>
+          </CardContent>
+        </Card>
+        <Card className="hover:scale-110  bg-black shadow-xl shadow-violet-950 text-white duration-1000 w-[300px]  rounded-tr-3xl rounded-tl-none rounded-br-none rounded-bl-3xl">
+          <CardContent>
+            <p>
+              <p className="text-center font-bold underline text-yellow-200">
+                Charles Bridge
+              </p>
+              <br />
+              Charles Bridge is a historic bridge over the Vltava River,
+              connecting the Old Town with the Lesser Town (Malá Strana). It's
+              adorned with statues and offers beautiful views of Prague Castle.
+              <br />
+              <img
+                src="https://www.sdcn-conf.com/static/media/1.4cf429d4831d584a7fa9.jpeg"
+                className=" object-fill rounded-xl"
+              />
+            </p>
+          </CardContent>
+        </Card>
+        <Card className="hover:scale-110  bg-black shadow-xl shadow-violet-950 text-white duration-1000 w-[300px]  rounded-tr-3xl rounded-tl-none rounded-br-none rounded-bl-3xl">
+          <CardContent>
+            <p>
+              <p className="text-center font-bold underline text-yellow-200">
+                Charles Bridge
+              </p>
+              <br />
+              Charles Bridge is a historic bridge over the Vltava River,
+              connecting the Old Town with the Lesser Town (Malá Strana). It's
+              adorned with statues and offers beautiful views of Prague Castle.
+              <br />
+              <img
+                src="https://www.sdcn-conf.com/static/media/1.4cf429d4831d584a7fa9.jpeg"
+                className=" object-fill rounded-xl"
+              />
+            </p>
+          </CardContent>
+        </Card>
+        <Card className="hover:scale-110  bg-black shadow-xl shadow-violet-950 text-white duration-1000 w-[300px]  rounded-tr-3xl rounded-tl-none rounded-br-none rounded-bl-3xl">
+          <CardContent>
+            <p>
+              <p className="text-center font-bold underline text-yellow-200">
+                Charles Bridge
+              </p>
+              <br />
+              Charles Bridge is a historic bridge over the Vltava River,
+              connecting the Old Town with the Lesser Town (Malá Strana). It's
+              adorned with statues and offers beautiful views of Prague Castle.
+              <br />
+              <img
+                src="https://www.sdcn-conf.com/static/media/1.4cf429d4831d584a7fa9.jpeg"
+                className=" object-fill rounded-xl"
+              />
+            </p>
+          </CardContent>
+        </Card>
+        <Card className="hover:scale-110  bg-black shadow-xl shadow-violet-950 text-white duration-1000 w-[300px]  rounded-tr-3xl rounded-tl-none rounded-br-none rounded-bl-3xl">
+          <CardContent>
+            <p>
+              <p className="text-center font-bold underline text-yellow-200">
+                Charles Bridge
+              </p>
+              <br />
+              Charles Bridge is a historic bridge over the Vltava River,
+              connecting the Old Town with the Lesser Town (Malá Strana). It's
+              adorned with statues and offers beautiful views of Prague Castle.
+              <br />
+              <img
+                src="https://www.sdcn-conf.com/static/media/1.4cf429d4831d584a7fa9.jpeg"
+                className=" object-fill rounded-xl"
+              />
+            </p>
+          </CardContent>
+        </Card>
+      </div>
+    </div>
+  );
+};
 
 
 
