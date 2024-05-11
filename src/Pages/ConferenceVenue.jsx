@@ -34,20 +34,7 @@ const ConferenceVenue = () => {
             </ul>
             
           </div>
-          <div className=" hover:scale-105 duration-1000 mt-7 p-4 text-white bg-black rounded-xl ">
-           <div className=" bg-cyan-200 border-blue-600 border-2 text-center  rounded-tr-3xl rounded-bl-3xl font-bold  text-black text-xl p-1 ">Co-Partner Venue:
-            </div>                                                                               
-            <br />
-            <ul>
-            <li><p>Guru Tegh Bahadur Institute of Technology (GTBIT)(GGSIPU)</p></li>
-            <li><p>Rajouri Garden</p></li>
-            <li><p>New Delhi, Delhi,</p></li>
-            <li><p>Pincode: 110064</p></li>
-            <li><p>INDIA</p></li>
-            </ul>
-            
-            
-          </div>
+          
         </div>
         <div>
           <ImpDates />

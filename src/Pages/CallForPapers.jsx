@@ -27,7 +27,7 @@ const CallForPapers = () => {
           <br />
           <p className=" text-center bg-green-500 p-3 rounded-tl-3xl rounded-br-3xl" >
             <b >
-              SDCN 2024 TRACKS:
+              ICDPN 2024 TRACKS:
             </b>
             
           </p>
