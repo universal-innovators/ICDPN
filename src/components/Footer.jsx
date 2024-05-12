@@ -21,10 +21,10 @@ const Footer = () => {
               <a href="mailto:icicc.ui@gmail.com">
                 <img className=" h-[31px]" src="/envelope-solid.svg" alt="" />
               </a>
-              <a href="https://www.linkedin.com/in/icicc-conf-31a3b6151/">
+              <a href="https://www.linkedin.com/in/icdpn-conf-839527308">
                 <img className="w-[31px] h-7" src="linkedin.svg" alt="" />
               </a>
-              <a href="https://www.facebook.com/profile.php?id=80022446397656">
+              <a href="https://www.facebook.com/profile.php?id=61559587830249">
                 <img
                   className="w-[31px] h-7"
                   src="square-facebook.svg"
