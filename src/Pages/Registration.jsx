@@ -15,28 +15,28 @@ const Registration = () => {
         to complete the following steps.
         <br />
         <br />
-        <b>Step1 - Registration Fee:</b> It is mandatory for at least one author
+        <b>Registration Fee:</b> It is mandatory for at least one author
         of an accepted paper to register in order for the paper to appear in the
         proceedings and included in the Technical Program.
         <br />
-        <p className=" bg-violet-600 rounded-3xl p-7 mt-3 text-lg text-white">
-          <b className="text-green-400">
+        <p className="  rounded-3xl p-7 mt-3 text-lg ">
+          <b className="">
             Author/Co-Author Registration Fee Includes
           </b>
           <br />
-          1)Welcome reception
+          1) Welcome reception
           <br />
-          2)Badge
+          2) Badge
           <br />
-          3)Conference Kit with Proceeding
+          3) Conference Kit with Proceeding
           <br />
-          4)Participation in the technical program
+          4) Participation in the technical program
           <br />
-          5)Coffee breaks
+          5) Coffee breaks
           <br />
-          6)Lunch
+          6) Lunch
           <br />
-          7)Banquet
+          7) Banquet
         </p>
       </p>
       <div className="w-10/12 m-auto flex-col content-center rounded-2xl p-3 bg-black text-white border-black border-[1px] ">
