@@ -15,11 +15,11 @@ function Body() {
             Online presentation of papers is allowed due to pandemic
           </p>
         </div>
-        <div>
+        {/* <div>
           <button className="btn">
             <a href="https://cmt3.research.microsoft.com/ICICC2025">Submit Paper</a>
           </button>
-        </div>
+        </div> */}
       </div>
       <div className="scroller m-auto mt-[4rem] ">
         <ul className="tag-list scroller_inner">
