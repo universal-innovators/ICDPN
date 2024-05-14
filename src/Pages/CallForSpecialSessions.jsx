@@ -110,7 +110,7 @@ const CallForSpecialSessions = () => {
         <br />
         <b>ICDPN-2024</b>
       <br />
-      <a
+      {/* <a
         href="Session_Proposal_Template.0f17863ff9e16d5c9c77 (3) .docx"
         download={"Session_Proposal_Template.docx"}
       >
@@ -119,7 +119,7 @@ const CallForSpecialSessions = () => {
             Session Proposal Template
           </div>
         </button>
-      </a>
+      </a> */}
     </div>
   );
 };
