@@ -27,7 +27,7 @@ const PaperSubmission = ()  => {
             (not exceeding 10 pages written in A4 size) . Please refer the
             attached springer template for preparation of your paper.
             <br />
-            2) All papers must be submitted online. via
+            2) All papers must be submitted online.
             <br />
             3) All submissions will be thoroughly peer-reviewed by experts based
             on originality, significance and clarity.

@@ -4,8 +4,9 @@ const Footer = () => {
   return (
     <div className="footer">
       <div className="row">
-        <div className="col ">
-            <img className="w-[110px] h-[110px] rounded-3xl	" src="vste-logo.jpg" alt="" />
+        <div className="col flex gap-4">
+            <img className="w-[80px] h-[80px] rounded-lg" src="vste-logo.jpg" alt="" />
+            <img className="w-[80px] h-[80px] rounded-lg" src="bpit.jpeg" alt="" />
         </div>
         <div className="flex flex-col">
           <div className="col">
@@ -21,10 +22,10 @@ const Footer = () => {
               <a href="mailto:icicc.ui@gmail.com">
                 <img className=" h-[31px]" src="/envelope-solid.svg" alt="" />
               </a>
-              <a href="https://www.linkedin.com/in/icicc-conf-31a3b6151/">
+              <a href="https://www.linkedin.com/in/icdpn-conf-839527308">
                 <img className="w-[31px] h-7" src="linkedin.svg" alt="" />
               </a>
-              <a href="https://www.facebook.com/profile.php?id=80022446397656">
+              <a href="https://www.facebook.com/profile.php?id=61559587830249">
                 <img
                   className="w-[31px] h-7"
                   src="square-facebook.svg"
