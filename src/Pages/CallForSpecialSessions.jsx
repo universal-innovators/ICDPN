@@ -51,8 +51,7 @@ const CallForSpecialSessions = () => {
         <br />
         <br />
         <p className="text-black tracking-wide text-justify bg-violet-400 p-7 rounded-3xl">
-          1) All accepted papers will be published in the proceedings of
-          ICDPN-2024 (Scopus Indexed)
+          1)All the papers and the proceedings of ICDPN-2024 will be published by Springer(Proposed).
           <br />
           2) You will get 20% of the total fees collected in your session.
           <br />

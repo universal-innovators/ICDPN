@@ -20,7 +20,7 @@ const CallForINTWork = () => {
         in the " International Conference on Data-Processing and Networking"
         (ICDPN-2024) , to be held at Institute of Technology and Business in
         České Budějovice, Near Prague, Czech Republic, Europe (Venue) during
-        19th - 20th September of your research domain. We are diligently working
+        25th-26th October of your research domain. We are diligently working
         to bring some of the most knowledgeable academician from all over the
         world and business leaders to discuss critical research topics. The
         two-day conference will include a workshop, technical workshops and
@@ -35,8 +35,7 @@ const CallForINTWork = () => {
         Highlights of the conference and Special Session Benefits:
       </div>
       <p className=" bg-violet-400 p-7 tracking-wide text-justify text-black rounded-br-3xl">
-        1) All accepted papers will be published in the proceedings of
-        ICDPN-2024 (Scopus Indexed)
+        1) All the papers and the proceedings of ICDPN-2024 will be published by Springer(Proposed).
         <br />
         2) The workshop organizers will be entitled to receive a renumeration of
         20% of the total fees collected in the workshop.
@@ -63,7 +62,7 @@ const CallForINTWork = () => {
         8) Many international and national key note speakers will be delivering
         their lectures on latest innovative technologies in the conference.
         <br />
-        19) Easy accessibility of the well-connected conference venue.
+        9) Easy accessibility of the well-connected conference venue.
       </p>
       <br />
       <br />
