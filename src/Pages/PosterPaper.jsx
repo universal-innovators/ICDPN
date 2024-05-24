@@ -23,13 +23,13 @@ const PosterPaper = () => {
           <br />
           2.Kindly ensure your paper is formatted s (not exceeding 8 pages
           written in A4 size).
-          {/* All papers must be submitted online via{" "}
+          All papers must be submitted online via{" "}
           <a
             className="text-blue-500 underline"
-            href="https://cmt3.research.microsoft.com/User/Login?ReturnUrl=%2FICICC2025"
+            href="https://cmt3.research.microsoft.com/ICDPN2024"
           >
             Microsoft CMT Submission Portal
-          </a>{" "} */}
+          </a>{" "}
           <br />
           3.All submissions will be thoroughly peer-reviewed by experts based on
           originality, significance and clarity.
