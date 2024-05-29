@@ -22,16 +22,15 @@ export default function Header() {
           <p className="text-red-500 ">
             <span className="text-black">ORGANISED BY : </span><span className="font-medium">Institute of Technology and Business in České Budějovice, Near
             Prague, Czech Republic, Europe (Venue)</span>
-            , <span className="text-black ">in association with </span> 
-            <span className="text-blue-800 font-medium">Bhagwan Parshuram Institute of Technology, Delhi, India</span>
+            
             
           </p>
         </div>
-        <img
+        {/* <img
           className="sm:w-[100px] sm:h-[100px] w-[70px] h-[70px] m-[10px]"
           src="bpit.jpeg"
           alt=""
-        />
+        /> */}
         {/* <div className="logo ">
           <img
           className=" sm:w-[150px] sm:h-[150px] w-[120px] h-[120px] mx-auto "
