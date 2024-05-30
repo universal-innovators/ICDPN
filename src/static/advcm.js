@@ -175,7 +175,7 @@ const advcm=[
     },
     {
       name: 'Dr. Atta ur Rehman Khan',
-      info: 'King Saud University, Riyadh'
+      info: 'College of Engineering and IT, Ajman University, UAE'
     }
   ]
   
