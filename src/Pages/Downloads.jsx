@@ -12,7 +12,7 @@ const Downloads = () => {
       <hr />
 
       <div className="sm:flex flex-wrap gap-7 justify-around">
-        <div className="    p-6 rounded-3xl mt-8 sm:ml-[2rem] download-blocks">
+        <div className="  ml-0  p-6 rounded-3xl mt-8 sm:ml-[2rem] download-blocks">
           <div className="flex gap-2 flex-wrap  mb-5">
             
             <div className="relative">

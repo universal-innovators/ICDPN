@@ -12,7 +12,7 @@ const Publications = () => {
         <div className="sponsor-text-container">
           <h4 className="text-center">PUBLICATION-PROCEEDINGS</h4>
           <br />
-          <p className="mb-[1rem] ">All the accepted papers of ICDPN-2024 will be published as proceedings of ICDPN - 2024 indexed by Scopus, Ei, WoS, and other reputed databases. High-quality selected extended conference papers will be invited to submit for publication in the special issues.</p>
+          <p className="mb-[1rem] ">All the accepted papers of ICDPN-2024 will be published as proceedings of ICDPN - 2024 indexed by Springer(Proposed), Ei, WoS, and other reputed databases. High-quality selected extended conference papers will be invited to submit for publication in the special issues.</p>
           <br />
           <div className="mb-[30px]">
             <ul className="books flex justify-between flex-wrap m-[10px] list-none">
@@ -69,7 +69,7 @@ const Publications = () => {
           <h4 className="text-center">INDEXING</h4>
           <br />
           <div className="indexing flex justify-around flex-wrap gap-3">
-            <img src="scopus.png" alt="" />
+            {/* <img src="scopus.png" alt="" /> */}
             <img src="iet.jpeg" alt="" />
             <img src="wti.jpeg" alt="" />
             <img src="eg.png" alt="" />

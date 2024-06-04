@@ -6,7 +6,7 @@ const Footer = () => {
       <div className="row">
         <div className="col flex gap-4">
             <img className="w-[80px] h-[80px] rounded-lg" src="vste-logo.jpg" alt="" />
-            <img className="w-[80px] h-[80px] rounded-lg" src="bpit.jpeg" alt="" />
+            {/* <img className="w-[80px] h-[80px] rounded-lg" src="bpit.jpeg" alt="" /> */}
         </div>
         <div className="flex flex-col">
           <div className="col">
