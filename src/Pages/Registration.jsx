@@ -3,10 +3,8 @@ const Registration = () => {
     <div className="container mb-9">
       <hr />
       <div className="text-center mt-3 mb-3 bg-green-500 p-3 rounded-tl-3xl rounded-br-3xl">
-          <b className=" font-extrabold text-xl tracking-wider">
-            Registration
-          </b>
-        </div>
+        <b className=" font-extrabold text-xl tracking-wider">Registration</b>
+      </div>
       <hr />
       <br />
       {/* <div className='w-10/12 h-[1px] ml-10 mt-4 bg-gray-400'></div><br/> */}
@@ -15,14 +13,12 @@ const Registration = () => {
         to complete the following steps.
         <br />
         <br />
-        <b>Registration Fee:</b> It is mandatory for at least one author
-        of an accepted paper to register in order for the paper to appear in the
+        <b>Registration Fee:</b> It is mandatory for at least one author of an
+        accepted paper to register in order for the paper to appear in the
         proceedings and included in the Technical Program.
         <br />
         <p className="  rounded-3xl p-7 mt-3 text-lg ">
-          <b className="">
-            Author/Co-Author Registration Fee Includes
-          </b>
+          <b className="">Author/Co-Author Registration Fee Includes</b>
           <br />
           1) Welcome reception
           <br />
@@ -100,11 +96,15 @@ const Registration = () => {
           </a>
         </div>
         <br />
-        <div className="flex  items-stretch"><div className="w-[45%] h-[1px] m-auto mt-4  bg-gray-400"></div>
-        <div className="text-center ">OR</div>
-        <div className="w-[45%] h-[1px] m-auto mt-4  bg-gray-400"></div></div><br/>
-        
-        <div className="text-center font-bold text-lg ">Pay via Stripe</div><br/>
+        <div className="flex  items-stretch">
+          <div className="w-[45%] h-[1px] m-auto mt-4  bg-gray-400"></div>
+          <div className="text-center ">OR</div>
+          <div className="w-[45%] h-[1px] m-auto mt-4  bg-gray-400"></div>
+        </div>
+        <br />
+
+        <div className="text-center font-bold text-lg ">Pay via Stripe</div>
+        <br />
         <div className=" text-center">
           <a
             href="https://buy.stripe.com/00gcP969V3is1Jm5kn"
@@ -118,7 +118,6 @@ const Registration = () => {
             </button>
           </a>
         </div>
-
 
         {/* <div className="w-10/12 h-[1px] m-auto mt-4  bg-gray-400"></div> */}
         <br />
@@ -193,10 +192,13 @@ const Registration = () => {
             </tr> */}
           </tbody>
         </table>
-        
       </div>
-      <div className="w-[90%] sm:overflow-auto overflow-scroll m-auto">
-      <table className=" table1 bg-black text-white m-auto sm:w-10/12 mt-11">
+      <div className="w-[90%] mt-20 sm:overflow-auto overflow-scroll m-auto">
+        <div className="flex flex-col items-center">
+          <h3 className="text-3xl">Conference Attendee Registration</h3>
+          <p className="text-red-500">Note: Attendee is participant of the conference attending the conference without any paper registration</p>
+        </div>
+        <table className=" table1 bg-black text-white m-auto sm:w-10/12 mt-11">
           <thead>
             <th>Category</th>
             <th>Early Registration (before 30th July, 2024)</th>
@@ -213,15 +215,12 @@ const Registration = () => {
               <td>USD 200</td>
               <td>USD 250</td>
             </tr>
-            
-            </tbody>
-            </table>
-
+          </tbody>
+        </table>
       </div>
       <div className="discount text-violet-700">
         *Special Discount of 10% for Universal Inovator (UI) Member
       </div>
-      
     </div>
   );
 };
