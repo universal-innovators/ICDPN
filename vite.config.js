@@ -10,13 +10,11 @@ export default defineConfig({
     },
   },
   build: {
-    rollupOptions: {
-      input: 'index.html',
-    },
+    outDir: 'dist'
   },
   server: {
-    historyApiFallback: true,
-  },
+    historyApiFallback: true
+  }
   
 });
 
