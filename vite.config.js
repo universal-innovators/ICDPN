@@ -14,6 +14,13 @@ export default defineConfig({
   },
   server: {
     historyApiFallback: true
+  },
+  preview: {
+    port: 5000,
+    open: true,
+    proxy: {
+      // Proxy if needed
+    }
   }
   
 });
