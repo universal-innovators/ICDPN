@@ -1,9 +1,6 @@
 services:
-  - type: web
+  - type: static_site
     name: icdpn-conf
     env: static
+    buildCommand: npm run build
     staticPublishPath: dist
-    routes:
-      - type: rewrite
-        source: /.*
-        destination: /index.html
