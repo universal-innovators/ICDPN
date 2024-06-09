@@ -17,7 +17,7 @@ export default defineConfig({
   server: {
     historyApiFallback: true,
   },
-  base: '/ICDPN/', // replace 'my-vite-app' with your repository name
+  
 });
 
 // vite.config.js
