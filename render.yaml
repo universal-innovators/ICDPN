@@ -1,6 +1,0 @@
-services:
-  - type: static_site
-    name: icdpn-conf
-    env: static
-    buildCommand: npm install && npm run build
-    staticPublishPath: dist
