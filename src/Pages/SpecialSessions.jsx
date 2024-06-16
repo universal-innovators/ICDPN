@@ -7,6 +7,7 @@ import {
 } from "@/components/ui/card";
 import ss1 from "./Sessions/SS-1.pdf";
 import ss2 from "./Sessions/SS-2.pdf";
+import ss3 from "./Sessions/SS-3.pdf";
 
 const SpecialSessions = () => {
   return (
@@ -64,7 +65,31 @@ const SpecialSessions = () => {
             </p>
           </CardFooter>
         </Card>
-        
+        <Card className="hover:scale-110 h-[300px] bg-blue-900 shadow-xl shadow-violet-950 text-white duration-1000 w-[300px]  rounded-tr-3xl rounded-tl-none rounded-br-none rounded-bl-3xl">
+          <CardHeader>
+            <CardTitle className="text-sm">
+              Session - 3:Next-Generation AI and ML: Key Trends Shaping the Future
+            </CardTitle>
+          </CardHeader>
+          <CardContent>
+            <p>
+              Organisers
+              <br />
+              Dr. Garima Jaiswal, 
+              Assistant Professor, SCSET, Bennett University, India<br/>
+              Dr. Ritu Rani,Research Associate -III (DST Curie AI Project), Indira Gandhi Delhi Technical University for Women, India
+            </p>
+          </CardContent>
+          <CardFooter>
+            <p>
+              Listing
+              <br />
+              <a href={ss3} target="_blank">
+              SS 003.pdf
+              </a>
+            </p>
+          </CardFooter>
+        </Card>
       </div>
     </div>
   );
