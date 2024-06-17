@@ -11,7 +11,7 @@ const Home = () => {
       <Slider />
       <Conference />
       
-      <marquee className=" sm:mx-11 text-2xl text-violet-600">CONFERENCE WILL BE ORGANISED IN HYBRID MODE. PAPER REGISTERED FOR ONLINE PRESENTATION WILL BE GIVEN 40% DISCOUNT ON REGISTRATION FEES.</marquee>
+      <marquee className="mt-9 sm:mx-11 text-2xl text-violet-600">CONFERENCE WILL BE ORGANISED IN HYBRID MODE. PAPER REGISTERED FOR ONLINE PRESENTATION WILL BE GIVEN 40% DISCOUNT ON REGISTRATION FEES.</marquee>
       <figure className="w-[20rem] border rounded-md shadow-xl shadow-gray-600 m-10 p-10 border-black h-[20rem] mx-auto"><img src="https://icdam-conf.com/assets/images/oneAPI.jpg" className=""></img>
       <figcaption className="mx-auto text-center">Intel® oneAPI<br/></figcaption>
       </figure>
