@@ -15,7 +15,7 @@ const Home = () => {
       <figure className="w-[20rem] border rounded-md shadow-xl shadow-gray-600 m-10 p-10 border-black h-[20rem] mx-auto"><img src="https://icdam-conf.com/assets/images/oneAPI.jpg" className=""></img>
       <figcaption className="mx-auto text-center">Intel® oneAPI<br/></figcaption>
       </figure>
-      <div className=" p-11 rounded-tl-3xl rounded-br-3xl m-11 mx-[4rem] bg-violet-600 text-white text-lg"><b className="text-2xl">Highlights</b><br/>
+      <div className=" p-11 rounded-tl-3xl rounded-br-3xl m-11 sm:mx-[4rem] mx-[2rem] bg-violet-600 text-white text-lg"><b className="text-2xl">Highlights</b><br/>
 1)The conference focusses in bridging the gap between Industry and academia by organizing the workshops by the industry experts on latest technologies for the participants.<br/>
 2)The conference is anticipated to attract a large number of high quality submissions and stimulate the cutting-edge research discussions among many academic pioneering researchers, scientists, industrial engineers, students from all around the world.<br/>
 3)Another goal of this conference is to provide opportunities for academics to receive informal in-depth feedback through discussions, and to enable them to establish contact with professionals in various countries and institutions and also to encourage regional and international communication and collaboration.<br/>
