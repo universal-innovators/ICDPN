@@ -8,6 +8,8 @@ import {
 import ss1 from "./Sessions/SS-1.pdf";
 import ss2 from "./Sessions/SS-2.pdf";
 import ss3 from "./Sessions/SS-3.pdf";
+import ss4 from "./Sessions/SS-4.pdf";
+
 
 const SpecialSessions = () => {
   return (
@@ -90,6 +92,34 @@ const SpecialSessions = () => {
             </p>
           </CardFooter>
         </Card>
+        <Card className="hover:scale-110 h-[300px] bg-blue-900 shadow-xl shadow-violet-950 text-white duration-1000 w-[300px]  rounded-tr-3xl rounded-tl-none rounded-br-none rounded-bl-3xl">
+          <CardHeader>
+            <CardTitle className="text-sm">
+              Session - 4:Recent Advances in Intelligent Systems and Communication & Machine Learning
+            </CardTitle>
+          </CardHeader>
+          <CardContent>
+            <p>
+              Organisers
+              <br />
+              Dr. Vikash Yadav, Government Polytechnic Bighapur Unnao, Uttar Pradesh, India
+              <br/>
+              Mr. Anup Lal Yadav, Chandigarh University, Mohali, Punjab, India<br/>
+             
+Dr. Navpreet Kaur Walia, Chandigarh University, Mohali, Punjab, India
+            </p>
+          </CardContent>
+          <CardFooter>
+            <p>
+              Listing
+              <br />
+              <a href={ss4} target="_blank">
+              SS 004.pdf
+              </a>
+            </p>
+          </CardFooter>
+        </Card>
+        
       </div>
     </div>
   );
