@@ -17,11 +17,11 @@ const PosterPaper = () => {
           challenges faced by the community in the 21st century.
           <br />
           1.The Original unpublished Research Papers, Articles and working
-          papers having a maximum length of 8 pages on the topics related to the
+          papers having a maximum length of 10 pages on the topics related to the
           theme are invited for Poster Paper presentations in the conference
           proceedings.
           <br />
-          2.Kindly ensure your paper is formatted s (not exceeding 8 pages
+          2.Kindly ensure your paper is formatted s (not exceeding 10 pages
           written in A4 size).
           All papers must be submitted online via{" "}
           <a
