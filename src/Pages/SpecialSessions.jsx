@@ -9,6 +9,7 @@ import ss1 from "./Sessions/SS-1.pdf";
 import ss2 from "./Sessions/SS-2.pdf";
 import ss3 from "./Sessions/SS-3.pdf";
 import ss4 from "./Sessions/SS-4.pdf";
+import ss5 from "./Sessions/SS-5.pdf";
 
 
 const SpecialSessions = () => {
@@ -119,6 +120,33 @@ Dr. Navpreet Kaur Walia, Chandigarh University, Mohali, Punjab, India
             </p>
           </CardFooter>
         </Card>
+        <Card className="hover:scale-110  bg-blue-900 shadow-xl shadow-violet-950 text-white duration-1000 w-[300px]  rounded-tr-3xl rounded-tl-none rounded-br-none rounded-bl-3xl">
+          <CardHeader>
+            <CardTitle className="text-sm">
+              Session - 5:Scalable Data Processing Techniques at Enterprises for AI applications
+            </CardTitle>
+          </CardHeader>
+          <CardContent>
+            <p>
+              Organisers
+              <br />
+              Dr. Balaji Ganesh Rajagopal, SRM Institute of Science and Technology Tiruchirappalli, India<br/>            
+              
+              Dr. Deebalakshmi Ramalingam, SRM Institute of Science and Technology Tiruchirappalli, India
+            </p>
+          </CardContent>
+          <CardFooter>
+            <p>
+              Listing
+              <br />
+              <a href={ss5} target="_blank">
+              SS 005.pdf
+              </a>
+            </p>
+          </CardFooter>
+        </Card>
+        
+
         
       </div>
     </div>
