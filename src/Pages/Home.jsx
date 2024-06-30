@@ -2,7 +2,7 @@ import ImpDates from "@/components/ImpDates";
 import Conference from "../components/Conference";
 import Slider from "../components/Slider";
 import Notices from "@/components/Notices";
-import Marquee from "react-fast-marquee";
+//import Marquee from "react-fast-marquee";
 
 const Home = () => {
   
