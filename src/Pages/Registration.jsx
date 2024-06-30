@@ -76,34 +76,11 @@ const Registration = () => {
         </table> */}
         {/* <div className="w-10/12 h-[1px] m-auto mt-4 bg-gray-400 shadow-white shadow-2xl"></div> */}
         <br />
-        <div className="text-center font-bold text-lg ">Pay via Paypal</div>
+        <div className="text-center font-bold text-lg ">Pay via Stripe</div>
         <div className="text-center  ">
           For Payment from International Authors/Attendees, use the following
           Paypal/Stripe link with additional 5% service charges applies
         </div>
-        <br />
-        <div className=" text-center">
-          <a
-            href="https://www.paypal.com/paypalme/ICICCConference?locale.x=en_GB"
-            target="_blank"
-            className=" "
-          >
-            <button className=" self-center  bg-blue-600 rounded-lg hover:bg-gradient-to-t from-blue-900 to-cyan-500  ">
-              <div className="m-auto p-[0.5rem] text-white">
-                Pay with Paypal
-              </div>
-            </button>
-          </a>
-        </div>
-        <br />
-        <div className="flex  items-stretch">
-          <div className="w-[45%] h-[1px] m-auto mt-4  bg-gray-400"></div>
-          <div className="text-center ">OR</div>
-          <div className="w-[45%] h-[1px] m-auto mt-4  bg-gray-400"></div>
-        </div>
-        <br />
-
-        <div className="text-center font-bold text-lg ">Pay via Stripe</div>
         <br />
         <div className=" text-center">
           <a
@@ -118,6 +95,49 @@ const Registration = () => {
             </button>
           </a>
         </div>
+        <br />
+        <div className="flex  items-stretch">
+          <div className="w-[45%] h-[1px] m-auto mt-4  bg-gray-400"></div>
+          <div className="text-center ">OR</div>
+          <div className="w-[45%] h-[1px] m-auto mt-4  bg-gray-400"></div>
+        </div>
+        <br />
+
+        <div className="text-center font-bold text-lg ">Pay via Paypal</div>
+        <br />
+        <div className=" text-center">
+          <a
+            href="https://www.paypal.com/paypalme/ICICCConference?locale.x=en_GB"
+            target="_blank"
+            className=" "
+          >
+            <button className=" self-center  bg-blue-600 rounded-lg hover:bg-gradient-to-t from-blue-900 to-cyan-500  ">
+              <div className="m-auto p-[0.5rem] text-white">
+                Pay with Paypal
+              </div>
+            </button>
+          </a>
+        </div><br/>
+        <div className="flex  items-stretch">
+          <div className="w-[45%] h-[1px] m-auto mt-4  bg-gray-400"></div>
+          <div className="text-center ">OR</div>
+          <div className="w-[45%] h-[1px] m-auto mt-4  bg-gray-400"></div>
+        </div>
+        <div className="text-center font-bold text-lg ">Pay via Razorpay</div>
+        <br />
+        <div className=" text-center">
+          <a
+            href="https://pages.razorpay.com/pl_O9GXsuOr0CaWwE/view"
+            target="_blank"
+            className=" "
+          >
+            <button className=" self-center  bg-blue-600 rounded-lg hover:bg-gradient-to-t from-blue-900 to-cyan-500  ">
+              <div className="m-auto p-[0.5rem] text-white">
+                Pay with Razorpay
+              </div>
+            </button>
+          </a>
+        </div><br/>
 
         {/* <div className="w-10/12 h-[1px] m-auto mt-4  bg-gray-400"></div> */}
         <br />
