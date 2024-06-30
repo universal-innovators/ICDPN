@@ -8,6 +8,9 @@ import {
 import ss1 from "./Sessions/SS-1.pdf";
 import ss2 from "./Sessions/SS-2.pdf";
 import ss3 from "./Sessions/SS-3.pdf";
+import ss4 from "./Sessions/SS-4.pdf";
+import ss5 from "./Sessions/SS-5.pdf";
+
 
 const SpecialSessions = () => {
   return (
@@ -18,7 +21,7 @@ const SpecialSessions = () => {
       <div className="w-10/12 h-[1px] ml-10 mt-4 bg-gray-400"></div>
       <br />
       <div className="grid gap-y-11 sm:grid-cols-4 ml-6 mb-10">
-        <Card className="hover:scale-110 h-[300px] bg-blue-900 shadow-xl shadow-violet-950 text-white duration-1000 w-[300px]  rounded-tr-3xl rounded-tl-none rounded-br-none rounded-bl-3xl">
+        <Card className="hover:scale-110  bg-blue-900 shadow-xl shadow-violet-950 text-white duration-1000 w-[300px]  rounded-tr-3xl rounded-tl-none rounded-br-none rounded-bl-3xl">
           <CardHeader>
             <CardTitle className="text-sm">
               Session - 1:Recent Advances in AI and Machine Learning: Innovations, Environmental Sustainability, and Healthcare
@@ -41,7 +44,7 @@ const SpecialSessions = () => {
             </p>
           </CardFooter>
         </Card>
-        <Card className="hover:scale-110 h-[300px] bg-blue-900 shadow-xl shadow-violet-950 text-white duration-1000 w-[300px]  rounded-tr-3xl rounded-tl-none rounded-br-none rounded-bl-3xl">
+        <Card className="hover:scale-110  bg-blue-900 shadow-xl shadow-violet-950 text-white duration-1000 w-[300px]  rounded-tr-3xl rounded-tl-none rounded-br-none rounded-bl-3xl">
           <CardHeader>
             <CardTitle className="text-sm">
               Session - 2:IoT Technologies for Data Networking for Sustainable Urban Advancements
@@ -65,7 +68,7 @@ const SpecialSessions = () => {
             </p>
           </CardFooter>
         </Card>
-        <Card className="hover:scale-110 h-[300px] bg-blue-900 shadow-xl shadow-violet-950 text-white duration-1000 w-[300px]  rounded-tr-3xl rounded-tl-none rounded-br-none rounded-bl-3xl">
+        <Card className="hover:scale-110  bg-blue-900 shadow-xl shadow-violet-950 text-white duration-1000 w-[300px]  rounded-tr-3xl rounded-tl-none rounded-br-none rounded-bl-3xl">
           <CardHeader>
             <CardTitle className="text-sm">
               Session - 3:Next-Generation AI and ML: Key Trends Shaping the Future
@@ -90,6 +93,61 @@ const SpecialSessions = () => {
             </p>
           </CardFooter>
         </Card>
+        <Card className="hover:scale-110  bg-blue-900 shadow-xl shadow-violet-950 text-white duration-1000 w-[300px]  rounded-tr-3xl rounded-tl-none rounded-br-none rounded-bl-3xl">
+          <CardHeader>
+            <CardTitle className="text-sm">
+              Session - 4:Recent Advances in Intelligent Systems and Communication & Machine Learning
+            </CardTitle>
+          </CardHeader>
+          <CardContent>
+            <p>
+              Organisers
+              <br />
+              Dr. Vikash Yadav, Government Polytechnic Bighapur Unnao, Uttar Pradesh, India
+              <br/>
+              Mr. Anup Lal Yadav, Chandigarh University, Mohali, Punjab, India<br/>
+             
+Dr. Navpreet Kaur Walia, Chandigarh University, Mohali, Punjab, India
+            </p>
+          </CardContent>
+          <CardFooter>
+            <p>
+              Listing
+              <br />
+              <a href={ss4} target="_blank">
+              SS 004.pdf
+              </a>
+            </p>
+          </CardFooter>
+        </Card>
+        <Card className="hover:scale-110  bg-blue-900 shadow-xl shadow-violet-950 text-white duration-1000 w-[300px]  rounded-tr-3xl rounded-tl-none rounded-br-none rounded-bl-3xl">
+          <CardHeader>
+            <CardTitle className="text-sm">
+              Session - 5:Scalable Data Processing Techniques at Enterprises for AI applications
+            </CardTitle>
+          </CardHeader>
+          <CardContent>
+            <p>
+              Organisers
+              <br />
+              Dr. Balaji Ganesh Rajagopal, SRM Institute of Science and Technology Tiruchirappalli, India<br/>            
+              
+              Dr. Deebalakshmi Ramalingam, SRM Institute of Science and Technology Tiruchirappalli, India
+            </p>
+          </CardContent>
+          <CardFooter>
+            <p>
+              Listing
+              <br />
+              <a href={ss5} target="_blank">
+              SS 005.pdf
+              </a>
+            </p>
+          </CardFooter>
+        </Card>
+        
+
+        
       </div>
     </div>
   );
