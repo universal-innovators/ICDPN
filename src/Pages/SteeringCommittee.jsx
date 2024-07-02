@@ -98,7 +98,7 @@ const SteeringCommittee = () => {
             <h3>Publicity Chair(s):</h3>
             <hr />            
 <p>Dr Marta Harničárová</p>
-<p>(Department of Mechanical Engineering, Faculty of Technology, Institute of Technology and Business in České Budějovice)</p>
+<p>(Department of Mechanical Engineering, Faculty of Technology, Institute of Technology and Business in České Budějovice)</p><br/>
             <p>Dr. Akshi Kumar</p>
             <p>(Manchester Metropolitan University, UK)</p>
             <br />
