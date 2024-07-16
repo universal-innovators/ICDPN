@@ -12,6 +12,7 @@ import ss4 from "./Sessions/SS-4.pdf";
 import ss5 from "./Sessions/SS-5.pdf";
 import ss6 from "./Sessions/SS-6.pdf";
 import ss7 from "./Sessions/SS-7.pdf";
+import ss8 from "./Sessions/SS-8.pdf";
 
 const sessionDetails = [
   {
@@ -79,6 +80,16 @@ const sessionDetails = [
     file: ss7,
     fileName: "SS 007.pdf",
   },
+  {
+    title: "Session - 8: Transforming the Capabilities of Unmanned Systems with Artificial Intelligence and IoT",
+    organisers: [
+      "Dr. Vandana Sharma, Computer Science Department, CHRIST University, Delhi NCR, Ghaziabad, India",
+      "Dr. Ghulam E Mustafa Abro, Interdisciplinary Research Centre for Aviation and Space Exploration, King Fahd University of Petroleum and Minerals, Kingdom of Saudi Arabia",
+    ],
+    file: ss8,
+    fileName: "SS 008.pdf",
+  },
+  
   
 ];
 

@@ -7,11 +7,11 @@ const ImpDates = () => {
       </div>
       <hr />
       <div className="flex flex-col text-lg leading-loose">
-        <h2 className="text-gray-600">Deadline for Manuscript submission: <span className="text-gray-500">15th July 2024</span></h2>
-        <h2 className="text-gray-600">Notification of first review: <span className="text-gray-500">5th August 2024</span></h2>
-        <h2 className="text-gray-600">Submission of revised Manuscript: <span className="text-gray-500">20th August 2024</span></h2>
-        <h2 className="text-gray-600">Notification of final acceptance: <span className="text-gray-500">30th August 2024</span></h2>
-        <h2 className="text-gray-600">Final Manuscript due: <span className="text-gray-500">10th September 2024</span></h2>
+        <h2 className="text-gray-600">Deadline for Manuscript submission: <span className="text-gray-500">31st July 2024</span></h2>
+        <h2 className="text-gray-600">Notification of first review: <span className="text-gray-500">15th August 2024</span></h2>
+        <h2 className="text-gray-600">Submission of revised Manuscript: <span className="text-gray-500">25th August 2024</span></h2>
+        <h2 className="text-gray-600">Notification of final acceptance: <span className="text-gray-500">05th September 2024</span></h2>
+        <h2 className="text-gray-600">Final Manuscript due: <span className="text-gray-500">15th September 2024</span></h2>
         <h2 className="text-gray-600">Conference Date: <span className="text-gray-500">25th-26th October 2024</span></h2>
       </div>
     </div>
