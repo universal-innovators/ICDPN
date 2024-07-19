@@ -13,6 +13,7 @@ import ss5 from "./Sessions/SS-5.pdf";
 import ss6 from "./Sessions/SS-6.pdf";
 import ss7 from "./Sessions/SS-7.pdf";
 import ss8 from "./Sessions/SS-8.pdf";
+import ss9 from "./Sessions/SS-9.pdf";
 
 const sessionDetails = [
   {
@@ -88,6 +89,14 @@ const sessionDetails = [
     ],
     file: ss8,
     fileName: "SS 008.pdf",
+  },
+  {  title: "Session - 9: Explainable AI and large-scale data analytics models for healthcare engineering",
+    organisers: [
+      "Dr. Karthika Subbaraj, Associate Professor, Department of Information Technology, Sri Sivasubramaniya Nadar College of Engineering, Kalavakkam, Chennai, India.",
+      "Dr. Balamurugan Balasamy, Associate Dean- Students, Shiv Nadar University, Delhi-NCR Campus, Noida, Indiaand Minerals, Kingdom of Saudi Arabia",
+    ],
+    file: ss9,
+    fileName: "SS 009.pdf",
   },
   
   
