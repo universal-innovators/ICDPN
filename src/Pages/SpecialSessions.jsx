@@ -72,11 +72,8 @@ const sessionDetails = [
   {
     title: "Session - 7: Computational Intelligence and Communication System",
     organisers: [
-      "Dr. Tanweer Ali, Associate Professor, Department of Electronics and Communication Engineering, Manipal Institute of Technology, Manipal Academy of Higher Education, Manipal 576104",
-      "Dr. Praveen Kumar,  Assistant Professor, Department of Electronics and Communication Engineering, Manipal Institute of  Technology, Manipal Academy of Higher Education, Manipal",
-      "Dr. Subramanya G Nayak, Professor, Department of Electronics and   Communication Engineering, Manipal Institute of Technology, Manipal Academy of Higher Education, Manipal   576104, India",
-      "Dr. Pramod Kumar, Professor, Department of Electronics and Communication Engineering, Manipal Institute of Technology, Manipal Academy of Higher Education, Manipal   576104, India",
-      "Dr. Sameena Pathan, Assistant Professor, Department of Information and Communication Technology, Manipal Institute of Technology, Manipal Academy of Higher Education, Manipal, 576104, India",
+      "Dr. Tanweer Ali (Associate Professor), Dr. Praveen Kumar (Assistant Professor), Dr. Subramanya G Nayak (Professor), Dr. Pramod Kumar (Professor) Department of Electronics and Communication Engineering, Manipal Institute of Technology, MAHE, Manipal",
+      "Dr. Sameena Pathan, Assistant Professor, Department of Information and Communication Technology, MAHE, Manipal",
     ],
     file: ss7,
     fileName: "SS 007.pdf",
