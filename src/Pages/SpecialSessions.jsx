@@ -14,6 +14,7 @@ import ss6 from "./Sessions/SS-6.pdf";
 import ss7 from "./Sessions/SS-7.pdf";
 import ss8 from "./Sessions/SS-8.pdf";
 import ss9 from "./Sessions/SS-9.pdf";
+import ss10 from "./Sessions/SS-10.pdf";
 
 const sessionDetails = [
   {
@@ -95,6 +96,14 @@ const sessionDetails = [
     file: ss9,
     fileName: "SS 009.pdf",
   },
+  {  title: "Session - 10: Digital Technologies for Biotechnology and Bioinformatics",
+    organisers: [
+      "Dr. Dheeraj Chitara, Associate Professor, Department of Science, Biyani Girls College, Vidhyadhar Nagar, Jaipur, India.",
+      "Dr. Shilpa Bhargava, Associate Professor, Department of Science, Biyani Girls College, Vidhyadhar Nagar, Jaipur, India",
+    ],
+    file: ss10,
+    fileName: "SS 010.pdf",
+  }
   
   
 ];
