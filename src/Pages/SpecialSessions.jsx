@@ -15,6 +15,7 @@ import ss7 from "./Sessions/SS-7.pdf";
 import ss8 from "./Sessions/SS-8.pdf";
 import ss9 from "./Sessions/SS-9.pdf";
 import ss10 from "./Sessions/SS-10.pdf";
+import ss11 from "./Sessions/SS-11.pdf";
 
 const sessionDetails = [
   {
@@ -103,6 +104,13 @@ const sessionDetails = [
     ],
     file: ss10,
     fileName: "SS 010.pdf",
+  },
+  {  title: "Session - 11: AI/ML in LifeSciences/Pharmaceutical and Smart Health Care]",
+    organisers: [
+      "[Mr Rohit Kumar Bondugula, University of Hyderabad, India",
+    ],
+    file: ss11,
+    fileName: "SS 011.pdf",
   }
   
   
