@@ -107,7 +107,7 @@ const sessionDetails = [
   },
   {  title: "Session - 11: AI/ML in LifeSciences/Pharmaceutical and Smart Health Care]",
     organisers: [
-      "[Mr Rohit Kumar Bondugula, University of Hyderabad, India",
+      "Mr Rohit Kumar Bondugula, University of Hyderabad, India",
     ],
     file: ss11,
     fileName: "SS 011.pdf",
