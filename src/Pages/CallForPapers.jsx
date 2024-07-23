@@ -54,6 +54,7 @@ const CallForPapers = () => {
             <li>Software-Defined Networking (SDN) and Network Function Virtualization (NFV)</li>
             <li>Internet of Things (IoT) and Sensor Networks</li>
             <li>Edge and Fog Computing</li>
+            <li>Drone Communication and Security</li>
           </ul>
           <div className="border-l-[5px] border-red-800 ">
 
@@ -91,6 +92,7 @@ const CallForPapers = () => {
             <li>Artificial Intelligence for healthcare</li>
             <li>Collaborative and Social Computing</li>
             <li>E-health and Biomedical Application</li>
+            <li>Artificial Intelligence in Drone Technology</li>
           </ul>
           <hr />
           <p className="text-justify mt-5 tracking-wide mb-6 text-lg font-light">All submissions must be original and may not be under review by another publication. INTERESTED AUTHORS SHOULD CONSULT THE CONFERENCE’S GUIDELINES FOR MANUSCRIPT SUBMISSIONS at <Link to="/Paper-Submission" className="underline font-semibold">https://icdpn-conf.com/Paper-Submission</Link>  All submitted papers will be reviewed on a double-blind, peer review basis. 
