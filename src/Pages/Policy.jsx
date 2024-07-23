@@ -25,7 +25,7 @@ const Policy = () => {
                 For the purposes of this privacy statement, &quotPersonal
                 Information&quot refers to any information that can be used to
                 identify an individual, either alone or in conjunction with
-                other information that ICICC may have. Generally speaking, you
+                other information that ICDPN may have. Generally speaking, you
                 are not required to enter any Personal Information in order to
                 browse our website. Nonetheless, we gather specific data like
                 this:
@@ -144,12 +144,12 @@ const Policy = () => {
               Information:
             </h2>
             <p className="mb-4 ml-4">
-              ICICC does not share your Personal Information with third parties
+              ICDPN does not share your Personal Information with third parties
               for marketing purposes without seeking your prior permission.
             </p>
             <p className="mb-4 ml-4">We share your Personal Information within</p>
             <ul className="list-disc list-inside ml-4">
-              <li>ICICC or with any of its subsidiaries;</li>
+              <li>ICDPN or with any of its subsidiaries;</li>
               <li>Business partners;</li>
               <li>Service vendors;</li>
               <li>Authorized third-party agents; or</li>
@@ -178,7 +178,7 @@ const Policy = () => {
               VI. Data security:
             </h2>
             <p className="mb-4 ml-4">
-            ICICC adopts reasonable and appropriate security practices and procedures including administrative, physical security, and technical controls in order to safeguard your Personal Information.
+            ICDPN adopts reasonable and appropriate security practices and procedures including administrative, physical security, and technical controls in order to safeguard your Personal Information.
             </p>
           </section>
           <section>
@@ -196,7 +196,7 @@ const Policy = () => {
             <p className="mb-4 ml-4">
             Our privacy practices regarding Personal Information that we collect and store about you through our portals will be as per the privacy policy of those portals.
 
-ICICC provides links to third-party websites and services. However, ICICC is not responsible for the privacy statements, practices, or the contents of such third-party websites.
+ICDPN provides links to third-party websites and services. However, ICDPN is not responsible for the privacy statements, practices, or the contents of such third-party websites.
             </p>
           </section>
           <section>
@@ -204,7 +204,7 @@ ICICC provides links to third-party websites and services. However, ICICC is not
               IX. Updates to this privacy statement:
             </h2>
             <p className="mb-4 ml-4">
-            ICICC may change the data privacy practices and update this privacy statement as and when the need arises, and the same will be made available on the website. But our commitment to protect the privacy of website users will continue to remain.
+            ICDPN may change the data privacy practices and update this privacy statement as and when the need arises, and the same will be made available on the website. But our commitment to protect the privacy of website users will continue to remain.
             </p>
           </section>
 
