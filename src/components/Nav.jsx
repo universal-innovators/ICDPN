@@ -352,7 +352,7 @@ const Nav = () => {
                onClick={closeHandler}
             >
               <p className="m-[8.5px] text-center">
-                <p className="custom px-[2.5px]">Privacy Policy</p>
+                <p className="custom px-[2.5px]">Policy</p>
               </p>
             </Link>
           </li>

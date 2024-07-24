@@ -22,8 +22,8 @@ const Policy = () => {
                 1. Personal Information that we process
               </h3>
               <p className="mb-4">
-                For the purposes of this privacy statement, &quotPersonal
-                Information&quot refers to any information that can be used to
+                For the purposes of this privacy statement, "Personal
+                Information" refers to any information that can be used to
                 identify an individual, either alone or in conjunction with
                 other information that ICDPN may have. Generally speaking, you
                 are not required to enter any Personal Information in order to
