@@ -118,6 +118,8 @@ const SteeringCommittee = () => {
            
             <p>Dr. Mamoona Humayun</p>
             <p>(Department of Information Systems, College of Computer and Information Sciences, Jouf University, Sakaka, Saudi Arabia)</p>
+            <p> Prof. Mete YAĞANOĞLU</p>
+            <p>(Ataturk University, Department of Computer Engineering, Turkey)</p>
           </div>
           
             
