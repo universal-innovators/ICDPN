@@ -17,7 +17,7 @@ const CallForPapers = () => {
           </p>
           <p className="text-justify tracking-wide mb-2 text-lg font-light">
             <span className="font-bold">All accepted, registered and presented papers will be published in Springer Nature. </span>
-            All books published in the series are submitted for consideration in Springer LNNS Approved Conference (Indexed in Scopus, EI, WoS and Many More).
+            All books published in the series are submitted for consideration in Springer (Approved).
           </p>
           <p className="text-justify tracking-wide mb-2 text-lg font-light">ICDPN-2024 will feature five parallel Tracks, each focusing on distinct areas. The major themes are identified (but not limited to) and listed below under the Conference Tracks.</p>
           <br />

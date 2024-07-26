@@ -21,10 +21,10 @@ export default function Header() {
           </p>
           <p className="text-red-500 ">
             <span className="text-black">ORGANISED BY : </span><span className="font-medium">Institute of Technology and Business in České Budějovice, Near
-            Prague, Czech Republic, Europe (Venue)</span>
-            
+            Prague, Czech Republic, Europe (Venue)</span>       
             
           </p>
+          Springer LNNS Approved Conference (Indexed in Scopus, EI, WoS and Many More)
         </div>
         {/* <img
           className="sm:w-[100px] sm:h-[100px] w-[70px] h-[70px] m-[10px]"

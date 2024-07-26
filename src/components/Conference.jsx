@@ -27,7 +27,7 @@ const Conference = () => {
             Republic, Europe (Venue).
           </p>
           <p className="tracking-wide text-lg text-red-600">
-          All the papers and the proceedings of ICDPN-2024 will be published by Springer LNNS Approved Conference (Indexed in Scopus, EI, WoS and Many More).
+          All the papers and the proceedings of ICDPN-2024 will be published by Springer (Approved).
           </p>
           <br />
           

@@ -35,7 +35,7 @@ const CallForINTWork = () => {
         Highlights of the conference and Special Session Benefits:
       </div>
       <p className=" bg-violet-400 p-7 tracking-wide text-justify text-black rounded-br-3xl">
-        1) All the papers and the proceedings of ICDPN-2024 will be published by Springer LNNS Approved Conference (Indexed in Scopus, EI, WoS and Many More).
+        1) All the papers and the proceedings of ICDPN-2024 will be published by Springer (Approved).
         <br />
         2) The workshop organizers will be entitled to receive a renumeration of
         20% of the total fees collected in the workshop.
