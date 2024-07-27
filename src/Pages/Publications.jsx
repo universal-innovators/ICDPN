@@ -15,7 +15,7 @@ const Publications = () => {
           <p className="mb-[1rem] ">All the accepted papers of ICDPN-2024 will be published as proceedings of ICDPN - 2024 indexed by Springer (Approved), Ei, WoS, and other reputed databases. High-quality selected extended conference papers will be invited to submit for publication in the special issues.</p>
           <br />
           <div className="mb-[30px]">
-            <ul className="books flex justify-between flex-wrap m-[10px] list-none">
+            <ul className="books flex justify-evenly flex-wrap m-[10px] list-none">
               <li>
                 <img src="physics.jpg" alt="" />
                 <p>Physical Communication, Elsevier (SCIE indexed) IF 2.37</p>
@@ -32,11 +32,11 @@ const Publications = () => {
                 <img src="intelligent.jpg" alt="" />
                 <p>Intelligent Decision Technologies (Indexed by SCOPUS & ESCI)</p>
               </li>
-              {/* <li>
-                <img src="cmes.jpeg" alt="" />
-                <p>Computer Modeling in Engineering & Sciences (SCIE Indexed IF 2.0)</p>
+               <li>
+                <img src="hbet.jpg" alt="" />
+                <p>Human Behavior and Emerging Technologies, Wiley- ESCI & Scopus</p>
               </li>
-              <li>
+              {/*<li>
                 <img src="jmm.jpg" alt="" />
                 <p>Journal of Mobile Multimedia(River)(Scopus and ESCI)</p>
               </li>
