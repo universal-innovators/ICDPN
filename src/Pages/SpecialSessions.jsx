@@ -124,12 +124,10 @@ const sessionDetails = [
     file: ss12,
     fileName: "SS 012.pdf",
   },
-  {  title: "Session - 13: Integrated Modern Network Technologies",
+  {  title: "Session - 13: Data-Processing and Networking in the field of Medical IoT",
     organisers: [
-      "Dr. Tanvi Gautam, Jaypee Institute of Information and Technology, INDIA",
-      "Dr. Prashant K. Gupta, Bennett University, Greater Noida, Uttar Pradesh, INDIA",
-      "Dr. Bireshwar Dass Mazumdar, Bennett University, Greater Noida, Uttar Pradesh, INDIA",
-      "Dr. T S Pradeep Kumar, Vellore Institute of Technology, Chennai Campus, INDIA"
+      "Dr. Vandana Sharma, Christ University, Delhi-NCR Campus",
+      "Dr. Durgansh Sharma, Christ University, Delhi-NCR Campus"
     ],
     file: ss13,
     fileName: "SS 013.pdf",
