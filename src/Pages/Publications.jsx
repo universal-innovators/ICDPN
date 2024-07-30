@@ -36,6 +36,18 @@ const Publications = () => {
                 <img src="hbet.jpg" alt="" />
                 <p>Human Behavior and Emerging Technologies, Wiley- ESCI & Scopus</p>
               </li>
+               <li>
+                <a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6221020" target="_blank">
+                <img src="jbhireview.png" alt=""/>
+                <p className="text-black">IEEE JOURNAL OF BIOMEDICAL AND HEALTH INFORMATICS( SCI, IF-6. 7)</p>
+                </a>
+              </li>
+               <li>
+                <a href="http://hcisj.com/" target="_blank">
+                <img src="hcisj.jfif" alt=""/>
+                <p className="text-black">Human-centric Computing and Information Sciences(SCI, IF-3. 9)</p>
+                </a>
+              </li>
               {/*<li>
                 <img src="jmm.jpg" alt="" />
                 <p>Journal of Mobile Multimedia(River)(Scopus and ESCI)</p>
