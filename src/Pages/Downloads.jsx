@@ -25,7 +25,7 @@ const Downloads = () => {
                     Manuscript Guidelines
                   </div>
                 </button>
-                <Download className="absolute sm:right-[10rem] sm:top-[3.2rem] right-14 top-11" />
+                
               </a>
             </div>
             <div className=" relative">
@@ -38,7 +38,7 @@ const Downloads = () => {
                     Checklist
                   </div>
                 </button>
-                <Download className="absolute sm:right-[8rem] right-[4rem] top-9" />
+                
               </a>
             </div>
             <div className=" relative">
@@ -51,7 +51,7 @@ const Downloads = () => {
                     Springer Word Template
                   </div>
                 </button>
-                <Download className="absolute sm:right-[8rem] right-[4rem] top-9" />
+                
               </a>
             </div>
           </div>
@@ -68,9 +68,9 @@ const Downloads = () => {
                     Special Session Proposal Template
                   </div>
                 </button>
-                <Download className="absolute sm:right-[8rem] sm:top-14 top-14 right-14" />
+                
               </a>
-            </div>
+            </div>            
           </div>
           
           
