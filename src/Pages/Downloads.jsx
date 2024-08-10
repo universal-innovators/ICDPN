@@ -41,6 +41,19 @@ const Downloads = () => {
                 <Download className="absolute sm:right-[8rem] right-[4rem] top-9" />
               </a>
             </div>
+            <div className=" relative">
+              <a
+                href="./Docs/Word+Template.zip"
+                target="_blank"
+              >
+                <button className="sm:w-[23rem] w-[17rem] rounded-tl-3xl rounded-br-3xl   bg-blue-600  hover:bg-gradient-to-t from-blue-900 to-cyan-500 ">
+                  <div className="m-auto px-[4rem] p-[2rem] text-white">
+                    Checklist
+                  </div>
+                </button>
+                <Download className="absolute sm:right-[8rem] right-[4rem] top-9" />
+              </a>
+            </div>
           </div>
           <div className="flex gap-2  mb-5 flex-wrap">
             
