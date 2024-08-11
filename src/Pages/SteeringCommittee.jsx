@@ -53,10 +53,10 @@ const SteeringCommittee = () => {
             <p>Roman Danel</p>
             <p>(Institute of Technology and Business in České Budějovice)</p>
             <br/>
-            <p>Dr. Zdzislaw Polkowski</p>
+            <p>Prof. WSG Dr. Eng. Zdzislaw Polkowski
+            </p>
             <p>
-              (The Karkonosze University of Applied Sciences in Jelenia Góra,
-              Poland)
+              (WSG University, Bydgoszcz, Poland)
             </p>
             
            

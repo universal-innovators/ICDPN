@@ -12,8 +12,8 @@ const advcm=[
       info: 'Jahangirnagar University, Bangladesh'
     },
     {
-      name: 'Prof(Dr.) Pawel Gren',
-      info: 'Jan Wyzykowski University, Poland'
+      name: 'Prof. WSG Dr. Marzena Sobczak-Michałowska',
+      info: 'Vice-Rector, WSG University, Bydgoszcz, Poland'
     },
     {
       name: 'Dr. Catarina Moreira',
@@ -40,10 +40,7 @@ const advcm=[
       name: 'Dr. Stefania Tomasiello',
       info: 'University of Tartu, Estonia'
     },
-    {
-      name: 'Dr. Tadeusz Kierzyk',
-      info: 'Prof UJW (Rector of Jan Wyzykowski University, Poland)'
-    },
+   
     { name: 'Dr. Shikun Zhou', info: 'University of Portsmouth, UK' },
     {
       name: 'Dr. Aida Mustapha',

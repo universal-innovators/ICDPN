@@ -37,8 +37,8 @@ const tpcm = [
       },
 
     {
-        name: 'Dr. Zdzislaw Polkowskia',
-        info: 'The Karkonosze University of Applied Sciences in Jelenia Góra, Poland'
+        name: 'Prof. WSG Dr. Eng. Zdzislaw Polkowski',
+        info: 'WSG University, Bydgoszcz, Poland'
       },
     { name: "Arvind Kumar Bhardwaj", info: "Capgemini, Test Lead, Texas, USA" },
     { name: "Dr. Enuouch Suleiman", info: "Bauchi State Govt. of Nigeria, Nigeria" },

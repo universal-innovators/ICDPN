@@ -29,9 +29,9 @@ const Home = () => {
           <CardContent>
             <p className="text-center flex flex-col items-center">
               <img src="./zdzislaw.jpeg" className="h-48 object-cover  mb-1 mt-2" />
-              <strong> Prof. Zdzislaw Polkowski</strong>
+              <strong> Prof. WSG Dr. Eng. Zdzislaw Polkowski</strong>
               <br />
-              Department of Business Intelligence in Management, Wroclaw University of Economics and Business, Poland
+              WSG University, Bydgoszcz, Poland
             </p>
           </CardContent>
         </Card>
