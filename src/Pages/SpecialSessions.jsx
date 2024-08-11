@@ -18,6 +18,7 @@ import ss10 from "./Sessions/SS-10.pdf";
 import ss11 from "./Sessions/SS-11.pdf";
 import ss12 from "./Sessions/SS-12.pdf";
 import ss13 from "./Sessions/SS-13.pdf";
+import ss14 from "./Sessions/SS-14.pdf";
 
 const sessionDetails = [
   {
@@ -131,6 +132,15 @@ const sessionDetails = [
     ],
     file: ss13,
     fileName: "SS 013.pdf",
+  }
+  ,
+  {  title: "Session - 14: Role of AI and Machine Learning in Biomedical Engineering",
+    organisers: [
+      "Dr. Gurmeet Singh, PhD IITD, Associate Professor, GTBIT",
+      ".Dr. Ramandeep Singh, Scientist-D, Neuro-engineering Lab, Department of Neurosurgery, AIIMS, New Delhi"
+    ],
+    file: ss14,
+    fileName: "SS 014.pdf",
   }
   
   
