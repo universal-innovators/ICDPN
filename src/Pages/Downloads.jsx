@@ -1,5 +1,6 @@
 import ImpDates from "@/components/ImpDates";
 import { Download } from "@mui/icons-material";
+import zipFile from "./Docs/Word+Template.zip"
 
 const Downloads = () => {
   return (
@@ -43,8 +44,7 @@ const Downloads = () => {
             </div>
             <div className=" relative">
               <a
-                href="./Docs/Word+Template.zip"
-                target="_blank"
+                href={zipFile}                
               >
                 <button className="sm:w-[23rem] w-[17rem] rounded-tl-3xl rounded-br-3xl   bg-blue-600  hover:bg-gradient-to-t from-blue-900 to-cyan-500 ">
                   <div className="m-auto px-[4rem] p-[2rem] text-white">
