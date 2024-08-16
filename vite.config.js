@@ -3,7 +3,7 @@ import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 
 export default defineConfig({
-  assetsInclude: ['**/*.zip'],
+  assetsInclude: ['**/*.zip','**/*.docx'],
   plugins: [react()],
   resolve: {
     alias: {

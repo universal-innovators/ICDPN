@@ -19,6 +19,7 @@ import ss11 from "./Sessions/SS-11.pdf";
 import ss12 from "./Sessions/SS-12.pdf";
 import ss13 from "./Sessions/SS-13.pdf";
 import ss14 from "./Sessions/SS-14.pdf";
+import ss15 from "./Sessions/SS-14.pdf";
 
 const sessionDetails = [
   {
@@ -137,10 +138,18 @@ const sessionDetails = [
   {  title: "Session - 14: Role of AI and Machine Learning in Biomedical Engineering",
     organisers: [
       "Dr. Gurmeet Singh, PhD IITD, Associate Professor, GTBIT",
-      ".Dr. Ramandeep Singh, Scientist-D, Neuro-engineering Lab, Department of Neurosurgery, AIIMS, New Delhi"
+      "Dr. Ramandeep Singh, Scientist-D, Neuro-engineering Lab, Department of Neurosurgery, AIIMS, New Delhi"
     ],
     file: ss14,
     fileName: "SS 014.pdf",
+  },
+  {  title: "Session - 15: Advancements in Empirical Artificial Intelligence",
+    organisers: [
+      "Dr. Deepak Sharma, Assistant Professor, Department of Computer Science, Aryabhatta College, South Campus, University of Delhi",
+      "Dr. Ranjan Kumar, Professor, Department of Computer Science, Aryabhatta College, South Campus, University of Delhi"
+    ],
+    file: ss15,
+    fileName: "SS 015.pdf",
   }
   
   

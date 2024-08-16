@@ -10,6 +10,9 @@ const Home = () => {
     <>
       <Slider />
       <Conference />
+
+
+      {/* Keynote Speakers */}
       <h1 className="pl-[20px] text-gray-600 text-3xl tracking-wide text-center mt-5">Keynote Speakers</h1>
       <div className="flex flex-wrap items-center  justify-around mt-10">
 
@@ -17,8 +20,8 @@ const Home = () => {
         <Card className=" duration-1000 w-[300px] m-1">
           <CardContent>
             <p className="text-center flex flex-col items-center">
-    
-            <img src="./balVirdee.jpeg" className="h-48 object-cover  mb-1 mt-2" />
+
+              <img src="./balVirdee.jpeg" className="h-48 object-cover  mb-1 mt-2" />
               <strong> Prof. Bal Virdee</strong>
               <br />
               Director of the Centre for Communications Technology, London Metropolitan University, London, UK
@@ -42,6 +45,17 @@ const Home = () => {
               <strong> Mr. Aninda Bose</strong>
               <br />
               Executive Editor Interdisciplinary Applied Sciences, Computational Intelligence, Energy             Springer Nature London
+            </p>
+          </CardContent>
+        </Card>
+        <Card className=" duration-1000 w-[300px] m-1">
+          <CardContent>
+            <p className="text-center flex flex-col items-center">
+              <img src="./stanislaw.jpg" className="h-48 object-cover  mb-1 mt-2" />
+              <strong> Prof. Ph.D. engineer Stanisław Duer
+              </strong>
+              <br />
+              PhD. Electronics Engineering
             </p>
           </CardContent>
         </Card>
