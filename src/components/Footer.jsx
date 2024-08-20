@@ -13,13 +13,13 @@ const Footer = () => {
             <h3>Contact Details</h3>
             <p className="email-id flex gap-[8px]">
               <img className="w-[20px]" src="/envelope-solid.svg" alt="" />
-              <p>icdpn.conf@gmail.com</p>
+              <p>icdpn.conf@gmail.com / icdpnconference@gmail.com</p>
             </p>
           </div>
           <div className="col">
             <h3>Social Media</h3>
             <div className="flex gap-3 items-center justify-between">
-              <a href="mailto:icicc.ui@gmail.com">
+              <a href="mailto:icdpnconference@gmail.com">
                 <img className=" h-[31px]" src="/envelope-solid.svg" alt="" />
               </a>
               <a href="https://www.linkedin.com/in/icdpn-conf-839527308">

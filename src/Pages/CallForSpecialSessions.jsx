@@ -86,6 +86,9 @@ const CallForSpecialSessions = () => {
           special session proposal at{" "}
           <a className="cursor-pointer text-blue-400 underline">
             icdpn.conf@gmail.com
+          </a>{" "} or {" "}
+          <a className="cursor-pointer text-blue-400 underline">
+          icdpnconference@gmail.com
           </a>{" "}
           latest by 30th June 2024 as per the format attached with this mail.
         </p>
