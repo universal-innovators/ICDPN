@@ -19,7 +19,8 @@ import ss11 from "./Sessions/SS-11.pdf";
 import ss12 from "./Sessions/SS-12.pdf";
 import ss13 from "./Sessions/SS-13.pdf";
 import ss14 from "./Sessions/SS-14.pdf";
-import ss15 from "./Sessions/SS-14.pdf";
+import ss15 from "./Sessions/SS-15.pdf";
+import ss16 from "./Sessions/SS-16.pdf";
 
 const sessionDetails = [
   {
@@ -150,6 +151,15 @@ const sessionDetails = [
     ],
     file: ss15,
     fileName: "SS 015.pdf",
+  },
+  {  title: "Session - 16: The AI Edge: Advanced Computing Techniques for Autonomous Innovation",
+    organisers: [
+      "Dr. Sumit Kumar Mishra, Assistant Professor, Galgotias University, Gr. Noida, India.",
+      "Dr. Manish Verma, Associate Professor, Galgotias University, Gr. Noida, India.",
+      "Ms. Divya Saxena,  Graduate  Research Assistant,  Florida International University  Miami,  USA"
+    ],
+    file: ss16,
+    fileName: "SS 016.pdf",
   }
   
   
