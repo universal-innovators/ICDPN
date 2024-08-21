@@ -69,7 +69,7 @@ const CallForINTWork = () => {
       <p className="text-white bg-black p-7 text-justify tracking-wide rounded-3xl">
         If you are interested to conduct an International Workshop, please email
         us the workshop proposal at{" "}
-        <a className="text-blue-300 underline">icdpn.conf@gmail.com</a> with
+        <a className="text-blue-300 underline">icdpn.conf@gmail.com</a> or <a className="text-blue-300 underline">icdpnconference@gmail.com</a> with
         subject line as “Proposal for ICDPN 2024 International Workshop”
       </p>
       <br />
