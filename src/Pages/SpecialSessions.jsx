@@ -21,6 +21,7 @@ import ss13 from "./Sessions/SS-13.pdf";
 import ss14 from "./Sessions/SS-14.pdf";
 import ss15 from "./Sessions/SS-15.pdf";
 import ss16 from "./Sessions/SS-16.pdf";
+import ss17 from "./Sessions/SS-17.pdf";
 
 const sessionDetails = [
   {
@@ -160,7 +161,16 @@ const sessionDetails = [
     ],
     file: ss16,
     fileName: "SS 016.pdf",
-  }
+  },
+  {  title: "Session - 17: Digital Technologies for Biotechnology and Bioinformatics",
+    organisers: [
+      "Dr. Dheeraj Chitara Department of Biotechnology, School of Sciences, JECRC University, Sitapura, Jaipur, India.",
+      "Dr. Shilpa Bhargava Department of Science, Biyani Girls College, Vidhyadhar Nagar, Jaipur, India.",
+      "Dr. Prashant Kumar Department of Bioinformatics, Kalinga University, Raipur, India."
+    ],
+    file: ss17,
+    fileName: "SS 017.pdf",
+  },
   
   
 ];
