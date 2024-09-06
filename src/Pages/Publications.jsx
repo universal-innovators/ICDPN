@@ -12,7 +12,22 @@ const Publications = () => {
         <div className="sponsor-text-container">
           <h4 className="text-center">PUBLICATION-PROCEEDINGS</h4>
           <br />
-          <p className="mb-[1rem] ">All the accepted papers of ICDPN-2024 will be published as proceedings of ICDPN - 2024 indexed by Springer (Approved), Ei, WoS, and other reputed databases. High-quality selected extended conference papers will be invited to submit for publication in the special issues.</p>
+          <p className="mb-[1rem] ">All the papers of ICAIN 2024 will be published in Springer LNNS series (SCOPUS, DBLP, EI Compendex, INSPEC, SCImago, zbMATH) . Some of the papers will be published Springer in AIS series Indexed by zbMATH, Google Scholar. All books published in the series are submitted for consideration in Web of Science.</p>
+          <br />        
+          <div className="mb-[30px]">
+            <ul className="books flex justify-evenly flex-wrap m-[10px] list-none">
+              <li>
+                <img src="lnns.jpg" alt="" />
+                {/* <p>Physical Communication, Elsevier (SCIE indexed) IF 2.37</p> */}
+              </li>
+              <li>
+                <img src="ais.jpg" alt="" />
+                {/* <p>Computer & Electrical Engineering, Elsevier (SCIE indexed) IF 4.15</p> */}
+              </li>
+              
+            </ul>
+          </div>  
+          <p className="mb-[1rem] ">Some of the High-quality selected extended papers of the conference will be invited to submit for publication in the special issues of the following journals :</p>
           <br />
           <div className="mb-[30px]">
             <ul className="books flex justify-evenly flex-wrap m-[10px] list-none">
