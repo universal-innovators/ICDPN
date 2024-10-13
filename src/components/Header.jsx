@@ -2,27 +2,31 @@ import Nav from "./Nav";
 
 export default function Header() {
   return (
-    <div>
+    <>
+
       <Nav />
 
-      <div className=" sm:flex testimonials max-w-fit py-7 px-auto bg-neutral-100 container sm:mt-[8rem]  mt-[5rem] mb-8  items-center  gap-[30px]">
+
+
+
+      <div className=" sm:flex testimonials max-w-fit py-4 px-auto bg-neutral-100 container sm:mt-[8rem] mt-[5rem] mb-8  items-center  gap-[30px]">
         <img
-          className="sm:w-[100px] sm:h-[100px] w-[70px] h-[70px] m-[10px]"
+          className="sm:w-[80px] sm:h-[80px] w-[60px] h-[60px] m-[10px]"
           src="vste-logo.jpg"
           alt=""
         />
 
-        <div className="header-text text-center tracking-wide text-xl ">
+        <div className="header-text text-center tracking-wide text-l ">
           <p className=" sm:mt-[5rem] md:mt-3 mb-3 font-medium">
             International Conference on Data-Processing and Networking
             <br /> (ICDPN-2024)
-            <br/>
+            <br />
             <p className=" sm:mt-[5rem] md:mt-3 mb-3 font-medium text-lg text-blue-800">Date: 25th-26th October, 2024</p>
           </p>
           <p className="text-red-500 ">
             <span className="text-black">ORGANISED BY : </span><span className="font-medium">Institute of Technology and Business in České Budějovice, Near
-            Prague, Czech Republic, Europe (Venue)</span>       
-            
+              Prague, Czech Republic, Europe (Venue)</span>
+
           </p>
           Springer LNNS Approved Conference (Indexed in Scopus, EI, WoS and Many More)
         </div>
@@ -38,7 +42,17 @@ export default function Header() {
             alt=""
           />
         </div> */}
+        <div className="h-full justify-around">
+          <div className="font-bold text-center mb-2">OUR SPONSORS</div>
+          <div className="flex flex-col justify-center items-center gap-2">
+            <img className="w-36 object-contain" src="sponsor1.jpg" alt="Sponsor 1" />
+            <img className="w-36 object-contain" src="sponsor2.png" alt="Sponsor 2" />
+          </div>
+        </div>
+
       </div>
-    </div>
+
+    </>
+
   );
 }
