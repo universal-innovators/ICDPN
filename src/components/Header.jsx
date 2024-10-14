@@ -65,6 +65,14 @@ export default function Header() {
               <img className="w-36 object-contain" src="sponsor5.png" alt="Sponsor 5" />
               <p className="text-center">zbMATH Open</p>
             </div>
+            <div className="w-1/6 flex flex-col justify-center items-center">
+              <img className="w-36 object-contain" src="sponsor6.jpg" alt="Sponsor 5" />
+              <p className="text-center">Servis</p>
+            </div>
+            <div className="w-1/6 flex flex-col justify-center items-center">
+              <img className="w-36 object-contain" src="sponsor7.jpg" alt="Sponsor 5" />
+              <p className="text-center">Kovo</p>
+            </div>
           </div>
         </div>
 
