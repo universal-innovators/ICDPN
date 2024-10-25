@@ -46,32 +46,36 @@ export default function Header() {
           <div className="font-bold text-center mb-2 text-xl">OUR SPONSORS</div>
           <div className="flex justify-around">
             <div className="w-1/6 flex flex-col justify-center items-center">
-              <img className="w-36 object-contain" src="sponsor1.jpg" alt="Sponsor 1" />
+              <img className="w-36 object-contain" src="sponsor1.jpg" alt="LINAMAR" />
               <p className="text-center">LINAMAR</p>
             </div>
             <div className="w-1/6 flex flex-col justify-center items-center">
-              <img className="w-36 object-contain" src="sponsor2.png" alt="Sponsor 2" />
+              <img className="w-36 object-contain" src="sponsor2.png" alt="Česke Centrum" />
               <p className="text-center">Česke Centrum</p>
             </div>
             <div className="w-1/6 flex flex-col justify-center items-center">
-              <img className="w-36 object-contain" src="sponsor3.png" alt="Sponsor 3" />
+              <img className="w-36 object-contain" src="sponsor3.png" alt="Česká Strojnická Společnost" />
               <p className="text-center">Česká Strojnická Společnost</p>
             </div>
             <div className="w-1/6 flex flex-col justify-center items-center">
-              <img className="w-36 object-contain" src="sponsor4.jpeg" alt="Sponsor 4" />
+              <img className="w-36 object-contain" src="sponsor4.jpeg" alt="WTi" />
               <p className="text-center">WTi</p>
             </div>
             <div className="w-1/6 flex flex-col justify-center items-center">
-              <img className="w-36 object-contain" src="sponsor5.png" alt="Sponsor 5" />
+              <img className="w-36 object-contain" src="sponsor5.png" alt="zbMATH Open" />
               <p className="text-center">zbMATH Open</p>
             </div>
             <div className="w-1/6 flex flex-col justify-center items-center">
-              <img className="w-36 object-contain" src="sponsor6.jpg" alt="Sponsor 5" />
+              <img className="w-36 object-contain" src="sponsor6.jpg" alt="Servis" />
               <p className="text-center">Servis</p>
             </div>
             <div className="w-1/6 flex flex-col justify-center items-center">
-              <img className="w-36 object-contain" src="sponsor7.jpg" alt="Sponsor 5" />
+              <img className="w-36 object-contain" src="sponsor7.jpg" alt="Kovo" />
               <p className="text-center">Kovo</p>
+            </div>
+            <div className="w-1/6 flex flex-col justify-center items-center">
+              <img className="w-36 object-contain" src="sponsor8.jpeg" alt="4Rail" />
+              <p className="text-center">4Rail</p>
             </div>
           </div>
         </div>
