@@ -42,43 +42,54 @@ export default function Header() {
           />
         </div> */}
         </div>
-        <div className="h-full w-full justify-around">
+        <div className="h-full w-full justify-around p-4">
           <div className="font-bold text-center mb-2 text-xl">OUR SPONSORS</div>
-          <div className="flex justify-around">
-            <div className="w-1/6 flex flex-col justify-center items-center">
-              <img className="w-36 object-contain" src="sponsor1.jpg" alt="LINAMAR" />
+          <div className="flex flex-wrap justify-center">
+            {/* Sponsor 1 */}
+            <div className="flex flex-col justify-center items-center w-1/2 sm:w-1/3 md:w-1/4 lg:w-1/6 mb-4">
+              <img className="sm:w-36 w-24 object-contain" src="sponsor1.jpg" alt="LINAMAR" />
               <p className="text-center">LINAMAR</p>
             </div>
-            <div className="w-1/6 flex flex-col justify-center items-center">
-              <img className="w-36 object-contain" src="sponsor2.png" alt="Česke Centrum" />
+            {/* Sponsor 2 */}
+            <div className="flex flex-col justify-center items-center w-1/2 sm:w-1/3 md:w-1/4 lg:w-1/6 mb-4">
+              <img className="sm:w-36 w-24 object-contain" src="sponsor2.png" alt="Česke Centrum" />
               <p className="text-center">Česke Centrum</p>
             </div>
-            <div className="w-1/6 flex flex-col justify-center items-center">
-              <img className="w-36 object-contain" src="sponsor3.png" alt="Česká Strojnická Společnost" />
+            {/* Sponsor 3 */}
+            <div className="flex flex-col justify-center items-center w-1/2 sm:w-1/3 md:w-1/4 lg:w-1/6 mb-4">
+              <img className="sm:w-36 w-24 object-contain" src="sponsor3.png" alt="Česká Strojnická Společnost" />
               <p className="text-center">Česká Strojnická Společnost</p>
             </div>
-            <div className="w-1/6 flex flex-col justify-center items-center">
-              <img className="w-36 object-contain" src="sponsor4.jpeg" alt="WTi" />
+            {/* Sponsor 4 */}
+            <div className="flex flex-col justify-center items-center w-1/2 sm:w-1/3 md:w-1/4 lg:w-1/6 mb-4">
+              <img className="sm:w-36 w-24 object-contain" src="sponsor4.jpeg" alt="WTi" />
               <p className="text-center">WTi</p>
             </div>
-            <div className="w-1/6 flex flex-col justify-center items-center">
-              <img className="w-36 object-contain" src="sponsor5.png" alt="zbMATH Open" />
+            {/* Sponsor 5 */}
+            <div className="flex flex-col justify-center items-center w-1/2 sm:w-1/3 md:w-1/4 lg:w-1/6 mb-4">
+              <img className="sm:w-36 w-24 object-contain" src="sponsor5.png" alt="zbMATH Open" />
               <p className="text-center">zbMATH Open</p>
             </div>
-            <div className="w-1/6 flex flex-col justify-center items-center">
-              <img className="w-36 object-contain" src="sponsor6.jpg" alt="Servis" />
+            {/* Sponsor 6 */}
+            <div className="flex flex-col justify-center items-center w-1/2 sm:w-1/3 md:w-1/4 lg:w-1/6 mb-4">
+              <img className="sm:w-36 w-24 object-contain" src="sponsor6.jpg" alt="Servis" />
               <p className="text-center">Servis</p>
             </div>
-            <div className="w-1/6 flex flex-col justify-center items-center">
-              <img className="w-36 object-contain" src="sponsor7.jpg" alt="Kovo" />
+            {/* Sponsor 7 */}
+            <div className="flex flex-col justify-center items-center w-1/2 sm:w-1/3 md:w-1/4 lg:w-1/6 mb-4">
+              <img className="sm:w-36 w-24 object-contain" src="sponsor7.jpg" alt="Kovo" />
               <p className="text-center">Kovo</p>
             </div>
-            <div className="w-1/6 flex flex-col justify-center items-center">
-              <img className="w-36 object-contain" src="sponsor8.jpeg" alt="4Rail" />
+            {/* Sponsor 8 */}
+            <div className="flex flex-col justify-center items-center w-1/2 sm:w-1/3 md:w-1/4 lg:w-1/6 mb-4">
+              <img className="sm:w-36 w-24 object-contain" src="sponsor8.jpeg" alt="4Rail" />
               <p className="text-center">4Rail</p>
             </div>
           </div>
+
         </div>
+
+
 
       </div>
     </>
