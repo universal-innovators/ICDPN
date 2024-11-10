@@ -13,18 +13,18 @@ const CallForPapers = () => {
       <div className="sm:flex justify around gap-7 mt-5">
         <div className="sponser-text-container mb-8">
           <p className="text-justify tracking-wide mb-2 text-lg font-light">
-            INTERNATIONAL CONFERENCE ON DATA PROCESSING & NETWORKING (ICDPN-2024) invites original work in the broad areas of Computer Engineering and Communication Systems. The aim of this conference is to create a forum where researchers, engineers, academics, and industry experts worldwide can share their research findings and advancements in Engineering and Technology. It offers participants a chance to delve into recent progress in computer science, and communication while addressing the challenges encountered by the community in the modern era. 
+            INTERNATIONAL CONFERENCE ON DATA PROCESSING & NETWORKING (ICDPN-2025) invites original work in the broad areas of Computer Engineering and Communication Systems. The aim of this conference is to create a forum where researchers, engineers, academics, and industry experts worldwide can share their research findings and advancements in Engineering and Technology. It offers participants a chance to delve into recent progress in computer science, and communication while addressing the challenges encountered by the community in the modern era. 
           </p>
           <p className="text-justify tracking-wide mb-2 text-lg font-light">
             <span className="font-bold">All accepted, registered and presented papers will be published in Springer Nature. </span>
             All books published in the series are submitted for consideration in Springer (Approved).
           </p>
-          <p className="text-justify tracking-wide mb-2 text-lg font-light">ICDPN-2024 will feature five parallel Tracks, each focusing on distinct areas. The major themes are identified (but not limited to) and listed below under the Conference Tracks.</p>
+          <p className="text-justify tracking-wide mb-2 text-lg font-light">ICDPN-2025 will feature five parallel Tracks, each focusing on distinct areas. The major themes are identified (but not limited to) and listed below under the Conference Tracks.</p>
           <br />
           <hr />
           <br />
           <p className=" text-center font-semibold bg-lime-400 text-lg p-3 rounded-tl-3xl rounded-br-3xl">
-            ICDPN 2024 TRACKS:
+            ICDPN 2025 TRACKS:
           </p>
           <br />
           <div className="border-l-[5px] border-red-800 ">

@@ -4,7 +4,7 @@ const CallForINTWork = () => {
       <hr />
       <div className="text-center mt-3 mb-3 bg-green-500 p-3 rounded-tl-3xl rounded-br-3xl">
         <b className=" font-extrabold text-xl tracking-wider">
-          Invitation to conduct International Workshop in ICDPN 2024
+          Invitation to conduct International Workshop in ICDPN 2025
         </b>
       </div>
       <hr />
@@ -13,12 +13,12 @@ const CallForINTWork = () => {
       <b className="text-orange-400 text-xl">Dear Researcher/Colleagues</b>
       <br />
       <br />
-      <h3 className="text-lg">Greeting from ICDPN 2024!</h3>
+      <h3 className="text-lg">Greeting from ICDPN 2025!</h3>
       <br />
       <p className="tracking-wide text-justify text-black bg-violet-400 p-7 rounded-3xl">
         ICDPN Conference team invites you to organize the International Workshop
         in the " International Conference on Data-Processing and Networking"
-        (ICDPN-2024) , to be held at Institute of Technology and Business in
+        (ICDPN-2025) , to be held at Institute of Technology and Business in
         České Budějovice, Near Prague, Czech Republic, Europe (Venue) during
         25th-26th October of your research domain. We are diligently working
         to bring some of the most knowledgeable academician from all over the
@@ -35,7 +35,7 @@ const CallForINTWork = () => {
         Highlights of the conference and Special Session Benefits:
       </div>
       <p className=" bg-violet-400 p-7 tracking-wide text-justify text-black rounded-br-3xl">
-        1) All the papers and the proceedings of ICDPN-2024 will be published by Springer (Approved).
+        1) All the papers and the proceedings of ICDPN-2025 will be published by Springer (Approved).
         <br />
         2) The workshop organizers will be entitled to receive a renumeration of
         20% of the total fees collected in the workshop.
@@ -70,19 +70,19 @@ const CallForINTWork = () => {
         If you are interested to conduct an International Workshop, please email
         us the workshop proposal at{" "}
         <a className="text-blue-300 underline">icdpn.conf@gmail.com</a> or <a className="text-blue-300 underline">icdpnconference@gmail.com</a> with
-        subject line as “Proposal for ICDPN 2024 International Workshop”
+        subject line as “Proposal for ICDPN 2025 International Workshop”
       </p>
       <br />
       <br />
       <br />
-      Looking to see you in ICDPN 2024.
+      Looking to see you in ICDPN 2025.
       <br />
       <br />
       Sincerely,
       <br />
       Organizer and Convener
       <br />
-      <b>ICDPN 2024</b>
+      <b>ICDPN 2025</b>
       <br />
       <a
         href="Workshop_Proposal_Template.d18afe1b387bf6e93015.docx"

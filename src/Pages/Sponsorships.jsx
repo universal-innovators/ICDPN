@@ -28,10 +28,10 @@ const Sponsorships = () => {
               make a developed India and to match the speed of these above
               mentioned challenges joint efforts from Industry and Academia are
               required. Academia is doing its bit by organizing the
-              international conference ICDPN 2024 and bringing together worlds
+              international conference ICDPN 2025 and bringing together worlds
               the best technological brains and ideas under one roof. This kind
               of initiative require lot of efforts and funding. International
-              Conference on Data-Processing and Networking (ICDPN-2024) is
+              Conference on Data-Processing and Networking (ICDPN-2025) is
               organized with the objective of bringing together innovative
               scientists, professors, research scholars, students and industrial
               experts in the field of Computing and Communication to a common
@@ -49,7 +49,7 @@ const Sponsorships = () => {
               application. Overall the conference will provide the researchers
               and attendees with prospects for national and international
               collaboration and networking among universities and institutions
-              from India and abroad for promoting research. ICDPN 2024 will be
+              from India and abroad for promoting research. ICDPN 2025 will be
               hosted by Shaheed Sukhdev College of Business Studies (University
               of Delhi) in association with National Institute of Technology
               Patna, a place to pursue knowledge beyond traditional boundaries.
