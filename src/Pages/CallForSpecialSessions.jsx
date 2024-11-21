@@ -53,7 +53,7 @@ const CallForSpecialSessions = () => {
         <p className="text-black tracking-wide text-justify bg-violet-400 p-7 rounded-3xl">
           1)All the papers and the proceedings of ICDPN-2025 will be published by Springer (Approved).
           <br />
-          2) You will get 20% of the total fees collected in your session.
+          2) You will get 15% of the total fees collected in your session.
           <br />
           3) The minimum number of registrations should be 8.
           <br />
