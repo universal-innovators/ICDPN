@@ -20,7 +20,7 @@ export default function Header() {
               International Conference on Data-Processing and Networking
               <br /> (ICDPN-2025)
               <br />
-              <p className=" sm:mt-[5rem] md:mt-3 mb-3 font-medium text-lg text-blue-800">Date: 25th-26th October, 2025</p>
+              <p className=" sm:mt-[5rem] md:mt-3 mb-3 font-medium text-lg text-blue-800">Date: 31st October - 1st November, 2025</p>
             </p>
             <p className="text-red-500 ">
               <span className="text-black">ORGANISED BY : </span><span className="font-medium">Institute of Technology and Business in České Budějovice, Near

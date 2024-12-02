@@ -9,7 +9,7 @@ const Notices = () => {
       <hr />
       <div className="flex flex-col text-lg">
         <p className="text-gray-600">
-        ICDPN-2025 will be organised by Institute of Technology and Business in České Budějovice, Near Prague, Czech Republic, Europe (Venue) on 25th-26th October 2025.
+        ICDPN-2025 will be organised by Institute of Technology and Business in České Budějovice, Near Prague, Czech Republic, Europe (Venue) on 31st October - 1st November, 2025.
         </p>
         
       </div>

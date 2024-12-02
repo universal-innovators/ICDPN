@@ -20,7 +20,7 @@ const CallForINTWork = () => {
         in the " International Conference on Data-Processing and Networking"
         (ICDPN-2025) , to be held at Institute of Technology and Business in
         České Budějovice, Near Prague, Czech Republic, Europe (Venue) during
-        25th-26th October of your research domain. We are diligently working
+        31st October - 1st November, 2025 of your research domain. We are diligently working
         to bring some of the most knowledgeable academician from all over the
         world and business leaders to discuss critical research topics. The
         two-day conference will include a workshop, technical workshops and
