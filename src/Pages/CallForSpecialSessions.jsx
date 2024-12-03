@@ -113,8 +113,8 @@ const CallForSpecialSessions = () => {
         <b>ICDPN-2025</b>
       <br />
       <a
-        href="SPECIAL SESSION -ICPDN 2024.docx"
-        download={"SPECIAL SESSION -ICPDN 2024.docx"}
+        href="SPECIAL SESSION -ICPDN 2025.docx"
+        download={"SPECIAL SESSION -ICPDN 2025.docx"}
       >
         <button className=" ml-[1rem] mb-5  bg-blue-600 rounded-lg hover:bg-gradient-to-t from-blue-900 to-cyan-500 ">
           <div className="m-auto p-[0.5rem] text-white">
