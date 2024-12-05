@@ -15,7 +15,7 @@ import ICICC2020 from './Pages/ICICC2020'
 import ICICC2021 from './Pages/ICICC2021'
 import ICICC2022 from './Pages/ICICC2022'
 import ICICC2023 from './Pages/ICICC2023'
-import ICICC2024 from './Pages/ICICC2024'
+import ICDPN2024 from './Pages/ICDPN2024'
 import PaperSubmission from './Pages/PaperSubmission'
 import IndEx from './Pages/IndEx'
 import Policy from './Pages/Policy'
@@ -76,6 +76,7 @@ const router=createBrowserRouter([
       {path:'/industry-experts' ,element:<IndEx/>},
       {path:'/steering-committee' ,element:<SteeringCommittee/>},
       {path:'/technical-program-committee' ,element:<TechProgC/>},
+      {path:'/ICDPN-2024',element:<ICDPN2024/>},
 
     ]
   }

@@ -356,24 +356,24 @@ const Nav = () => {
               </p>
             </Link>
           </li>
-          {/* <li className=" md:my-0 my-7 font-semibold mx-3 text-center">
+          <li className=" md:my-0 my-7 font-semibold mx-3 text-center">
           <DropdownMenu >
           <DropdownMenuTrigger className="text-white custom">Previous Conference</DropdownMenuTrigger>
               <DropdownMenuContent>
                 <DropdownMenuItem >
                   <Link
-                    to="/ICICC2025"
+                    to="/ICDPN-2024"
                     className="text-gray-800 hover:text-blue-400 duration-500" 
                     onClick={closeHandler}
                   >
                     <p className="m-[8.5px] text-center ">
                       <p className=" px-[2.5px] text-gray-800">
-                        ICICC 2025
+                        ICDPN 2024
                       </p>
                     </p>
                   </Link>
                 </DropdownMenuItem>
-                <DropdownMenuItem>
+                {/* <DropdownMenuItem>
                 <Link
                     to="/ICICC2023"
                     className="text-gray-800 hover:text-blue-400 duration-500 "
@@ -474,10 +474,10 @@ const Nav = () => {
                       </p>
                     </p>
                   </Link>
-                </DropdownMenuItem>
+                </DropdownMenuItem> */}
               </DropdownMenuContent>
             </DropdownMenu>
-          </li> */}
+          </li>
         </ul>
       </div>
     </div>
