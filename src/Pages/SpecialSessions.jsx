@@ -24,14 +24,14 @@ import ss16 from "./Sessions/SS-16.pdf";
 import ss17 from "./Sessions/SS-17.pdf";
 
 const sessionDetails = [
-  // {
-  //   title: "Session - 1: Recent Advances in AI and Machine Learning: Innovations, Environmental Sustainability, and Healthcare",
-  //   organisers: [
-  //     "Dr. Sangeeta Kumari, Bennett University (The Times Group), Greater Noida, U.P., India",
-  //   ],
-  //   file: ss1,
-  //   fileName: "SS 001.pdf",
-  // },
+  {
+    title: "Intelligent industrial design",
+    organisers: [
+      "Dr. Souvik Das, Assistant Professor, NIT Rourkela, INDIA",
+    ],
+    file: ss1,
+    fileName: "SS 001.pdf",
+  },
   // {
   //   title: "Session - 2: IoT Technologies for Data Networking for Sustainable Urban Advancements",
   //   organisers: [
