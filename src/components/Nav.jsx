@@ -181,7 +181,7 @@ const Nav = () => {
               </p>
             </Link>
           </li>
-          {/* <li className=" md:my-0 my-7 font-semibold">
+          <li className=" md:my-0 my-7 font-semibold">
             <Link
               to="/Workshops"
               className="text-gray-800 hover:text-blue-400 duration-500"
@@ -191,7 +191,7 @@ const Nav = () => {
                 <p className="custom px-[2.5px]">Workshops</p>
               </p>
             </Link>
-          </li> */}
+          </li>
           <li className=" md:my-0 my-7 font-semibold">
             <Link
               to="/Registration"
