@@ -35,6 +35,7 @@ const Registration = () => {
           7) Banquet
         </p>
       </p>
+      <p className="text-lg my-4 text-red-500 font-semibold">Note: 40% Discount / Custom Fees Registration (Amount based on category of participation or the information conveyed) for online mode registrations</p>
       <div className="w-10/12 m-auto flex-col content-center rounded-2xl p-3 bg-black text-white border-black border-[1px] ">
         {/* <div className="text-center font-bold text-lg mt-5 bg-green-700 ">
           Pay via Bank Transfer
