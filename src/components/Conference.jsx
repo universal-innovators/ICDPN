@@ -31,8 +31,8 @@ const Conference = () => {
           </p>
           <br />
           
-          {/* <b className="tracking-wide text-lg mr-3">All papers must be submitted online via this link:</b>
-          <button className="btn"><a href="https://cmt3.research.microsoft.com/ICDPN2025" target="_blank" >Paper Submission Link</a></button> */}
+          <b className="tracking-wide text-lg mr-3">All papers must be submitted online via this link:</b>
+          <button className="btn"><a href="https://cmt3.research.microsoft.com/ICDPN2025" target="_blank" >Paper Submission Link</a></button>
         </div>
         <div>
           <AutoScroller />
