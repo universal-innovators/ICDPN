@@ -15,7 +15,7 @@ const CallForINTWork = () => {
       <br />
       <h3 className="text-lg">Greeting from ICDPN 2025!</h3>
       <br />
-      <p className="tracking-wide text-justify text-black bg-violet-400 p-7 rounded-3xl">
+      <p className="tracking-wide text-justify text-black bg-gray-100 p-7 rounded-3xl">
         ICDPN Conference team invites you to organize the International Workshop
         in the " International Conference on Data-Processing and Networking"
         (ICDPN-2025) , to be held at Institute of Technology and Business in
@@ -34,7 +34,7 @@ const CallForINTWork = () => {
       <div className="text-center font-bold text-lg tracking-wider bg-green-500 p-3 rounded-tl-3xl ">
         Highlights of the conference and Special Session Benefits:
       </div>
-      <p className=" bg-violet-400 p-7 tracking-wide text-justify text-black rounded-br-3xl">
+      <p className=" bg-gray-100 p-7 tracking-wide text-justify text-black rounded-br-3xl">
         1) All the papers and the proceedings of ICDPN-2025 will be published by Springer (Approved).
         <br />
         2) The workshop organizers will be entitled to receive a renumeration of
@@ -66,10 +66,10 @@ const CallForINTWork = () => {
       </p>
       <br />
       <br />
-      <p className="text-white bg-black p-7 text-justify tracking-wide rounded-3xl">
+      <p className="text-red-700 bg-white-100 p-7 text-justify tracking-wide rounded-3xl">
         If you are interested to conduct an International Workshop, please email
         us the workshop proposal at{" "}
-        <a className="text-blue-300 underline">icdpn.conf@gmail.com</a> or <a className="text-blue-300 underline">icdpnconference@gmail.com</a> with
+        <a className="text-blue-800 underline">icdpn.conf@gmail.com</a> or <a className="text-blue-800 underline">icdpnconference@gmail.com</a> with
         subject line as “Proposal for ICDPN 2025 International Workshop”
       </p>
       <br />
@@ -84,7 +84,7 @@ const CallForINTWork = () => {
       <br />
       <b>ICDPN 2025</b>
       <br />
-      <a
+      {/* <a
         href="Workshop_Proposal_Template.d18afe1b387bf6e93015.docx"
         download={"Workshop_Proposal_Template.docx"}
       >
@@ -93,7 +93,7 @@ const CallForINTWork = () => {
             Workshop Proposal Template
           </div>
         </button>
-      </a>
+      </a> */}
     </div>
   );
 };

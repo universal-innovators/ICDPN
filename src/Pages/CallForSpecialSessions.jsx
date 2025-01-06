@@ -17,7 +17,7 @@ const CallForSpecialSessions = () => {
         Greeting from ICDPN-2025!
         </h3>
         <br />
-        <p className="text-black  tracking-wide text-justify bg-violet-400 p-7 rounded-3xl">
+        <p className="text-black  tracking-wide text-justify bg-gray-100 p-7 rounded-3xl">
           ICDPN Conference team invites you to organize the special session in
           sixth version of International Conference on Data-Processing and
           Networking (ICDPN-2025) , to be held at Institute of Technology and
@@ -50,7 +50,7 @@ const CallForSpecialSessions = () => {
         </b>
         <br />
         <br />
-        <p className="text-black tracking-wide text-justify bg-violet-400 p-7 rounded-3xl">
+        <p className="text-black tracking-wide text-justify bg-gray-100 p-7 rounded-3xl">
           1)All the papers and the proceedings of ICDPN-2025 will be published by Springer (Approved).
           <br />
           2) You will get 15% of the total fees collected in your session.

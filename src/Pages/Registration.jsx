@@ -1,3 +1,5 @@
+import qr from '../static/upi.jpg';
+
 const Registration = () => {
   return (
     <div className="container mb-9">
@@ -138,6 +140,16 @@ const Registration = () => {
               </div>
             </button>
           </a>
+        </div><br/>
+        <div className="flex  items-stretch">
+          <div className="w-[45%] h-[1px] m-auto mt-4  bg-gray-400"></div>
+          <div className="text-center ">OR</div>
+          <div className="w-[45%] h-[1px] m-auto mt-4  bg-gray-400"></div>
+        </div>
+        <div className="text-center font-bold text-lg ">Pay via UPI</div>
+        <br />
+        <div className="flex justify-center">
+          <img src={qr} className='h-72 w-60'/>
         </div><br/>
 
         {/* <div className="w-10/12 h-[1px] m-auto mt-4  bg-gray-400"></div> */}

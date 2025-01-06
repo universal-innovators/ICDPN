@@ -65,8 +65,8 @@ const Downloads = () => {
 
             <div className="relative">
               <a
-                href="SPECIAL SESSION -ICPDN 2024.docx"
-                download={"SPECIAL SESSION -ICPDN 2024.docx"}
+                href="SPECIAL SESSION -ICPDN 2025.docx"
+                download={"SPECIAL SESSION -ICPDN 2025.docx"}
                 target="_blank"
               >
                 <button className=" w-[17rem] sm:w-[23rem] rounded-tl-3xl rounded-br-3xl bg-blue-600  hover:bg-gradient-to-t from-blue-900 to-cyan-500 ">
