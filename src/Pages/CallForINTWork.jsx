@@ -84,8 +84,8 @@ const CallForINTWork = () => {
       <br />
       <b>ICDPN 2025</b>
       <br />
-      {/* <a
-        href="Workshop_Proposal_Template.d18afe1b387bf6e93015.docx"
+      <a
+        href="Workshop_Proposal_Template 2025.docx"
         download={"Workshop_Proposal_Template.docx"}
       >
         <button className="mb-5  bg-blue-600 rounded-lg hover:bg-gradient-to-t from-blue-900 to-cyan-500 ">
@@ -93,7 +93,7 @@ const CallForINTWork = () => {
             Workshop Proposal Template
           </div>
         </button>
-      </a> */}
+      </a>
     </div>
   );
 };
