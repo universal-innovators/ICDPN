@@ -174,7 +174,7 @@ const Registration = () => {
             </button>
           </a>
         </div>
-        <br />
+        <br />/*}
         <div className="text-center ">OR</div>
         <br />
         <div className="text-center font-bold text-lg ">Pay via UPI</div>
@@ -184,7 +184,7 @@ const Registration = () => {
           className="m-auto "
           width={"160rem"}
           height={"200rem"}
-        /> */}
+        /> 
       </div>
 
       <div className="w-[90%] sm:overflow-auto overflow-scroll m-auto">
