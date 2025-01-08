@@ -141,7 +141,7 @@ const Registration = () => {
               </div>
             </button>
           </a>
-        </div>/*}
+        </div>*/}
         <br/>
         <div className="flex  items-stretch">
           <div className="w-[45%] h-[1px] m-auto mt-4  bg-gray-400"></div>
