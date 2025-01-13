@@ -154,7 +154,7 @@ const Registration = () => {
 
         {/* <div className="w-10/12 h-[1px] m-auto mt-4  bg-gray-400"></div> */}
         <br />
-        {/* <div className="text-center font-bold text-lg ">Pay via Razorpay</div>
+        <div className="text-center font-bold text-lg ">Pay via Razorpay</div>
         <div className="text-center  ">
           For payment from Indian Authors/Attendees, use the following payment
           link
@@ -162,7 +162,7 @@ const Registration = () => {
         <br />
         <div className="text-center">
           <a
-            href="https://pages.razorpay.com/pl_O9GXsuOr0CaWwE/view"
+            href="https://rzp.io/rzp/X2KQXzE"
             target="_blank"
           >
             <button className="   bg-blue-600 rounded-lg hover:bg-gradient-to-t from-blue-900 to-cyan-500 ">
@@ -182,7 +182,7 @@ const Registration = () => {
           className="m-auto "
           width={"160rem"}
           height={"200rem"}
-        /> */}
+        />
       </div>
 
       <div className="w-[90%] sm:overflow-auto overflow-scroll m-auto">
