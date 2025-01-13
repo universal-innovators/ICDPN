@@ -148,14 +148,9 @@ const Registration = () => {
           <div className="text-center ">OR</div>
           <div className="w-[45%] h-[1px] m-auto mt-4  bg-gray-400"></div>
         </div>
-        <div className="text-center font-bold text-lg ">Pay via UPI</div>
-        <br />
-        <div className="flex justify-center">
-          <img src={qr} className='h-72 w-60'/>
-        </div><br/>
+        <br/>
 
-        {/* <div className="w-10/12 h-[1px] m-auto mt-4  bg-gray-400"></div> */}
-        <br />
+        
         <div className="text-center font-bold text-lg ">Pay via Razorpay</div>
         <div className="text-center  ">
           For payment from Indian Authors/Attendees, use the following payment
@@ -175,16 +170,19 @@ const Registration = () => {
           </a>
         </div>
         <br />
-        <div className="text-center ">OR</div>
+        <div className="flex  items-stretch">
+          <div className="w-[45%] h-[1px] m-auto mt-4  bg-gray-400"></div>
+          <div className="text-center ">OR</div>
+          <div className="w-[45%] h-[1px] m-auto mt-4  bg-gray-400"></div>
+        </div>
         <br />
         <div className="text-center font-bold text-lg ">Pay via UPI</div>
         <br />
-        <img
-          src="https://icicc-conf.com/static/media/upi.5db4b1e81bc7b43c8e51.png"
-          className="m-auto "
-          width={"160rem"}
-          height={"200rem"}
-        />
+        <div className="flex justify-center">
+          <img src={qr} className='h-72 w-60'/>
+        </div>
+        <br />
+
       </div>
 
       <div className="w-[90%] sm:overflow-auto overflow-scroll m-auto">
