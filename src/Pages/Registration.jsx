@@ -120,7 +120,8 @@ const Registration = () => {
               </div>
             </button>
           </a>
-        </div><br/>
+        </div>
+        {/*<br/>
         <div className="flex  items-stretch">
           <div className="w-[45%] h-[1px] m-auto mt-4  bg-gray-400"></div>
           <div className="text-center ">OR</div>
@@ -140,7 +141,8 @@ const Registration = () => {
               </div>
             </button>
           </a>
-        </div><br/>
+        </div>*/}
+        <br/>
         <div className="flex  items-stretch">
           <div className="w-[45%] h-[1px] m-auto mt-4  bg-gray-400"></div>
           <div className="text-center ">OR</div>
@@ -172,7 +174,7 @@ const Registration = () => {
             </button>
           </a>
         </div>
-        <br />
+        <br />/*}
         <div className="text-center ">OR</div>
         <br />
         <div className="text-center font-bold text-lg ">Pay via UPI</div>
