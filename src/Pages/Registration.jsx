@@ -174,7 +174,7 @@ const Registration = () => {
             </button>
           </a>
         </div>
-        <br />/*}
+        <br />
         <div className="text-center ">OR</div>
         <br />
         <div className="text-center font-bold text-lg ">Pay via UPI</div>
