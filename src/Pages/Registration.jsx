@@ -79,7 +79,7 @@ const Registration = () => {
         </table> */}
         {/* <div className="w-10/12 h-[1px] m-auto mt-4 bg-gray-400 shadow-white shadow-2xl"></div> */}
         <br />
-        <div className="text-center font-bold text-lg ">Pay via Stripe</div>
+        <div className="text-center font-bold text-lg ">Pay via Stripe/Razorpay</div>
         <div className="text-center  ">
           For Payment from International Authors/Attendees, use the following
           Paypal/Stripe link with additional 5% service charges applies
@@ -94,6 +94,19 @@ const Registration = () => {
             <button className=" self-center  bg-blue-600 rounded-lg hover:bg-gradient-to-t from-blue-900 to-cyan-500  ">
               <div className="m-auto p-[0.5rem] text-white">
                 Pay with Stripe
+              </div>
+            </button>
+          </a>
+        </div><br/>
+        <div className=" text-center">
+          <a
+            href="https://rzp.io/rzp/vCiRlW3Z"
+            target="_blank"
+            className=" "
+          >
+            <button className=" self-center  bg-blue-600 rounded-lg hover:bg-gradient-to-t from-blue-900 to-cyan-500  ">
+              <div className="m-auto p-[0.5rem] text-white">
+                Pay with Razorpay
               </div>
             </button>
           </a>
