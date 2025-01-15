@@ -82,7 +82,7 @@ const Registration = () => {
         <div className="text-center font-bold text-lg ">Pay via Stripe/Razorpay</div>
         <div className="text-center  ">
           For Payment from International Authors/Attendees, use the following
-          Paypal/Stripe link with additional 5% service charges applies
+          Stripe/Razorpay link with additional 5% service charges applies
         </div>
         <br />
         <div className=" text-center">
