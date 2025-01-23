@@ -32,15 +32,16 @@ const sessionDetails = [
     file: ss1,
     fileName: "SS 001.pdf",
   },
-  // {
-  //   title: "Session - 2: IoT Technologies for Data Networking for Sustainable Urban Advancements",
-  //   organisers: [
-  //     "Dr Rashmi Sharma, Ajay Kumar Garg Engineering College, Ghaziabad, India",
-  //     "Dr Inderjeet Kaur, Galgotia College of Engineering and Technology, Greater Noida, India",
-  //   ],
-  //   file: ss2,
-  //   fileName: "SS 002.pdf",
-  // },
+  {
+    title: "Session - 2: Recent Advances in Intelligent Systems and Communication & Machine Learning",
+    organisers: [
+      "Dr. Vikash Yadav, Department of Technical Education, UP, India",
+      "Ms. Sonam Gupta, Ajay Kumar Garg Engineering College, Ghaziabad, India",
+      "Mr. Navjot Singh Talwandi, Chandigarh University, Mohali, Punjab, India"
+    ],
+    file: ss2,
+    fileName: "SS 002.pdf",
+  },
   // {
   //   title: "Session - 3: Next-Generation AI and ML: Key Trends Shaping the Future",
   //   organisers: [
