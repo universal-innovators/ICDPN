@@ -120,6 +120,9 @@ const SteeringCommittee = () => {
             <p>(Department of Information Systems, College of Computer and Information Sciences, Jouf University, Sakaka, Saudi Arabia)</p>
             <p> Prof. Mete YAĞANOĞLU</p>
             <p>(Ataturk University, Department of Computer Engineering, Turkey)</p>
+            <p> Dr. Sushil Kumar Singh</p>
+            <p>(Associate Professor, Marwadi University, Rajkot, Gujarat, India,
+              London Metropolitan University, London, UK)</p>
           </div>
           
             
