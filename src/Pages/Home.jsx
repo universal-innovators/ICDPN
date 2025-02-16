@@ -11,7 +11,6 @@ const Home = () => {
       <Slider />
       <Conference />
 
-
       {/* Keynote Speakers */}
       <h1 className="pl-[20px] text-gray-600 text-3xl tracking-wide text-center mt-5">Keynote Speakers</h1>
       <div className="flex flex-wrap items-center  justify-around mt-10">
