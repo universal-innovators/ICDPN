@@ -19,7 +19,8 @@ const Registration = () => {
         accepted paper to register in order for the paper to appear in the
         proceedings and included in the Technical Program.
         <br />
-        <p className="  rounded-3xl p-7 mt-3 text-lg ">
+        <marquee><p className="text-lg my-4 text-red-500 font-semibold">Note: 40% Discount / Custom Fees Registration (Amount based on category of participation or the information conveyed) for online mode registrations</p></marquee>
+        <p className="  rounded-3xl mt-3 text-lg ">
           <b className="">Author/Co-Author Registration Fee Includes</b>
           <br />
           1) Welcome reception
@@ -37,7 +38,7 @@ const Registration = () => {
           7) Banquet
         </p>
       </p>
-      <p className="text-lg my-4 text-red-500 font-semibold">Note: 40% Discount / Custom Fees Registration (Amount based on category of participation or the information conveyed) for online mode registrations</p>
+      
       <div className="w-10/12 m-auto flex-col content-center rounded-2xl p-3 bg-black text-white border-black border-[1px] ">
         {/* <div className="text-center font-bold text-lg mt-5 bg-green-700 ">
           Pay via Bank Transfer
