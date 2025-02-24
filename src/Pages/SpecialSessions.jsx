@@ -43,7 +43,7 @@ const sessionDetails = [
     fileName: "SS 002.pdf",
   },
   {
-    title: "Session - 3: Intelligent Computing and Analytic using MACHINE LEARNING and DEEP LEARNING]",
+    title: "Session - 3: Intelligent Computing and Analytic using MACHINE LEARNING and DEEP LEARNING",
     organisers: [
       "Dr. Preeti Nagrath, Associate Professor, Bharati Vidyapeeth’s college of Engineering, Delhi, India",
       "Dr. Rachna Jain, Associate Professor, Bhagwan Parshuram Institute of Technology, Delhi, India"
@@ -51,16 +51,15 @@ const sessionDetails = [
     file: ss3,
     fileName: "SS 003.pdf",
   },
-  // {
-  //   title: "Session - 4: Recent Advances in Intelligent Systems and Communication & Machine Learning",
-  //   organisers: [
-  //     "Dr. Vikash Yadav, Government Polytechnic Bighapur Unnao, Uttar Pradesh, India",
-  //     "Mr. Anup Lal Yadav, Chandigarh University, Mohali, Punjab, India",
-  //     "Dr. Navpreet Kaur Walia, Chandigarh University, Mohali, Punjab, India",
-  //   ],
-  //   file: ss4,
-  //   fileName: "SS 004.pdf",
-  // },
+  {
+    title: "Session - 4: Smart Technologies for Human Well-Being: The Role of IoT and AI",
+    organisers: [
+      "Dr. Divya Agarwal, Assistant Professor, Vivekananda Institute of Professional Studies-Technical campus, Delhi, India",
+      "Dr. Sandhya Tarwani, Assistant Professor, Vivekananda Institute of Professional Studies-Technical campus, Delhi, India",
+    ],
+    file: ss4,
+    fileName: "SS 004.pdf",
+  },
   // {
   //   title: "Session - 5: Scalable Data Processing Techniques at Enterprises for AI applications",
   //   organisers: [
