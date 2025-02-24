@@ -42,15 +42,15 @@ const sessionDetails = [
     file: ss2,
     fileName: "SS 002.pdf",
   },
-  // {
-  //   title: "Session - 3: Next-Generation AI and ML: Key Trends Shaping the Future",
-  //   organisers: [
-  //     "Dr. Garima Jaiswal, Assistant Professor, SCSET, Bennett University, India",
-  //     "Dr. Ritu Rani, Research Associate -III (DST Curie AI Project), Indira Gandhi Delhi Technical University for Women, India",
-  //   ],
-  //   file: ss3,
-  //   fileName: "SS 003.pdf",
-  // },
+  {
+    title: "Session - 3: Intelligent Computing and Analytic using MACHINE LEARNING and DEEP LEARNING]",
+    organisers: [
+      "Dr. Preeti Nagrath, Associate Professor, Bharati Vidyapeeth’s college of Engineering, Delhi, India",
+      "Dr. Rachna Jain, Associate Professor, Bhagwan Parshuram Institute of Technology, Delhi, India"
+    ],
+    file: ss3,
+    fileName: "SS 003.pdf",
+  },
   // {
   //   title: "Session - 4: Recent Advances in Intelligent Systems and Communication & Machine Learning",
   //   organisers: [
