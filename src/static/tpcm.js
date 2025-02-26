@@ -57,7 +57,9 @@ const tpcm = [
     { name: "Prof. (Dr.) Gabriela Raducan", info: "Senior Research Fellow, La Trobe Innovation and Entrepreneurship Foundry" },
     { name: "Lakshmanan Sethu", info: "Technical Account Manager (AI/ML), Google, California, USA" },
     { name: "Dr. S.B. Goyal", info: "Director, City University of Malaysia" },
-    { name: "Dr. Pavel Kromer", info: "VSB Technical University of Ostrava" }
+    { name: "Dr. Pavel Kromer", info: "VSB Technical University of Ostrava" },
+    { name: "Dr. Sangeeta Kumari", info: "Bennett University (Times Group), Greater Noida, Uttar Pradesh, India" }   
+
 ];
 
 export default tpcm;
