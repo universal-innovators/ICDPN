@@ -60,15 +60,16 @@ const sessionDetails = [
     file: ss4,
     fileName: "SS 004.pdf",
   },
-  // {
-  //   title: "Session - 5: Scalable Data Processing Techniques at Enterprises for AI applications",
-  //   organisers: [
-  //     "Dr. Balaji Ganesh Rajagopal, SRM Institute of Science and Technology Tiruchirappalli, India",
-  //     "Dr. Deebalakshmi Ramalingam, SRM Institute of Science and Technology Tiruchirappalli, India",
-  //   ],
-  //   file: ss5,
-  //   fileName: "SS 005.pdf",
-  // },
+  {
+    title: "Session - 5: Cutting-edge Technologies in Social Sustainable Development",
+    organisers: [
+      "Dr. Rajendra Kumar, Sharda School of Computing Science & Engineering, Sharda University, Greater Noida, India",
+      "Dr. Leong Wai Yie, INTI International University, Nilai, Malaysia",
+      "Mr. Ankit Bansal, Omnichannel Analytics Manager, Leander, Texas, USA",
+    ],
+    file: ss5,
+    fileName: "SS 005.pdf",
+  },
   // {
   //   title: "Session - 6: Leveraging AI, Machine Learning, and Intelligent Systems in Data Processing and Networking for Enhanced Smart Systems",
   //   organisers: [
