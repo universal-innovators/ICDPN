@@ -70,14 +70,14 @@ const sessionDetails = [
     file: ss5,
     fileName: "SS 005.pdf",
   },
-  // {
-  //   title: "Session - 6: Leveraging AI, Machine Learning, and Intelligent Systems in Data Processing and Networking for Enhanced Smart Systems",
-  //   organisers: [
-  //     "Dr. Lokesh Jain, Department of Information Technology, Jagan Institute of Management Studies, Rohini, Delhi, India",
-  //   ],
-  //   file: ss6,
-  //   fileName: "SS 006.pdf",
-  // },
+  {
+    title: "Session - 6: AI-Powered Cybersecurity: Advancements, Challenges, and Future Trends",
+    organisers: [
+      "Dr. Monica Bhutani, Associate Professor, Bharati Vidyapeeth’s College of Engineering, New Delhi",
+    ],
+    file: ss6,
+    fileName: "SS 006.pdf",
+  },
   // {
   //   title: "Session - 7: Computational Intelligence and Communication System",
   //   organisers: [
