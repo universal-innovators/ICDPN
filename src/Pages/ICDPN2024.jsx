@@ -18,6 +18,7 @@ import "swiper/css/effect-coverflow";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 import { EffectCoverflow, Pagination, Navigation, Autoplay } from "swiper/modules";
+import PrevVolumes from "@/components/PrevVolumes";
 
 const ICDPN2024 = () => {
   return (
@@ -50,7 +51,7 @@ const ICDPN2024 = () => {
               <strong>Social Events:</strong> Networking sessions, musical night, and a one-day city tour of Ceske Krumnov were organized.
             </li>
           </ul>
-
+          <PrevVolumes year={2024} links={["https://link.springer.com/book/9789819631018"]}/>
           <h2 className="text-lg sm:text-xl font-semibold text-blue-800 mb-2">
             Submissions and Acceptance Rate
           </h2>

@@ -273,11 +273,6 @@ th{
   color: white;
   
 }
-tr:hover{
-  background-color: gray;
-  color: white;
-  
-}
 
 .discount{
   animation-name: pump;
