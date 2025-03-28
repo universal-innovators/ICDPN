@@ -51,7 +51,7 @@ const ICDPN2024 = () => {
               <strong>Social Events:</strong> Networking sessions, musical night, and a one-day city tour of Ceske Krumnov were organized.
             </li>
           </ul>
-          <PrevVolumes year={2024} links={["https://link.springer.com/book/9789819631018"]}/>
+          <PrevVolumes year={2024} links={["https://link.springer.com/book/9789819631018","https://link.springer.com/book/9789819655342"]}/>
           <h2 className="text-lg sm:text-xl font-semibold text-blue-800 mb-2">
             Submissions and Acceptance Rate
           </h2>
