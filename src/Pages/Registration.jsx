@@ -80,10 +80,23 @@ const Registration = () => {
         </table> */}
         {/* <div className="w-10/12 h-[1px] m-auto mt-4 bg-gray-400 shadow-white shadow-2xl"></div> */}
         <br />
-        <div className="text-center font-bold text-lg ">Pay via Stripe/Razorpay</div>
+        <div className="text-center font-bold text-lg ">Pay via Razorpay/Stripe (International Authors/Attendees)</div>
         <div className="text-center  ">
           For Payment from International Authors/Attendees, use the following
-          Stripe/Razorpay link with additional 5% service charges applies
+          Razorpay/Stripe link with additional 5% service charges applies
+        </div><br/>
+        <div className=" text-center">
+          <a
+            href="https://rzp.io/rzp/AwQjdPa"
+            target="_blank"
+            className=" "
+          >
+            <button className=" self-center  bg-blue-600 rounded-lg hover:bg-gradient-to-t from-blue-900 to-cyan-500  ">
+              <div className="m-auto p-[0.5rem] text-white">
+                Pay with Razorpay
+              </div>
+            </button>
+          </a>
         </div>
         <br />
         <div className=" text-center">
@@ -99,19 +112,7 @@ const Registration = () => {
             </button>
           </a>
         </div><br/>
-        <div className=" text-center">
-          <a
-            href="https://rzp.io/rzp/vCiRlW3Z"
-            target="_blank"
-            className=" "
-          >
-            <button className=" self-center  bg-blue-600 rounded-lg hover:bg-gradient-to-t from-blue-900 to-cyan-500  ">
-              <div className="m-auto p-[0.5rem] text-white">
-                Pay with Razorpay
-              </div>
-            </button>
-          </a>
-        </div>
+        
         <br />
         <div className="flex  items-stretch">
           <div className="w-[45%] h-[1px] m-auto mt-4  bg-gray-400"></div>
