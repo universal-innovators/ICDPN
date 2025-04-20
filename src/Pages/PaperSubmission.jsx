@@ -13,7 +13,7 @@ const PaperSubmission = ()  => {
         <div>
           <p className=" bg-orange-100 tracking-wide text-gray-800 text-justify p-7 rounded-tl-3xl rounded-br-3xl">
             The Original unpublished Research Papers, Articles & Working papers
-            having maximum length 10 pages on the topics related to the theme are invited for presentation/publication in the
+            having maximum length 12 pages on the topics related to the theme are invited for presentation/publication in the
             conference proceedings.
             <br />
             <br />
@@ -24,7 +24,7 @@ const PaperSubmission = ()  => {
             >
               Springer Guidelines
             </a>{" "}
-            (not exceeding 10 pages written in A4 size) . Please refer the
+            (not exceeding 12 pages written in A4 size) . Please refer the
             attached springer template for preparation of your paper.
             <br />
             2) All papers must be submitted online
