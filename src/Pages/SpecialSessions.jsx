@@ -78,32 +78,33 @@ const sessionDetails = [
     file: ss6,
     fileName: "SS 006.pdf",
   },
-  // {
-  //   title: "Session - 7: Computational Intelligence and Communication System",
-  //   organisers: [
-  //     "Dr. Tanweer Ali (Associate Professor), Dr. Praveen Kumar (Assistant Professor), Dr. Subramanya G Nayak (Professor), Dr. Pramod Kumar (Professor) Department of Electronics and Communication Engineering, Manipal Institute of Technology, MAHE, Manipal",
-  //     "Dr. Sameena Pathan, Assistant Professor, Department of Information and Communication Technology, MAHE, Manipal",
-  //   ],
-  //   file: ss7,
-  //   fileName: "SS 007.pdf",
-  // },
-  // {
-  //   title: "Session - 8: Transforming the Capabilities of Unmanned Systems with Artificial Intelligence and IoT",
-  //   organisers: [
-  //     "Dr. Vandana Sharma, Computer Science Department, CHRIST University, Delhi NCR, Ghaziabad, India",
-  //     "Dr. Ghulam E Mustafa Abro, Interdisciplinary Research Centre for Aviation and Space Exploration, King Fahd University of Petroleum and Minerals, Kingdom of Saudi Arabia",
-  //   ],
-  //   file: ss8,
-  //   fileName: "SS 008.pdf",
-  // },
-  // {  title: "Session - 9: Explainable AI and large-scale data analytics models for healthcare engineering",
-  //   organisers: [
-  //     "Dr. Karthika Subbaraj, Associate Professor, Department of Information Technology, Sri Sivasubramaniya Nadar College of Engineering, Kalavakkam, Chennai, India.",
-  //     "Dr. Balamurugan Balasamy, Associate Dean- Students, Shiv Nadar University, Delhi-NCR Campus, Noida, Indiaand Minerals, Kingdom of Saudi Arabia",
-  //   ],
-  //   file: ss9,
-  //   fileName: "SS 009.pdf",
-  // },
+  {
+    title: "Session - 7: Applied AI for Smart Data Processing and Network Security",
+    organisers: [
+      "Dr. Manvi Breja, The NorthCap University, Gurugram, India",
+      "Dr. Prachi, The NorthCap University, Gurugram, India,",
+    ],
+    file: ss7,
+    fileName: "SS 007.pdf",
+  },
+  {
+    title: "Session - 8: AI in Data Processing and Networking: Innovations, Challenges, and Applications",
+    organisers: [
+      "Prof (Dr). Kamal Kundra, New Delhi Institute of Management, New Delhi",
+      "Dr Deepti Khanna, Jagan Institute of Management Studies, Rohini, New Delhi",
+      "Mr. Naveen ananda Kumar Joseph annaiah, Data Engineer, Tekinvaderz, LLC, FLORIDA, USA",
+    ],
+    file: ss8,
+    fileName: "SS 008.pdf",
+  },
+  {  title: "Session - 9: Emerging Intelligent Computing Techniques and their Applications (EICTA)",
+    organisers: [
+      "Dr. Nitish Pathak, Associate Professor, Bhagwan Parshuram Institute of Technology (BPIT), Guru Gobind Singh Indraprastha University (GGSIPU), New Delhi, India",
+      "Dr. Neelam Sharma, Maharaja Agrasen Institute of Technology (MAIT), Guru Gobind Singh Indraprastha University (GGSIPU), New Delhi, India",
+    ],
+    file: ss9,
+    fileName: "SS 009.pdf",
+  },
   // {  title: "Session - 10: Digital Technologies for Biotechnology and Bioinformatics",
   //   organisers: [
   //     "Dr. Dheeraj Chitara, Associate Professor, Department of Science, Biyani Girls College, Vidhyadhar Nagar, Jaipur, India.",
