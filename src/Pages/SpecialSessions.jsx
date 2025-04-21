@@ -82,7 +82,8 @@ const sessionDetails = [
     title: "Session - 7: Applied AI for Smart Data Processing and Network Security",
     organisers: [
       "Dr. Manvi Breja, The NorthCap University, Gurugram, India",
-      "Dr. Prachi, The NorthCap University, Gurugram, India,",
+      "Dr. Prachi, The NorthCap University, Gurugram, India",
+      "Dr. Gaurav Aggarwal, Amity University Tashkent, Uzbekistan"
     ],
     file: ss7,
     fileName: "SS 007.pdf",
