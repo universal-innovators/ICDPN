@@ -106,14 +106,13 @@ const sessionDetails = [
     file: ss9,
     fileName: "SS 009.pdf",
   },
-  // {  title: "Session - 10: Digital Technologies for Biotechnology and Bioinformatics",
-  //   organisers: [
-  //     "Dr. Dheeraj Chitara, Associate Professor, Department of Science, Biyani Girls College, Vidhyadhar Nagar, Jaipur, India.",
-  //     "Dr. Shilpa Bhargava, Associate Professor, Department of Science, Biyani Girls College, Vidhyadhar Nagar, Jaipur, India",
-  //   ],
-  //   file: ss10,
-  //   fileName: "SS 010.pdf",
-  // },
+  {  title: "Session - 10: Innovation in Biomedical Engineering and Role of AL and ML In health care",
+    organisers: [
+      "Dr. Gurmeet Singh, Associate Professor, Guru Tegh Bahadur Institute of technology, GGSIPU , New Delhi , India)",
+    ],
+    file: ss10,
+    fileName: "SS 010.pdf",
+  },
   // {  title: "Session - 11: AI/ML in LifeSciences/Pharmaceutical and Smart Health Care",
   //   organisers: [
   //     "Mr Rohit Kumar Bondugula, University of Hyderabad, India",

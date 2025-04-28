@@ -16,7 +16,15 @@ const SteeringCommittee = () => {
             <p>Doc. Ing. Vojtech Stehel</p>
             <p>
               (Rector, Institute of Technology and Business in České Budějovice)
-            </p>          
+            </p>  
+            <hr />
+
+            <p>prof. Ing. Marek Vochozka</p>
+            <p>
+              (MBA, Ph.D., dr. h.c.)
+            </p>  
+              
+      
             
             
           </div>
