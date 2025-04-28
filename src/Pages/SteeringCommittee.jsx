@@ -13,16 +13,17 @@ const SteeringCommittee = () => {
           <div className="testimonials w-[100%] bg-neutral-100 text-secondary-400">
             <h3>Patron(s):</h3>
             <hr />
-            <p>Doc. Ing. Vojtech Stehel</p>
+            {/* <p>Doc. Ing. Vojtech Stehel</p>
             <p>
               (Rector, Institute of Technology and Business in České Budějovice)
             </p>  
-            <hr />
+            <hr /> */}
 
             <p>prof. Ing. Marek Vochozka</p>
             <p>
               (MBA, Ph.D., dr. h.c.)
             </p>  
+            <hr />
               
       
             
