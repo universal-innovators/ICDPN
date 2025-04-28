@@ -21,7 +21,7 @@ const SteeringCommittee = () => {
 
             <p>prof. Ing. Marek Vochozka</p>
             <p>
-              (MBA, Ph.D., dr. h.c.)
+              (MBA, Ph.D., dr. h.c., Rector, Institute of Technology and Business in České Budějovice)
             </p>  
             <hr />
               
