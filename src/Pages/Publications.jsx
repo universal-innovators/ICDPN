@@ -63,23 +63,23 @@ const Publications = () => {
                 <p className="text-black">Human-centric Computing and Information Sciences(SCI, IF-3. 9)</p>
                 </a>
               </li>
+              <li>
+                <img src="ijs.jpg" alt="" />
+                <p>International Journal of Sensors, Wireless Communications and Control, BENTHAM SCIENCE</p>
+              </li>
+              <li>
+                <img src="iet.jpg" alt="" />
+                <p>IET Signal Processing Journal, Wiley SCI</p>
+              </li>
+              <li>
+                <img src="cmir.gif" alt="" />
+                <p>Current Medical imaging, BENTHAM SCIENCE, IF: 1.1</p>
+              </li>
+              <li>
+                <img src="das.webp" alt="" />
+                <p>Discover Applied Sciences Journal, IF:2.8</p>
+              </li>
               {/*<li>
-                <img src="jmm.jpg" alt="" />
-                <p>Journal of Mobile Multimedia(River)(Scopus and ESCI)</p>
-              </li>
-              <li>
-                <img src="scpe.png" alt="" />
-                <p>SCPE( ESCI, SCOPUS)</p>
-              </li>
-              <li>
-                <img src="j-bhii.jpg" alt="" />
-                <p>IEEE JOURNAL OF BIOMEDICAL AND HEALTH INFORMATICS, SCI,IF-7.7</p>
-              </li>
-              <li>
-                <img src="ctsoc.jpg" alt="" />
-                <p>IEEE Transactions on Consumer Electronics, SCI, IF-4.3</p>
-              </li>
-              <li>
                 <img src="human.jpeg" alt="" />
                 <p>Human-centric Computing and Information Sciences Journal, SCI -IF 6.6</p>
               </li>
