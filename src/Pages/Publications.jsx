@@ -102,7 +102,7 @@ const Publications = () => {
           <div className="indexing flex justify-around flex-wrap gap-3">
             {/* <img src="scopus.png" alt="" /> */}
             <img src="iet.jpeg" alt="" />
-            <img src="wti.jpeg" alt="" />
+            {/* <img src="wti.jpeg" alt="" /> */}
             <img src="eg.png" alt="" />
             <img src="scimago.png" alt="" />
             <img src="zbmath.png" alt="" />
