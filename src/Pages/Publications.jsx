@@ -79,6 +79,10 @@ const Publications = () => {
                 <img src="das.webp" alt="" />
                 <p>Discover Applied Sciences Journal, IF:2.8</p>
               </li>
+              <li>
+                <img src="fai.png" alt="" />
+                <p>Frontiers in Artificial Intelligence Journal, SCI-IF 3.0</p>
+              </li>
               {/*<li>
                 <img src="human.jpeg" alt="" />
                 <p>Human-centric Computing and Information Sciences Journal, SCI -IF 6.6</p>
