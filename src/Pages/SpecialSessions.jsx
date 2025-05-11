@@ -113,13 +113,15 @@ const sessionDetails = [
     file: ss10,
     fileName: "SS 010.pdf",
   },
-  // {  title: "Session - 11: AI/ML in LifeSciences/Pharmaceutical and Smart Health Care",
-  //   organisers: [
-  //     "Mr Rohit Kumar Bondugula, University of Hyderabad, India",
-  //   ],
-  //   file: ss11,
-  //   fileName: "SS 011.pdf",
-  // },
+  {  title: "Session - 11: Intelligent Data Systems and Resilient Network Security: Bridging AI and Cybersecurity",
+    organisers: [
+      "Dr. Nikhil Kumar Marriwala, Associate Professor, Dept. of ECE, Kurukshetra University, Kurukshetra, India",
+      "Dr. Vinod Kumar Shukla, Amity University Dubai, UAE",
+      "Dr. Shruti Jain, Professor, Department of ECE, Jaypee University of Information Technology, Waknaghat Distt. Solan, Himachal Pradesh, INDIA",
+    ],
+    file: ss11,
+    fileName: "SS 011.pdf",
+  },
   // {  title: "Session - 12: Integrated Modern Network Technologies",
   //   organisers: [
   //     "Dr. Tanvi Gautam, Jaypee Institute of Information and Technology, INDIA ",
