@@ -122,33 +122,30 @@ const sessionDetails = [
     file: ss11,
     fileName: "SS 011.pdf",
   },
-  // {  title: "Session - 12: Integrated Modern Network Technologies",
-  //   organisers: [
-  //     "Dr. Tanvi Gautam, Jaypee Institute of Information and Technology, INDIA ",
-  //     "Dr. Prashant K. Gupta, Bennett University, Greater Noida, Uttar Pradesh, INDIA ",
-  //     "Dr. Bireshwar Dass Mazumdar, Bennett University, Greater Noida, Uttar Pradesh, INDIA ",
-  //     "Dr. T S Pradeep Kumar, Vellore Institute of Technology, Chennai Campus, INDIA "
-  //   ],
-  //   file: ss12,
-  //   fileName: "SS 012.pdf",
-  // },
-  // {  title: "Session - 13: Data-Processing and Networking in the field of Medical IoT",
-  //   organisers: [
-  //     "Dr. Vandana Sharma, Christ University, Delhi-NCR Campus",
-  //     "Dr. Durgansh Sharma, Christ University, Delhi-NCR Campus"
-  //   ],
-  //   file: ss13,
-  //   fileName: "SS 013.pdf",
-  // }
-  // ,
-  // {  title: "Session - 14: Role of AI and Machine Learning in Biomedical Engineering",
-  //   organisers: [
-  //     "Dr. Gurmeet Singh, PhD IITD, Associate Professor, GTBIT",
-  //     "Dr. Ramandeep Singh, Scientist-D, Neuro-engineering Lab, Department of Neurosurgery, AIIMS, New Delhi"
-  //   ],
-  //   file: ss14,
-  //   fileName: "SS 014.pdf",
-  // },
+  {  title: "Session - 12: Redefining Data Management: Pioneering the Future with AI, ML, and Deep Learning for Next-Gen Innovation",
+    organisers: [
+      "Dr. Lokesh Jain, Department of Information Technology, Jagan Institute of Management Studies, Rohini, Delhi, India,"
+    ],
+    file: ss12,
+    fileName: "SS 012.pdf",
+  },
+  {  title: "Session - 13: Artificial Intelligence in Society: Broad-Spectrum Innovations in Analytics, Generative Intelligence, and Agentic Systems",
+    organisers: [
+      "Dr. Biswadip Basu Mallik, Institute of Engineering & Management (School of University of Engineering and Management), Kolkata, India",
+      "Ms. Swarnamouli Majumdar, CIISE, Concordia University, Canada"
+    ],
+    file: ss13,
+    fileName: "SS 013.pdf",
+  }
+  ,
+  {  title: "Session - 14: Intelligent Wireless Systems: Integrating Sensor Networks, Cognitive Communication, and Neuro-Adaptive Power Transfer",
+    organisers: [
+      "Dr. Anupam Das PhD, (Gauhati University) Associate Professor, Department of CSE, The Assam Royal Global University",
+      "Dr. Raghavendra Prasad PhD, (NIT) Associate Professor, Department of CSE, The Assam Royal Global University"
+    ],
+    file: ss14,
+    fileName: "SS 014.pdf",
+  },
   // {  title: "Session - 15: Advancements in Empirical Artificial Intelligence",
   //   organisers: [
   //     "Dr. Deepak Sharma, Assistant Professor, Department of Computer Science, Aryabhatta College, South Campus, University of Delhi",
