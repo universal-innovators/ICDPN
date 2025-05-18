@@ -12,7 +12,7 @@ const ImpDates = () => {
 </span></h2>
         <h2 className="text-gray-600">Submission of revised Manuscript: <span className="text-gray-500"> 30th  July 2025</span></h2>
         <h2 className="text-gray-600">Notification of final acceptance: <span className="text-gray-500">30th June 2025</span></h2>
-        <h2 className="text-gray-600">Final Manuscript due: <span className="text-gray-500">05th July 2025</span></h2>
+        <h2 className="text-gray-600">Final Manuscript due: <span className="text-gray-500">30th July 2025</span></h2>
         <h2 className="text-gray-600">Conference Date: <span className="text-gray-500">7th - 8th November, 2025</span></h2>
       </div>
     </div>
