@@ -87,7 +87,7 @@ const Registration = () => {
         </div><br/>
         <div className=" text-center">
           <a
-            href="https://rzp.io/rzp/AwQjdPa"
+            href="https://rzp.io/l/Xsn5E1V"
             target="_blank"
             className=" "
           >
