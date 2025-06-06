@@ -146,14 +146,16 @@ const sessionDetails = [
     file: ss14,
     fileName: "SS 014.pdf",
   },
-  // {  title: "Session - 15: Advancements in Empirical Artificial Intelligence",
-  //   organisers: [
-  //     "Dr. Deepak Sharma, Assistant Professor, Department of Computer Science, Aryabhatta College, South Campus, University of Delhi",
-  //     "Dr. Ranjan Kumar, Professor, Department of Computer Science, Aryabhatta College, South Campus, University of Delhi"
-  //   ],
-  //   file: ss15,
-  //   fileName: "SS 015.pdf",
-  // },
+  {  title: "Session - 15: Harnessing Machine Learning and Deep Learning for Advancements in Healthcare, Agriculture, and Beyond",
+    organisers: [
+      "Prof Shikhar Kumar Sarma, Professor & HoD-Information Technology and Dean in Technology, Gauhati University",
+      "Prof Hiren Kumar Deva Sarma, Professor, Department of Information Technology, Gauhati University",
+      "Dr. Anupam Das PhD, (Gauhati University) Associate Professor, Department of CSE, The Assam Royal Global University",
+      "Dr. Samarjit Das PhD, (Gauhati University) Associate Professor, Department of CSE, The Assam Royal Global University"
+    ],
+    file: ss15,
+    fileName: "SS 015.pdf",
+  },
   // {  title: "Session - 16: The AI Edge: Advanced Computing Techniques for Autonomous Innovation",
   //   organisers: [
   //     "Dr. Sumit Kumar Mishra, Assistant Professor, Galgotias University, Gr. Noida, India.",
