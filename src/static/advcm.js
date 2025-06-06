@@ -181,6 +181,10 @@ const advcm=[
     {
       name:'Abhishek Upadhyay',
       info : 'Carnegie Mellon University'
+    },
+    {
+      name:'Santhosh Kumar Somarapu',
+      info : 'University at Buffalo'
     }
   ]
   
