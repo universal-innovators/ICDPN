@@ -9,12 +9,28 @@ export default function Header() {
 
       <div className="sm:flex testimonials w-full px-4 px-auto bg-neutral-100 sm:mt-[8rem] mt-[5rem] mb-8  items-center md:flex-col">
         <div className="md:flex">
+        <div className="grid grid-cols-2 gap-4 m-4 md:w-[20vw]">
         <img
-            className="sm:w-[80px] sm:h-[80px] w-[60px] h-[60px] m-[10px]"
+            class="w-full h-28 object-contain"
             src="vste-logo.jpg"
             alt=""
           />
-          
+          <img
+            class="w-full h-28 object-contain"
+            src="spu_1.jpg"
+            alt=""
+          />
+          <img
+            class="w-full h-28 object-contain"
+            src="spu_2.jpg"
+            alt=""
+          />
+          <img
+            class="w-full h-28 object-contain"
+            src="du.jpg"
+            alt=""
+          />
+          </div>
 
           <div className="header-text text-center tracking-wide text-l ">
             <p className="mb-3 text-xl">
@@ -24,8 +40,9 @@ export default function Header() {
               <p className=" sm:mt-[5rem] md:mt-3 mb-3 font-medium text-lg text-blue-800">Date: 7th - 8th November, 2025</p>
             </p>
             <p className="text-red-500 ">
-              <span className="text-black">ORGANISED BY : </span><span className="font-medium">Institute of Technology and Business in České Budějovice, Near
-                Prague, Czech Republic, Europe (Venue)</span>
+              <span className="text-black">ORGANISED BY : </span><span className="font-medium">
+                 Institute of Technology and Business in České Budějovice, Near Prague, Czech Republic, Europe (Venue) <br/>in association with <br/>Slovak University of Agriculture in Nitra, Slovakia <br/>& <br/>Mata Sundri College for Women( University of Delhi) 
+</span>
 
             </p>
             Springer LNNS (Proposed) Conference (Indexed in Scopus, EI, WoS and Many More)

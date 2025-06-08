@@ -23,7 +23,14 @@ const SteeringCommittee = () => {
             <p>
               (MBA, Ph.D., dr. h.c., Rector, Institute of Technology and Business in České Budějovice)
             </p>  
-            <hr />
+            <br />
+             <p>Dr. Harpreet Kaur </p>
+            <p>
+              (Principal, Mata Sundri College for Women, University of Delhi)
+            </p>  
+            <br />
+                                                                                                     
+
               
       
             
@@ -108,9 +115,7 @@ const SteeringCommittee = () => {
             <hr />            
 <p>Dr Marta Harničárová</p>
 <p>(Department of Mechanical Engineering, Faculty of Technology, Institute of Technology and Business in České Budějovice)</p><br/>
-            <p>Dr. Akshi Kumar</p>
-            <p>(Manchester Metropolitan University, UK)</p>
-            <br />
+            
             <p>Dr. Sandra Fernando</p>
             <p>(London Metropolitan University)</p>
             <br />         
@@ -126,12 +131,13 @@ const SteeringCommittee = () => {
           
            
             <p>Dr. Mamoona Humayun</p>
-            <p>(Department of Information Systems, College of Computer and Information Sciences, Jouf University, Sakaka, Saudi Arabia)</p>
+            <p>(Department of Information Systems, College of Computer and Information Sciences, Jouf University, Sakaka, Saudi Arabia)</p><br />
             <p> Prof. Mete YAĞANOĞLU</p>
-            <p>(Ataturk University, Department of Computer Engineering, Turkey)</p>
-            <p> Dr. Sushil Kumar Singh</p>
-            <p>(Associate Professor, Marwadi University, Rajkot, Gujarat, India,
-              London Metropolitan University, London, UK)</p>
+            <p>(Ataturk University, Department of Computer Engineering, Turkey)</p><br />
+            <p> Ms. Sugandha Kaur</p>
+            <p>(Senior Assistant Professor, Department of Computer Science, Mata Sundri College for Women, University of Delhi)</p><br />
+              <p> Dr. Harguneet Kaur</p>
+            <p>(Assistant Professor, Department of Computer Science,  Mata Sundri College for Women, University of Delhi)</p><br />
           </div>
           
             
