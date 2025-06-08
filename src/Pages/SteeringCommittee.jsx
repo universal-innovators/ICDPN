@@ -24,7 +24,7 @@ const SteeringCommittee = () => {
               (MBA, Ph.D., dr. h.c., Rector, Institute of Technology and Business in České Budějovice)
             </p>  
             <br />
-             <p>Dr. Harpreet Kaur </p>
+             <p>Prof. (Dr.) Harpreet Kaur </p>
             <p>
               (Principal, Mata Sundri College for Women, University of Delhi)
             </p>  
@@ -98,6 +98,9 @@ const SteeringCommittee = () => {
             <p>Prof Punam Bedi</p>
             <p>(Department of Computer Science, University of Delhi)</p>
             <br/>
+            <p>Prof. Ing. Zuzana Palkova</p>
+            <p>(PhD., Slovak University of Agriculture, Nitra, Slovakia)</p>
+            <br />
             <p>Dr. Richa Sharma</p>
             <p>(London Metropolitan University)</p>
             <br/>
@@ -115,11 +118,17 @@ const SteeringCommittee = () => {
             <hr />            
 <p>Dr Marta Harničárová</p>
 <p>(Department of Mechanical Engineering, Faculty of Technology, Institute of Technology and Business in České Budějovice)</p><br/>
-            
+            <p>Prof. Ing. Miroslav Zitnak</p>
+            <p>(PhD., Slovak University of Agriculture, Nitra, Slovakia)</p>
+            <br />
+            <p>doc. Ing. Milan Kadnar</p>
+            <p>(PhD, Slovak University of Agriculture, Nitra, Slovakia)</p>
+            <br />
+
             <p>Dr. Sandra Fernando</p>
             <p>(London Metropolitan University)</p>
-            <br />         
-
+            <br /> 
+             
             <p>Dr. Jameel Ahamed</p>
             <p>
               (Maulana Azad National Urdu University (MANUU), Hyderabad, India)
