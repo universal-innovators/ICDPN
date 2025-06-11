@@ -1,4 +1,4 @@
-import icdpn from "../static/icdpn2.jpeg"
+import icdpn from "../static/icdpn.jpg"
 const Slider = () => {
   return (
     <div >
