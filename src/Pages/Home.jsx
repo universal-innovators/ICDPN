@@ -12,7 +12,23 @@ const Home = () => {
       <Conference />
 
       {/* Keynote Speakers */}
-      <h1 className="pl-[20px] text-gray-600 text-3xl tracking-wide text-center mt-5">Keynote Speakers</h1>
+      <h1 className="pl-[20px] text-gray-600 text-3xl tracking-wide text-center mt-5">Keynote Speakers - 2025</h1>
+      <div className="flex flex-wrap items-center  justify-around mt-10">
+        <Card className=" duration-1000 w-[300px] m-1">
+          <CardContent>
+            <p className="text-center flex flex-col items-center">
+              <img src="./pavel.jpg" className="h-48 object-cover  mb-1 mt-2" />
+              <strong> Pavel Šimek
+              </strong>
+              <br />
+              Pavel Šimek ,Czech - Department of Information Technologies,  Faculty of Economics and Management , University of Life Sciences Prague
+            </p>
+          </CardContent>
+        </Card>
+      </div>
+
+      {/* Keynote Speakers */}
+      <h1 className="pl-[20px] text-gray-600 text-3xl tracking-wide text-center mt-5">Previous Keynote Speakers</h1>
       <div className="flex flex-wrap items-center  justify-around mt-10">
 
 
@@ -71,17 +87,7 @@ const Home = () => {
             </p>
           </CardContent>
         </Card>
-        <Card className=" duration-1000 w-[300px] m-1">
-          <CardContent>
-            <p className="text-center flex flex-col items-center">
-              <img src="./pavel.jpg" className="h-48 object-cover  mb-1 mt-2" />
-              <strong> Pavel Šimek
-              </strong>
-              <br />
-              Pavel Šimek ,Czech - Department of Information Technologies,  Faculty of Economics and Management , University of Life Sciences Prague
-            </p>
-          </CardContent>
-        </Card>
+        
       </div>
       <marquee className="mt-9 sm:mx-11 text-2xl text-violet-600">CONFERENCE WILL BE ORGANISED IN HYBRID MODE. PAPER REGISTERED FOR ONLINE PRESENTATION WILL BE GIVEN 40% DISCOUNT ON REGISTRATION FEES.</marquee>
       <figure className="w-[20rem] border rounded-md shadow-xl shadow-gray-600 m-10 p-10 border-black h-[20rem] mx-auto"><img src="https://icdam-conf.com/assets/images/oneAPI.jpg" className=""></img>
