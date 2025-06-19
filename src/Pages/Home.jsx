@@ -25,6 +25,17 @@ const Home = () => {
             </p>
           </CardContent>
         </Card>
+        <Card className=" duration-1000 w-[300px] m-1">
+          <CardContent>
+            <p className="text-center flex flex-col items-center">
+              <img src="./zuza.jpg" className="h-48 object-cover  mb-1 mt-2" />
+              <strong> Zuzana Palková
+              </strong>
+              <br />
+              Slovak University of Agriculture in Nitra, Faculty of Engineering,  Institute of Electrical Engineering, Automation, Informatics and Physics
+            </p>
+          </CardContent>
+        </Card>
       </div>
 
       {/* Keynote Speakers */}
