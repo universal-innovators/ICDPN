@@ -21,7 +21,7 @@ const Home = () => {
               <strong> Pavel Šimek
               </strong>
               <br />
-              Pavel Šimek ,Czech - Department of Information Technologies,  Faculty of Economics and Management , University of Life Sciences Prague
+              Czech - Department of Information Technologies,  Faculty of Economics and Management , University of Life Sciences Prague
             </p>
           </CardContent>
         </Card>
