@@ -36,6 +36,27 @@ const Home = () => {
             </p>
           </CardContent>
         </Card>
+        <Card className=" duration-1000 w-[300px] m-1">
+          <CardContent>
+            <p className="text-center flex flex-col items-center">
+              <img src="./hawa.jpg" className="h-48 object-cover  mb-1 mt-2" />
+              <strong> Mahmoud Hawamdeh
+              </strong>
+              <br />
+              Al-Quds Open University, Palestine
+            </p>
+          </CardContent>
+        </Card>
+        <Card className=" duration-1000 w-[300px] m-1">
+          <CardContent>
+            <p className="text-center flex flex-col items-center">
+              <img src="./aninda.jpeg" className="h-48 object-cover  mb-1 mt-2" />
+              <strong> Mr. Aninda Bose</strong>
+              <br />
+              Executive Editor Interdisciplinary Applied Sciences, Computational Intelligence, Energy             Springer Nature London
+            </p>
+          </CardContent>
+        </Card>
       </div>
 
       {/* Keynote Speakers */}

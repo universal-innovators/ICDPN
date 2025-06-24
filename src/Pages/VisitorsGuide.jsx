@@ -1,6 +1,7 @@
 import Slider from "@/components/Slider";
 import React from "react";
 import { Card, CardContent } from "@/components/ui/card";
+import TravelSupport from "./TravelSupport";
 
 const VisitorsGuide = () => {
   return (
@@ -9,6 +10,7 @@ const VisitorsGuide = () => {
       <div className="w-[90%] mt-6 mx-auto text-center text-blue-950 underline font-bold text-3xl bg-green-500 p-3 rounded-tl-3xl rounded-br-3xl">
         Visitors Guide
       </div>
+      <TravelSupport/>
       <div className="w-[90%] mt-6 mx-auto text-center p-1 text-green-900 ">
        <span className="text-3xl font-semibold"> Hotels </span>
       </div>
