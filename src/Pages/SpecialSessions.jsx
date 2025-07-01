@@ -156,15 +156,13 @@ const sessionDetails = [
     file: ss15,
     fileName: "SS 015.pdf",
   },
-  // {  title: "Session - 16: The AI Edge: Advanced Computing Techniques for Autonomous Innovation",
-  //   organisers: [
-  //     "Dr. Sumit Kumar Mishra, Assistant Professor, Galgotias University, Gr. Noida, India.",
-  //     "Dr. Manish Verma, Associate Professor, Galgotias University, Gr. Noida, India.",
-  //     "Ms. Divya Saxena,  Graduate  Research Assistant,  Florida International University  Miami,  USA"
-  //   ],
-  //   file: ss16,
-  //   fileName: "SS 016.pdf",
-  // },
+   {  title: "Session - 16: Artificial Intelligence and Networking",
+     organisers: [
+       "Associate Professor (Dr.) Tejinder Kaur , Department of MMICTBM, Maharishi Markandeshwar (Deemed To Be University), Mullana, Ambala-Haryana"
+     ],
+     file: ss16,
+     fileName: "SS 016.pdf",
+   },
   // {  title: "Session - 17: Digital Technologies for Biotechnology and Bioinformatics",
   //   organisers: [
   //     "Dr. Dheeraj Chitara Department of Biotechnology, School of Sciences, JECRC University, Sitapura, Jaipur, India.",
