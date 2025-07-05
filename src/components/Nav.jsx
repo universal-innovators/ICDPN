@@ -334,6 +334,17 @@ const Nav = () => {
               </p>
             </Link>
           </li>
+           <li className=" md:my-0 my-7 font-semibold">
+            <Link
+              to="/fusion-awards"
+              className="text-gray-800 hover:text-blue-400 duration-500"
+               onClick={closeHandler}
+            >
+              <p className="m-[8.5px] text-center">
+                <p className="custom px-[2.5px]">Fusion Awards</p>
+              </p>
+            </Link>
+          </li>
           <li className=" md:my-0 my-7 font-semibold">
             <Link
               to="/VisitorsGuide"

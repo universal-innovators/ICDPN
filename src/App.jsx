@@ -2,7 +2,7 @@ import './App.css'
 import AboutInstitute from './Pages/AboutInstitute'
 import AboutUni from './Pages/AboutUni'
 import AdvCom from './Pages/AdvCom'
-//import Awards from './Pages/Awards'
+import Awards from './Pages/Awards'
 import VisitorsGuide from './Pages/VisitorsGuide'
 import CallForPapers from './Pages/CallForPapers'
 import CallForSpecialSessions from './Pages/CallForSpecialSessions'
@@ -77,6 +77,7 @@ const router=createBrowserRouter([
       {path:'/steering-committee' ,element:<SteeringCommittee/>},
       {path:'/technical-program-committee' ,element:<TechProgC/>},
       {path:'/ICDPN-2024',element:<ICDPN2024/>},
+      {path:'/fusion-awards',element:<Awards/>}
 
     ]
   }

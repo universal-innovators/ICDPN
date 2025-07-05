@@ -156,15 +156,14 @@ const sessionDetails = [
     file: ss15,
     fileName: "SS 015.pdf",
   },
-  // {  title: "Session - 16: The AI Edge: Advanced Computing Techniques for Autonomous Innovation",
-  //   organisers: [
-  //     "Dr. Sumit Kumar Mishra, Assistant Professor, Galgotias University, Gr. Noida, India.",
-  //     "Dr. Manish Verma, Associate Professor, Galgotias University, Gr. Noida, India.",
-  //     "Ms. Divya Saxena,  Graduate  Research Assistant,  Florida International University  Miami,  USA"
-  //   ],
-  //   file: ss16,
-  //   fileName: "SS 016.pdf",
-  // },
+  {  title: "Session - 16: Quantum Computing in Stock Markets",
+    organisers: [
+      "Dr. Deepak Sharma, Associate Director, Department of Distance and Continuing Education School of Open Learning, Campus of Open Learning, University of Delhi",
+      "Ms. Tripti Goel, Assistant Professor, Department of Commerce, Aryabhatta College, South Campus, University of Delhi"
+    ],
+    file: ss16,
+    fileName: "SS 016.pdf",
+  },
   // {  title: "Session - 17: Digital Technologies for Biotechnology and Bioinformatics",
   //   organisers: [
   //     "Dr. Dheeraj Chitara Department of Biotechnology, School of Sciences, JECRC University, Sitapura, Jaipur, India.",
