@@ -156,23 +156,21 @@ const sessionDetails = [
     file: ss15,
     fileName: "SS 015.pdf",
   },
-  {  title: "Session - 16: Quantum Computing in Stock Markets",
+   {  title: "Session - 16: Artificial Intelligence and Networking",
+     organisers: [
+       "Associate Professor (Dr.) Tejinder Kaur , Department of MMICTBM, Maharishi Markandeshwar (Deemed To Be University), Mullana, Ambala-Haryana"
+     ],
+     file: ss16,
+     fileName: "SS 016.pdf",
+   },
+  {  title: "Session - 17: Quantum Computing in Stock Markets",
     organisers: [
       "Dr. Deepak Sharma, Associate Director, Department of Distance and Continuing Education School of Open Learning, Campus of Open Learning, University of Delhi",
       "Ms. Tripti Goel, Assistant Professor, Department of Commerce, Aryabhatta College, South Campus, University of Delhi"
     ],
-    file: ss16,
-    fileName: "SS 016.pdf",
+    file: ss17,
+    fileName: "SS 017.pdf",
   },
-  // {  title: "Session - 17: Digital Technologies for Biotechnology and Bioinformatics",
-  //   organisers: [
-  //     "Dr. Dheeraj Chitara Department of Biotechnology, School of Sciences, JECRC University, Sitapura, Jaipur, India.",
-  //     "Dr. Shilpa Bhargava Department of Science, Biyani Girls College, Vidhyadhar Nagar, Jaipur, India.",
-  //     "Dr. Prashant Kumar Department of Bioinformatics, Kalinga University, Raipur, India."
-  //   ],
-  //   file: ss17,
-  //   fileName: "SS 017.pdf",
-  // },
   
   
 ];
