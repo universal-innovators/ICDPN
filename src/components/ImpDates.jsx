@@ -7,7 +7,7 @@ const ImpDates = () => {
       </div>
       <hr />
       <div className="flex flex-col text-lg leading-loose">
-        <h2 className="text-gray-600">Deadline for Manuscript submission: <span className="text-gray-500">25th July 2025</span></h2>
+        <h2 className="text-gray-600">Deadline for Manuscript submission: <span className="text-gray-500">20th July 2025</span></h2>
         <h2 className="text-gray-600">Notification of first review: <span className="text-gray-500">10th August 2025
 </span></h2>
         <h2 className="text-gray-600">Submission of revised Manuscript: <span className="text-gray-500"> 20th August 2025</span></h2>
