@@ -124,7 +124,7 @@ const Awards = () => {
           "Synergy, Innovation, and Impact – Beyond Boundaries."
         </p>
         <p className="text-sm mt-3 text-gray-500">
-          📍 České Budějovice, Near Prague, Czech Republic | 7th-8th November 2025
+          📍 České Budějovice, Near Prague, Czech Republic | 7th–8th November 2025
         </p>
       </div>
 
@@ -137,6 +137,116 @@ const Awards = () => {
         </p>
       </div>
 
+      {/* Selection Process */}
+      <div className="max-w-4xl mx-auto bg-white border border-gray-200 shadow-md rounded-2xl p-6 mb-16 text-gray-800 space-y-6">
+        <h3 className="text-2xl font-bold mb-2">🔍 Selection Process Overview</h3>
+        <ol className="list-decimal list-inside space-y-4">
+          <li>
+            <strong>Call for Nominations</strong>
+            <ul className="list-disc list-inside mt-1 text-gray-700 text-sm space-y-1">
+              <li>Open to individuals, teams, higher education institutions, research labs, incubators, and innovation hubs.</li>
+              <li>Nominations may be submitted by self, peer professionals, institutional leadership, or Fusion Advisory Panel members.</li>
+            </ul>
+          </li>
+          <li>
+            <strong>Initial Screening (5–7 Days)</strong>
+            <p className="text-sm">Applications are assessed for eligibility, completeness, and alignment with award themes. Incomplete or irrelevant nominations will not proceed.</p>
+          </li>
+          <li>
+            <strong>Domain Expert Evaluation (15–20 Days)</strong>
+            <p className="text-sm">A multi-disciplinary panel uses a 100-point rubric:</p>
+            <table className="w-full text-sm border mt-2">
+              <thead>
+                <tr className="bg-gray-100">
+                  <th className="border px-2 py-1 text-left">Criterion</th>
+                  <th className="border px-2 py-1">Weight</th>
+                  <th className="border px-2 py-1 text-left">Description</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td className="border px-2 py-1">Innovation Quotient</td>
+                  <td className="border px-2 py-1">25 pts</td>
+                  <td className="border px-2 py-1">Originality, novelty, cross-domain knowledge</td>
+                </tr>
+                <tr>
+                  <td className="border px-2 py-1">Impact & Outcomes</td>
+                  <td className="border px-2 py-1">25 pts</td>
+                  <td className="border px-2 py-1">Tangible societal, economic, technological results</td>
+                </tr>
+                <tr>
+                  <td className="border px-2 py-1">Scalability & Sustainability</td>
+                  <td className="border px-2 py-1">15 pts</td>
+                  <td className="border px-2 py-1">Viability, replicability, responsibility</td>
+                </tr>
+                <tr>
+                  <td className="border px-2 py-1">Collaboration & Leadership</td>
+                  <td className="border px-2 py-1">15 pts</td>
+                  <td className="border px-2 py-1">Cross-sector teamwork and leadership</td>
+                </tr>
+                <tr>
+                  <td className="border px-2 py-1">Diversity & Inclusion</td>
+                  <td className="border px-2 py-1">10 pts</td>
+                  <td className="border px-2 py-1">Inclusive practices in tech/science</td>
+                </tr>
+                <tr>
+                  <td className="border px-2 py-1">Ethical & Responsible Innovation</td>
+                  <td className="border px-2 py-1">10 pts</td>
+                  <td className="border px-2 py-1">Alignment with global frameworks</td>
+                </tr>
+              </tbody>
+            </table>
+          </li>
+          <li>
+            <strong>Final Review & Ratification</strong>
+            <p className="text-sm">Top 5–7% entries undergo aggregated score review and endorsement by ICDPN Committee Members.</p>
+          </li>
+        </ol>
+        <p className="text-sm">
+          🔗 <a href="https://www.icdpn-conf.com/steering-committee" target="_blank" rel="noopener noreferrer" className="text-blue-600 underline">View Committee Members & Ethics Policy</a>
+        </p>
+      </div>
+
+      {/* Dates and Submission */}
+      <div className="max-w-4xl mx-auto bg-gray-50 border border-gray-200 shadow-inner rounded-2xl p-6 mb-16 text-gray-800 space-y-3">
+        <h3 className="text-xl font-bold">🗓 Important Dates</h3>
+        <ul className="list-disc list-inside text-sm space-y-1">
+          <li>Nomination Deadline: <strong>30th August 2025</strong></li>
+          <li>Announcement of Winners: <strong>30th September 2025</strong></li>
+        </ul>
+        <p className="text-sm">
+          Selection Ratio: <strong>Top 5–7%</strong> of entries will be awarded, reflecting global standards.
+        </p>
+        <div className="space-y-2">
+          <a
+            href="https://forms.gle/T4JrS18P7ZZhgpAq9"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-block bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 transition"
+          >
+            Submit Nomination (Google Form)
+          </a>
+        </div>
+        <h3 className="text-xl font-bold">Submission Forms</h3>
+         <a
+            href="Award Form- Individual Award.docx"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-block bg-blue-600 text-white px-4 py-2 m-4 rounded hover:bg-blue-700 transition"
+          >
+          Individual Award Form
+          </a>
+           <a
+            href="Award Form- Higher Education Award.docx"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-block bg-blue-600 text-white px-4 py-2 m-4 rounded hover:bg-blue-700 transition"
+          >
+           Higher Education Award Form
+          </a>
+      </div>
+
+      {/* Award Categories */}
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
         {awardCategories.map((category, idx) => (
           <div
