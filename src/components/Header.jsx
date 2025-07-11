@@ -41,17 +41,19 @@ export default function Header() {
             </p>
             <p className="text-red-500 ">
               <span className="text-black">ORGANISED BY : </span><span className="font-medium">
-                 Institute of Technology and Business in České Budějovice, Near Prague, Czech Republic, Europe (Venue) <br/>in association with <br/>Slovak University of Agriculture in Nitra, Slovakia <br/>& <br/>Mata Sundri College for Women( University of Delhi) 
+                 Institute of Technology and Business in České Budějovice, Near Prague, Czech Republic, Europe (Venue) <br/>in association with <br/>Slovak University of Agriculture in Nitra, Slovakia <br/>& <br/>National Technical University of Ukraine “Igor Sikorsky Kyiv
+Polytechnic Institute”  & Research Center for Industrial Problems of Development of the National
+Academy of Sciences of Ukraine <br/> & <br/>Mata Sundri College for Women( University of Delhi) 
 </span>
 
             </p>
             Springer LNNS (Proposed) Conference (Indexed in Scopus, EI, WoS and Many More)
           </div>
-          {/* <img
-          className="sm:w-[100px] sm:h-[100px] w-[70px] h-[70px] m-[10px]"
-          src="bpit.jpeg"
+          <img
+          className="sm:w-[200px] sm:h-[80px] w-[200px] h-[70px] sm:my-auto my-2 mx-auto"
+          src="ukrainelogo.jpeg"
           alt=""
-        /> */}
+        />
           {/* <div className="logo ">
           <img
           className=" sm:w-[150px] sm:h-[150px] w-[120px] h-[120px] mx-auto "
