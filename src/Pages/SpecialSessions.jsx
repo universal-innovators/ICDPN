@@ -171,6 +171,14 @@ const sessionDetails = [
     file: ss17,
     fileName: "SS 017.pdf",
   },
+  {  title: "Session - 18: Applied Image Processing: Current Applications and Emerging Challenges",
+    organisers: [
+      "Dr. Garima Jaiswal, Assistant Professor, SCSET, Bennett University, India",
+      "Dr. Ritu Rani, Assistant Professor, ECE, Bhagwan Parshuram Institute of Technology, Delhi"
+    ],
+    file: ss18,
+    fileName: "SS 018.pdf",
+  }
   
   
 ];
