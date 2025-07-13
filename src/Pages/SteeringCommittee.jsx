@@ -147,6 +147,13 @@ const SteeringCommittee = () => {
             <p>(Senior Assistant Professor, Department of Computer Science, Mata Sundri College for Women, University of Delhi)</p><br />
               <p> Dr. Harguneet Kaur</p>
             <p>(Assistant Professor, Department of Computer Science,  Mata Sundri College for Women, University of Delhi)</p><br />
+            <p> Prof. Dr. Olha ILYASH</p>
+            <p>(Director-Center for Artificial Intelligence Application Strategies Igor
+Sikorsky Kyiv Polytechnic Institute)</p><br />
+            <p> Prof. Kateryna BOIARYNOVA</p>
+            <p>(Head of Department,Faculty of Management and Marketing, Department of Economic Cybernetics)</p><br />
+            <p> Prof. Dr. Viktoriia KHAUSTOVA</p>
+            <p>(Director-Research Center for Industrial Problems of Development of the National Academy of Sciences of Ukraine)</p><br />
           </div>
           
             
