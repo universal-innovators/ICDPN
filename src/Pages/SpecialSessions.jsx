@@ -22,6 +22,7 @@ import ss14 from "./Sessions/SS-14.pdf";
 import ss15 from "./Sessions/SS-15.pdf";
 import ss16 from "./Sessions/SS-16.pdf";
 import ss17 from "./Sessions/SS-17.pdf";
+import ss18 from "./Sessions/SS-18.pdf";
 
 const sessionDetails = [
   {
