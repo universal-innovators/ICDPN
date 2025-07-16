@@ -57,6 +57,16 @@ const Home = () => {
             </p>
           </CardContent>
         </Card>
+        <Card className=" duration-1000 w-[300px] m-1">
+          <CardContent>
+            <p className="text-center flex flex-col items-center">
+              <img src="./thip.jpg" className="h-48 object-cover  mb-1 mt-2" />
+              <strong> Dr. Thipendra P Singh</strong>
+              <br />              
+              Professor of Artifical Intelligence, Pro Vice Chancellor, Chandigarh University, UP, India
+            </p>
+          </CardContent>
+        </Card>
       </div>
 
       {/* Keynote Speakers */}
