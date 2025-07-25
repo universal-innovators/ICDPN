@@ -179,6 +179,11 @@ const advcm=[
       info : 'Ataturk University, Department of Computer Engineering'
     },
     {
+      name:'Jigar Babaria',
+      info : 'Senior Network Development Engineer, Amazon Web Services, Seattle USA'
+    },
+    
+    {
       name:'Abhishek Upadhyay',
       info : 'Carnegie Mellon University'
     },
