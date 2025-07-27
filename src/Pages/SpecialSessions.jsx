@@ -23,6 +23,8 @@ import ss15 from "./Sessions/SS-15.pdf";
 import ss16 from "./Sessions/SS-16.pdf";
 import ss17 from "./Sessions/SS-17.pdf";
 import ss18 from "./Sessions/SS-18.pdf";
+import ss19 from "./Sessions/SS-19.pdf";
+
 
 const sessionDetails = [
   {
@@ -179,7 +181,16 @@ const sessionDetails = [
     ],
     file: ss18,
     fileName: "SS 018.pdf",
+  },
+  {  title: "Session - 19: AI-Enhanced Data Processing and Intelligent Networking for Next-Generation Digital Infrastructure",
+    organisers: [
+      "Sathish Krishna Anumula , IBM Corporation, Detroit, USA",
+      "Dr. Vikash Yadav, Government Polytechnic Bighapur Unnao, Board of Technical Education,Uttar Pradesh, India"
+    ],
+    file: ss19,
+    fileName: "SS 019.pdf",
   }
+  
   
   
 ];
