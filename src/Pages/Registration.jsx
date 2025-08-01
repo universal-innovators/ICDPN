@@ -1,4 +1,4 @@
-import qr from '../static/upi.jpg';
+import qr from '../static/upi.png';
 
 const Registration = () => {
   return (
