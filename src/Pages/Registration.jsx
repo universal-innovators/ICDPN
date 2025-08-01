@@ -88,7 +88,7 @@ const Registration = () => {
         <div className=" text-center">
           <a
             // href="https://rzp.io/l/Xsn5E1V"
-            href="https://rzp.io/rzp/dsHd2W4"
+            href="https://rzp.io/rzp/AwQjdPa"
             target="_blank"
             className=" "
           >
@@ -175,7 +175,7 @@ const Registration = () => {
         <br />
         <div className="text-center">
           <a
-            href="https://rzp.io/rzp/X2KQXzE"
+            href="https://rzp.io/rzp/dsHd2W4"
             target="_blank"
           >
             <button className="   bg-blue-600 rounded-lg hover:bg-gradient-to-t from-blue-900 to-cyan-500 ">
