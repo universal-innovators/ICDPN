@@ -24,6 +24,8 @@ import ss16 from "./Sessions/SS-16.pdf";
 import ss17 from "./Sessions/SS-17.pdf";
 import ss18 from "./Sessions/SS-18.pdf";
 import ss19 from "./Sessions/SS-19.pdf";
+import ss20 from "./Sessions/SS-20.pdf";
+
 
 
 const sessionDetails = [
@@ -189,6 +191,13 @@ const sessionDetails = [
     ],
     file: ss19,
     fileName: "SS 019.pdf",
+  },
+  {  title: "Session - 20: Regression Learning: Theory, Methods, and Applications",
+    organisers: [
+      "Dr. Anima Bag, Assistant Prof. and Head, Rama Devi Women’s University, Bhubaneswar"
+    ],
+    file: ss20,
+    fileName: "SS 020.pdf",
   }
   
   
