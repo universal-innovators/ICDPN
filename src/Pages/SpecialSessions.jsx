@@ -25,6 +25,8 @@ import ss17 from "./Sessions/SS-17.pdf";
 import ss18 from "./Sessions/SS-18.pdf";
 import ss19 from "./Sessions/SS-19.pdf";
 import ss20 from "./Sessions/SS-20.pdf";
+import ss21 from "./Sessions/SS-21.pdf";
+import ss22 from "./Sessions/SS-22.pdf";
 
 
 
@@ -198,6 +200,23 @@ const sessionDetails = [
     ],
     file: ss20,
     fileName: "SS 020.pdf",
+  },
+  {  title: "Session - 21: Deep learning with mobile edge data analytics for Healthcare applications",
+    organisers: [
+      "Dr.S.Vimal Professor & Dean, School of Computing, Dept of CSE, KIT - Kalaignar Karunanidhi Institute Of Technology, Coimbatore, Tamilnadu",
+      "Dr.Shriram K Vasudevan  Lead - Technical ( GenAI and AI)  Software tools and ecosystem specialist  Intel corporation, India",
+       "Dr.Sini Raj Pulari  Program Manager- BICT -Database I EDICT Bahrain Polytechnic"
+    ],
+    file: ss21,
+    fileName: "SS 021.pdf",
+  },
+  {  title: "Session - 22: Secure IoT: Cybersecurity Challenges in the building Sustainable Urban Futures",
+    organisers: [
+      "Dr. Nandini Prasad K S Dean- Foreign Affairs and HoD, Department of Information Science and Engineering,  Dayananda Sagar Academy of Technology and Management, Bangalore 560082. Karnataka-INDIA",
+      "Dr. Madhumala R Bagalatti Professor, CSE in IoT, Cybersecurity including Blockchain Dayananda Sagar Academy of Technology and Management, Bangalore 560082. Karnataka-INDIA"
+    ],
+    file: ss22,
+    fileName: "SS 022.pdf",
   }
   
   
