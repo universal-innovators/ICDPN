@@ -27,6 +27,8 @@ import ss19 from "./Sessions/SS-19.pdf";
 import ss20 from "./Sessions/SS-20.pdf";
 import ss21 from "./Sessions/SS-21.pdf";
 import ss22 from "./Sessions/SS-22.pdf";
+import ss23 from "./Sessions/SS-23.pdf";
+
 
 
 
@@ -217,6 +219,23 @@ const sessionDetails = [
     ],
     file: ss22,
     fileName: "SS 022.pdf",
+  },
+  {  title: "Session - 23: Converging Vision and Connectivity: Intelligent Image Processing in Wireless Sensor Networks for Next-Generation Data Processing and Networking",
+    organisers: [
+      "Dr. Kanimozhi Suguna S, SRM Institute of Science and Technology, Faculty of Science and Humanities, Ramapuram, Chennai, Tamil Nadu, India",
+      "Prof. Dr. Ozen Ozer, Kırklareli University Faculty of Science and Arts, Kırklareli, Turkey"
+    ],
+    file: ss23,
+    fileName: "SS 023.pdf",
+  },
+  {  title: "Session - 24:Empowering Sustainability through Data Analytics and Green Innovation",
+    organisers: [
+          "Dr Sudeshna Chakraborty, Professor, Galgotias University, Greater Noida, India",
+          "Dr. Rohit Bansal, Adjunct Faculty, Rockford College, Sydney, Australia",
+          "Dr Fazla Rabby, Director, Stanford Institute of Managment and Technology, Australia"
+    ],
+    file: ss24,
+    fileName: "SS 024.pdf",
   }
   
   
