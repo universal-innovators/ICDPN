@@ -28,6 +28,8 @@ import ss20 from "./Sessions/SS-20.pdf";
 import ss21 from "./Sessions/SS-21.pdf";
 import ss22 from "./Sessions/SS-22.pdf";
 import ss23 from "./Sessions/SS-23.pdf";
+import ss24 from "./Sessions/SS-24.pdf";
+
 
 
 
