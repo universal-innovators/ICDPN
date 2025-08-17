@@ -30,6 +30,8 @@ import ss22 from "./Sessions/SS-22.pdf";
 import ss23 from "./Sessions/SS-23.pdf";
 import ss24 from "./Sessions/SS-24.pdf";
 import ss25 from "./Sessions/SS-25.pdf";
+import ss26 from "./Sessions/SS-26.pdf";
+
 
 
 
