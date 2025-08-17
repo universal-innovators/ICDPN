@@ -247,6 +247,14 @@ const sessionDetails = [
     ],
     file: ss25,
     fileName: "SS 025.pdf",
+  },
+  {  title: "Session - 26:Converging Vision and Connectivity: Intelligent Image Processing in Wireless Sensor Networks for Next-Generation Data Processing and Networking",
+    organisers: [
+          "Dr. Kanimozhi Suguna S, SRM Institute of Science and Technology, Faculty of Science and Humanities, Ramapuram, Chennai, Tamil Nadu, India",
+          "Prof. Dr. Ozen Ozer, Kırklareli University Faculty of Science and Arts, Kırklareli, Turkey"
+    ],
+    file: ss26,
+    fileName: "SS 026.pdf",
   }
   
   
