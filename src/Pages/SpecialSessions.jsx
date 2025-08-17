@@ -29,6 +29,8 @@ import ss21 from "./Sessions/SS-21.pdf";
 import ss22 from "./Sessions/SS-22.pdf";
 import ss23 from "./Sessions/SS-23.pdf";
 import ss24 from "./Sessions/SS-24.pdf";
+import ss25 from "./Sessions/SS-25.pdf";
+
 
 
 
@@ -238,6 +240,13 @@ const sessionDetails = [
     ],
     file: ss24,
     fileName: "SS 024.pdf",
+  },
+  {  title: "Session - 25:AI, Data Science &amp; Analytics",
+    organisers: [
+          "Abhi Desai, Research Scholar, Mumbai, Maharashtra, India, Pace University, New York, NY, USA New England College, Henniker, NH, USA Formerly, Lead Data Analyst, Saks Fifth Avenue, USA"
+    ],
+    file: ss25,
+    fileName: "SS 025.pdf",
   }
   
   
