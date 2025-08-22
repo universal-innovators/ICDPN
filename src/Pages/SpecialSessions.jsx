@@ -31,6 +31,8 @@ import ss23 from "./Sessions/SS-23.pdf";
 import ss24 from "./Sessions/SS-24.pdf";
 import ss25 from "./Sessions/SS-25.pdf";
 import ss26 from "./Sessions/SS-26.pdf";
+import ss27 from "./Sessions/SS-27.pdf";
+
 
 
 
@@ -257,6 +259,16 @@ const sessionDetails = [
     ],
     file: ss26,
     fileName: "SS 026.pdf",
+  },
+  {  title: "Session - 27:Artificial Intelligence and Internet of Things in Disease Detection, Diagnosis and Prognosis",
+    organisers: [
+          "Dr. Alok Singh Chauhan, Professor, School of Computer Applications and Technology, Galgotias University, Greater Noida, India",
+          "Dr. Mega Novita, Associate Professor, Postgraduate Program of Science Education, Universitas PGRI Semarang, Indonesia",
+          "Dr. Sudeshna Chakraborty, Professor, School of  School of Computer Applications and Technology, Galgotias University, Greater Noida, India",
+          "Dr. Prashant Johri, Professor, School of  School of Computer Applications and Technology, Galgotias University, Greater Noida, India"
+    ],
+    file: ss27,
+    fileName: "SS 027.pdf",
   }
   
   
