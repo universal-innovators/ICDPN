@@ -211,7 +211,7 @@ const Awards = () => {
       <div className="max-w-4xl mx-auto bg-gray-50 border border-gray-200 shadow-inner rounded-2xl p-6 mb-16 text-gray-800 space-y-3">
         <h3 className="text-xl font-bold">🗓 Important Dates</h3>
         <ul className="list-disc list-inside text-sm space-y-1">
-          <li>Nomination Deadline: <strong>30th August 2025</strong></li>
+          <li>Nomination Deadline: <strong>20th September 2025</strong></li>
           <li>Announcement of Winners: <strong>30th September 2025</strong></li>
         </ul>
         <p className="text-sm">
