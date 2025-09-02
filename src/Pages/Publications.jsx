@@ -21,7 +21,7 @@ const Publications = () => {
                 {/* <p>Physical Communication, Elsevier (SCIE indexed) IF 2.37</p> */}
               </li>
               <li>
-                <img src="ais.jpg" alt="" />
+                {/* <img src="ais.jpg" alt="" /> */}
                 {/* <p>Computer & Electrical Engineering, Elsevier (SCIE indexed) IF 4.15</p> */}
               </li>
               
@@ -100,7 +100,7 @@ const Publications = () => {
           <h4 className="text-center">INDEXING</h4>
           <br />
           <div className="indexing flex justify-around flex-wrap gap-3">
-            {/* <img src="scopus.png" alt="" /> */}
+            <img src="scopus.png" alt="" />
             <img src="iet.jpeg" alt="" />
             {/* <img src="wti.jpeg" alt="" /> */}
             <img src="eg.png" alt="" />
