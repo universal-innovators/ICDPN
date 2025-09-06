@@ -62,10 +62,12 @@ const PaperSubmission = ()  => {
             <br /> you should properly cite a reference to the original work.
             <br />
             3) Also language of explaining it should not be same as language of
-            the work from which you have adopted it.
+          the work from which you have adopted it.
             <br />
             If you are using any copyrighted material, you should acquire prior
-            permission from the copyright holder.</p>
+            permission from the copyright holder.</p><br/>
+            <b className="tracking-wide text-lg mr-3">All papers must be submitted online via this link:</b>
+          <button className="btn"><a href="https://cmt3.research.microsoft.com/ICDPN2025" target="_blank" >Paper Submission Link</a></button>
           </p>
         </div>
         <div className="min-w-fit">
