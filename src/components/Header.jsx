@@ -41,26 +41,28 @@ export default function Header() {
             </p>
             <p className="text-red-500 ">
               <span className="text-black">ORGANISED BY : </span><span className="font-medium">
-                 Institute of Technology and Business in České Budějovice, Near Prague, Czech Republic, Europe (Venue) <br/>in association with <br/>Slovak University of Agriculture in Nitra, Slovakia <br/>& <br/>National Technical University of Ukraine “Igor Sikorsky Kyiv
+                 Institute of Technology and Business in České Budějovice, Near Prague, Czech Republic, Europe (Venue)                   
+                 <br/>in association with <br/>Slovak University of Agriculture in Nitra, Slovakia <br/>& <br/>National Technical University of Ukraine “Igor Sikorsky Kyiv
 Polytechnic Institute”  & Research Center for Industrial Problems of Development of the National
-Academy of Sciences of Ukraine <br/> & <br/>Mata Sundri College for Women( University of Delhi) 
+Academy of Sciences of Ukraine <br/> & <br/>Mata Sundri College for Women( University of Delhi) <br/> & <br/>Canadian Institute of Technology, Tirana
 </span>
 
             </p>
             Springer LNNS (Proposed) Conference (Indexed in Scopus, EI, WoS and Many More)
           </div>
-          <img
+          <div className="grid grid-cols-1 gap-4 m-4 md:w-[20vw]">
+        <img
           className="sm:w-[200px] sm:h-[80px] w-[200px] h-[70px] sm:my-auto my-2 mx-auto"
           src="ukrainelogo.jpeg"
           alt=""
         />
-          {/* <div className="logo ">
           <img
-          className=" sm:w-[150px] sm:h-[150px] w-[120px] h-[120px] mx-auto "
-            src="sdcn.png"
+          className=" sm:w-[200px] sm:h-[100px] w-[220px] h-[100px] mx-auto "
+            src="cit.jpg"
             alt=""
           />
-        </div> */}
+          </div>  
+          
         </div>
         <div className="h-full w-full justify-around p-4">
           <div className="font-bold text-center mb-2 text-xl">OUR SPONSORS</div>
