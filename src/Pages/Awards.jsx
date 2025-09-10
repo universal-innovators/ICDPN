@@ -94,6 +94,63 @@ const awardCategories = [
     ]
   },
   {
+    "title": "Artificial Intelligence & Machine Learning (Individual Category)",
+    "emoji": "🤖",
+    "awards": [
+      { "name": "AI Innovator of the Year", "description": "Honoring breakthroughs in AI-driven solutions or applications." },
+      { "name": "Outstanding Machine Learning Implementation Award", "description": "For exceptional application of ML models solving real-world challenges." },
+      { "name": "Responsible AI & Ethics Excellence Award", "description": "Recognizing leadership in building transparent, ethical, and unbiased AI systems." },
+      { "name": "Leadership in Networking, Infrastructure & Security", "description": "Celebrates innovations in network architecture, cybersecurity, IoT connectivity, and high-performance infrastructure. Includes SDN, NFV, Zero Trust models, secure IoT networking, 5G deployments, network automation, and enterprise-grade security solutions." }
+    ]
+  },
+  {
+    "title": "Cloud Technologies (Individual Category)",
+    "emoji": "☁️",
+    "awards": [
+      { "name": "Best Cloud Architecture Innovation Award", "description": "For groundbreaking design and optimization of cloud-native architectures." },
+      { "name": "Excellence in Cloud Security Award", "description": "Recognizing cutting-edge contributions to securing cloud platforms and data." },
+      { "name": "Cloud Migration & Modernization Champion", "description": "For exceptional work in transitioning legacy systems to modern cloud environments." }
+    ]
+  },
+  {
+    "title": "Databases & Data Engineering (Individual Category)",
+    "emoji": "🗄️",
+    "awards": [
+      { "name": "Database Optimization Excellence Award", "description": "For innovative solutions improving database performance, scalability, and reliability." },
+      { "name": "Big Data Engineering Achievement Award", "description": "Honoring advancements in managing and processing massive datasets efficiently." },
+      { "name": "Data Security & Privacy Leadership Award", "description": "For excellence in ensuring compliance, encryption, and data protection." }
+    ]
+  },
+  {
+    "title": "Manufacturing & Industry 4.0 (Individual Category)",
+    "emoji": "🏭",
+    "awards": [
+      { "name": "Smart Manufacturing Innovation Award", "description": "For applying digital twins, IoT, and AI in revolutionizing manufacturing processes." },
+      { "name": "Industrial Automation Excellence Award", "description": "Recognizing cutting-edge software solutions enabling autonomous production systems." }
+    ]
+  },
+  {
+    "title": "Software Development & Solutions (Individual Category)",
+    "emoji": "💻",
+    "awards": [
+      { "name": "Best DevOps Transformation Award", "description": "For outstanding implementation of DevOps practices enhancing CI/CD pipelines." },
+      { "name": "Software Architecture Excellence Award", "description": "Honoring superior design and scalability in software system architectures." },
+      { "name": "Outstanding SaaS Product Award", "description": "Recognizing high-impact SaaS solutions delivering measurable business value." },
+      { "name": "Emerging Technology Solution Award", "description": "For innovative software leveraging technologies like blockchain, edge computing, or quantum integration." }
+    ]
+  },
+  {
+    "title": "SAP Cloud & Digital Transformation (Individual Category)",
+    "emoji": "🌐",
+    "awards": [
+      { "name": "SAP Cloud Innovation Award", "description": "Recognizing groundbreaking implementations of SAP S/4HANA Cloud or RISE with SAP to drive enterprise transformation." },
+      { "name": "Excellence in SAP Cloud Migration", "description": "For outstanding strategies and execution in migrating legacy ERP systems to SAP S/4HANA or SAP Business Technology Platform (BTP)." },
+      { "name": "SAP Business Technology Platform (BTP) Excellence Award", "description": "Honoring the best use of BTP services like integration, extension, and analytics to deliver innovative business solutions." },
+      { "name": "SAP ERP Implementation Excellence Award", "description": "Recognizing outstanding on-premise SAP ERP implementations that significantly improve business efficiency." },
+      { "name": "Business Process Optimization with SAP Award", "description": "For leveraging SAP ECC or other on-premise SAP modules to streamline workflows and deliver measurable results." }
+    ]
+  },
+  {
     title: "Special Recognition Awards",
     emoji: "📰",
     awards: [
