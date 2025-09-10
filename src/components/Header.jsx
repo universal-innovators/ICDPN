@@ -58,7 +58,7 @@ Academy of Sciences of Ukraine <br/> & <br/>Mata Sundri College for Women( Unive
         />
           <img
           className=" sm:w-[200px] sm:h-[100px] w-[220px] h-[100px] mx-auto "
-            src="cit.jpg"
+            src="cit.png"
             alt=""
           />
           </div>  
