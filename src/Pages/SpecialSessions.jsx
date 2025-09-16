@@ -32,6 +32,8 @@ import ss24 from "./Sessions/SS-24.pdf";
 import ss25 from "./Sessions/SS-25.pdf";
 import ss26 from "./Sessions/SS-26.pdf";
 import ss27 from "./Sessions/SS-27.pdf";
+import ss28 from "./Sessions/SS-28.pdf";
+
 
 
 
@@ -269,6 +271,13 @@ const sessionDetails = [
     ],
     file: ss27,
     fileName: "SS 027.pdf",
+  },
+  {  title: "Session - 28:Protecting the Internet of Things: Challenges and Solutions",
+    organisers: [
+          "Dr Mohammad Tabrez Quasim, Associate Professor Department of Computer Science and Artificial Intelligence, College of Computing and Information Technology, University of Bisha, Bisha, Saudi Arabia"
+    ],
+    file: ss28,
+    fileName: "SS 028.pdf",
   }
   
   
