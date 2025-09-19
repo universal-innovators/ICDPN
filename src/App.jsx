@@ -27,6 +27,9 @@ import Sponsorships from './Pages/Sponsorships'
 import SteeringCommittee from './Pages/SteeringCommittee'
 import TechProgC from './Pages/TechProgC'
 import Workshops from './Pages/Workshops'
+import InvitedSpeakers from './Pages/InvitedSpeakers'
+
+
 
 
 import Footer from './components/Footer'
@@ -77,7 +80,9 @@ const router=createBrowserRouter([
       {path:'/steering-committee' ,element:<SteeringCommittee/>},
       {path:'/technical-program-committee' ,element:<TechProgC/>},
       {path:'/ICDPN-2024',element:<ICDPN2024/>},
-      {path:'/fusion-awards',element:<Awards/>}
+      {path:'/fusion-awards',element:<Awards/>},
+      {path:'/InvitedSpeakers',element:<InvitedSpeakers/>}
+
 
     ]
   }
