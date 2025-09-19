@@ -165,7 +165,8 @@ const awardCategories = [
       { name: "Education Technology Pioneer Award", description: "Recognizing those revolutionizing learning via tech platforms." },
       { name: "Cultural Leadership in Academia Award", description: "For promoting arts, heritage, and cultural learning in education." },
       { name: "Global Peace & Education Advocacy Award", description: "For efforts in promoting education as a tool for peacebuilding." },
-      { name: "Mentor Institution Award", description: "Recognizing institutions mentoring new or smaller colleges/universities." }
+      { name: "Mentor Institution Award", description: "Recognizing institutions mentoring new or smaller colleges/universities." },
+      { name: "Global Visionary Leadership in AI-Driven SAP Transformation", description: "" }
     ]
   }
 ];
