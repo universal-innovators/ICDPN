@@ -33,6 +33,8 @@ import ss25 from "./Sessions/SS-25.pdf";
 import ss26 from "./Sessions/SS-26.pdf";
 import ss27 from "./Sessions/SS-27.pdf";
 import ss28 from "./Sessions/SS-28.pdf";
+import ss29 from "./Sessions/SS-29.pdf";
+
 
 
 
@@ -278,6 +280,16 @@ const sessionDetails = [
     ],
     file: ss28,
     fileName: "SS 028.pdf",
+  },
+  {  title: "Session - 29: Harnessing Machine Learning and Deep Learning for Advancements in Healthcare, Agriculture, and Beyond”",
+    organisers: [
+          "Prof Shikhar Kumar Sarma, Professor & HoD-Information Technology and Dean in Technology, Gauhati University",
+          "Prof Hiren Kumar Deva Sarma, Professor, Department of Information Technology, Gauhati University",
+        "Dr. Anupam Das PhD, (Gauhati University) Associate Professor, Department of CSE, The Assam Royal Global University",
+        "Dr. Samarjit Das PhD, (Gauhati University) Associate Professor, Department of CSE, The Assam Royal Global University"
+    ],
+    file: ss29,
+    fileName: "SS 029.pdf",
   }
   
   
