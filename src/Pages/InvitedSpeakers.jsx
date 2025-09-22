@@ -22,6 +22,16 @@ const speakers = [
     image: "./vishal.jpg",
     title: "Data Scientist , Marriott International , US",
   },
+  {
+    name: "Aditya Gupta",
+    image: "./aditya.jpg",
+    title: "Software Development Engineer II, AWS | Ex-ZS, Senior Fellow AI2030 , Seattle, Washington, US",
+  },
+  {
+    name: "Sukumar Reddy Beereddy",
+    image: "./sukumar.jpg",
+    title: "Treasury & ERP Systems Solution Architect |USA",
+  },
  
 ];
 
