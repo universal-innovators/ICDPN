@@ -58,7 +58,17 @@ const tpcm = [
     { name: "Lakshmanan Sethu", info: "Technical Account Manager (AI/ML), Google, California, USA" },
     { name: "Dr. S.B. Goyal", info: "Director, City University of Malaysia" },
     { name: "Dr. Pavel Kromer", info: "VSB Technical University of Ostrava" },
-    { name: "Dr. Sangeeta Kumari", info: "Bennett University (Times Group), Greater Noida, Uttar Pradesh, India" }   
+    { name: "Dr. Sangeeta Kumari", info: "Bennett University (Times Group), Greater Noida, Uttar Pradesh, India" },  
+    { name: "Assoc. Prof. Nihat Adar", info: "Associate Professor at the Canadian Institute of Technology, Tirana, Albania." },
+
+    { name: "Assoc. Prof. Reis Mulita", info: "Associate Professor at the Canadian Institute of Technology, Tirana, Albania" },   
+
+    { name: "Assoc. Prof. Entelë (Entele) Gavoçi", info: "Associate Professor (Prof. Assoc. Dr.) in Physics at the Canadian Institute of Technology, Tirana, Albania" },   
+
+    { name: "Dr. Brisida Sefa", info: "Canadian Institute of Technology, Albania" }   ,
+    { name: "Assoc. Prof. Shkelzen Caka / Cakaj", info: "Associate Professor, Polytechnic University of Tirana, Albania; Canadian Institute of Technology, Tirana, Albania and UBT, Pristina, Kosovo" }   
+
+
 
 ];
 

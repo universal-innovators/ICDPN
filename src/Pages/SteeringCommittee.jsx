@@ -29,7 +29,11 @@ const SteeringCommittee = () => {
               (Principal, Mata Sundri College for Women, University of Delhi)
             </p>  
             <br />
-                                                                                                     
+            <p>Prof. Dr. Ismail Kocayusufoglu </p>
+            <p>
+              (Rector, Canadian Institute of Technology, Tirana, Albania)
+            </p>
+            <br/>                                                                         
 
               
       
