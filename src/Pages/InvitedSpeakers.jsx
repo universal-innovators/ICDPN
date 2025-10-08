@@ -32,6 +32,26 @@ const speakers = [
     image: "./sukumar.jpg",
     title: "Treasury & ERP Systems Solution Architect |USA",
   },
+  {
+    name: "Karan Lulla",
+    image: "./karan.jpg",
+    title: "Lead Board Test Engineer, Santa Clara, CA, USA",
+  },
+  {
+    name: "Mukesh Reddy Dhanagari",
+    image: "./mukesh.jpg",
+    title: "Manager, Software Development & Engineering, Charles Schwab, USA",
+  },
+  {
+    name: "Santosh Durgam",
+    image: "./santoshh.jpg",
+    title: "Manager of software engineering, Morningstar Investments LLC, Chicago, Illinois, USA",
+  },
+  {
+    name: "Ramanan Hariharan",
+    image: "./raman.png",
+    title: "Principal Engineering Manager, Security and Resiliency, Microsoft, Mountain View, USA",
+  },
  
 ];
 
