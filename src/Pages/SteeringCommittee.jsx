@@ -33,12 +33,12 @@ const SteeringCommittee = () => {
             <p>
               (Rector, Canadian Institute of Technology, Tirana, Albania)
             </p>
-            <br/>                                                                         
-
-              
-      
-            
-            
+            <br/>
+            <p> Assoc. Prof. Nihat Adar </p>
+            <p>
+              (Vice-Rector, Canadian Institute of Technology, Tirana, Albania)
+            </p>
+            <br/>   
           </div>
           <div className="testimonials w-[100%] bg-neutral-100 text-secondary-400">
             <h3>General Chair(s):</h3>
@@ -158,6 +158,15 @@ Sikorsky Kyiv Polytechnic Institute)</p><br />
             <p>(Head of Department,Faculty of Management and Marketing, Department of Economic Cybernetics)</p><br />
             <p> Prof. Dr. Viktoriia KHAUSTOVA</p>
             <p>(Director-Research Center for Industrial Problems of Development of the National Academy of Sciences of Ukraine)</p><br />
+            <p>(Assoc. Prof. Reis Mulita – Professor at Canadian Institute of Technology, Tirana, Albania)</p><br />
+<p>(Assoc. Prof. Entele Gavoci – Professor at Canadian Institute of Technology, Tirana, Albania)</p><br />
+<p>(Dr. Brisida Sefa – Professor at Canadian Institute of Technology, Tirana, Albania)</p><br />
+<p>(Assoc. Prof. Shkelzen Caka – Professor at Canadian Institute of Technology, Tirana, Albania)</p><br />
+<p>(PhD Florenc Hidri – Professor at Canadian Institute of Technology, Tirana, Albania)</p><br />
+<p>(PhD (c) Irena Fata – Professor at Canadian Institute of Technology, Tirana, Albania)</p><br />
+<p>(Mr. Ubejd Osmani – Administrator of Canadian Institute of Technology, Tirana, Albania)</p><br />
+<p>(Mr. Bledar Komini – Advisor to the Board of Administration at Canadian Institute of Technology, Tirana, Albania)</p><br />
+            
           </div>
           
             
