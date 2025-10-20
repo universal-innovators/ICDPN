@@ -52,6 +52,11 @@ const speakers = [
     image: "./raman.png",
     title: "Principal Engineering Manager, Security and Resiliency, Microsoft, Mountain View, USA",
   },
+  {
+    name: "Prasad Sundaramoorthy",
+    image: "./prasad.jpg",
+    title: "Sr Distinguished Leader - Data & AI, Nordstrom, USA",
+  }
  
 ];
 
