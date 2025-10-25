@@ -62,7 +62,12 @@ const speakers = [
     image: "./chandra.jpg",
     title: "Independent Researcher, Integration Architect, Dallas, Texas, USA",
   },
-
+  {
+    name: "Prasad Sundaramoorthy",
+    image: "./prasad.jpg",
+    title: "Sr Distinguished Leader - Data & AI, Nordstrom, USA",
+  }
+ 
 ];
 
 export default function InvitedSpeakers() {
