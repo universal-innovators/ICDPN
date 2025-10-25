@@ -5,7 +5,7 @@ const speakers = [
     name: "Rohan Salvi",
     image: "./rohan.jpg",
     title:
-      "Conversational AI Agent, Parallon, US",
+      "Conversational AI Architect, Parallon, US",
   },
   {
     name: "Reena Chandra",
@@ -52,7 +52,17 @@ const speakers = [
     image: "./raman.png",
     title: "Principal Engineering Manager, Security and Resiliency, Microsoft, Mountain View, USA",
   },
- 
+  {
+    name: "Dr Dinesh Kalla",
+    image: "./dinesh.jpg",
+    title: "Senior Technical Advisor, Microsoft",
+  },
+  {
+    name: "Chandra Sekhar Kubam",
+    image: "./chandra.jpg",
+    title: "Independent Researcher, Integration Architect, Dallas, Texas, USA",
+  },
+
 ];
 
 export default function InvitedSpeakers() {

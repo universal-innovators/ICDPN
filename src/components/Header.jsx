@@ -48,7 +48,7 @@ Academy of Sciences of Ukraine <br/> & <br/>Mata Sundri College for Women( Unive
 </span>
 
             </p>
-            Springer LNNS (Proposed) Conference (Indexed in Scopus, EI, WoS and Many More)
+            Springer LNNS (Approved) Conference (Indexed in Scopus, EI, WoS and Many More)
           </div>
           <div className="grid grid-cols-1 gap-4 m-4 md:w-[20vw]">
         <img
