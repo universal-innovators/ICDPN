@@ -66,8 +66,37 @@ const speakers = [
     name: "Prasad Sundaramoorthy",
     image: "./prasad.jpg",
     title: "Sr Distinguished Leader - Data & AI, Nordstrom, USA",
+  },
+  {
+    name: "Raman Krishnaswami",
+    image: "./raman.jpg",
+    title: "Chief Information Officer, Eagleview Technologies, US",
+  },
+  {
+    name:"Satyabrata Pradhan",
+    image:"./satya.jpg",
+    title:"General Motors, US"
+  },
+  {
+    name: "Surendra B. Konathala",
+    image: "./surendra.jpg",
+    title: "Portfolio Manager, Capgemini, US"
+  },
+  {
+    name: "Ranjith Kumar Kollu",
+    image: "./ranjith.jpg",
+    title: "Salesforce Architect, Epson America, US"
+  },
+  {
+    name: "SINDHU GOPAKUMAR NAIR",
+    image: "./sindhu.jpg",
+    title: "Principal Engineer, Autodesk, USA"
+  },
+  {
+    name: "Shalini Sivasamy",
+    image: "./shalini.jpg",
+    title: "Senior AI Engineer, Webster Bank, USA"
   }
- 
 ];
 
 export default function InvitedSpeakers() {
