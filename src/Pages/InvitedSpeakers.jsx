@@ -96,6 +96,11 @@ const speakers = [
     name: "Shalini Sivasamy",
     image: "./shalini.jpg",
     title: "Senior AI Engineer, Webster Bank, USA"
+  },
+  {
+    name: "Omkar Bhalekar",
+    image: "./omkar.jpg",
+    title: "Sr Network Engineer at Tesla Motors, United States"
   }
 ];
 
