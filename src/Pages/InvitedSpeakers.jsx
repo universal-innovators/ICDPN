@@ -101,6 +101,16 @@ const speakers = [
     name: "Omkar Bhalekar",
     image: "./omkar.jpg",
     title: "Sr Network Engineer at Tesla Motors, United States"
+  },
+  {
+    name: "Anjani kumar Polinati",
+    image: "./anjani.jpg",
+    title: "Technical Lead, Primoris Systems, Wesley chapel, FL, USA"
+  },
+  {
+    name: "Sibaram Prasad Panda",
+    image: "./sibaram.jpg",
+    title: "SVP, Decision Ready Solutions"
   }
 ];
 
