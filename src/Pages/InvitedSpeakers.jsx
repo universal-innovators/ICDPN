@@ -111,6 +111,11 @@ const speakers = [
     name: "Sibaram Prasad Panda",
     image: "./sibaram.jpg",
     title: "SVP, Decision Ready Solutions"
+  },
+  {
+    name: "Hemanth Kumar Maheshwaram",
+    image: "./hemanth.jpg",
+    title: "Senior Engineer, Abbott Laboratories, Illinois, USA"
   }
 ];
 
