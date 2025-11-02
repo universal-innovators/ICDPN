@@ -115,7 +115,7 @@ const speakers = [
   {
     name: "Hemanth Kumar Maheshwaram",
     image: "./hemanth.jpg",
-    title: "Senior Engineer, Abbott Laboratories, Illinois, USA"
+    title: "IT Project Manager, Abbott Laboratories, Illinois, USA"
   }
 ];
 
