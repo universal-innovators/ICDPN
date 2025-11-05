@@ -118,8 +118,8 @@ const speakers = [
     title: "IT Project Manager, Abbott Laboratories, Illinois, USA"
   },
   {
-    name: "Mr. Vinay Kumar Deeti",
-    image: "./vinay.jpg",
+    name: "Mr. Venkata Ramana Gudelli",
+    image: "./venkata.jpg",
     title: ""
   }
 ];
