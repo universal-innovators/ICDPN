@@ -55,6 +55,10 @@ const advcm=[
       info: 'University of Calabria, Italy'
     },
     {
+      name: 'Arvind Kumar Chaudhary',
+      info: 'Cognizant Technology Solutions U.S. Corp'
+    },    
+    {
       name: 'Dr. Naresh Kumar',
       info: 'PhD, Assistant Professor, Computer Science, DMPS, College of Arts and Sciences, University of Nizwa, Oman'
     },
