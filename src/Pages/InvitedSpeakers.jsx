@@ -121,6 +121,16 @@ const speakers = [
     name: "Mr. Venkata Ramana Gudelli",
     image: "./venkata.jpg",
     title: ""
+  },
+  {
+    name: "Sanketh Nelavelli",
+    image: "./sanket.jpg",
+    title: "Independent Researcher, Cloud Devops Architect, Texas, USA"
+  },
+  {
+    name: "Bidisha Goswami",
+    image: "./bidisha.jpg",
+    title: "The Pokémon Company International"
   }
 ];
 
