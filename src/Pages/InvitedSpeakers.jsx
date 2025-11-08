@@ -120,7 +120,7 @@ const speakers = [
   {
     name: "Mr. Venkata Ramana Gudelli",
     image: "./venkata.jpg",
-    title: ""
+    title: "Cloud Architect, USA"
   },
   {
     name: "Sanketh Nelavelli",
