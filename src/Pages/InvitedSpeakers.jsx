@@ -131,6 +131,11 @@ const speakers = [
     name: "Bidisha Goswami",
     image: "./bidisha.jpg",
     title: "The Pokémon Company International"
+  },
+  {
+    name: "Surender Kusumba",
+    image: "./surender.jpg",
+    title: "Sr Solutions Architect, Trinamix Inc"
   }
 ];
 
