@@ -49,7 +49,8 @@ const SteeringCommittee = () => {
             <p>Prof. A.K. Singh</p>
             <p>(National Institute of Technology Kurukshetra, India)</p>
             <br />
-            
+            <p>Ajay Jaiswal, Ph.D.</p>
+            <p>(Shaheed Sukhdev College of Business Studies (CBS))</p>
             
           </div>
           
