@@ -88,6 +88,74 @@ const Nav = () => {
           <DropdownMenu>
           <DropdownMenuTrigger className="text-white custom">Papers</DropdownMenuTrigger>
               <DropdownMenuContent>
+              <DropdownMenuItem>
+                  <Link
+                    to="/Call-For-Papers" 
+                    className="text-gray-800 hover:text-blue-400 duration-500"
+
+                    onClick={closeHandler}
+
+                    // onClick={<DropdownMenu close/>}
+
+                  >
+                    <p className="m-[8.5px] text-center ">
+                      <p className="custom px-[2.5px] text-gray-800">
+                        Call for Papers
+                      </p>
+                    </p>
+                  </Link>
+                </DropdownMenuItem>
+                <DropdownMenuItem>
+                  <Link
+                    to="/Paper-Submission"
+                    className="text-gray-800 hover:text-blue-400 duration-500"
+
+                    onClick={closeHandler}
+
+                    // onClick={<DropdownMenu close/>}
+
+                  >
+                    <p className="m-[8.5px] text-center ">
+                      <p className="custom px-[2.5px] text-gray-800">
+                        Paper Submission
+                      </p>
+                    </p>
+                  </Link>
+                </DropdownMenuItem>
+                <DropdownMenuItem>
+                  <Link
+                    to="/Call-For-Special-Sessions"
+                    className="text-gray-800 hover:text-blue-400 duration-500"
+
+                    onClick={closeHandler}
+
+                    // onClick={<DropdownMenu close/>}
+
+                  >
+                    <p className="m-[8.5px] text-center ">
+                      <p className="custom px-[2.5px] text-gray-800">
+                        Call for Special Sessions
+                      </p>
+                    </p>
+                  </Link>
+                </DropdownMenuItem>
+                <DropdownMenuItem>
+                  <Link
+                    to="/call_for_international_workshops"
+                    className="text-gray-800 hover:text-blue-400 duration-500"
+
+                    onClick={closeHandler}
+
+                    // onClick={<DropdownMenu close/>}
+
+                  >
+                    <p className="m-[8.5px] text-center ">
+                      <p className="custom px-[2.5px] text-gray-800">
+                        Call for International Workshops
+                      </p>
+                    </p>
+                  </Link>
+                </DropdownMenuItem>
                 <DropdownMenuItem>
                   <Link
                     to="/Special-Sessions" 
