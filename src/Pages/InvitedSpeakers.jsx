@@ -136,6 +136,16 @@ const speakers = [
     name: "Surender Kusumba",
     image: "./surender.jpg",
     title: "Sr Solutions Architect, Trinamix Inc"
+  },
+  {
+    name: "Arnab Saha",
+    image: "./arnab.jpg",
+    title: "IEEE member / Oracle"
+  },
+  {
+    name: "Sarbani Paul",
+    image: "./sarbani.jpg",
+    title: "Amazon"
   }
 ];
 

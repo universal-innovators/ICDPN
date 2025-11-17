@@ -90,7 +90,7 @@ const Nav = () => {
               <DropdownMenuContent>
                 <DropdownMenuItem>
                   <Link
-                    to="/Call-For-Papers" 
+                    to="/Special-Sessions" 
                     className="text-gray-800 hover:text-blue-400 duration-500"
 
                     onClick={closeHandler}
@@ -100,14 +100,14 @@ const Nav = () => {
                   >
                     <p className="m-[8.5px] text-center ">
                       <p className="custom px-[2.5px] text-gray-800">
-                        Call for Papers
+                        Special Sessions
                       </p>
                     </p>
                   </Link>
                 </DropdownMenuItem>
                 <DropdownMenuItem>
                   <Link
-                    to="/Paper-Submission"
+                    to="/Workshops"
                     className="text-gray-800 hover:text-blue-400 duration-500"
 
                     onClick={closeHandler}
@@ -117,60 +117,17 @@ const Nav = () => {
                   >
                     <p className="m-[8.5px] text-center ">
                       <p className="custom px-[2.5px] text-gray-800">
-                        Paper Submission
+                        Workshops
                       </p>
                     </p>
                   </Link>
                 </DropdownMenuItem>
-                <DropdownMenuItem>
-                  <Link
-                    to="/Call-For-Special-Sessions"
-                    className="text-gray-800 hover:text-blue-400 duration-500"
-
-                    onClick={closeHandler}
-
-                    // onClick={<DropdownMenu close/>}
-
-                  >
-                    <p className="m-[8.5px] text-center ">
-                      <p className="custom px-[2.5px] text-gray-800">
-                        Call for Special Sessions
-                      </p>
-                    </p>
-                  </Link>
-                </DropdownMenuItem>
-                <DropdownMenuItem>
-                  <Link
-                    to="/call_for_international_workshops"
-                    className="text-gray-800 hover:text-blue-400 duration-500"
-
-                    onClick={closeHandler}
-
-                    // onClick={<DropdownMenu close/>}
-
-                  >
-                    <p className="m-[8.5px] text-center ">
-                      <p className="custom px-[2.5px] text-gray-800">
-                        Call for International Workshops
-                      </p>
-                    </p>
-                  </Link>
-                </DropdownMenuItem>
+                
               </DropdownMenuContent>
             </DropdownMenu>
           </li>
-          {/* <li className=" md:my-0 my-7 font-semibold text-center">
-            <Link
-              to="/Poster-Paper-Presentation"
-              className="text-gray-800 hover:text-blue-400 duration-500"
-               onClick={closeHandler}
-            >
-              <p className="m-[8.5px] text-center">
-                <p className="custom px-[2.5px]">Poster Paper Presentation</p>
-              </p>
-            </Link>
-          </li> */}
-          <li className=" md:my-0 my-7 font-semibold">
+          
+          {/* <li className=" md:my-0 my-7 font-semibold">
             <Link
               to="/Special-Sessions"
               className="text-gray-800 hover:text-blue-400 duration-500"
@@ -180,8 +137,8 @@ const Nav = () => {
                 <p className="custom px-[2.5px]">Special Sessions</p>
               </p>
             </Link>
-          </li>
-          <li className=" md:my-0 my-7 font-semibold">
+          </li> */}
+          {/* <li className=" md:my-0 my-7 font-semibold">
             <Link
               to="/Workshops"
               className="text-gray-800 hover:text-blue-400 duration-500"
@@ -191,7 +148,7 @@ const Nav = () => {
                 <p className="custom px-[2.5px]">Workshops</p>
               </p>
             </Link>
-          </li>
+          </li> */}
           <li className=" md:my-0 my-7 font-semibold">
             <Link
               to="/Registration"
@@ -356,6 +313,26 @@ const Nav = () => {
                 <p className="custom px-[2.5px]">Fusion Awards</p>
               </p>
             </Link>
+          </li>
+          <li className=" md:my-0 my-7 font-semibold mx-3 text-center">
+          <DropdownMenu >
+          <DropdownMenuTrigger className="text-white custom">Previous Fusion Awards</DropdownMenuTrigger>
+              <DropdownMenuContent>
+                <DropdownMenuItem >
+                  <Link
+                    to="/fusion-awards-2025"
+                    className="text-gray-800 hover:text-blue-400 duration-500" 
+                    onClick={closeHandler}
+                  >
+                    <p className="m-[8.5px] text-center ">
+                      <p className=" px-[2.5px] text-gray-800">
+                        2025
+                      </p>
+                    </p>
+                  </Link>
+                </DropdownMenuItem>                
+              </DropdownMenuContent>
+            </DropdownMenu>
           </li>
           <li className=" md:my-0 my-7 font-semibold">
             <Link
