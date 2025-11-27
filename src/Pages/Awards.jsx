@@ -176,19 +176,19 @@ const Awards = () => {
     <div className="container mx-auto px-4 py-14">
       <div className="text-center mb-12">
         <h2 className="text-4xl md:text-5xl font-extrabold mb-3 text-gray-800">
-          FUSION Awards 2025
+          FUSION Awards 2026
         </h2>
         <p className="text-xl md:text-2xl italic text-gray-600">
           "Synergy, Innovation, and Impact – Beyond Boundaries."
         </p>
         <p className="text-sm mt-3 text-gray-500">
-          📍 České Budějovice, Near Prague, Czech Republic | 7th–8th November 2025
+          📍 České Budějovice, Near Prague, Czech Republic | 7th–8th November 2026
         </p>
       </div>
 
       <div className="max-w-4xl mx-auto text-center mb-16 text-gray-700 space-y-4">
         <p>
-          FUSION Awards 2025 celebrates trailblazers, thinkers, researchers, and change-makers who exemplify excellence in academia, industry, and innovation. This prestigious international platform recognizes collaborative brilliance, where ideas meet execution, research drives real-world impact, and cross-sector synergy accelerates global progress.
+          FUSION Awards 2026 celebrates trailblazers, thinkers, researchers, and change-makers who exemplify excellence in academia, industry, and innovation. This prestigious international platform recognizes collaborative brilliance, where ideas meet execution, research drives real-world impact, and cross-sector synergy accelerates global progress.
         </p>
         <p>
           Whether you're a faculty member transforming education, a researcher solving tomorrow’s challenges, a startup disrupting the norm, or an institution reshaping global collaboration—FUSION Awards is your stage.
@@ -269,8 +269,8 @@ const Awards = () => {
       <div className="max-w-4xl mx-auto bg-gray-50 border border-gray-200 shadow-inner rounded-2xl p-6 mb-16 text-gray-800 space-y-3">
         <h3 className="text-xl font-bold">🗓 Important Dates</h3>
         <ul className="list-disc list-inside text-sm space-y-1">
-          <li>Nomination Deadline: <strong>20th September 2025</strong></li>
-          <li>Announcement of Winners: <strong>30th September 2025</strong></li>
+          <li>Nomination Deadline: <strong>30th July 2026</strong></li>
+          <li>Announcement of Winners: <strong>30th August 2026</strong></li>
         </ul>
         <p className="text-sm">
           Selection Ratio: <strong>Top 5–7%</strong> of entries will be awarded, reflecting global standards.

@@ -26,7 +26,7 @@ const PosterPaper = () => {
           All papers must be submitted online via{" "}
           <a
             className="text-blue-500 underline"
-            // href="https://cmt3.research.microsoft.com/ICDPN2025"
+            // href="https://cmt3.research.microsoft.com/ICDPN2026"
           >
             Microsoft CMT Submission Portal
           </a>{" "}

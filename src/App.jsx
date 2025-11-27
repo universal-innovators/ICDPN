@@ -34,6 +34,7 @@ import Header from './components/Header'
 import {createBrowserRouter, Outlet, RouterProvider} from 'react-router-dom'
 import CallForINTWork from './Pages/CallForINTWork'
 import Awards2025 from './Pages/Awards2025'
+import ICDPN2025 from './Pages/ICDPN2025'
 
 const router=createBrowserRouter([
   {
@@ -77,6 +78,8 @@ const router=createBrowserRouter([
       {path:'/steering-committee' ,element:<SteeringCommittee/>},
       {path:'/technical-program-committee' ,element:<TechProgC/>},
       {path:'/ICDPN-2024',element:<ICDPN2024/>},
+      {path:'/ICDPN-2025',element:<ICDPN2025/>},
+
       {path:'/fusion-awards',element:<Awards/>},
       {path:'/fusion-awards-2025',element:<Awards2025/>},
 

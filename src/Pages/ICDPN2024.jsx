@@ -31,7 +31,7 @@ const ICDPN2024 = () => {
 
       <div className="relative flex flex-col sm:flex-row justify-center items-start sm:justify-between gap-10">
         {/* Left Section */}
-        <div className="sm:w-2/3 p-4">
+        <div className="p-4">
           <p className="text-sm sm:text-base text-gray-700 leading-relaxed mb-4">
             The <strong>International Conference on Data-Processing and Networking (ICDPN-2024)</strong> was successfully organized on <strong>25th-26th October 2024</strong> by the <strong>Institute of Technology and Business</strong> in České Budějovice, located near Prague, Czech Republic, Europe. The conference brought together researchers, academicians, and industry professionals from around the globe to discuss advancements and innovations in data processing and networking.
           </p>
@@ -91,10 +91,7 @@ const ICDPN2024 = () => {
           </p>
         </div>
 
-        {/* Right Section */}
-        <div className="sm:w-1/3">
-          <ImpDates />
-        </div>
+        
       </div>
 
       {/* Swiper Section */}

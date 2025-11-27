@@ -10,7 +10,7 @@ const Conference = () => {
         <div className="text-justify">
           <p className="tracking-wide mb-2 text-lg font-light">
             International Conference on Data-Processing 
-             and Networking (ICDPN-2025) is organised with the
+             and Networking (ICDPN-2026) is organised with the
             objective of bringing together innovative scientists, professors,
             research scholars, students and industrial experts in the field of
             Computing and Communication to a common forum. The primary goal of
@@ -22,16 +22,16 @@ const Conference = () => {
             Overall, the conference will provide the researchers and attendees
             with prospects for national and international collaboration and
             networking among universities and institutions from India and abroad
-            for promoting research. ICDPN- 2025 will be held at Institute of
+            for promoting research. ICDPN- 2026 will be held at Institute of
             Technology and Business in České Budějovice, Near Prague, Czech
             Republic, Europe (Venue).
           </p>
           <p className="tracking-wide text-lg text-red-600">
-          All the papers and the proceedings of ICDPN-2025 will be published by Springer (Approved).
+          All the papers and the proceedings of ICDPN-2026 will be published by Springer (Approved).
           </p>
           <marquee><p className="text-lg my-4 text-red-500 font-semibold">Note: 40% Discount / Custom Fees Registration (Amount based on category of participation or the information conveyed) for online mode registrations</p></marquee>
           <b className="tracking-wide text-lg mr-3">All papers must be submitted online via this link:</b>
-          <button className="btn"><a href="https://cmt3.research.microsoft.com/ICDPN2025" target="_blank" >Paper Submission Link</a></button>
+          <button className="btn"><a href="https://cmt3.research.microsoft.com/ICDPN2026" target="_blank" >Paper Submission Link</a></button>
          
           
         </div>

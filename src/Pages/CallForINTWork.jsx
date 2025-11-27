@@ -4,7 +4,7 @@ const CallForINTWork = () => {
       <hr />
       <div className="text-center mt-3 mb-3 bg-green-500 p-3 rounded-tl-3xl rounded-br-3xl">
         <b className=" font-extrabold text-xl tracking-wider">
-          Invitation to conduct International Workshop in ICDPN 2025
+          Invitation to conduct International Workshop in ICDPN 2026
         </b>
       </div>
       <hr />
@@ -13,14 +13,14 @@ const CallForINTWork = () => {
       <b className="text-orange-400 text-xl">Dear Researcher/Colleagues</b>
       <br />
       <br />
-      <h3 className="text-lg">Greeting from ICDPN 2025!</h3>
+      <h3 className="text-lg">Greeting from ICDPN 2026!</h3>
       <br />
       <p className="tracking-wide text-justify text-black bg-gray-100 p-7 rounded-3xl">
         ICDPN Conference team invites you to organize the International Workshop
         in the " International Conference on Data-Processing and Networking"
-        (ICDPN-2025) , to be held at Institute of Technology and Business in
+        (ICDPN-2026) , to be held at Institute of Technology and Business in
         České Budějovice, Near Prague, Czech Republic, Europe (Venue) during
-        31st October - 1st November, 2025 of your research domain. We are diligently working
+        31st October - 1st November, 2026 of your research domain. We are diligently working
         to bring some of the most knowledgeable academician from all over the
         world and business leaders to discuss critical research topics. The
         two-day conference will include a workshop, technical workshops and
@@ -35,7 +35,7 @@ const CallForINTWork = () => {
         Highlights of the conference and Special Session Benefits:
       </div>
       <p className=" bg-gray-100 p-7 tracking-wide text-justify text-black rounded-br-3xl">
-        1) All the papers and the proceedings of ICDPN-2025 will be published by Springer (Approved).
+        1) All the papers and the proceedings of ICDPN-2026 will be published by Springer (Approved).
         <br />
         2) The workshop organizers will be entitled to receive a renumeration of
         20% of the total fees collected in the workshop.
@@ -70,23 +70,23 @@ const CallForINTWork = () => {
         If you are interested to conduct an International Workshop, please email
         us the workshop proposal at{" "}
         <a className="text-blue-800 underline">icdpn.conf@gmail.com</a> or <a className="text-blue-800 underline">icdpnconference@gmail.com</a> with
-        subject line as “Proposal for ICDPN 2025 International Workshop”
+        subject line as “Proposal for ICDPN 2026 International Workshop”
       </p>
       <br />
       <br />
       <br />
-      Looking to see you in ICDPN 2025.
+      Looking to see you in ICDPN 2026.
       <br />
       <br />
       Sincerely,
       <br />
       Organizer and Convener
       <br />
-      <b>ICDPN 2025</b>
+      <b>ICDPN 2026</b>
       <br />
       <a
-        href="Workshop_Proposal_Template 2025.docx"
-        download={"Workshop_Proposal_Template.docx"}
+        href="WORKHOP PROPOSAL.docx"
+        download={"WORKHOP PROPOSAL.docx"}
       >
         <button className="mb-5  bg-blue-600 rounded-lg hover:bg-gradient-to-t from-blue-900 to-cyan-500 ">
           <div className="m-auto p-[0.5rem] text-white">

@@ -9,7 +9,7 @@ const TravelSupport = () => {
       <p className="mb-4 text-justify">
         We are pleased to inform you that we are offering comprehensive support
         for your travel and participation in the conference, scheduled to be
-        held in <strong>České Budějovice, Near Prague, Czech Republic, Europe</strong> on <strong>7th - 8th November, 2025</strong>.
+        held in <strong>České Budějovice, Near Prague, Czech Republic, Europe</strong> on <strong>7th - 8th November, 2026</strong>.
       </p>
 
       <p className="mb-4 text-justify">
@@ -47,7 +47,7 @@ const TravelSupport = () => {
       </p>
 
       <div className="text-center font-semibold">
-        Looking forward to welcoming you to Europe for <strong>ICDPN - 2025!</strong>
+        Looking forward to welcoming you to Europe for <strong>ICDPN - 2026!</strong>
       </div>
     </div>
   );

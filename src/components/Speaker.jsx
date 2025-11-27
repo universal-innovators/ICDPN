@@ -9,7 +9,7 @@ import { EffectCoverflow, Pagination,Navigation } from 'swiper/modules';
 const Speaker = () => {
   return (
     <>
-    <h1 className='text-center font-extrabold text-blue-900 text-5xl mb-8 mt-12'>Keynote Speakers of ICICC-2025 Conference</h1>
+    <h1 className='text-center font-extrabold text-blue-900 text-5xl mb-8 mt-12'>Keynote Speakers of ICICC-2026 Conference</h1>
     <Swiper
         effect={'coverflow'}
         grabCursor={true}

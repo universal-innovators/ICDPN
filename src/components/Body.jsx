@@ -9,7 +9,7 @@ function Body() {
             href="https://scholar.google.com/citations?hl=en&user=fFvhHUAAAAAJ"
             className="card__title"
           >
-            A FLAGSHIP CONFERENCE: ICICC-2025
+            A FLAGSHIP CONFERENCE: ICICC-2026
           </a>
           <p className="card__body">
             Online presentation of papers is allowed due to pandemic
@@ -17,7 +17,7 @@ function Body() {
         </div>
         {/* <div>
           <button className="btn">
-            <a href="https://cmt3.research.microsoft.com/ICICC2025">Submit Paper</a>
+            <a href="https://cmt3.research.microsoft.com/ICICC2026">Submit Paper</a>
           </button>
         </div> */}
       </div>

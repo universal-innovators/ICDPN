@@ -388,13 +388,13 @@ const Nav = () => {
               <DropdownMenuContent>
                 <DropdownMenuItem >
                   <Link
-                    to="/fusion-awards-2025"
+                    to="/fusion-awards-2026"
                     className="text-gray-800 hover:text-blue-400 duration-500" 
                     onClick={closeHandler}
                   >
                     <p className="m-[8.5px] text-center ">
                       <p className=" px-[2.5px] text-gray-800">
-                        2025
+                        2026
                       </p>
                     </p>
                   </Link>
@@ -441,9 +441,9 @@ const Nav = () => {
                     </p>
                   </Link>
                 </DropdownMenuItem>
-                {/* <DropdownMenuItem>
+                 <DropdownMenuItem>
                 <Link
-                    to="/ICICC2023"
+                    to="/ICDPN-2025"
                     className="text-gray-800 hover:text-blue-400 duration-500 "
 
                     onClick={closeHandler}
@@ -453,12 +453,12 @@ const Nav = () => {
                   >
                     <p className="m-[8.5px] text-center ">
                       <p className=" px-[2.5px] text-gray-800">
-                        ICICC 2023
+                        ICDPN 2025
                       </p>
                     </p>
                   </Link>
                 </DropdownMenuItem>
-                <DropdownMenuItem>
+                {/*<DropdownMenuItem>
                   <Link
                     to="/ICICC2022"
                     className="text-gray-800 hover:text-blue-400 duration-500"
