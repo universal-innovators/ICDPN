@@ -87,7 +87,7 @@ const SteeringCommittee = () => {
               <h3>Publication Chair(s):</h3>
               <hr />
               <p>Prof. Abhishek Swaroop</p>
-              <p>(Bhagwan Parshuram Institute of Technology, India)</p>
+              <p>(CSE Department, St. Andrews Institute of Technology and Management, Khurrampur, Farrukhnagar, Gurugram, Haryana, India)</p>
               <br />
               <p>Jan Valicek</p>
             <p>(Institute of Technology and Business in České Budějovice)</p>
