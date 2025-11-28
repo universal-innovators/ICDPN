@@ -78,7 +78,7 @@ const Downloads = () => {
               </a>
             </div>            
           </div>
-          <div className="flex gap-2  mb-5 flex-wrap">
+          {/* <div className="flex gap-2  mb-5 flex-wrap">
 
             <div className="relative">
               <a
@@ -93,7 +93,7 @@ const Downloads = () => {
 
               </a>
             </div>            
-          </div>
+          </div> */}
 
 
         </div>

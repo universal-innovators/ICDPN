@@ -4,6 +4,7 @@ import Slider from "../components/Slider";
 import Notices from "@/components/Notices";
 //import Marquee from "react-fast-marquee";
 import { Card, CardContent } from "@/components/ui/card";
+import PrevSpeakers from "@/components/PrevSpeakers";
 const Home = () => {
 
   return (
@@ -12,7 +13,7 @@ const Home = () => {
       <Conference />
 
       {/* Keynote Speakers */}
-      <h1 className="pl-[20px] text-gray-600 text-3xl tracking-wide text-center mt-5">Keynote Speakers - 2025</h1>
+      {/* <h1 className="pl-[20px] text-gray-600 text-3xl tracking-wide text-center mt-5">Keynote Speakers - 2025</h1>
       <div className="flex flex-wrap items-center  justify-around mt-10">
         <Card className=" duration-1000 w-[300px] m-1">
           <CardContent>
@@ -67,70 +68,12 @@ const Home = () => {
             </p>
           </CardContent>
         </Card>
-      </div>
+      </div> */}
 
       {/* Keynote Speakers */}
       <h1 className="pl-[20px] text-gray-600 text-3xl tracking-wide text-center mt-5">Previous Keynote Speakers</h1>
-      <div className="flex flex-wrap items-center  justify-around mt-10">
-
-
-        <Card className=" duration-1000 w-[300px] m-1">
-          <CardContent>
-            <p className="text-center flex flex-col items-center">
-
-              <img src="./balVirdee.jpeg" className="h-48 object-cover  mb-1 mt-2" />
-              <strong> Prof. Bal Virdee</strong>
-              <br />
-              Director of the Centre for Communications Technology, London Metropolitan University, London, UK
-            </p>
-          </CardContent>
-        </Card>
-        <Card className=" duration-1000 w-[300px] m-1">
-          <CardContent>
-            <p className="text-center flex flex-col items-center">
-              <img src="./zdzislaw.jpeg" className="h-48 object-cover  mb-1 mt-2" />
-              <strong> Prof. WSG Dr. Eng. Zdzislaw Polkowski</strong>
-              <br />
-              WSG University, Bydgoszcz, Poland
-            </p>
-          </CardContent>
-        </Card>
-        <Card className=" duration-1000 w-[300px] m-1">
-          <CardContent>
-            <p className="text-center flex flex-col items-center">
-              <img src="./aninda.jpeg" className="h-48 object-cover  mb-1 mt-2" />
-              <strong> Mr. Aninda Bose</strong>
-              <br />
-              Executive Editor Interdisciplinary Applied Sciences, Computational Intelligence, Energy             Springer Nature London
-            </p>
-          </CardContent>
-        </Card>
-        <Card className=" duration-1000 w-[300px] m-1">
-          <CardContent>
-            <p className="text-center flex flex-col items-center">
-              <img src="./stanislaw.jpg" className="h-48 object-cover  mb-1 mt-2" />
-              <strong> Prof. Ph.D. engineer Stanisław Duer
-              </strong>
-              <br />
-              PhD. Electronics Engineering
-            </p>
-          </CardContent>
-        </Card>
-        <Card className=" duration-1000 w-[300px] m-1">
-          <CardContent>
-            <p className="text-center flex flex-col items-center">
-              <img src="./biswajit.jpg" className="h-48 object-cover  mb-1 mt-2" />
-              <strong> Dr. Biswajit Brahma
-              </strong>
-              <br />
-              Data Expert, McKesson Corporation, USA.
-              Over 40 Publications in SCI/Scopus journals.
-              10+ patents and copyrights
-            </p>
-          </CardContent>
-        </Card>
-        
-      </div>
+      <PrevSpeakers />
+      
       <marquee className="mt-9 sm:mx-11 text-2xl text-violet-600">CONFERENCE WILL BE ORGANISED IN HYBRID MODE. PAPER REGISTERED FOR ONLINE PRESENTATION WILL BE GIVEN 40% DISCOUNT ON REGISTRATION FEES.</marquee>
       <figure className="w-[20rem] border rounded-md shadow-xl shadow-gray-600 m-10 p-10 border-black h-[20rem] mx-auto"><img src="https://icdam-conf.com/assets/images/oneAPI.jpg" className=""></img>
         <figcaption className="mx-auto text-center">Intel® oneAPI<br /></figcaption>

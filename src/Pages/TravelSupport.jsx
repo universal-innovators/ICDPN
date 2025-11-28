@@ -9,7 +9,7 @@ const TravelSupport = () => {
       <p className="mb-4 text-justify">
         We are pleased to inform you that we are offering comprehensive support
         for your travel and participation in the conference, scheduled to be
-        held in <strong>České Budějovice, Near Prague, Czech Republic, Europe</strong> on <strong>7th - 8th November, 2026</strong>.
+        held in <strong>České Budějovice, Near Prague, Czech Republic, Europe</strong> on <strong>25th - 26th September, 2026</strong>.
       </p>
 
       <p className="mb-4 text-justify">

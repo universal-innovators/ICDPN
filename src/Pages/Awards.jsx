@@ -182,7 +182,7 @@ const Awards = () => {
           "Synergy, Innovation, and Impact – Beyond Boundaries."
         </p>
         <p className="text-sm mt-3 text-gray-500">
-          📍 České Budějovice, Near Prague, Czech Republic | 7th–8th November 2026
+          📍 České Budějovice, Near Prague, Czech Republic | 25th - 26th September 2026
         </p>
       </div>
 

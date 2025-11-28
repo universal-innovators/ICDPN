@@ -28,8 +28,8 @@ const PaperSubmission = ()  => {
             attached springer template for preparation of your paper.
             <br />
             2) All papers must be submitted online
-             via 
-            <a href="https://cmt3.research.microsoft.com/ICDPN2026">paper submission link</a>
+             {/* via  */}
+            {/* <a href="https://cmt3.research.microsoft.com/ICDPN2026">paper submission link</a> */}
             <br />
             3) All submissions will be thoroughly peer-reviewed by experts based
             on originality, significance and clarity.

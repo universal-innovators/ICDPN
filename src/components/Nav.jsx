@@ -75,7 +75,7 @@ const Nav = () => {
                   >
                     <p className="m-[8.5px] text-center ">
                       <p className="custom px-[2.5px] text-gray-800">
-                        About Universal Innovators
+                        About Universal Inovators
                       </p>
                     </p>
                   </Link>

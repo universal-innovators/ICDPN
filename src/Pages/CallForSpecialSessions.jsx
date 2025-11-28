@@ -22,7 +22,7 @@ const CallForSpecialSessions = () => {
           sixth version of International Conference on Data-Processing and
           Networking (ICDPN-2026) , to be held at Institute of Technology and
           Business in České Budějovice, Near Prague, Czech Republic, Europe
-          during 16-17th February 2026 of your research domain. We are
+          during 25th - 26th September 2026 of your research domain. We are
           diligently working to bring some of the most knowledgeable researchers
           from all over the world along with the leaders from the industry to
           explore the important topics of research. The two day conference will

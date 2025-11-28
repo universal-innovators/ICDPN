@@ -37,7 +37,7 @@ export default function Header() {
               International Conference on Data-Processing and Networking
               <br /> (ICDPN-2026)
               <br />
-              <p className=" sm:mt-[5rem] md:mt-3 mb-3 font-medium text-lg text-blue-800">Date: 7th - 8th November, 2026</p>
+              <p className=" sm:mt-[5rem] md:mt-3 mb-3 font-medium text-lg text-blue-800">Date: 25th - 26th September, 2026</p>
             </p>
             <p className="text-red-500 ">
               <span className="text-black">ORGANISED BY : </span><span className="font-medium">
