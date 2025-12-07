@@ -6,7 +6,7 @@ const AWARDS = [
   { name: "NIHARI PALADUGU", title: "Innovator of the Year (Academic/Corporate)" },
   { name: "SAMEEKSHA GUPTA", title: "Women in Research Excellence Award" },
   { name: "RANJEETA SAINI", title: "Best Researcher Award (Academic/Industry)" },
-  { name: "SATHISH KRISHNA ANUMULA", title: "Innovation and Impact – Emerging Innovator of the Year Award" },
+  { name: "SATHISH KRISHNA ANUMULA", title: "Manufacturing and Industry 4.0 Award" },
   { name: "RANJITH KUMAR RAMAKRISHNAN", title: "Best Cloud Architecture Innovation Award" },
   { name: "JAGADEESH VASANTHADA", title: "Global Visionary Leadership in AI-Driven SAP Transformation Award" },
   { name: "PARUL YADAV", title: "International Educator of the Year-Special Recognition Award" },
