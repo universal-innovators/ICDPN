@@ -388,13 +388,13 @@ const Nav = () => {
               <DropdownMenuContent>
                 <DropdownMenuItem >
                   <Link
-                    to="/fusion-awards-2026"
+                    to="/fusion-awards-2025"
                     className="text-gray-800 hover:text-blue-400 duration-500" 
                     onClick={closeHandler}
                   >
                     <p className="m-[8.5px] text-center ">
                       <p className=" px-[2.5px] text-gray-800">
-                        2026
+                        2025
                       </p>
                     </p>
                   </Link>
