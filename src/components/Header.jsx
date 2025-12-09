@@ -44,7 +44,7 @@ export default function Header() {
                  Institute of Technology and Business in České Budějovice, Near Prague, Czech Republic, Europe (Venue)                   
                  <br/>in association with <br/>Slovak University of Agriculture in Nitra, Slovakia <br/>& <br/>National Technical University of Ukraine “Igor Sikorsky Kyiv
 Polytechnic Institute”  & Research Center for Industrial Problems of Development of the National
-Academy of Sciences of Ukraine <br/> & <br/>Mata Sundri College for Women( University of Delhi) <br/> & <br/>Canadian Institute of Technology, Tirana
+Academy of Sciences of Ukraine <br/> & <br/>Mata Sundri College for Women( University of Delhi) <br/> & <br/>Canadian Institute of Technology, Tirana<br/> & <br/>  Shaheed Sukhdev College of Business Studies, University of Delhi, Delhi
 </span>
 
             </p>

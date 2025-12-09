@@ -65,6 +65,7 @@ const SteeringCommittee = () => {
             <br />
             <p>Dr. João Manuel R. S. Tavares</p>
             <p>(Universidade do Porto (FEUP), PORTUGAL)</p><br/>
+            <p> Prof. Ajay Jaiswal</p><p> (Principal, School of Open Learning & Shaheed Sukhdev of College of Business Studies, University of Delhi, Delhi)</p>
            
             
           </div>
