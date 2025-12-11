@@ -12,7 +12,7 @@ const Publications = () => {
         <div className="sponsor-text-container">
           <h4 className="text-center">PUBLICATION-PROCEEDINGS</h4>
           <br />
-          <p className="mb-[1rem] ">All the papers of ICAIN 2026 will be published in Springer LNNS series (SCOPUS, DBLP, EI Compendex, INSPEC, SCImago, zbMATH) . Some of the papers will be published Springer in AIS series Indexed by zbMATH, Google Scholar. All books published in the series are submitted for consideration in Web of Science.</p>
+          <p className="mb-[1rem] ">All the papers of ICDPN 2026 will be published in Springer LNNS series (SCOPUS, DBLP, EI Compendex, INSPEC, SCImago, zbMATH) . Some of the papers will be published Springer in AIS series Indexed by zbMATH, Google Scholar. All books published in the series are submitted for consideration in Web of Science.</p>
           <br />        
           <div className="mb-[30px]">
             <ul className="books flex justify-evenly flex-wrap m-[10px] list-none">
