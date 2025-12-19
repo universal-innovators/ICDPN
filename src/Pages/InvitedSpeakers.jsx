@@ -151,6 +151,11 @@ const speakers = [
     name: "Pararameswara Reddy Nangi",
     image: "./reddy.jpg",
     title: "Senior Hadoop Engineer, Independent Researcher"
+  },
+  {
+    name: "Arjun Kamisetty",
+    image: "./arjun.jpg",
+    title: "Independent Researcher, USA"
   }
 ];
 
