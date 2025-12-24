@@ -45,14 +45,15 @@ import ss29 from "./Sessions/SS-29.pdf";
 
 
 const sessionDetails = [
-  // {
-  //   title: "Intelligent industrial design",
-  //   organisers: [
-  //     "Dr. Souvik Das, Assistant Professor, NIT Rourkela, INDIA",
-  //   ],
-  //   file: ss1,
-  //   fileName: "SS 001.pdf",
-  // },
+  {
+    title: "Data Processing, Communication Networks, and Emerging Technologies",
+    organisers: [
+      "Associate Professor (Dr.) Tejinder Kaur M.M. Institute of Computer Technology & Business Management Maharishi Markaneshwar (Deemed to be University) Mullana Ambala-Haryana 133207, India",
+      "Anant Wairagade, Independent Researcher, Phoenix, USA",
+    ],
+    file: ss1,
+    fileName: "SS 001.pdf",
+  },
   // {
   //   title: "Session - 2: Recent Advances in Intelligent Systems and Communication & Machine Learning",
   //   organisers: [
