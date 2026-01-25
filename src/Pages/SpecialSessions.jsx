@@ -54,25 +54,26 @@ const sessionDetails = [
     file: ss1,
     fileName: "SS 001.pdf",
   },
-  // {
-  //   title: "Session - 2: Recent Advances in Intelligent Systems and Communication & Machine Learning",
-  //   organisers: [
-  //     "Dr. Vikash Yadav, Department of Technical Education, UP, India",
-  //     "Ms. Sonam Gupta, Ajay Kumar Garg Engineering College, Ghaziabad, India",
-  //     "Mr. Navjot Singh Talwandi, Chandigarh University, Mohali, Punjab, India"
-  //   ],
-  //   file: ss2,
-  //   fileName: "SS 002.pdf",
-  // },
-  // {
-  //   title: "Session - 3: Intelligent Computing and Analytic using MACHINE LEARNING and DEEP LEARNING",
-  //   organisers: [
-  //     "Dr. Preeti Nagrath, Associate Professor, Bharati Vidyapeeth’s college of Engineering, Delhi, India",
-  //     "Dr. Rachna Jain, Associate Professor, Bhagwan Parshuram Institute of Technology, Delhi, India"
-  //   ],
-  //   file: ss3,
-  //   fileName: "SS 003.pdf",
-  // },
+  {
+    title: "Session - 2: Secure, Ethical, and Responsible Data Engineering and Analytics",
+    organisers: [
+      "Dr Jyoti Parashar, Associate Professor, Computer Science and Engineering, Panipat Institute of Engineering and Technology (PIET), Haryana, India",
+      "Ms. Shweta, Assistant Professor, Department of Computer Science and Engineering, Bhagwan Parshuram Institute of Engineering, Rohini, New Delhi",
+      "Yogendra Chhetri, Post Doctoral Researcher, Computer Science or Post Doctoral Research, Newcastle University in Singapore, Singapore"
+    ],
+    file: ss2,
+    fileName: "SS 002.pdf",
+  },
+  {
+    title: "Session - 3: Data Engineering 5.0: AI, Automation, and Analytics",
+    organisers: [
+      "Vinod Kumar , School of Engineering & Applied Science, George Washington University, Washington, DC, USA",
+      "Srinivasa Rao Adapa, Software Engineer, MPART Technologies, CALIFORNIA, United States",
+      "Ms. Reena Jindal, Assistant Professor, Department of Computer Applications, Panipat Institute of Engineering & Technology, Panipat, India"
+    ],
+    file: ss3,
+    fileName: "SS 003.pdf",
+  },
   // {
   //   title: "Session - 4: Smart Technologies for Human Well-Being: The Role of IoT and AI",
   //   organisers: [
