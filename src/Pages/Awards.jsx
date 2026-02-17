@@ -100,7 +100,12 @@ const awardCategories = [
       { "name": "AI Innovator of the Year", "description": "Honoring breakthroughs in AI-driven solutions or applications." },
       { "name": "Outstanding Machine Learning Implementation Award", "description": "For exceptional application of ML models solving real-world challenges." },
       { "name": "Responsible AI & Ethics Excellence Award", "description": "Recognizing leadership in building transparent, ethical, and unbiased AI systems." },
-      { "name": "Leadership in Networking, Infrastructure & Security", "description": "Celebrates innovations in network architecture, cybersecurity, IoT connectivity, and high-performance infrastructure. Includes SDN, NFV, Zero Trust models, secure IoT networking, 5G deployments, network automation, and enterprise-grade security solutions." }
+      { "name": "Leadership in Networking, Infrastructure & Security", "description": "Celebrates innovations in network architecture, cybersecurity, IoT connectivity, and high-performance infrastructure. Includes SDN, NFV, Zero Trust models, secure IoT networking, 5G deployments, network automation, and enterprise-grade security solutions." },
+      { "name": "Global AI Architecture Excellence Award", "description": "" },
+      { "name": "AI Data Analytics Excellence Award", "description": "" },
+      { "name": "Excellence in Applied AI Leadership Award" },
+      { "name": "ML Architecture Excellence Award" },
+
     ]
   },
   {
@@ -118,7 +123,8 @@ const awardCategories = [
     "awards": [
       { "name": "Database Optimization Excellence Award", "description": "For innovative solutions improving database performance, scalability, and reliability." },
       { "name": "Big Data Engineering Achievement Award", "description": "Honoring advancements in managing and processing massive datasets efficiently." },
-      { "name": "Data Security & Privacy Leadership Award", "description": "For excellence in ensuring compliance, encryption, and data protection." }
+      { "name": "Data Security & Privacy Leadership Award", "description": "For excellence in ensuring compliance, encryption, and data protection." },
+      { "name": "Data Governance Excellence Award "}
     ]
   },
   {
