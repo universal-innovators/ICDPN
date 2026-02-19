@@ -97,16 +97,40 @@ const awardCategories = [
     "title": "Artificial Intelligence & Machine Learning (Individual Category)",
     "emoji": "🤖",
     "awards": [
-      { "name": "AI Innovator of the Year", "description": "Honoring breakthroughs in AI-driven solutions or applications." },
-      { "name": "Outstanding Machine Learning Implementation Award", "description": "For exceptional application of ML models solving real-world challenges." },
-      { "name": "Responsible AI & Ethics Excellence Award", "description": "Recognizing leadership in building transparent, ethical, and unbiased AI systems." },
-      { "name": "Leadership in Networking, Infrastructure & Security", "description": "Celebrates innovations in network architecture, cybersecurity, IoT connectivity, and high-performance infrastructure. Includes SDN, NFV, Zero Trust models, secure IoT networking, 5G deployments, network automation, and enterprise-grade security solutions." },
-      { "name": "Global AI Architecture Excellence Award", "description": "" },
-      { "name": "AI Data Analytics Excellence Award", "description": "" },
-      { "name": "Excellence in Applied AI Leadership Award" },
-      { "name": "ML Architecture Excellence Award" },
+  {
+    "name": "AI Innovator of the Year",
+    "description": "Recognizes outstanding innovation in developing transformative AI-driven solutions with measurable impact."
+  },
+  {
+    "name": "Outstanding Machine Learning Implementation Award",
+    "description": "Honors exceptional deployment of machine learning models that effectively solve complex real-world problems."
+  },
+  {
+    "name": "Responsible AI & Ethics Excellence Award",
+    "description": "Acknowledges leadership in designing transparent, fair, secure, and ethically responsible AI systems."
+  },
+  {
+    "name": "Leadership in Networking, Infrastructure & Security",
+    "description": "Celebrates pioneering contributions to advanced network architecture, cybersecurity, IoT connectivity, and secure high-performance infrastructure."
+  },
+  {
+    "name": "Global AI Architecture Excellence Award",
+    "description": "Recognizes excellence in designing scalable, robust, and globally impactful AI system architectures."
+  },
+  {
+    "name": "AI Data Analytics Excellence Award",
+    "description": "Honors outstanding achievement in leveraging AI-driven analytics for data-driven insights and strategic decision-making."
+  },
+  {
+    "name": "Excellence in Applied AI Leadership Award",
+    "description": "Acknowledges visionary leadership in implementing AI solutions that drive organizational transformation and innovation."
+  },
+  {
+    "name": "ML Architecture Excellence Award",
+    "description": "Recognizes expertise in designing efficient, scalable, and high-performance machine learning architectures."
+  }
+]
 
-    ]
   },
   {
     "title": "Cloud Technologies (Individual Category)",
@@ -124,7 +148,7 @@ const awardCategories = [
       { "name": "Database Optimization Excellence Award", "description": "For innovative solutions improving database performance, scalability, and reliability." },
       { "name": "Big Data Engineering Achievement Award", "description": "Honoring advancements in managing and processing massive datasets efficiently." },
       { "name": "Data Security & Privacy Leadership Award", "description": "For excellence in ensuring compliance, encryption, and data protection." },
-      { "name": "Data Governance Excellence Award "}
+      { "name": "Data Governance Excellence Award ", "description": "Recognizes leadership in establishing effective data governance frameworks ensuring data quality, integrity, compliance, and strategic value." }
     ]
   },
   {
@@ -172,7 +196,7 @@ const awardCategories = [
       { name: "Cultural Leadership in Academia Award", description: "For promoting arts, heritage, and cultural learning in education." },
       { name: "Global Peace & Education Advocacy Award", description: "For efforts in promoting education as a tool for peacebuilding." },
       { name: "Mentor Institution Award", description: "Recognizing institutions mentoring new or smaller colleges/universities." },
-      { name: "Global Visionary Leadership in AI-Driven SAP Transformation", description: "" }
+      { name: "Global Visionary Leadership in AI-Driven SAP Transformation", description: "Recognizes exceptional leadership in driving large-scale SAP transformation initiatives through the strategic integration of artificial intelligence, automation, and intelligent enterprise solutions." }
     ]
   }
 ];
