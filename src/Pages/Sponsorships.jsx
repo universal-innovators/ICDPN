@@ -50,9 +50,7 @@ const Sponsorships = () => {
               and attendees with prospects for national and international
               collaboration and networking among universities and institutions
               from India and abroad for promoting research. ICDPN 2026 will be
-              hosted by Shaheed Sukhdev College of Business Studies (University
-              of Delhi) in association with National Institute of Technology
-              Patna, a place to pursue knowledge beyond traditional boundaries.
+              hosted by Institute of Technology and Business in České Budějovice, Near Prague, Czech Republic, Europe (Venue), a place to pursue knowledge beyond traditional boundaries.
               An institute initiated to impart quality education to the youth
               while equipping them with knowledge and skills which would enable
               them to leave their individual mark in the business world.

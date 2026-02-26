@@ -156,6 +156,11 @@ const speakers = [
     name: "Arjun Kamisetty",
     image: "./arjun.jpg",
     title: "Independent Researcher, USA"
+  },
+  {
+    name:"Divya Kodi",
+    image:"./divya.jpg",
+    title:"Cyber Security Senior Data Analyst, Truist Bank"
   }
 ];
 

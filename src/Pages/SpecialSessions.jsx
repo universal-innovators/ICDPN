@@ -5,6 +5,7 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
+
 import ss1 from "./Sessions/SS-1.pdf";
 import ss2 from "./Sessions/SS-2.pdf";
 import ss3 from "./Sessions/SS-3.pdf";
@@ -45,31 +46,32 @@ import ss29 from "./Sessions/SS-29.pdf";
 
 
 const sessionDetails = [
+
   {
-    title: "Data Processing, Communication Networks, and Emerging Technologies",
-    organisers: [
-      "Associate Professor (Dr.) Tejinder Kaur M.M. Institute of Computer Technology & Business Management Maharishi Markaneshwar (Deemed to be University) Mullana Ambala-Haryana 133207, India",
-      "Anant Wairagade, Independent Researcher, Phoenix, USA",
-    ],
-    file: ss1,
-    fileName: "SS 001.pdf",
-  },
-  {
-    title: "Session - 2: Secure, Ethical, and Responsible Data Engineering and Analytics",
+    title: "Session - 1: Secure, Ethical, and Responsible Data Engineering and Analytics",
     organisers: [
       "Dr Jyoti Parashar, Associate Professor, Computer Science and Engineering, Panipat Institute of Engineering and Technology (PIET), Haryana, India",
       "Ms. Shweta, Assistant Professor, Department of Computer Science and Engineering, Bhagwan Parshuram Institute of Engineering, Rohini, New Delhi",
       "Yogendra Chhetri, Post Doctoral Researcher, Computer Science or Post Doctoral Research, Newcastle University in Singapore, Singapore"
     ],
-    file: ss2,
-    fileName: "SS 002.pdf",
+    file: ss1,
+    fileName: "SS 001.pdf",
   },
   {
-    title: "Session - 3: Data Engineering 5.0: AI, Automation, and Analytics",
+    title: "Session - 2: Data Engineering 5.0: AI, Automation, and Analytics",
     organisers: [
       "Vinod Kumar , School of Engineering & Applied Science, George Washington University, Washington, DC, USA",
       "Srinivasa Rao Adapa, Software Engineer, MPART Technologies, CALIFORNIA, United States",
       "Ms. Reena Jindal, Assistant Professor, Department of Computer Applications, Panipat Institute of Engineering & Technology, Panipat, India"
+    ],
+    file: ss2,
+    fileName: "SS 002.pdf",
+  },
+  {
+    title: "Session - 3: Smart Technologies for Human Well-Being: The Role of IoT and AI",
+    organisers: [
+      "Dr. Divya Agarwal, Assistant Professor, Vivekananda Institute of Professional Studies-Technical campus, Delhi, India",
+      "Dr. Sandhya Tarwani, Assistant Professor, Vivekananda Institute of Professional Studies-Technical campus, Delhi, India",
     ],
     file: ss3,
     fileName: "SS 003.pdf",
