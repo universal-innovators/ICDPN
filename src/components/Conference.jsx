@@ -33,7 +33,7 @@ const Conference = () => {
           <b className="tracking-wide text-lg mr-3">All papers must be submitted online via this link:</b>
           <button className="btn"><a 
           href="https://cmt3.research.microsoft.com/ICDPN2026"
-           target="_blank" >Paper Submission Link will be updated soon</a></button>
+           target="_blank" >Paper Submission Link</a></button>
          
           
         </div>
