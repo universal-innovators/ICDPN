@@ -76,15 +76,14 @@ const sessionDetails = [
     file: ss3,
     fileName: "SS 003.pdf",
   },
-  // {
-  //   title: "Session - 4: Smart Technologies for Human Well-Being: The Role of IoT and AI",
-  //   organisers: [
-  //     "Dr. Divya Agarwal, Assistant Professor, Vivekananda Institute of Professional Studies-Technical campus, Delhi, India",
-  //     "Dr. Sandhya Tarwani, Assistant Professor, Vivekananda Institute of Professional Studies-Technical campus, Delhi, India",
-  //   ],
-  //   file: ss4,
-  //   fileName: "SS 004.pdf",
-  // },
+  {
+    title: "Session - 4: Emerging Trends in Computer Engineering, Data Processing, Artificial Intelligance and Intelligent Networking",
+    organisers: [
+      "Dr. Gurmeet Singh (PhD IITD), Associate Professor, Guru Tegh Bahadur Institute of technology, GGSIPU , New Delhi , India)",
+    ],
+    file: ss4,
+    fileName: "SS 004.pdf",
+  },
   // {
   //   title: "Session - 5: Cutting-edge Technologies in Social Sustainable Development",
   //   organisers: [
