@@ -2,6 +2,14 @@ import React, { useState } from "react";
 import { Card, CardContent } from "@/components/ui/card";
 
 const speakersData = {
+  2026: [
+    {
+      name: "Mr. Aninda Bose",
+      title:
+        "Executive Editor, Interdisciplinary Applied Sciences, Computational Intelligence, Energy Springer Nature London, London",
+      img: "./aninda.jpg",
+    },
+  ],
   2025: [
     {
       name: "Pavel Šimek",
@@ -68,7 +76,7 @@ const speakersData = {
 };
 
 const PrevSpeakers = () => {
-  const [year, setYear] = useState("2025");
+  const [year, setYear] = useState("2026");
 
   const years = Object.keys(speakersData); // ["2025", "2024"]
 
