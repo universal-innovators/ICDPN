@@ -211,18 +211,18 @@ const Registration = () => {
           <tbody>
             <tr>
               <td>Research Scholar/Student</td>
+              <td>USD 250</td>
+              <td>USD 300</td>
+            </tr>
+            <tr>
+              <td>Academician</td>
               <td>USD 300</td>
               <td>USD 350</td>
             </tr>
             <tr>
-              <td>Academician</td>
+              <td>Industrial Participants</td>
               <td>USD 350</td>
               <td>USD 400</td>
-            </tr>
-            <tr>
-              <td>Industrial Participants</td>
-              <td>USD 400</td>
-              <td>USD 450</td>
             </tr>
             {/* <tr>
               <td>Foreigner Research Scholar/Student (Outside India)</td>
