@@ -84,24 +84,25 @@ const sessionDetails = [
     file: ss4,
     fileName: "SS 004.pdf",
   },
-  // {
-  //   title: "Session - 5: Cutting-edge Technologies in Social Sustainable Development",
-  //   organisers: [
-  //     "Dr. Rajendra Kumar, Sharda School of Computing Science & Engineering, Sharda University, Greater Noida, India",
-  //     "Dr. Leong Wai Yie, INTI International University, Nilai, Malaysia",
-  //     "Mr. Ankit Bansal, Omnichannel Analytics Manager, Leander, Texas, USA",
-  //   ],
-  //   file: ss5,
-  //   fileName: "SS 005.pdf",
-  // },
-  // {
-  //   title: "Session - 6: AI-Powered Cybersecurity: Advancements, Challenges, and Future Trends",
-  //   organisers: [
-  //     "Dr. Monica Bhutani, Associate Professor, Bharati Vidyapeeth’s College of Engineering, New Delhi",
-  //   ],
-  //   file: ss6,
-  //   fileName: "SS 006.pdf",
-  // },
+  {
+    title: "Session - 5: Artificial Intelligence for Smart Healthcare and Sustainable Bio-Waste Utilization",
+    organisers: [
+      "Dr. Deepti Khanna, Associate Professor, Jagan Institute of Management Studies (JIMS), Rohini, New Delhi, India",
+    ],
+    file: ss5,
+    fileName: "SS 005.pdf",
+  },
+  {
+    title: "Session - 6: Language, Intelligence, and Agency: Interpretable and Generative AI Paradigms",
+    organisers: [
+      "Dr. Nitin Jain, Bennett University, Greater Noida, Uttar Pradesh, India",
+      "Dr. Dipika Jain, Bennett University, Greater Noida, Uttar Pradesh, India",
+      "Dr. Pallavi Ranjan, University of Murdoch, Dubai, UAE",
+      "Dr. Aman Anand, ITS Engineering College, Greater Noida, Uttar Pradesh, India"
+    ],
+    file: ss6,
+    fileName: "SS 006.pdf",
+  },
   // {
   //   title: "Session - 7: Applied AI for Smart Data Processing and Network Security",
   //   organisers: [
