@@ -46,26 +46,30 @@ const SteeringCommittee = () => {
             <p>Prof. Dr. Bal Virdee</p>
               <p>(London Metropolitan University)</p>
               <br />
-            <p>Prof. A.K. Singh</p>
-            <p>(National Institute of Technology Kurukshetra, India)</p>
-            <br />
+               <p>Jan Valicek</p>
+            <p>(Institute of Technology and Business in České Budějovice)</p>
+            
+            {/* <br />
             <p>Ajay Jaiswal, Ph.D.</p>
-            <p>(Shaheed Sukhdev College of Business Studies (CBS))</p>
+            <p>(Shaheed Sukhdev College of Business Studies (CBS))</p> */}
             
           </div>
           
           <div className="testimonials w-[100%] bg-neutral-100 text-secondary-400">
             <h3>Conference Chair(s):</h3>
             <hr />
-            <p>Prof. Sergio Duarte Correia</p>
-            <p>(Polytechnic Institute of Portalegre, Portugal.)</p><br/>
+            <p>Prof. A.K. Singh</p>
+            <p>(National Institute of Technology Kurukshetra, India)</p><br/>
             <p>Prof. Dr. Isabel de la Torre Diez
 </p>
             <p>(University of Valladolid, Spain)</p> 
+
+            {/* 
+            
             <br />
             <p>Dr. João Manuel R. S. Tavares</p>
             <p>(Universidade do Porto (FEUP), PORTUGAL)</p><br/>
-            <p> Prof. Ajay Jaiswal</p><p> (Principal, School of Open Learning & Shaheed Sukhdev of College of Business Studies, University of Delhi, Delhi)</p>
+            <p> Prof. Ajay Jaiswal</p><p> (Principal, School of Open Learning & Shaheed Sukhdev of College of Business Studies, University of Delhi, Delhi)</p> */}
            
             
           </div>
@@ -75,10 +79,10 @@ const SteeringCommittee = () => {
             <p>Roman Danel</p>
             <p>(Institute of Technology and Business in České Budějovice)</p>
             <br/>
-            <p>Prof. WSG Dr. Eng. Zdzislaw Polkowski
+            <p>Dr. Zdzislaw Polkowski
             </p>
             <p>
-              (WSG University, Bydgoszcz, Poland)
+              (The Karkonosze University of Applied Sciences in Jelenia Góra, Poland)
             </p>
             
            
@@ -90,30 +94,31 @@ const SteeringCommittee = () => {
               <p>Prof. Abhishek Swaroop</p>
               <p>(CSE Department, St. Andrews Institute of Technology and Management, Khurrampur, Farrukhnagar, Gurugram, Haryana, India)</p>
               <br />
-              <p>Jan Valicek</p>
-            <p>(Institute of Technology and Business in České Budějovice)</p>
+              <p>Prof. Sergio Duarte Correia</p>
+            <p>(Polytechnic Institute of Portalegre, Portugal.)</p>
+             
               
               
             </div>
           <div className="testimonials w-[100%] bg-neutral-100 text-secondary-400">
             <h3>Technical Program Chair(s):</h3>
             <hr />
-            <p>Omer Rana</p>
+            {/* <p>Omer Rana</p>
             <p>(Cardiff University, UK)</p>
             <br/>
             <p>Prof Punam Bedi</p>
             <p>(Department of Computer Science, University of Delhi)</p>
-            <br/>
+            <br/> */}
             <p>Prof. Ing. Zuzana Palkova</p>
             <p>(PhD., Slovak University of Agriculture, Nitra, Slovakia)</p>
             <br />
             <p>Dr. Richa Sharma</p>
             <p>(London Metropolitan University)</p>
             <br/>
-            <p>Dr. Momina Shaheen</p>
+            {/* <p>Dr. Momina Shaheen</p>
             <p>(Department of Computing, School of Arts Humanities and Social Sciences, University of Roehampton, London SW15 5PJ, United Kingdom.
 
-)</p>
+)</p> */}
             
      
             
@@ -124,12 +129,12 @@ const SteeringCommittee = () => {
             <hr />            
 <p>Dr Marta Harničárová</p>
 <p>(Department of Mechanical Engineering, Faculty of Technology, Institute of Technology and Business in České Budějovice)</p><br/>
-            <p>Prof. Ing. Miroslav Zitnak</p>
+            {/* <p>Prof. Ing. Miroslav Zitnak</p>
             <p>(PhD., Slovak University of Agriculture, Nitra, Slovakia)</p>
             <br />
             <p>doc. Ing. Milan Kadnar</p>
             <p>(PhD, Slovak University of Agriculture, Nitra, Slovakia)</p>
-            <br />
+            <br /> */}
 
             <p>Dr. Sandra Fernando</p>
             <p>(London Metropolitan University)</p>
@@ -145,7 +150,7 @@ const SteeringCommittee = () => {
             <br />      
           
            
-            <p>Dr. Mamoona Humayun</p>
+            {/* <p>Dr. Mamoona Humayun</p>
             <p>(Department of Information Systems, College of Computer and Information Sciences, Jouf University, Sakaka, Saudi Arabia)</p><br />
             <p> Prof. Mete YAĞANOĞLU</p>
             <p>(Ataturk University, Department of Computer Engineering, Turkey)</p><br />
@@ -167,7 +172,7 @@ Sikorsky Kyiv Polytechnic Institute)</p><br />
 <p>(PhD Florenc Hidri – Professor at Canadian Institute of Technology, Tirana, Albania)</p><br />
 <p>(PhD (c) Irena Fata – Professor at Canadian Institute of Technology, Tirana, Albania)</p><br />
 <p>(Mr. Ubejd Osmani – Administrator of Canadian Institute of Technology, Tirana, Albania)</p><br />
-<p>(Mr. Bledar Komini – Advisor to the Board of Administration at Canadian Institute of Technology, Tirana, Albania)</p><br />
+<p>(Mr. Bledar Komini – Advisor to the Board of Administration at Canadian Institute of Technology, Tirana, Albania)</p><br /> */}
             
           </div>
           
