@@ -161,6 +161,11 @@ const speakers = [
     name:"Divya Kodi",
     image:"./divya.jpg",
     title:"Cyber Security Senior Data Analyst, Truist Bank"
+  },
+  {
+    name:"Professor (Dr.) Rahul Katarya",
+    image:"./rahul.jpeg",
+    title:"Department of Computer Science & Engineering, Delhi Technological University (Govt. of NCT of Delhi)Shahbad Daulatpur, Main Bawana Road, New Delhi"
   }
 ];
 
