@@ -103,16 +103,14 @@ const sessionDetails = [
     file: ss6,
     fileName: "SS 006.pdf",
   },
-  // {
-  //   title: "Session - 7: Applied AI for Smart Data Processing and Network Security",
-  //   organisers: [
-  //     "Dr. Manvi Breja, The NorthCap University, Gurugram, India",
-  //     "Dr. Prachi, The NorthCap University, Gurugram, India",
-  //     "Dr. Gaurav Aggarwal, Amity University Tashkent, Uzbekistan"
-  //   ],
-  //   file: ss7,
-  //   fileName: "SS 007.pdf",
-  // },
+  {
+    title: "Session - 7: AI and Machine Learning: Transforming Data Analytics for Global Impact and Intelligent Systems",
+    organisers: [
+      "Dr. Sangeeta Kumari, University of Malta, Malta, Europe"
+    ],
+    file: ss7,
+    fileName: "SS 007.pdf",
+  },
   // {
   //   title: "Session - 8: AI in Data Processing and Networking: Innovations, Challenges, and Applications",
   //   organisers: [
