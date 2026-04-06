@@ -111,31 +111,32 @@ const sessionDetails = [
     file: ss7,
     fileName: "SS 007.pdf",
   },
-  // {
-  //   title: "Session - 8: AI in Data Processing and Networking: Innovations, Challenges, and Applications",
-  //   organisers: [
-  //     "Prof (Dr). Kamal Kundra, New Delhi Institute of Management, New Delhi",
-  //     "Dr Deepti Khanna, Jagan Institute of Management Studies, Rohini, New Delhi",
-  //     "Mr. Naveen ananda Kumar Joseph annaiah, Data Engineer, Tekinvaderz, LLC, FLORIDA, USA",
-  //   ],
-  //   file: ss8,
-  //   fileName: "SS 008.pdf",
-  // },
-  // {  title: "Session - 9: Emerging Intelligent Computing Techniques and their Applications (EICTA)",
-  //   organisers: [
-  //     "Dr. Nitish Pathak, Associate Professor, Bhagwan Parshuram Institute of Technology (BPIT), Guru Gobind Singh Indraprastha University (GGSIPU), New Delhi, India",
-  //     "Dr. Neelam Sharma, Maharaja Agrasen Institute of Technology (MAIT), Guru Gobind Singh Indraprastha University (GGSIPU), New Delhi, India",
-  //   ],
-  //   file: ss9,
-  //   fileName: "SS 009.pdf",
-  // },
-  // {  title: "Session - 10: Innovation in Biomedical Engineering and Role of AL and ML In health care",
-  //   organisers: [
-  //     "Dr. Gurmeet Singh, Associate Professor, Guru Tegh Bahadur Institute of technology, GGSIPU , New Delhi , India)",
-  //   ],
-  //   file: ss10,
-  //   fileName: "SS 010.pdf",
-  // },
+  {
+    title: "Session - 8: Research Trends in Data Science, IoT and Computational Intelligence",
+    organisers: [
+      " Dr. Shruti Aggarwal, Department of Computer Science & Engineering, Thapar Institute of Engineering and Technology, India",
+      "Dr. Syed Anar Ansar, Associate Professor , School of Computer Science and Engineering , Sandip University, Sijoul, Madhubani, Bihar",
+    ],
+    file: ss8,
+    fileName: "SS 008.pdf",
+  },
+  {  title: "Session - 9: Emerging Intelligent Computing Techniques and their Applications (EICTA)",
+    organisers: [
+      "Dr. Nitish Pathak, Associate Professor, Bhagwan Parshuram Institute of Technology (BPIT), Guru Gobind Singh Indraprastha University (GGSIPU), New Delhi, India",
+      "Dr. Neelam Sharma, Maharaja Agrasen Institute of Technology (MAIT), Guru Gobind Singh Indraprastha University (GGSIPU), New Delhi, India",
+    ],
+    file: ss9,
+    fileName: "SS 009.pdf",
+  },
+  {  title: "Session - 10: Next-Generation Data Processing for Smart and Sustainable Healthcare",
+    organisers: [
+      "Dr. Sandip Mandal, Karolinska Institutet, Stockholm, Sweden",
+      "Dr. Sakshi Gupta, Dronacharya College of Engineering, Gurugram, India",
+      "Mr. Hilal Ahmad Shah, IILM University, Greater Noida, India"
+    ],
+    file: ss10,
+    fileName: "SS 010.pdf",
+  },
   // {  title: "Session - 11: Intelligent Data Systems and Resilient Network Security: Bridging AI and Cybersecurity",
   //   organisers: [
   //     "Dr. Nikhil Kumar Marriwala, Associate Professor, Dept. of ECE, Kurukshetra University, Kurukshetra, India",
