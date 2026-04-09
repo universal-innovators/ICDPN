@@ -38,7 +38,7 @@ const Conference = () => {
           All the papers and the proceedings of ICDPN-2026 will be published by Springer (Approved).
           </p>
           <marquee><p className="text-lg my-4 text-red-500 font-semibold">Note: 40% Discount / Custom Fees Registration (Amount based on category of participation or the information conveyed) for online mode registrations</p></marquee>
-           <section className="bg-gray-50 py-12 px-4 md:px-8">
+           <section className=" py-12 px-4 md:px-8">
       <div className="max-w-5xl mx-auto text-center">
         
         {/* Heading */}
