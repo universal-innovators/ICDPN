@@ -1,6 +1,14 @@
 import AutoScroller from "./AutoScroller";
 
 const Conference = () => {
+  const reasons = [
+  "Publication in Springer LNNS (Proposed)",
+  "Extended papers to SCI / Scopus indexed journals",
+  "Rigorous double-blind peer review",
+  "Global networking opportunities",
+  "International exposure",
+];
+
   return (
     <div className="flex flex-col md:flex-nowrap  container mt-10 justify-around ">
       <div className="mt-10 mb-7 border-l-[5px] border-red-600">
@@ -30,7 +38,35 @@ const Conference = () => {
           All the papers and the proceedings of ICDPN-2026 will be published by Springer (Approved).
           </p>
           <marquee><p className="text-lg my-4 text-red-500 font-semibold">Note: 40% Discount / Custom Fees Registration (Amount based on category of participation or the information conveyed) for online mode registrations</p></marquee>
-          <b className="tracking-wide text-lg mr-3">All papers must be submitted online via this link:</b>
+           <section className="bg-gray-50 py-12 px-4 md:px-8">
+      <div className="max-w-5xl mx-auto text-center">
+        
+        {/* Heading */}
+        <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-4">
+          WHY JOIN ICDPN 2026?
+        </h2>
+
+        {/* Subheading */}
+        <p className="text-gray-600 mb-8">
+          Discover the key benefits of being part of ICDPN 2026
+        </p>
+
+        {/* Points */}
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 text-left">
+          {reasons.map((item, index) => (
+            <div
+              key={index}
+              className="bg-white p-5 rounded-2xl shadow-md hover:shadow-lg transition duration-300 flex items-start gap-3"
+            >
+              <span className="text-green-500 text-xl">✔</span>
+              <p className="text-gray-700 font-medium">{item}</p>
+            </div>
+          ))}
+        </div>
+
+      </div>
+    </section>
+          <b className="tracking-wide text-lg mr-3">All papers must be submitted online via this link. Submit Your Breakthrough Work in Data Processing, Analytics, and Networking:</b>
           <button className="btn"><a 
           href="https://cmt3.research.microsoft.com/ICDPN2026"
            target="_blank" >Paper Submission Link</a></button>
