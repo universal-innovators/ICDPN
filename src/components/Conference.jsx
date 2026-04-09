@@ -42,7 +42,7 @@ const Conference = () => {
       <div className="max-w-5xl mx-auto text-center">
         
         {/* Heading */}
-        <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-4">
+        <h2 className="text-2xl md:text-3xl font-bold text-gray-800 mb-4">
           WHY JOIN ICDPN 2026?
         </h2>
 
