@@ -97,7 +97,7 @@ const sessionDetails = [
     organisers: [
       "Dr. Nitin Jain, Bennett University, Greater Noida, Uttar Pradesh, India",
       "Dr. Dipika Jain, Bennett University, Greater Noida, Uttar Pradesh, India",
-      "Dr. Pallavi Ranjan, University of Murdoch, Dubai, UAE",
+      "Dr. Pallavi Ranjan, School of Computer Science, University of Wollongong, Dubai",
       "Dr. Aman Anand, ITS Engineering College, Greater Noida, Uttar Pradesh, India"
     ],
     file: ss6,
