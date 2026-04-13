@@ -166,6 +166,11 @@ const speakers = [
     name:"Professor (Dr.) Rahul Katarya",
     image:"./rahul.jpeg",
     title:"Department of Computer Science & Engineering, Delhi Technological University (Govt. of NCT of Delhi)Shahbad Daulatpur, Main Bawana Road, New Delhi"
+  },
+  {
+    name:"Janardhana Naidu Kola",
+    image:"./naidu.jpg",
+    title:"Director of Business Intelligence, ADP (Automatic Data Processing, Inc.)"
   }
 ];
 
