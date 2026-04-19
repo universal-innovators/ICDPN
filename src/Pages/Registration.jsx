@@ -1,4 +1,4 @@
-import qr from '../static/upi-ui-inov.jpeg';
+import qr from '../static/upi-ui-inov.jpg';
 
 const Registration = () => {
   return (
