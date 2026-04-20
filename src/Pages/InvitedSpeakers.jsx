@@ -171,6 +171,11 @@ const speakers = [
     name:"Janardhana Naidu Kola",
     image:"./naidu.jpg",
     title:"Director of Business Intelligence, ADP (Automatic Data Processing, Inc.)"
+  },
+{
+    name:"Narendra Mangala",
+    image:"./narendra.png",
+    title:"Data Engineer Manager, Kenvue, Dallas, Texas, United States"
   }
 ];
 
