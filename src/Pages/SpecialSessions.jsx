@@ -137,15 +137,16 @@ const sessionDetails = [
     file: ss10,
     fileName: "SS 010.pdf",
   },
-  // {  title: "Session - 11: Intelligent Data Systems and Resilient Network Security: Bridging AI and Cybersecurity",
-  //   organisers: [
-  //     "Dr. Nikhil Kumar Marriwala, Associate Professor, Dept. of ECE, Kurukshetra University, Kurukshetra, India",
-  //     "Dr. Vinod Kumar Shukla, Amity University Dubai, UAE",
-  //     "Dr. Shruti Jain, Professor, Department of ECE, Jaypee University of Information Technology, Waknaghat Distt. Solan, Himachal Pradesh, INDIA",
-  //   ],
-  //   file: ss11,
-  //   fileName: "SS 011.pdf",
-  // },
+  {  title: "Session - 11: Agentic AI for Healthcare Systems: Autonomous Systems for Intelligent Care Delivery",
+    organisers: [
+      "Shaurya Gupta, Associate Professor,UPES Dehradun India",
+"Sonali Vyas, Professor, JK Lakshmipat, University, Jaipur, India",
+"Sourabh Singh Verma, Associate Professor, IoT & IS Department, Manipal University Jaipur,
+Jaipur."
+    ],
+    file: ss11,
+    fileName: "SS 011.pdf",
+  },
   // {  title: "Session - 12: Redefining Data Management: Pioneering the Future with AI, ML, and Deep Learning for Next-Gen Innovation",
   //   organisers: [
   //     "Dr. Lokesh Jain, Department of Information Technology, Jagan Institute of Management Studies, Rohini, Delhi, India,"
