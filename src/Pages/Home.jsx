@@ -75,7 +75,7 @@ const Home = () => {
       <PrevSpeakers />
       
       <marquee className="mt-9 sm:mx-11 text-2xl text-violet-600">CONFERENCE WILL BE ORGANISED IN HYBRID MODE. PAPER REGISTERED FOR ONLINE PRESENTATION WILL BE GIVEN 40% DISCOUNT ON REGISTRATION FEES.</marquee>
-      <figure className="w-[20rem] border rounded-md shadow-xl shadow-gray-600 m-10 p-10 border-black h-[20rem] mx-auto"><img src="https://icdam-conf.com/assets/images/oneAPI.jpg" className=""></img>
+      <figure className="w-[20rem] border rounded-md shadow-xl shadow-gray-600 m-10 p-10 border-black h-[20rem] mx-auto"><img src="oneAPI.jpeg" className=""></img>
         <figcaption className="mx-auto text-center">Intel® oneAPI<br /></figcaption>
       </figure>
       <div className=" p-11 rounded-tl-3xl rounded-br-3xl m-11 sm:mx-[4rem] mx-[2rem] bg-violet-600 text-white text-lg"><b className="text-2xl">Highlights</b><br />
