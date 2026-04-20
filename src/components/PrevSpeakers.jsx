@@ -9,6 +9,12 @@ const speakersData = {
         "Executive Editor, Interdisciplinary Applied Sciences, Computational Intelligence, Energy Springer Nature London, London",
       img: "./aninda.jpg",
     },
+{
+      name: "Prof. Fahad Algarni",
+      title:
+        "Dean, College of Computing and Information Technology,University of Bisha, Saudi Arabia",
+      img: "./fahad.jpeg",
+    },
   ],
   2025: [
     {
