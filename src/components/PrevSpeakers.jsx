@@ -7,7 +7,7 @@ const speakersData = {
       name: "Mr. Aninda Bose",
       title:
         "Executive Editor, Interdisciplinary Applied Sciences, Computational Intelligence, Energy Springer Nature London, London",
-      img: "./aninda.jpg",
+      img: "./aninda.jpeg",
     },
 {
       name: "Prof. Fahad Algarni",
