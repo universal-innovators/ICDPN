@@ -71,7 +71,7 @@ const Home = () => {
       </div> */}
 
       {/* Keynote Speakers */}
-      <h1 className="pl-[20px] text-gray-600 text-3xl tracking-wide text-center mt-5">Previous Keynote Speakers</h1>
+      <h1 className="pl-[20px] text-gray-600 text-3xl tracking-wide text-center mt-5">Keynote Speakers</h1>
       <PrevSpeakers />
       
       <marquee className="mt-9 sm:mx-11 text-2xl text-violet-600">CONFERENCE WILL BE ORGANISED IN HYBRID MODE. PAPER REGISTERED FOR ONLINE PRESENTATION WILL BE GIVEN 40% DISCOUNT ON REGISTRATION FEES.</marquee>
