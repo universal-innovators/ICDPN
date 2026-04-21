@@ -177,11 +177,11 @@ const speakers = [
     image:"./narendra.png",
     title:"Data Engineer Manager, Kenvue, Dallas, Texas, United States"
   },
-{
+ {
     name:"Vasanta Kumar Tarra",
     image:"./vasanta.jpeg",
-    title:"Lead Engineer, Guidewire Software"
-  }
+    title:"Lead Engineer, Guidewire Software",
+  },
 ];
 
 export default function InvitedSpeakers() {
