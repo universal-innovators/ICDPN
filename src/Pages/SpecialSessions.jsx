@@ -141,8 +141,7 @@ const sessionDetails = [
     organisers: [
       "Shaurya Gupta, Associate Professor,UPES Dehradun India",
 "Sonali Vyas, Professor, JK Lakshmipat, University, Jaipur, India",
-"Sourabh Singh Verma, Associate Professor, IoT & IS Department, Manipal University Jaipur,
-Jaipur."
+"Sourabh Singh Verma, Associate Professor, IoT & IS Department, Manipal University Jaipur, Jaipur."
     ],
     file: ss11,
     fileName: "SS 011.pdf",
