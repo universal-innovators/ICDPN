@@ -176,6 +176,11 @@ const speakers = [
     name:"Narendra Mangala",
     image:"./narendra.png",
     title:"Data Engineer Manager, Kenvue, Dallas, Texas, United States"
+  },
+{
+    name:"Vasanta Kumar Tarra",
+    image:"./vasanta.jpeg",
+    title:"Lead Engineer, Guidewire Software"
   }
 ];
 
