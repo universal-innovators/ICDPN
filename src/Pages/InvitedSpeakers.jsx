@@ -180,8 +180,8 @@ const speakers = [
  {
     name:"Vasanta Kumar Tarra",
     image:"./vasanta.jpeg",
-    title:"Lead Engineer, Guidewire Software",
-  },
+    title:"Lead Engineer, Guidewire Software"
+  }
 ];
 
 export default function InvitedSpeakers() {
