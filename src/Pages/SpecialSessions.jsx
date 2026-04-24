@@ -146,8 +146,7 @@ const sessionDetails = [
     file: ss11,
     fileName: "SS 011.pdf",
   },
-   {  title: "Session - 12: Artificial Intelligence and Machine Learning in Cybersecurity
-    ",
+   {  title: "Session - 12: Artificial Intelligence and Machine Learning in Cybersecurity",
      organisers: [
        "Dr Mohammad Tabrez Quasim, Associate Professor, Department of Computer Science and Artificial Intelligence, College of Computing and Information Technology, University of Bisha, Bisha, Saudi Arabia"
      ],
