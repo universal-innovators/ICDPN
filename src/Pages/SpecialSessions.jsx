@@ -146,13 +146,14 @@ const sessionDetails = [
     file: ss11,
     fileName: "SS 011.pdf",
   },
-  // {  title: "Session - 12: Redefining Data Management: Pioneering the Future with AI, ML, and Deep Learning for Next-Gen Innovation",
-  //   organisers: [
-  //     "Dr. Lokesh Jain, Department of Information Technology, Jagan Institute of Management Studies, Rohini, Delhi, India,"
-  //   ],
-  //   file: ss12,
-  //   fileName: "SS 012.pdf",
-  // },
+   {  title: "Session - 12: Artificial Intelligence and Machine Learning in Cybersecurity
+    ",
+     organisers: [
+       "Dr Mohammad Tabrez Quasim, Associate Professor, Department of Computer Science and Artificial Intelligence, College of Computing and Information Technology, University of Bisha, Bisha, Saudi Arabia"
+     ],
+     file: ss12,
+     fileName: "SS 012.pdf",
+   },
   // {  title: "Session - 13: Artificial Intelligence in Society: Broad-Spectrum Innovations in Analytics, Generative Intelligence, and Agentic Systems",
   //   organisers: [
   //     "Dr. Biswadip Basu Mallik, Institute of Engineering & Management (School of University of Engineering and Management), Kolkata, India",
