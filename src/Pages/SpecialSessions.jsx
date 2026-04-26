@@ -153,14 +153,13 @@ const sessionDetails = [
      file: ss12,
      fileName: "SS 012.pdf",
    },
-  // {  title: "Session - 13: Artificial Intelligence in Society: Broad-Spectrum Innovations in Analytics, Generative Intelligence, and Agentic Systems",
-  //   organisers: [
-  //     "Dr. Biswadip Basu Mallik, Institute of Engineering & Management (School of University of Engineering and Management), Kolkata, India",
-  //     "Ms. Swarnamouli Majumdar, CIISE, Concordia University, Canada"
-  //   ],
-  //   file: ss13,
-  //   fileName: "SS 013.pdf",
-  // }
+  {  title: "Session - 13: Redefining Data Management: Pioneering the Future with AI, ML, and Deep Learning for Next-Gen Innovation",
+    organisers: [
+      "Dr. Lokesh Jain, Associate Professor, School of Engineering and Technology, Vivekananda Institute of Professional Studies - Technical Campus (VIPS-TC), Delhi, India"
+    ],
+    file: ss13,
+    fileName: "SS 013.pdf",
+  },
   // ,
   // {  title: "Session - 14: Intelligent Wireless Systems: Integrating Sensor Networks, Cognitive Communication, and Neuro-Adaptive Power Transfer",
   //   organisers: [
