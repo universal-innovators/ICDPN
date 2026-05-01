@@ -19,7 +19,7 @@ const speakersData = {
       name: "Prof. Ruchika Malhotra",
       title:
         "HOD, Department of Software Engineering, Delhi Technological University",
-      img: "./ruchika.jpeg",
+      img: "./ruchika.jpg",
     },
   ],
   2025: [
