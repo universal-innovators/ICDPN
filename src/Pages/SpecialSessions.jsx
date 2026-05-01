@@ -160,25 +160,24 @@ const sessionDetails = [
     file: ss13,
     fileName: "SS 013.pdf",
   },
-  // ,
-  // {  title: "Session - 14: Intelligent Wireless Systems: Integrating Sensor Networks, Cognitive Communication, and Neuro-Adaptive Power Transfer",
-  //   organisers: [
-  //     "Dr. Anupam Das PhD, (Gauhati University) Associate Professor, Department of CSE, The Assam Royal Global University",
-  //     "Dr. Raghavendra Prasad PhD, (NIT) Associate Professor, Department of CSE, The Assam Royal Global University"
-  //   ],
-  //   file: ss14,
-  //   fileName: "SS 014.pdf",
-  // },
-  // {  title: "Session - 15: Harnessing Machine Learning and Deep Learning for Advancements in Healthcare, Agriculture, and Beyond",
-  //   organisers: [
-  //     "Prof Shikhar Kumar Sarma, Professor & HoD-Information Technology and Dean in Technology, Gauhati University",
-  //     "Prof Hiren Kumar Deva Sarma, Professor, Department of Information Technology, Gauhati University",
-  //     "Dr. Anupam Das PhD, (Gauhati University) Associate Professor, Department of CSE, The Assam Royal Global University",
-  //     "Dr. Samarjit Das PhD, (Gauhati University) Associate Professor, Department of CSE, The Assam Royal Global University"
-  //   ],
-  //   file: ss15,
-  //   fileName: "SS 015.pdf",
-  // },
+   ,
+   {  title: "Session - 14: Artificial Intelligence and Deep Learning",
+    organisers: [
+       "Prof. (Dr.) Pooja Sharma, Director Alpha, Rayat Bahra University, India",
+"Er. Narinder Kumar, Assistant Professor, Rayat Bahra University, India",
+"Dr. Anita Goyal, Associate Professor, Rayat Bahra University, India"
+     ],
+     file: ss14,
+    fileName: "SS 014.pdf",
+  },
+  {  title: "Session - 15: Quantitative modeling of systemic and supply chain risk",
+   organisers: [
+       "Dr. Deepak Sharma, Associate Director, Department of Distance and Continuing Education, School of Open Learning/Campus of Open Learning, North Campus, University of Delhi",
+"Aamiruddin syed, Lead Security Engineer, Agco Corporation, USA",
+     ],
+    file: ss15,
+    fileName: "SS 015.pdf",
+  },
   //  {  title: "Session - 16: Artificial Intelligence and Networking",
   //    organisers: [
   //      "Associate Professor (Dr.) Tejinder Kaur , Department of MMICTBM, Maharishi Markandeshwar (Deemed To Be University), Mullana, Ambala-Haryana"
