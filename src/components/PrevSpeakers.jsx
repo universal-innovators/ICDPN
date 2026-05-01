@@ -15,6 +15,12 @@ const speakersData = {
         "Dean, College of Computing and Information Technology,University of Bisha, Saudi Arabia",
       img: "./fahad.jpeg",
     },
+{
+      name: "Prof. Ruchika Malhotra",
+      title:
+        "HOD, Department of Software Engineering, Delhi Technological University",
+      img: "./ruchika.jpeg",
+    },
   ],
   2025: [
     {
