@@ -21,6 +21,12 @@ const speakersData = {
         "HOD, Department of Software Engineering, Delhi Technological University",
       img: "./ruchika.jpg",
     },
+{
+      name: "Dr. Kathrin Kind",
+      title:
+        "Member of the Board of Advisors, Swiss School of Business and Management; Chief Data Scientist / AI A. Director Global Growth Markets (EMEA/APAC) Cognizant",
+      img: "./kind.jpg",
+    },
   ],
   2025: [
     {
@@ -52,12 +58,7 @@ const speakersData = {
         "Professor of Artifical Intelligence, Pro Vice Chancellor, Chandigarh University, UP, India",
       img: "./thip.jpg",
     },
-{
-      name: "Dr. Kathrin Kind",
-      title:
-        "Member of the Board of Advisors, Swiss School of Business and Management; Chief Data Scientist / AI A. Director Global Growth Markets (EMEA/APAC) Cognizant",
-      img: "./kind.jpg",
-    },
+
   ],
 
   2024: [
