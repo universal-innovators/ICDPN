@@ -117,12 +117,12 @@ const ICDPN2025 = () => {
             <strong> Lecture Notes in Networks and Systems (LNNS), Springer</strong>.
           </p>
           <PrevVolumes year={2025} links={["https://link.springer.com/book/9783032256300","https://link.springer.com/book/9783032286154","https://link.springer.com/book/9783032276902","https://link.springer.com/book/9783032232960"]}/>
-          <ul className="list-disc pl-6 text-sm text-gray-700 mb-6">
+          {/* <ul className="list-disc pl-6 text-sm text-gray-700 mb-6">
             <li>Volume 1: will be updated soon</li>
             <li>Volume 2: will be updated soon</li>
             <li>Volume 3: will be updated soon</li>
             <li>Volume 4: will be updated soon</li>
-          </ul>
+          </ul> */}
 
           {/* Topics Covered */}
           <h2 className="text-lg sm:text-xl font-semibold text-blue-800 mb-2">
