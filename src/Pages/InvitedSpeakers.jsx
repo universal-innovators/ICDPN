@@ -1,11 +1,11 @@
-import { Card, CardContent } from "@/components/ui/card"; // shadcn card (if you’re using it)
+import { useState } from "react";
+import { Card, CardContent } from "@/components/ui/card";
 
-const speakers = [
+const speakers2025 = [
   {
     name: "Rohan Salvi",
     image: "./rohan.jpg",
-    title:
-      "Conversational AI Architect, Parallon, US",
+    title: "Conversational AI Architect, Parallon, US",
   },
   {
     name: "Reena Chandra",
@@ -13,24 +13,25 @@ const speakers = [
     title: "Senior Software Engineer, Amazon, US",
   },
   {
-    name: "Karthik Sirigiri,",
+    name: "Karthik Sirigiri",
     image: "./karthik.jpg",
     title: "Application Developer, Redmane Technology, US",
   },
   {
     name: "Vishal Bharadwaj Meruga",
     image: "./vishal.jpg",
-    title: "Data Scientist , Marriott International , US",
+    title: "Data Scientist, Marriott International, US",
   },
   {
     name: "Aditya Gupta",
     image: "./aditya.jpg",
-    title: "Software Development Engineer II, AWS | Ex-ZS, Senior Fellow AI2030 , Seattle, Washington, US",
+    title:
+      "Software Development Engineer II, AWS | Ex-ZS, Senior Fellow AI2030, Seattle, Washington, US",
   },
   {
     name: "Sukumar Reddy Beereddy",
     image: "./sukumar.jpg",
-    title: "Treasury & ERP Systems Solution Architect |USA",
+    title: "Treasury & ERP Systems Solution Architect | USA",
   },
   {
     name: "Karan Lulla",
@@ -40,17 +41,20 @@ const speakers = [
   {
     name: "Mukesh Reddy Dhanagari",
     image: "./mukesh.jpg",
-    title: "Manager, Software Development & Engineering, Charles Schwab, USA",
+    title:
+      "Manager, Software Development & Engineering, Charles Schwab, USA",
   },
   {
     name: "Santosh Durgam",
     image: "./santoshh.jpg",
-    title: "Manager of software engineering, Morningstar Investments LLC, Chicago, Illinois, USA",
+    title:
+      "Manager of Software Engineering, Morningstar Investments LLC, Chicago, Illinois, USA",
   },
   {
     name: "Ramanan Hariharan",
     image: "./raman.png",
-    title: "Principal Engineering Manager, Security and Resiliency, Microsoft, Mountain View, USA",
+    title:
+      "Principal Engineering Manager, Security and Resiliency, Microsoft, Mountain View, USA",
   },
   {
     name: "Dr Dinesh Kalla",
@@ -60,7 +64,8 @@ const speakers = [
   {
     name: "Chandra Sekhar Kubam",
     image: "./chandra.jpg",
-    title: "Independent Researcher, Integration Architect, Dallas, Texas, USA",
+    title:
+      "Independent Researcher, Integration Architect, Dallas, Texas, USA",
   },
   {
     name: "Prasad Sundaramoorthy",
@@ -73,136 +78,189 @@ const speakers = [
     title: "Chief Information Officer, Eagleview Technologies, US",
   },
   {
-    name:"Satyabrata Pradhan",
-    image:"./satya.jpg",
-    title:"General Motors, US"
+    name: "Satyabrata Pradhan",
+    image: "./satya.jpg",
+    title: "General Motors, US",
   },
   {
     name: "Surendra B. Konathala",
     image: "./surendra.jpg",
-    title: "Portfolio Manager, Capgemini, US"
+    title: "Portfolio Manager, Capgemini, US",
   },
   {
     name: "Ranjith Kumar Kollu",
     image: "./ranjith.jpg",
-    title: "Salesforce Architect, Epson America, US"
+    title: "Salesforce Architect, Epson America, US",
   },
   {
     name: "SINDHU GOPAKUMAR NAIR",
     image: "./sindhu.jpg",
-    title: "Principal Engineer, Autodesk, USA"
+    title: "Principal Engineer, Autodesk, USA",
   },
   {
     name: "Shalini Sivasamy",
     image: "./shalini.jpg",
-    title: "Senior AI Engineer, Webster Bank, USA"
+    title: "Senior AI Engineer, Webster Bank, USA",
   },
   {
     name: "Omkar Bhalekar",
     image: "./omkar.jpg",
-    title: "Sr Network Engineer at Tesla Motors, United States"
+    title: "Sr Network Engineer at Tesla Motors, United States",
   },
   {
-    name: "Anjani kumar Polinati",
+    name: "Anjani Kumar Polinati",
     image: "./anjani.jpg",
-    title: "Technical Lead, Primoris Systems, Wesley chapel, FL, USA"
+    title: "Technical Lead, Primoris Systems, Wesley Chapel, FL, USA",
   },
   {
     name: "Sibaram Prasad Panda",
     image: "./sibaram.jpg",
-    title: "SVP, Decision Ready Solutions"
+    title: "SVP, Decision Ready Solutions",
   },
   {
     name: "Hemanth Kumar Maheshwaram",
     image: "./hemanth.jpg",
-    title: "IT Project Manager, Abbott Laboratories, Illinois, USA"
+    title: "IT Project Manager, Abbott Laboratories, Illinois, USA",
   },
   {
     name: "Mr. Venkata Ramana Gudelli",
     image: "./venkata.jpg",
-    title: "Cloud Architect, USA"
+    title: "Cloud Architect, USA",
   },
   {
     name: "Sanketh Nelavelli",
     image: "./sanket.jpg",
-    title: "Independent Researcher, Cloud Devops Architect, Texas, USA"
+    title: "Independent Researcher, Cloud DevOps Architect, Texas, USA",
   },
   {
     name: "Bidisha Goswami",
     image: "./bidisha.jpg",
-    title: "The Pokémon Company International"
+    title: "The Pokémon Company International",
   },
   {
     name: "Surender Kusumba",
     image: "./surender.jpg",
-    title: "Sr Solutions Architect, Trinamix Inc"
+    title: "Sr Solutions Architect, Trinamix Inc",
   },
   {
     name: "Arnab Saha",
     image: "./arnab.jpg",
-    title: "IEEE member / Oracle"
+    title: "IEEE Member / Oracle",
   },
   {
     name: "Sarbani Paul",
     image: "./sarbani.jpg",
-    title: "Amazon"
+    title: "Amazon",
   },
   {
     name: "Pararameswara Reddy Nangi",
     image: "./reddy.jpg",
-    title: "Senior Hadoop Engineer, Independent Researcher"
+    title: "Senior Hadoop Engineer, Independent Researcher",
   },
   {
     name: "Arjun Kamisetty",
     image: "./arjun.jpg",
-    title: "Independent Researcher, USA"
+    title: "Independent Researcher, USA",
   },
   {
-    name:"Divya Kodi",
-    image:"./divya.jpg",
-    title:"Cyber Security Senior Data Analyst, Truist Bank"
+    name: "Divya Kodi",
+    image: "./divya.jpg",
+    title: "Cyber Security Senior Data Analyst, Truist Bank",
   },
   {
-    name:"Professor (Dr.) Rahul Katarya",
-    image:"./rahul.jpeg",
-    title:"Department of Computer Science & Engineering, Delhi Technological University (Govt. of NCT of Delhi)Shahbad Daulatpur, Main Bawana Road, New Delhi"
+    name: "Professor (Dr.) Rahul Katarya",
+    image: "./rahul.jpeg",
+    title:
+      "Department of Computer Science & Engineering, Delhi Technological University",
   },
   {
-    name:"Janardhana Naidu Kola",
-    image:"./naidu.jpg",
-    title:"Director of Business Intelligence, ADP (Automatic Data Processing, Inc.)"
+    name: "Janardhana Naidu Kola",
+    image: "./naidu.jpg",
+    title:
+      "Director of Business Intelligence, ADP (Automatic Data Processing, Inc.)",
   },
-{
-    name:"Narendra Mangala",
-    image:"./narendra.png",
-    title:"Data Engineer Manager, Kenvue, Dallas, Texas, United States"
+  {
+    name: "Narendra Mangala",
+    image: "./narendra.png",
+    title: "Data Engineer Manager, Kenvue, Dallas, Texas, United States",
   },
- {
-    name:"Vasanta Kumar Tarra",
-    image:"./vasanta.jpeg",
-    title:"Lead Engineer, Guidewire Software"
-  }
+  {
+    name: "Vasanta Kumar Tarra",
+    image: "./vasanta.jpeg",
+    title: "Lead Engineer, Guidewire Software",
+  },
+];
+
+// Add 2026 speakers here
+const speakers2026 = [
+  {
+    name: "Mayur Patel",
+    image: "./mayur.jpeg",
+    title: "Director IT – Center of Excellence, Axalta Coating Systems, LLC",
+  },
 ];
 
 export default function InvitedSpeakers() {
+  const [activeTab, setActiveTab] = useState("2025");
+
+  const speakers =
+    activeTab === "2025" ? speakers2025 : speakers2026;
+
   return (
-    <div className="px-4 py-8">
-      <h1 className="text-gray-600 text-3xl tracking-wide text-center mt-5">
-        Invited Speakers - 2025
+    <div className="px-4 py-10 max-w-7xl mx-auto">
+      <h1 className="text-4xl font-bold text-center text-gray-800">
+        Invited Speakers
       </h1>
 
-      <div className="flex flex-wrap justify-center gap-6 mt-10">
+      {/* Tabs */}
+      <div className="flex justify-center gap-4 mt-8">
+        <button
+          onClick={() => setActiveTab("2025")}
+          className={`px-6 py-2 rounded-full font-medium transition-all duration-300 ${
+            activeTab === "2025"
+              ? "bg-black text-white shadow-md"
+              : "bg-gray-100 text-gray-700 hover:bg-gray-200"
+          }`}
+        >
+          2025
+        </button>
+
+        <button
+          onClick={() => setActiveTab("2026")}
+          className={`px-6 py-2 rounded-full font-medium transition-all duration-300 ${
+            activeTab === "2026"
+              ? "bg-black text-white shadow-md"
+              : "bg-gray-100 text-gray-700 hover:bg-gray-200"
+          }`}
+        >
+          2026
+        </button>
+      </div>
+
+      {/* Speakers Grid */}
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8 mt-12">
         {speakers.map((speaker, index) => (
-          <Card key={index} className="w-[300px] duration-500 hover:shadow-lg">
-            <CardContent>
-              <div className="text-center flex flex-col items-center">
+          <Card
+            key={index}
+            className="overflow-hidden border-0 shadow-md hover:shadow-2xl transition-all duration-500 rounded-2xl group"
+          >
+            <CardContent className="p-0">
+              <div className="relative overflow-hidden">
                 <img
                   src={speaker.image}
                   alt={speaker.name}
-                  className="h-48 w-full object-cover rounded-md mb-3 mt-2"
+                  className="h-64 w-full object-cover group-hover:scale-105 transition-transform duration-500"
                 />
-                <strong className="text-lg">{speaker.name}</strong>
-                <p className="text-sm text-gray-600 mt-2">{speaker.title}</p>
+              </div>
+
+              <div className="p-5 text-center">
+                <h2 className="text-lg font-semibold text-gray-900">
+                  {speaker.name}
+                </h2>
+
+                <p className="text-sm text-gray-600 mt-3 leading-relaxed">
+                  {speaker.title}
+                </p>
               </div>
             </CardContent>
           </Card>
