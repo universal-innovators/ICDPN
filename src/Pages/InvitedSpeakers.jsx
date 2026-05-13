@@ -189,6 +189,11 @@ const speakers2025 = [
     image: "./vasanta.jpeg",
     title: "Lead Engineer, Guidewire Software",
   },
+  {
+    name: "Anam Haider Khan",
+    image: "./anam.jpg",
+    title: "Zada zada Inc, GA, USA",
+  },
 ];
 
 // Add 2026 speakers here
