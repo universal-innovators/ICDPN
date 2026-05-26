@@ -173,18 +173,19 @@ const sessionDetails = [
   {  title: "Session - 15: Quantitative modeling of systemic and supply chain risk",
    organisers: [
        "Dr. Deepak Sharma, Associate Director, Department of Distance and Continuing Education, School of Open Learning/Campus of Open Learning, North Campus, University of Delhi",
-"Aamiruddin syed, Lead Security Engineer, Agco Corporation, USA",
+"Aamiruddin syed, Lead Security Engineer, Agco Corporation, USA",
+
      ],
     file: ss15,
     fileName: "SS 015.pdf",
   },
-  //  {  title: "Session - 16: Artificial Intelligence and Networking",
-  //    organisers: [
-  //      "Associate Professor (Dr.) Tejinder Kaur , Department of MMICTBM, Maharishi Markandeshwar (Deemed To Be University), Mullana, Ambala-Haryana"
-  //    ],
-  //    file: ss16,
-  //    fileName: "SS 016.pdf",
-  //  },
+   {  title: "Session - 16: AI-Driven Cyber Resilience in Distributed Fog-Edge Systems",
+     organisers: [
+       "Dr. V. G. Prasuna, Satya Institute of Technology and Management (SITAM), India; PDF Scholar, School of CS & AI, SR University, Warangal, Telangana, India."
+     ],
+     file: ss16,
+     fileName: "SS 016.pdf",
+   },
   // {  title: "Session - 17: Quantum Computing in Stock Markets",
   //   organisers: [
   //     "Dr. Deepak Sharma, Associate Director, Department of Distance and Continuing Education School of Open Learning, Campus of Open Learning, University of Delhi",
