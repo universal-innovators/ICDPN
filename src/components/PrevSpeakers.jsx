@@ -27,6 +27,11 @@ const speakersData = {
         "Member of the Board of Advisors, Swiss School of Business and Management; Chief Data Scientist / AI A. Director Global Growth Markets (EMEA/APAC) Cognizant",
       img: "./kind.jpg",
     },
+    {
+      name: "Assoc. Prof. Klodian Dhoska",
+      title: "Polytechnic University of Tirana",
+      img: "./klodian.jpg",
+    },
   ],
   2025: [
     {
