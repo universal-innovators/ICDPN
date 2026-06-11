@@ -194,6 +194,11 @@ const speakers2025 = [
     image: "./anam.jpg",
     title: "Zada zada Inc, GA, USA",
   },
+  {
+    name: "Pradeep Kachakayala",
+    image: "./pradeep.jpg",
+    title: "Cloud Engagement Manager, Insight Direct USA, New Jersey, USA",
+  },
 ];
 
 // Add 2026 speakers here
