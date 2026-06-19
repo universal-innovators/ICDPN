@@ -186,14 +186,15 @@ const sessionDetails = [
      file: ss16,
      fileName: "SS 016.pdf",
    },
-  // {  title: "Session - 17: Quantum Computing in Stock Markets",
-  //   organisers: [
-  //     "Dr. Deepak Sharma, Associate Director, Department of Distance and Continuing Education School of Open Learning, Campus of Open Learning, University of Delhi",
-  //     "Ms. Tripti Goel, Assistant Professor, Department of Commerce, Aryabhatta College, South Campus, University of Delhi"
-  //   ],
-  //   file: ss17,
-  //   fileName: "SS 017.pdf",
-  // },
+  {  title: "Session - 17: Intelligent Data Processing, Secure Networking, and AI-Driven Cyber-Physical Systems for Industry 5.0",
+    organisers: [
+      "Dr Harsh Namdev Bhor, Somaiya University, India",
+      "Wanus Srimaharaj, Ph. D., Payap University, Thailand",  
+      "Dr Vijaya Pinjarkar, Somaiya University, India"
+    ],
+    file: ss17,
+    fileName: "SS 017.pdf",
+  },
   // {  title: "Session - 18: Applied Image Processing: Current Applications and Emerging Challenges",
   //   organisers: [
   //     "Dr. Garima Jaiswal, Assistant Professor, SCSET, Bennett University, India",
