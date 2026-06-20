@@ -159,15 +159,15 @@ const Registration = () => {
           </a>
         </div>*/}
         <br/>
-        <div className="flex  items-stretch">
+        {/* <div className="flex  items-stretch">
           <div className="w-[45%] h-[1px] m-auto mt-4  bg-gray-400"></div>
           <div className="text-center ">OR</div>
           <div className="w-[45%] h-[1px] m-auto mt-4  bg-gray-400"></div>
         </div>
-        <br/>
+        <br/> */}
 
         
-        <div className="text-center font-bold text-lg ">Pay via Razorpay</div>
+        {/* <div className="text-center font-bold text-lg ">Pay via Razorpay</div>
         <div className="text-center  ">
           For payment from Indian Authors/Attendees, use the following payment
           link
@@ -196,7 +196,7 @@ const Registration = () => {
         <br />
         <div className="flex justify-center">
           <img src={qr} className='h-72 w-60'/>
-        </div>
+        </div> */}
         <br />
 
       </div>
