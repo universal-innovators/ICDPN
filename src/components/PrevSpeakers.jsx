@@ -68,7 +68,12 @@ const speakersData = {
         "Professor of Artifical Intelligence, Pro Vice Chancellor, Chandigarh University, UP, India",
       img: "./thip.jpg",
     },
-
+    {
+      name: "Lakshmi Priyanka Pillati",
+      title:
+        "Sr Cloud Engineer at Primitive Partners",
+      img: "./lakshmi.jpg",
+    },
   ],
 
   2024: [
