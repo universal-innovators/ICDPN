@@ -2,7 +2,7 @@ import AutoScroller from "./AutoScroller";
 
 const Conference = () => {
   const reasons = [
-  "Publication in Springer LNNS (Proposed)",
+  "Publication in Springer LNNS (Approved)",
   "Extended papers to SCI / Scopus indexed journals",
   "Rigorous double-blind peer review",
   "Global networking opportunities",
