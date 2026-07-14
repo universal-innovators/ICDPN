@@ -203,7 +203,7 @@ const speakers2025 = [
       name: "Lakshmi Priyanka Pillati",
       title:
         "Sr Cloud Engineer at Primitive Partners",
-      img: "./lakshmi.jpg",
+      image: "./lakshmi.jpg",
     },
 ];
 
