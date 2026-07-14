@@ -199,6 +199,12 @@ const speakers2025 = [
     image: "./pradeep.jpg",
     title: "Cloud Engagement Manager, Insight Direct USA, New Jersey, USA",
   },
+ {
+      name: "Lakshmi Priyanka Pillati",
+      title:
+        "Sr Cloud Engineer at Primitive Partners",
+      img: "./lakshmi.jpg",
+    },
 ];
 
 // Add 2026 speakers here
