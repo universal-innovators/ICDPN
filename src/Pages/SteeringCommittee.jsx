@@ -129,16 +129,21 @@ const SteeringCommittee = () => {
             <hr />            
 <p>Dr Marta Harničárová</p>
 <p>(Department of Mechanical Engineering, Faculty of Technology, Institute of Technology and Business in České Budějovice)</p><br/>
-            {/* <p>Prof. Ing. Miroslav Zitnak</p>
-            <p>(PhD., Slovak University of Agriculture, Nitra, Slovakia)</p>
+            <p>Prof. Harpreet Kaur</p>
+            <p>(Principal, Mata Sundri College for Women, University of Delhi)</p>
             <br />
-            <p>doc. Ing. Milan Kadnar</p>
+            {/* <p>doc. Ing. Milan Kadnar</p>
             <p>(PhD, Slovak University of Agriculture, Nitra, Slovakia)</p>
-            <br /> */}
+            <br />  */}
 
             <p>Dr. Sandra Fernando</p>
             <p>(London Metropolitan University)</p>
             <br /> 
+            <p>Dr. Harguneet Kaur</p>
+            <p>
+              (Assistant Professor, Department of Computer Science, Mata Sundri College for Women, University of Delhi)
+            </p>
+            <br />
              
             <p>Dr. Jameel Ahamed</p>
             <p>
@@ -150,9 +155,9 @@ const SteeringCommittee = () => {
             <br />      
           
            
-            {/* <p>Dr. Mamoona Humayun</p>
-            <p>(Department of Information Systems, College of Computer and Information Sciences, Jouf University, Sakaka, Saudi Arabia)</p><br />
-            <p> Prof. Mete YAĞANOĞLU</p>
+             <p>Ms. Sugandha Kaur</p>
+            <p>(Senior Assistant Professor, Department of Computer Science, Mata Sundri College for Women, University of Delhi)</p><br />
+            {/*<p> Prof. Mete YAĞANOĞLU</p>
             <p>(Ataturk University, Department of Computer Engineering, Turkey)</p><br />
             <p> Ms. Sugandha Kaur</p>
             <p>(Senior Assistant Professor, Department of Computer Science, Mata Sundri College for Women, University of Delhi)</p><br />
