@@ -195,14 +195,15 @@ const sessionDetails = [
     file: ss17,
     fileName: "SS 017.pdf",
   },
-  // {  title: "Session - 18: Applied Image Processing: Current Applications and Emerging Challenges",
-  //   organisers: [
-  //     "Dr. Garima Jaiswal, Assistant Professor, SCSET, Bennett University, India",
-  //     "Dr. Ritu Rani, Assistant Professor, ECE, Bhagwan Parshuram Institute of Technology, Delhi"
-  //   ],
-  //   file: ss18,
-  //   fileName: "SS 018.pdf",
-  // },
+  {  title: "Session - 18: Emerging Paradigms in Intelligent Data Processing, Analytics, and Networked Computing for Next-Generation Digital Systems",
+    organisers: [
+      "Dr. Saurav Mallik, Assistant Research Professor, Department of Biological Sciences, University of Texas at El Paso, El Paso, TX, USA",
+      "Dr. Madhumala R Bagalatti, Professor, CSE in IoT, Cybersecurity including Blockchain, Dayananda Sagar Academy of Technology and Management, Bangalore",
+      "Dr. Tanvir H Sardar, Associate Professor, Department of CSE –Dayananda Sagar University Devarakaggalahalli, Harohalli, Kanakapura Road, Bengaluru South"
+    ],
+    file: ss18,
+    fileName: "SS 018.pdf",
+  },
   // {  title: "Session - 19: AI-Enhanced Data Processing and Intelligent Networking for Next-Generation Digital Infrastructure",
   //   organisers: [
   //     "Sathish Krishna Anumula , IBM Corporation, Detroit, USA",
