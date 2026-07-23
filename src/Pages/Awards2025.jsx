@@ -3,6 +3,7 @@ import React, { useMemo, useState } from "react";
 
 const AWARDS = [
   { name: "RIPPANDEEP KAUR", title: "Sustainable Development Initiative Category" },
+{ name:" Mohammed Muqthar Ghori" title:"Smart  Manufacturing Innovation Award"},
   { name: "NIHARI PALADUGU", title: "Innovator of the Year (Academic/Corporate)" },
   { name: "SAMEEKSHA GUPTA", title: "Women in Research Excellence Award" },
   { name: "RANJEETA SAINI", title: "Best Researcher Award (Academic/Industry)" },
