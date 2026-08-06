@@ -205,8 +205,8 @@ const Registration = () => {
         <table className=" table1 bg-black text-white m-auto sm:w-10/12 mt-11">
           <thead>
             <th>Category</th>
-            <th>Early Registration (before 05th August 2026)</th>
-            <th>Late Registration (after 05th August 2026)</th>
+            <th>Early Registration (before 12th August 2026)</th>
+            <th>Late Registration (after 12th August 2026)</th>
           </thead>
           <tbody>
             <tr>
@@ -250,8 +250,8 @@ const Registration = () => {
         <table className=" table1 bg-black text-white m-auto sm:w-10/12 mt-11">
           <thead>
             <th>Category</th>
-            <th>Early Registration (before 05th August 2026)</th>
-            <th>Late Registration (after 05th August 2026)</th>
+            <th>Early Registration (before 12th August 2026)</th>
+            <th>Late Registration (after 12th August 2026)</th>
           </thead>
           <tbody>
             <tr>
