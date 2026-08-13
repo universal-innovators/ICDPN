@@ -39,6 +39,9 @@ const SteeringCommittee = () => {
               (Vice-Rector, Canadian Institute of Technology, Tirana, Albania)
             </p>
             <br/>   
+            <p>Doc. Ing. Klaudia Halászová</p>
+            <p>(PhD., Rector of SPU Nitra)</p>
+            <br/>
           </div>
           <div className="testimonials w-[100%] bg-neutral-100 text-secondary-400">
             <h3>General Chair(s):</h3>

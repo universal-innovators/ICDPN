@@ -20,11 +20,11 @@ export default function Header() {
             src="spu_1.jpg"
             alt=""
           />
-          <img
+          {/* <img
             class="w-full h-28 object-contain"
             src="spu_2.jpg"
             alt=""
-          />
+          /> */}
           <img
             class="w-full h-28 object-contain"
             src="du.jpg"
