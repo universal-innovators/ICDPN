@@ -214,6 +214,12 @@ const speakers2026 = [
     image: "./mayur.jpeg",
     title: "Director IT – Center of Excellence, Axalta Coating Systems, LLC",
   },
+  {
+    name: "Yukti Lnu",
+    image: "./yukti.jpg",
+    title: "Lead Software Engineer, KForce",
+  },
+  
 ];
 
 export default function InvitedSpeakers() {
