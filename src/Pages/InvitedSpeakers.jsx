@@ -219,7 +219,11 @@ const speakers2026 = [
     image: "./yukti.jpg",
     title: "Lead Software Engineer, KForce",
   },
-  
+  {
+    name: "Vasanta Kumar Tarra",
+    image: "./vasanta.jpg",
+    title: "Lead Engineer, Guidewire Software Inc.",
+  },
 ];
 
 export default function InvitedSpeakers() {
