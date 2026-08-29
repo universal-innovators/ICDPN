@@ -115,7 +115,7 @@ const speakers2025 = [
   {
     name: "Sibaram Prasad Panda",
     image: "./sibaram.jpg",
-    title: "SVP, Decision Ready Solutions",
+    title: "Decision Ready Solutions",
   },
   {
     name: "Hemanth Kumar Maheshwaram",
