@@ -90,6 +90,7 @@ const tpcm = [
   { name: "Dr. Atta ur Rehman Khan", info: "College of Engineering and IT, Ajman University, UAE" },
   { name: "Mr. Lingaraj Kothokatta", info: "EFULGENT INC." },
   { name: "Rodwan A. Elbarouni", info: "Missouri University of Science and Technology, USA" },
+  { name:"Romayne Maria Cachart", info:"" }
 ]
 
 export default tpcm;

@@ -224,6 +224,16 @@ const speakers2026 = [
     image: "./vasanta.jpg",
     title: "Lead Engineer, Guidewire Software Inc.",
   },
+{
+    name: "Sai Arundeep Aetukuri ",
+    image: "./SAI.jpg",
+    title: "Data Engineer ,MHK TECH Inc, Aubrey, Texas, USA",
+  },
+  {
+    name: "Srinivas Prasad Bheemasamudra Laxminarayan",
+    image: "./srinivas.jpg",
+    title: "Solutions Architect, Amazon Web Services (AWS)",
+  },
 ];
 
 export default function InvitedSpeakers() {
