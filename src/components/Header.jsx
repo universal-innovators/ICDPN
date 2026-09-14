@@ -50,19 +50,19 @@ Academy of Sciences of Ukraine <br/> & <br/>Mata Sundri College for Women( Unive
             </p>
             Springer LNNS (Approved) Conference (Indexed in Scopus, EI, WoS and Many More)
           </div>
-          <div className="grid grid-cols-1 gap-4 m-4 md:w-[20vw]">
+          <div className="grid w-full grid-cols-3 items-center gap-2 m-4 md:w-[20vw] md:grid-cols-1 md:gap-4">
         <img
-          className="sm:w-[200px] sm:h-[80px] w-[200px] h-[70px] sm:my-auto my-2 mx-auto"
+          className="w-full h-[70px] object-contain mx-auto md:w-[200px] md:h-[80px] md:my-auto"
           src="ukrainelogo.jpeg"
           alt=""
         />
           <img
-          className=" sm:w-[200px] sm:h-[100px] w-[220px] h-[100px] mx-auto "
+          className="w-full h-[70px] object-contain mx-auto md:w-[200px] md:h-[100px]"
             src="cit.png"
             alt=""
           />
           <img
-            className="sm:w-[200px] sm:h-[100px] w-[220px] h-[100px] mx-auto object-contain"
+            className="w-full h-[70px] mx-auto object-contain md:w-[200px] md:h-[100px]"
             src="nas-ukraine-logo.svg"
             alt="Research Center for Industrial Problems of Development, National Academy of Sciences of Ukraine"
           />
