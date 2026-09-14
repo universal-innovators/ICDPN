@@ -61,6 +61,11 @@ Academy of Sciences of Ukraine <br/> & <br/>Mata Sundri College for Women( Unive
             src="cit.png"
             alt=""
           />
+          <img
+            className="sm:w-[200px] sm:h-[100px] w-[220px] h-[100px] mx-auto object-contain"
+            src="nas-ukraine-logo.svg"
+            alt="Research Center for Industrial Problems of Development, National Academy of Sciences of Ukraine"
+          />
           </div>  
           
         </div>

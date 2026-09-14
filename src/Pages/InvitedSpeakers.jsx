@@ -234,6 +234,16 @@ const speakers2026 = [
     image: "./srinivas.jpg",
     title: "Solutions Architect, Amazon Web Services (AWS)",
   },
+  {
+    name: "Venkata Raja Ravi Kumar Gelle",
+    image: "./venkat.jpg",
+    title: "Lead / Architect, USA",
+  },
+   {
+    name: "Kamana Parvej Mishu",
+    image: "./kamana.jpeg",
+    title: "Independent Researcher  Former Aviation Safety Inspector (Airworthiness),M.S. in Engineering Management (Industrial), Trine University, Angola, Indiana, USA",
+  },
 ];
 
 export default function InvitedSpeakers() {

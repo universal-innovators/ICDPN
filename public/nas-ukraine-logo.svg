@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 790 400" role="img" aria-labelledby="title">
+  <title id="title">Research Center for Industrial Problems of Development of the National Academy of Sciences of Ukraine</title>
+  <rect width="790" height="400" fill="#fff"/>
+  <g fill="#354392">
+    <path d="M41 88h63v130L41 244zM149 34h67v128l-67 73zM42 247l62-26v121H42zM149 239l67-74v177h-67z"/>
+  </g>
+  <path d="M0 303c84-27 166-88 245-188l42-49-57-5C160 146 82 213 0 242z" fill="#c8f1fb"/>
+  <path d="M0 302c90-31 165-82 245-183l27-33-30-2C171 169 88 231 0 261z" fill="#4cc9ed"/>
+  <g fill="#354392" font-family="Arial, sans-serif" font-weight="700">
+    <text x="244" y="183" font-size="122" letter-spacing="7">ДЦ ІПР</text>
+    <text x="235" y="339" font-size="151" letter-spacing="8">НАНУ</text>
+  </g>
+</svg>

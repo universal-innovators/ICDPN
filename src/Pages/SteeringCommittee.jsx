@@ -160,6 +160,18 @@ const SteeringCommittee = () => {
            
              <p>Ms. Sugandha Kaur</p>
             <p>(Senior Assistant Professor, Department of Computer Science, Mata Sundri College for Women, University of Delhi)</p><br />
+            <p>Prof. (Dr.) Kateryna Boiarynova</p>
+            <p>(Igor Sikorsky Kyiv Polytechnic Institute, Ukraine)</p>
+            <br />
+            <p>Prof. (Dr.) Olena Trofymenko</p>
+            <p>(Igor Sikorsky Kyiv Polytechnic Institute, Ukraine)</p>
+            <br />
+            <p>Prof. (Dr.) Viktoriia Khaustova</p>
+            <p>(Research Center for Industrial Problems of Development of the National Academy of Sciences of Ukraine, Ukraine)</p>
+            <br />
+            <p>Prof. (Dr.) Olha Ilyash</p>
+            <p>(Research Center for Industrial Problems of Development of the National Academy of Sciences of Ukraine, Ukraine)</p>
+            <br />
             {/*<p> Prof. Mete YAĞANOĞLU</p>
             <p>(Ataturk University, Department of Computer Engineering, Turkey)</p><br />
             <p> Ms. Sugandha Kaur</p>
