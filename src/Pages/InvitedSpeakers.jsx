@@ -244,6 +244,31 @@ const speakers2026 = [
     image: "./kamana.jpeg",
     title: "Independent Researcher  Former Aviation Safety Inspector (Airworthiness),M.S. in Engineering Management (Industrial), Trine University, Angola, Indiana, USA",
   },
+   {
+    name: "Jay Bankimchandra Desai",
+    image: "./jay.jpeg",
+    title: "San Jose State University",
+  },
+   {
+    name: "Ravindra Motiram Gurnani",
+    image: "./ravindra.jpg",
+    title: "Amobee",
+  },
+   {
+    name: "Veerababu Motamarri",
+    image: "./veera.jpg",
+    title: "",
+  },
+   {
+    name: "Naveen Kumar Vedurupaka",
+    image: "./naveen.jpg",
+    title: "",
+  },
+  {
+    name: "Md Ismail Jobi Ullah",
+    image: "./ismail.jpg",
+    title: "Doctor of Computer Science (DCS) Student, University of the Potomac, USA, Former Information Security Analyst, Viewsoft Inc,USA",
+  },
 ];
 
 export default function InvitedSpeakers() {
