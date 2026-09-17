@@ -8,6 +8,8 @@ const tpcm = [
   { name: "Dr. Hamid Reza Boveiri", info: "Sama College, IAU, Shoushtar Branch, Khuzestan, Iran" },
   { name: "Dr. Maqbool Khan", info: "Assistant Professor, Pak-Austria Fachhochschule-Institute of Applied Sciences and Technology, Mang, Haripur, Pakistan & Adjunct Researcher, Software Competence Center Hagenberg GmbH, Softwarepark, Hagenberg, Linz, Austria" },
   { name: "Prof. (Dr.) Kirti Tyagi", info: "Inha University, Tashkent" },
+  { name: "doc. Ing. Milan Kadnar", info: "PhD, Slovak University of Agriculture, Nitra, Slovakia" },
+  {name: "František Tóth", info: "Slovak University of Agriculture, Nitra, Slovakia"},
   { name: "Dr. Nicu Bizon", info: "University of Pitesti, Romania" },
   { name: "Dr. Michael Baron", info: "Associate Professor, Curtin University, Melbourne, Australia" },
   { name: "Dr. Surbhi Bhatia khan", info: "University of Salford, UK" },
