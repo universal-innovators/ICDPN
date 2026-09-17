@@ -135,9 +135,7 @@ const SteeringCommittee = () => {
             <p>Prof. Harpreet Kaur</p>
             <p>(Principal, Mata Sundri College for Women, University of Delhi)</p>
             <br />
-            {/* <p>doc. Ing. Milan Kadnar</p>
-            <p>(PhD, Slovak University of Agriculture, Nitra, Slovakia)</p>
-            <br />  */}
+            
 
             <p>Dr. Sandra Fernando</p>
             <p>(London Metropolitan University)</p>
@@ -172,6 +170,12 @@ const SteeringCommittee = () => {
             <p>Prof. (Dr.) Olha Ilyash</p>
             <p>(Research Center for Industrial Problems of Development of the National Academy of Sciences of Ukraine, Ukraine)</p>
             <br />
+            <p>doc. Ing. Milan Kadnar</p>
+            <p>(PhD, Slovak University of Agriculture, Nitra, Slovakia)</p>
+            <br /> 
+            <p>František Tóth</p>
+            <p>(Slovak University of Agriculture, Nitra, Slovakia)</p>
+            <br /> 
             {/*<p> Prof. Mete YAĞANOĞLU</p>
             <p>(Ataturk University, Department of Computer Engineering, Turkey)</p><br />
             <p> Ms. Sugandha Kaur</p>
