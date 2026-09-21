@@ -269,6 +269,16 @@ const speakers2026 = [
     image: "./ismail.jpg",
     title: "Doctor of Computer Science (DCS) Student, University of the Potomac, USA, Former Information Security Analyst, Viewsoft Inc,USA",
   },
+  {
+    name: "Lakshmi Bhargavi Mullapudi",
+    image: "./lakshmi.jpg",
+    title: "Software Engineer at Techstar Group",
+  },
+  {
+    name: "Ashima Chakravarty",
+    image: "./ashima.jpg",
+    title: "Independent Researcher",
+  },
 ];
 
 export default function InvitedSpeakers() {
