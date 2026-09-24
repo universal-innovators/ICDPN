@@ -336,6 +336,7 @@ const Nav = () => {
               </p>
             </Link>
           </li> */}
+          <li className=" md:my-0 my-7 font-semibold text-center">
            <DropdownMenu>
           <DropdownMenuTrigger className="text-white custom mx-3">Speakers</DropdownMenuTrigger>
               <DropdownMenuContent>
@@ -377,6 +378,7 @@ const Nav = () => {
                 
               </DropdownMenuContent>
             </DropdownMenu>
+            </li>
           <li className=" md:my-0 my-7 font-semibold">
             <Link
               to="/ConferenceVenue"
