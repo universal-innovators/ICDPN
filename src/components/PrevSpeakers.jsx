@@ -37,6 +37,7 @@ const speakersData = {
       title: "Professor, Department of Computer Science & Engineering, Delhi Technological University (Govt. of NCT of Delhi)(Formerly Delhi College of Engineering), Shahbad Daulatpur, Main Bawana Road, New Delhi",
       img: "./rahul2.jpg",
     },
+    
   ],
   2025: [
     {

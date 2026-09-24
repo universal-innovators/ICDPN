@@ -336,18 +336,47 @@ const Nav = () => {
               </p>
             </Link>
           </li> */}
-           <li className=" md:my-0 my-7 font-semibold">
-            <Link
-              to="/InvitedSpeakers"
-              className="text-gray-800 hover:text-blue-400 duration-500"
-               onClick={closeHandler}
-            >
-              <p className="m-[8.5px] text-center">
-                <p className="custom px-[2.5px]">Invited Speakers</p>
+           <DropdownMenu>
+          <DropdownMenuTrigger className="text-white custom mx-3">Speakers</DropdownMenuTrigger>
+              <DropdownMenuContent>
+                <DropdownMenuItem>
+                  <Link
+                    to="/KeynoteSpeakers"
+                    className="text-gray-800 hover:text-blue-400 duration-500"
 
-              </p>
-            </Link>
-          </li>
+                    onClick={closeHandler}
+
+                    // onClick={<DropdownMenu close/>}
+
+                  >
+                    <p className="m-[8.5px] text-center ">
+                      <p className="custom px-[2.5px] text-gray-800">
+                        Keynote Speakers
+                      </p>
+                    </p>
+                  </Link>
+                </DropdownMenuItem>
+                <DropdownMenuItem>
+                  <Link
+                    to="/InvitedSpeakers"
+                    className="text-gray-800 hover:text-blue-400 duration-500"
+
+                    onClick={closeHandler}
+
+                    // onClick={<DropdownMenu close/>}
+
+                  >
+                    <p className="m-[8.5px] text-center ">
+                      <p className="custom px-[2.5px] text-gray-800">
+                        Invited Speakers
+                      </p>
+                    </p>
+                  </Link>
+                </DropdownMenuItem>
+               
+                
+              </DropdownMenuContent>
+            </DropdownMenu>
           <li className=" md:my-0 my-7 font-semibold">
             <Link
               to="/ConferenceVenue"

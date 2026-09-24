@@ -236,7 +236,7 @@ const speakers2026 = [
   },
   {
     name: "Venkata Raja Ravi Kumar Gelle",
-    image: "./venkat.jpg",
+    image: "./venkat.jpeg",
     title: "Lead / Architect, USA",
   },
    {
@@ -271,7 +271,7 @@ const speakers2026 = [
   },
   {
     name: "Lakshmi Bhargavi Mullapudi",
-    image: "./lakshmi.jpg",
+    image: "./lakshmi-2.jpg",
     title: "Software Engineer at Techstar Group",
   },
   {
