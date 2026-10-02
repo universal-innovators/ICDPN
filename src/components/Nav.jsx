@@ -415,7 +415,7 @@ const Nav = () => {
           </li>
           <li className=" md:my-0 my-7 font-semibold mx-3 text-center">
           <DropdownMenu >
-          <DropdownMenuTrigger className="text-white custom">FUSION Awardees</DropdownMenuTrigger>
+          <DropdownMenuTrigger className="text-white custom">Previous Fusion Awardees</DropdownMenuTrigger>
               <DropdownMenuContent>
                 <DropdownMenuItem>
                   <Link
