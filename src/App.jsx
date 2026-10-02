@@ -34,6 +34,7 @@ import Header from './components/Header'
 import {createBrowserRouter, Outlet, RouterProvider} from 'react-router-dom'
 import CallForINTWork from './Pages/CallForINTWork'
 import Awards2025 from './Pages/Awards2025'
+import Awards2026 from './Pages/Awards2026'
 import ICDPN2025 from './Pages/ICDPN2025'
 import KeynoteSpeakers from './Pages/KeynoteSpeakers'
 
@@ -83,6 +84,7 @@ const router=createBrowserRouter([
 
       {path:'/fusion-awards',element:<Awards/>},
       {path:'/fusion-awards-2025',element:<Awards2025/>},
+      {path:'/fusion-awards-2026',element:<Awards2026/>},
 
       
       {path:'/InvitedSpeakers',element:<InvitedSpeakers/>},

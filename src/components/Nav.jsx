@@ -415,8 +415,19 @@ const Nav = () => {
           </li>
           <li className=" md:my-0 my-7 font-semibold mx-3 text-center">
           <DropdownMenu >
-          <DropdownMenuTrigger className="text-white custom">Previous Fusion Awards</DropdownMenuTrigger>
+          <DropdownMenuTrigger className="text-white custom">FUSION Awardees</DropdownMenuTrigger>
               <DropdownMenuContent>
+                <DropdownMenuItem>
+                  <Link
+                    to="/fusion-awards-2026"
+                    className="text-gray-800 hover:text-blue-400 duration-500"
+                    onClick={closeHandler}
+                  >
+                    <p className="m-[8.5px] text-center ">
+                      <p className="px-[2.5px] text-gray-800">2026</p>
+                    </p>
+                  </Link>
+                </DropdownMenuItem>
                 <DropdownMenuItem >
                   <Link
                     to="/fusion-awards-2025"
