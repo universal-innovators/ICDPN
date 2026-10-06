@@ -91,6 +91,7 @@ const AWARDEES = [
   { name: "Hima Bindu Yanala", title: "Software Architecture Excellence Award" },
   { name: "Mohammed Saad Tambe", title: "Software Architecture Excellence Award" },
   { name: "Yukti Lnu", title: "Women in Innovation (Womanovator Award)" },
+  { name: "Prasun Bhattacharyya", title: "Global AI Architecture Excellence Award" }
 ];
 
 export default function Awards2026() {
