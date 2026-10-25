@@ -1,291 +1,58 @@
-import { useState } from "react";
+"use client";
+
+import React, { useEffect, useState } from "react";
 import { Card, CardContent } from "@/components/ui/card";
 
-const speakers2025 = [
-  {
-    name: "Rohan Salvi",
-    image: "./rohan.jpg",
-    title: "Conversational AI Architect, Parallon, US",
-  },
-  {
-    name: "Reena Chandra",
-    image: "./reena.jpg",
-    title: "Senior Software Engineer, Amazon, US",
-  },
-  {
-    name: "Karthik Sirigiri",
-    image: "./karthik.jpg",
-    title: "Application Developer, Redmane Technology, US",
-  },
-  {
-    name: "Vishal Bharadwaj Meruga",
-    image: "./vishal.jpg",
-    title: "Data Scientist, Marriott International, US",
-  },
-  {
-    name: "Aditya Gupta",
-    image: "./aditya.jpg",
-    title:
-      "Software Development Engineer II, AWS | Ex-ZS, Senior Fellow AI2030, Seattle, Washington, US",
-  },
-  {
-    name: "Sukumar Reddy Beereddy",
-    image: "./sukumar.jpg",
-    title: "Treasury & ERP Systems Solution Architect | USA",
-  },
-  {
-    name: "Karan Lulla",
-    image: "./karan.jpg",
-    title: "Lead Board Test Engineer, Santa Clara, CA, USA",
-  },
-  {
-    name: "Mukesh Reddy Dhanagari",
-    image: "./mukesh.jpg",
-    title:
-      "Manager, Software Development & Engineering, Charles Schwab, USA",
-  },
-  {
-    name: "Santosh Durgam",
-    image: "./santoshh.jpg",
-    title:
-      "Manager of Software Engineering, Morningstar Investments LLC, Chicago, Illinois, USA",
-  },
-  {
-    name: "Ramanan Hariharan",
-    image: "./raman.png",
-    title:
-      "Principal Engineering Manager, Security and Resiliency, Microsoft, Mountain View, USA",
-  },
-  {
-    name: "Dr Dinesh Kalla",
-    image: "./dinesh.jpg",
-    title: "Senior Technical Advisor, Microsoft",
-  },
-  {
-    name: "Chandra Sekhar Kubam",
-    image: "./chandra.jpg",
-    title:
-      "Independent Researcher, Integration Architect, Dallas, Texas, USA",
-  },
-  {
-    name: "Prasad Sundaramoorthy",
-    image: "./prasad.jpg",
-    title: "Sr Distinguished Leader - Data & AI, Nordstrom, USA",
-  },
-  {
-    name: "Raman Krishnaswami",
-    image: "./raman.jpg",
-    title: "Chief Information Officer, Eagleview Technologies, US",
-  },
-  {
-    name: "Satyabrata Pradhan",
-    image: "./satya.jpg",
-    title: "General Motors, US",
-  },
-  {
-    name: "Surendra B. Konathala",
-    image: "./surendra.jpg",
-    title: "Portfolio Manager, Capgemini, US",
-  },
-  {
-    name: "Ranjith Kumar Kollu",
-    image: "./ranjith.jpg",
-    title: "Salesforce Architect, Epson America, US",
-  },
-  {
-    name: "SINDHU GOPAKUMAR NAIR",
-    image: "./sindhu.jpg",
-    title: "Principal Engineer, Autodesk, USA",
-  },
-  {
-    name: "Shalini Sivasamy",
-    image: "./shalini.jpg",
-    title: "Senior AI Engineer, Webster Bank, USA",
-  },
-  {
-    name: "Omkar Bhalekar",
-    image: "./omkar.jpg",
-    title: "Sr Network Engineer at Tesla Motors, United States",
-  },
-  {
-    name: "Anjani Kumar Polinati",
-    image: "./anjani.jpg",
-    title: "Technical Lead, Primoris Systems, Wesley Chapel, FL, USA",
-  },
-  {
-    name: "Sibaram Prasad Panda",
-    image: "./sibaram.jpg",
-    title: "Decision Ready Solutions",
-  },
-  {
-    name: "Hemanth Kumar Maheshwaram",
-    image: "./hemanth.jpg",
-    title: "IT Project Manager, Abbott Laboratories, Illinois, USA",
-  },
-  {
-    name: "Mr. Venkata Ramana Gudelli",
-    image: "./venkata.jpg",
-    title: "Cloud Architect, USA",
-  },
-  {
-    name: "Sanketh Nelavelli",
-    image: "./sanket.jpg",
-    title: "Independent Researcher, Cloud DevOps Architect, Texas, USA",
-  },
-  {
-    name: "Bidisha Goswami",
-    image: "./bidisha.jpg",
-    title: "The Pokémon Company International",
-  },
-  {
-    name: "Surender Kusumba",
-    image: "./surender.jpg",
-    title: "Sr Solutions Architect, Trinamix Inc",
-  },
-  {
-    name: "Arnab Saha",
-    image: "./arnab.jpg",
-    title: "IEEE Member / Oracle",
-  },
-  {
-    name: "Sarbani Paul",
-    image: "./sarbani.jpg",
-    title: "Amazon",
-  },
-  {
-    name: "Pararameswara Reddy Nangi",
-    image: "./reddy.jpg",
-    title: "Senior Hadoop Engineer, Independent Researcher",
-  },
-  {
-    name: "Arjun Kamisetty",
-    image: "./arjun.jpg",
-    title: "Independent Researcher, USA",
-  },
-  {
-    name: "Divya Kodi",
-    image: "./divya.jpg",
-    title: "Cyber Security Senior Data Analyst, Truist Bank",
-  },
-  {
-    name: "Professor (Dr.) Rahul Katarya",
-    image: "./rahul.jpeg",
-    title:
-      "Department of Computer Science & Engineering, Delhi Technological University",
-  },
-  {
-    name: "Janardhana Naidu Kola",
-    image: "./naidu.jpg",
-    title:
-      "Director of Business Intelligence, ADP (Automatic Data Processing, Inc.)",
-  },
-  {
-    name: "Narendra Mangala",
-    image: "./narendra.png",
-    title: "Data Engineer Manager, Kenvue, Dallas, Texas, United States",
-  },
-  {
-    name: "Vasanta Kumar Tarra",
-    image: "./vasanta.jpeg",
-    title: "Lead Engineer, Guidewire Software",
-  },
-  {
-    name: "Anam Haider Khan",
-    image: "./anam.jpg",
-    title: "Zada zada Inc, GA, USA",
-  },
-  {
-    name: "Pradeep Kachakayala",
-    image: "./pradeep.jpg",
-    title: "Cloud Engagement Manager, Insight Direct USA, New Jersey, USA",
-  },
- {
-      name: "Lakshmi Priyanka Pillati",
-      title:
-        "Sr Cloud Engineer at Primitive Partners",
-      image: "./lakshmi.jpg",
-    },
-];
-
-// Add 2026 speakers here
-const speakers2026 = [
-  {
-    name: "Mayur Patel",
-    image: "./mayur.jpeg",
-    title: "Director IT – Center of Excellence, Axalta Coating Systems, LLC",
-  },
-  {
-    name: "Yukti Lnu",
-    image: "./yukti.jpg",
-    title: "Lead Software Engineer, KForce",
-  },
-  {
-    name: "Vasanta Kumar Tarra",
-    image: "./vasanta.jpg",
-    title: "Lead Engineer, Guidewire Software Inc.",
-  },
-{
-    name: "Sai Arundeep Aetukuri ",
-    image: "./SAI.jpg",
-    title: "Data Engineer ,MHK TECH Inc, Aubrey, Texas, USA",
-  },
-  {
-    name: "Srinivas Prasad Bheemasamudra Laxminarayan",
-    image: "./srinivas.jpg",
-    title: "Solutions Architect, Amazon Web Services (AWS)",
-  },
-  {
-    name: "Venkata Raja Ravi Kumar Gelle",
-    image: "./venkat.jpeg",
-    title: "Lead / Architect, USA",
-  },
-   {
-    name: "Kamana Parvej Mishu",
-    image: "./kamana.jpeg",
-    title: "Independent Researcher  Former Aviation Safety Inspector (Airworthiness),M.S. in Engineering Management (Industrial), Trine University, Angola, Indiana, USA",
-  },
-   {
-    name: "Jay Bankimchandra Desai",
-    image: "./jay.jpeg",
-    title: "San Jose State University",
-  },
-   {
-    name: "Ravindra Motiram Gurnani",
-    image: "./ravindra.jpg",
-    title: "Amobee",
-  },
-   {
-    name: "Veerababu Motamarri",
-    image: "./veera.jpg",
-    title: "",
-  },
-   {
-    name: "Naveen Kumar Vedurupaka",
-    image: "./naveen.jpg",
-    title: "",
-  },
-  {
-    name: "Md Ismail Jobi Ullah",
-    image: "./ismail.jpg",
-    title: "Doctor of Computer Science (DCS) Student, University of the Potomac, USA, Former Information Security Analyst, Viewsoft Inc,USA",
-  },
-  {
-    name: "Lakshmi Bhargavi Mullapudi",
-    image: "./lakshmi-2.jpg",
-    title: "Software Engineer at Techstar Group",
-  },
-  {
-    name: "Ashima Chakravarty",
-    image: "./ashima.jpg",
-    title: "Independent Researcher",
-  },
-];
+const API_URL = "https://ui-admin.vercel.app/api/v1/speakers";
+const years = [2026, 2025];
 
 export default function InvitedSpeakers() {
-  const [activeTab, setActiveTab] = useState("2025");
+  const [activeTab, setActiveTab] = useState(2025);
+  const [speakers, setSpeakers] = useState([]);
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState("");
 
-  const speakers =
-    activeTab === "2025" ? speakers2025 : speakers2026;
+  useEffect(() => {
+    const controller = new AbortController();
+
+    async function fetchSpeakers() {
+      try {
+        setLoading(true);
+        setError("");
+
+        const params = new URLSearchParams({
+          conference_id: "c5",
+          year: String(activeTab),
+          type: "industry",
+          speaker_type: "invited",
+        });
+
+        const response = await fetch(`${API_URL}?${params}`, {
+          signal: controller.signal,
+        });
+
+        if (!response.ok) {
+          throw new Error("Failed to fetch invited speakers.");
+        }
+
+        const data = await response.json();
+        setSpeakers(data.items || []);
+      } catch (err) {
+        if (err.name !== "AbortError") {
+          setError(err.message || "Something went wrong.");
+          setSpeakers([]);
+        }
+      } finally {
+        if (!controller.signal.aborted) {
+          setLoading(false);
+        }
+      }
+    }
+
+    fetchSpeakers();
+
+    return () => controller.abort();
+  }, [activeTab]);
 
   return (
     <div className="px-4 py-10 max-w-7xl mx-auto">
@@ -293,60 +60,77 @@ export default function InvitedSpeakers() {
         Invited Speakers
       </h1>
 
-      {/* Tabs */}
+      {/* Year Tabs */}
       <div className="flex justify-center gap-4 mt-8">
-        <button
-          onClick={() => setActiveTab("2025")}
-          className={`px-6 py-2 rounded-full font-medium transition-all duration-300 ${
-            activeTab === "2025"
-              ? "bg-black text-white shadow-md"
-              : "bg-gray-100 text-gray-700 hover:bg-gray-200"
-          }`}
-        >
-          2025
-        </button>
-
-        <button
-          onClick={() => setActiveTab("2026")}
-          className={`px-6 py-2 rounded-full font-medium transition-all duration-300 ${
-            activeTab === "2026"
-              ? "bg-black text-white shadow-md"
-              : "bg-gray-100 text-gray-700 hover:bg-gray-200"
-          }`}
-        >
-          2026
-        </button>
-      </div>
-
-      {/* Speakers Grid */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8 mt-12">
-        {speakers.map((speaker, index) => (
-          <Card
-            key={index}
-            className="overflow-hidden border-0 shadow-md hover:shadow-2xl transition-all duration-500 rounded-2xl group"
+        {years.map((year) => (
+          <button
+            key={year}
+            onClick={() => setActiveTab(year)}
+            className={`px-6 py-2 rounded-full font-medium transition-all duration-300 ${
+              activeTab === year
+                ? "bg-black text-white shadow-md"
+                : "bg-gray-100 text-gray-700 hover:bg-gray-200"
+            }`}
           >
-            <CardContent className="p-0">
-              <div className="relative overflow-hidden">
-                <img
-                  src={speaker.image}
-                  alt={speaker.name}
-                  className="h-64 w-full object-cover group-hover:scale-105 transition-transform duration-500"
-                />
-              </div>
-
-              <div className="p-5 text-center">
-                <h2 className="text-lg font-semibold text-gray-900">
-                  {speaker.name}
-                </h2>
-
-                <p className="text-sm text-gray-600 mt-3 leading-relaxed">
-                  {speaker.title}
-                </p>
-              </div>
-            </CardContent>
-          </Card>
+            {year}
+          </button>
         ))}
       </div>
+
+      {/* Loading */}
+      {loading && (
+        <p className="text-center mt-12 text-gray-600">
+          Loading invited speakers...
+        </p>
+      )}
+
+      {/* Error */}
+      {!loading && error && (
+        <p className="text-center mt-12 text-red-600">{error}</p>
+      )}
+
+      {/* Empty State */}
+      {!loading && !error && speakers.length === 0 && (
+        <p className="text-center mt-12 text-gray-600">
+          No invited speakers found for {activeTab}.
+        </p>
+      )}
+
+      {/* Speakers Grid */}
+      {!loading && !error && speakers.length > 0 && (
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8 mt-12">
+          {speakers.map((speaker) => (
+            <Card
+              key={speaker.id}
+              className="overflow-hidden border-0 shadow-md hover:shadow-2xl transition-all duration-500 rounded-2xl group"
+            >
+              <CardContent className="p-0">
+                <div className="relative overflow-hidden">
+                  <img
+                    src={
+                      speaker.image_url ||
+                      speaker.image ||
+                      "/placeholder.png"
+                    }
+                    alt={speaker.name}
+                    className="h-64 w-full object-cover group-hover:scale-105 transition-transform duration-500"
+                  />
+                </div>
+
+                <div className="p-5 text-center">
+                  <h2 className="text-lg font-semibold text-gray-900">
+                    {speaker.name}
+                  </h2>
+
+                  <p className="text-sm text-gray-600 mt-3 leading-relaxed">
+                    {speaker.designation || speaker.title || ""}
+                  </p>
+                </div>
+              </CardContent>
+            </Card>
+          ))}
+        </div>
+      )}
     </div>
   );
 }

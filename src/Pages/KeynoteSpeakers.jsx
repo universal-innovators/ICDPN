@@ -1,22 +1,56 @@
-import { useState } from "react";
+"use client";
+
+import { useEffect, useState } from "react";
 import { Card, CardContent } from "@/components/ui/card";
 
-
-
-// Add 2026 speakers here
-const speakers2026 = [
- {
-      name: "Pratham Pravin Patkar",
-      title: "Director of Business Systems\nSociety for Science & the Public",
-      image: "./pratham.jpg",
-    }
-];
+const API_URL = "https://ui-admin.vercel.app/api/v1/speakers";
 
 export default function KeynoteSpeakers() {
-  const [activeTab, setActiveTab] = useState("2026");
+  const [speakers, setSpeakers] = useState([]);
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState("");
 
-  const speakers =
-    activeTab === "2025" ? null : speakers2026;
+  useEffect(() => {
+    const controller = new AbortController();
+
+    async function fetchSpeakers() {
+      try {
+        setLoading(true);
+        setError("");
+
+        const params = new URLSearchParams({
+          conference_id: "c5",
+          year: "2026",
+          type: "industry",
+          speaker_type: "keynote",
+        });
+
+        const response = await fetch(`${API_URL}?${params}`, {
+          signal: controller.signal,
+        });
+
+        if (!response.ok) {
+          throw new Error("Failed to fetch keynote speakers.");
+        }
+
+        const data = await response.json();
+        setSpeakers(data.items || []);
+      } catch (err) {
+        if (err.name !== "AbortError") {
+          setError(err.message || "Something went wrong.");
+          setSpeakers([]);
+        }
+      } finally {
+        if (!controller.signal.aborted) {
+          setLoading(false);
+        }
+      }
+    }
+
+    fetchSpeakers();
+
+    return () => controller.abort();
+  }, []);
 
   return (
     <div className="px-4 py-10 max-w-7xl mx-auto">
@@ -24,51 +58,67 @@ export default function KeynoteSpeakers() {
         Keynote Speakers
       </h1>
 
-      {/* Tabs */}
+      {/* Year Tab */}
       <div className="flex justify-center gap-4 mt-8">
-        
-
-        <button
-          onClick={() => setActiveTab("2026")}
-          className={`px-6 py-2 rounded-full font-medium transition-all duration-300 ${
-            activeTab === "2026"
-              ? "bg-black text-white shadow-md"
-              : "bg-gray-100 text-gray-700 hover:bg-gray-200"
-          }`}
-        >
+        <button className="px-6 py-2 rounded-full font-medium bg-black text-white shadow-md">
           2026
         </button>
       </div>
 
+      {/* Loading */}
+      {loading && (
+        <p className="text-center mt-12 text-gray-600">
+          Loading keynote speakers...
+        </p>
+      )}
+
+      {/* Error */}
+      {!loading && error && (
+        <p className="text-center mt-12 text-red-600">{error}</p>
+      )}
+
+      {/* Empty State */}
+      {!loading && !error && speakers.length === 0 && (
+        <p className="text-center mt-12 text-gray-600">
+          No keynote speakers found for 2026.
+        </p>
+      )}
+
       {/* Speakers Grid */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8 mt-12">
-        {speakers.map((speaker, index) => (
-          <Card
-            key={index}
-            className="overflow-hidden border-0 shadow-md hover:shadow-2xl transition-all duration-500 rounded-2xl group"
-          >
-            <CardContent className="p-0">
-              <div className="relative overflow-hidden">
-                <img
-                  src={speaker.image}
-                  alt={speaker.name}
-                  className="h-64 w-full object-cover group-hover:scale-105 transition-transform duration-500"
-                />
-              </div>
+      {!loading && !error && speakers.length > 0 && (
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8 mt-12">
+          {speakers.map((speaker) => (
+            <Card
+              key={speaker.id}
+              className="overflow-hidden border-0 shadow-md hover:shadow-2xl transition-all duration-500 rounded-2xl group"
+            >
+              <CardContent className="p-0">
+                <div className="relative overflow-hidden">
+                  <img
+                    src={
+                      speaker.image_url ||
+                      speaker.image ||
+                      "/placeholder.png"
+                    }
+                    alt={speaker.name}
+                    className="h-64 w-full object-cover group-hover:scale-105 transition-transform duration-500"
+                  />
+                </div>
 
-              <div className="p-5 text-center">
-                <h2 className="text-lg font-semibold text-gray-900">
-                  {speaker.name}
-                </h2>
+                <div className="p-5 text-center">
+                  <h2 className="text-lg font-semibold text-gray-900">
+                    {speaker.name}
+                  </h2>
 
-                <p className="text-sm text-gray-600 mt-3 leading-relaxed">
-                  {speaker.title}
-                </p>
-              </div>
-            </CardContent>
-          </Card>
-        ))}
-      </div>
+                  <p className="text-sm text-gray-600 mt-3 leading-relaxed whitespace-pre-line">
+                    {speaker.designation || speaker.title || ""}
+                  </p>
+                </div>
+              </CardContent>
+            </Card>
+          ))}
+        </div>
+      )}
     </div>
   );
 }
