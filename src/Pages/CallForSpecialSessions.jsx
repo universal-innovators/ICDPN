@@ -4,7 +4,7 @@ const CallForSpecialSessions = () => {
       <hr />
         <div className="text-center mt-3 mb-3 bg-green-500 p-3 rounded-tl-3xl rounded-br-3xl">
           <b className=" font-extrabold text-xl tracking-wider">
-            Invitation to conduct special session in ICDPN 2026
+            Invitation to conduct special session in ICDPN 2027
           </b>
         </div>
         <hr />
@@ -14,15 +14,15 @@ const CallForSpecialSessions = () => {
         <br />
         <h3 className="text-lg">
 
-        Greeting from ICDPN-2026!
+        Greeting from ICDPN-2027!
         </h3>
         <br />
         <p className="text-black  tracking-wide text-justify bg-gray-100 p-7 rounded-3xl">
           ICDPN Conference team invites you to organize the special session in
           sixth version of International Conference on Data-Processing and
-          Networking (ICDPN-2026) , to be held at Institute of Technology and
+          Networking (ICDPN-2027), to be held at Slovak University of Agriculture in Nitra, Slovakia, in association with Maharaja Agrasen Institute of Technology
           Business in České Budějovice, Near Prague, Czech Republic, Europe
-          during 25th - 26th September 2026 of your research domain. We are
+          during 24th - 25th September 2027 of your research domain. We are
           diligently working to bring some of the most knowledgeable researchers
           from all over the world along with the leaders from the industry to
           explore the important topics of research. The two day conference will
@@ -51,7 +51,7 @@ const CallForSpecialSessions = () => {
         <br />
         <br />
         <p className="text-black tracking-wide text-justify bg-gray-100 p-7 rounded-3xl">
-          1)All the papers and the proceedings of ICDPN-2026 will be published by Springer (Approved).
+          1)All the papers and the proceedings of ICDPN-2027 will be published by Springer (Approved).
           <br />
           2) You will get 15% of the total fees collected in your session.
           <br />
@@ -90,7 +90,7 @@ const CallForSpecialSessions = () => {
           <a className="cursor-pointer text-blue-400 underline">
           icdpnconference@gmail.com
           </a>{" "}
-          latest by 30th June 2026 as per the format attached with this mail.
+          latest by 30th July 2027 as per the format attached with this mail.
         </p>
         <br />
         <br />
@@ -104,17 +104,17 @@ const CallForSpecialSessions = () => {
           <br />
         </p>
         <br />
-        Looking to see you in ICDPN-2026.
+        Looking to see you in ICDPN-2027.
         <br />
         Sincerely,
         <br />
         Organizer and Convener
         <br />
-        <b>ICDPN-2026</b>
+        <b>ICDPN-2027</b>
       <br />
       <a
-        href="SPECIAL SESSION -ICPDN 2026.docx"
-        download={"SPECIAL SESSION -ICPDN 2026.docx"}
+        href="/SPECIAL SESSION -ICPDN 2027.docx"
+        download={"SPECIAL SESSION -ICPDN 2027.docx"}
       >
         <button className=" ml-[1rem] mb-5  bg-blue-600 rounded-lg hover:bg-gradient-to-t from-blue-900 to-cyan-500 ">
           <div className="m-auto p-[0.5rem] text-white">

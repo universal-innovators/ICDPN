@@ -17,7 +17,7 @@ function Body() {
         </div>
         <div>
           <button className="btn">
-            <a href="https://cmt3.research.microsoft.com/ICDPN2026">Submit Paper</a>
+            <a href="https://cmt3.research.microsoft.com/ICDPN2027">Submit Paper</a>
           </button>
         </div>
       </div>

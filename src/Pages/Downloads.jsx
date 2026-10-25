@@ -65,18 +65,25 @@ const Downloads = () => {
 
             <div className="relative">
               <a
-                href="SPECIAL SESSION -ICPDN 2026.docx"
-                download={"SPECIAL SESSION -ICPDN 2026.docx"}
+                href="/SPECIAL SESSION -ICPDN 2027.docx"
+                download={"SPECIAL SESSION -ICPDN 2027.docx"}
                 target="_blank"
               >
                 <button className=" w-[17rem] sm:w-[23rem] rounded-tl-3xl rounded-br-3xl bg-blue-600  hover:bg-gradient-to-t from-blue-900 to-cyan-500 ">
                   <div className="m-auto p-[2rem] text-white sm:px-[4rem]">
-                    Special Session Proposal Template
+                    Special Session Proposal Template (2027)
                   </div>
                 </button>
 
               </a>
             </div>            
+            <div className="relative">
+              <a href="/WORKSHOP PROPOSAL - ICDPN 2027.docx" download="WORKSHOP PROPOSAL - ICDPN 2027.docx" target="_blank">
+                <button className="w-[17rem] sm:w-[23rem] rounded-tl-3xl rounded-br-3xl bg-blue-600 hover:bg-gradient-to-t from-blue-900 to-cyan-500">
+                  <div className="m-auto p-[2rem] text-white sm:px-[4rem]">Workshop Proposal Template (2027)</div>
+                </button>
+              </a>
+            </div>
           </div>
           {/* <div className="flex gap-2  mb-5 flex-wrap">
 

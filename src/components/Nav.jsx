@@ -500,6 +500,17 @@ const Nav = () => {
                     </p>
                   </Link>
                 </DropdownMenuItem>
+                <DropdownMenuItem>
+                  <Link
+                    to="/ICDPN-2026"
+                    className="text-gray-800 hover:text-blue-400 duration-500"
+                    onClick={closeHandler}
+                  >
+                    <p className="m-[8.5px] text-center">
+                      <p className="px-[2.5px] text-gray-800">ICDPN 2026</p>
+                    </p>
+                  </Link>
+                </DropdownMenuItem>
                 {/*<DropdownMenuItem>
                   <Link
                     to="/ICICC2022"

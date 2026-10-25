@@ -20,7 +20,7 @@ export default function KeynoteSpeakers() {
 
         const params = new URLSearchParams({
           conference_id: "c5",
-          year: "2026",
+          year: "2027",
           type: "industry",
           speaker_type: "keynote",
         });
@@ -61,7 +61,7 @@ export default function KeynoteSpeakers() {
       {/* Year Tab */}
       <div className="flex justify-center gap-4 mt-8">
         <button className="px-6 py-2 rounded-full font-medium bg-black text-white shadow-md">
-          2026
+          2027
         </button>
       </div>
 
@@ -80,7 +80,7 @@ export default function KeynoteSpeakers() {
       {/* Empty State */}
       {!loading && !error && speakers.length === 0 && (
         <p className="text-center mt-12 text-gray-600">
-          No keynote speakers found for 2026.
+          No keynote speakers found for 2027.
         </p>
       )}
 

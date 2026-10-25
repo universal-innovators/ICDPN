@@ -36,6 +36,7 @@ import CallForINTWork from './Pages/CallForINTWork'
 import Awards2025 from './Pages/Awards2025'
 import Awards2026 from './Pages/Awards2026'
 import ICDPN2025 from './Pages/ICDPN2025'
+import ICDPN2026 from './Pages/ICDPN2026'
 import KeynoteSpeakers from './Pages/KeynoteSpeakers'
 
 const router=createBrowserRouter([
@@ -81,6 +82,7 @@ const router=createBrowserRouter([
       {path:'/technical-program-committee' ,element:<TechProgC/>},
       {path:'/ICDPN-2024',element:<ICDPN2024/>},
       {path:'/ICDPN-2025',element:<ICDPN2025/>},
+      {path:'/ICDPN-2026',element:<ICDPN2026/>},
 
       {path:'/fusion-awards',element:<Awards/>},
       {path:'/fusion-awards-2025',element:<Awards2025/>},

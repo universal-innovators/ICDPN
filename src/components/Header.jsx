@@ -11,13 +11,13 @@ export default function Header() {
         <div className="md:flex">
         <div className="grid grid-cols-2 gap-4 m-4 md:w-[20vw]">
         <img
-            class="w-full h-28 object-contain"
-            src="vste-logo.jpg"
+            className="w-full h-28 object-contain"
+            src="spu_1.jpg"
             alt=""
           />
           <img
             class="w-full h-28 object-contain"
-            src="spu_1.jpg"
+            src="mait-logo.png"
             alt=""
           />
           {/* <img
@@ -35,14 +35,15 @@ export default function Header() {
           <div className="header-text text-center tracking-wide text-l ">
             <p className="mb-3 text-xl">
               International Conference on Data-Processing and Networking
-              <br /> (ICDPN-2026)
+              <br /> (ICDPN-2027)
               <br />
-              <p className=" sm:mt-[5rem] md:mt-3 mb-3 font-medium text-lg text-blue-800">Date: 25th - 26th September, 2026</p>
+              <p className=" sm:mt-[5rem] md:mt-3 mb-3 font-medium text-lg text-blue-800">Date: 24th - 25th September, 2027</p>
             </p>
             <p className="text-red-500 ">
               <span className="text-black">ORGANISED BY : </span><span className="font-medium">
-                 Institute of Technology and Business in České Budějovice, Near Prague, Czech Republic, Europe (Venue)                   
-                 <br/>in association with Slovak University of Agriculture in Nitra, Slovakia <br/>& <br/>National Technical University of Ukraine “Igor Sikorsky Kyiv
+                 Slovak University of Agriculture in Nitra, Slovakia
+                 <br/>in association with Maharaja Agrasen Institute of Technology, Delhi, India <br/>& <br/>Institute of Technology and Business in České Budějovice, Near Prague, Czech Republic, Europe (Venue)
+                 <br/>& <br/>National Technical University of Ukraine “Igor Sikorsky Kyiv
 Polytechnic Institute”  & Research Center for Industrial Problems of Development of the National
 Academy of Sciences of Ukraine <br/> & <br/>Mata Sundri College for Women( University of Delhi) <br/> & <br/>Canadian Institute of Technology, Tirana<br/>
 </span>

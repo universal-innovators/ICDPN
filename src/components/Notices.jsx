@@ -9,7 +9,7 @@ const Notices = () => {
       <hr />
       <div className="flex flex-col text-lg">
         <p className="text-gray-600">
-        ICDPN-2026 will be organised by Institute of Technology and Business in České Budějovice, Near Prague, Czech Republic, Europe (Venue) on 25th - 26th September, 2026.
+        ICDPN-2027 will be organised by Slovak University of Agriculture in Nitra, Slovakia, in association with Maharaja Agrasen Institute of Technology, Delhi, India, on 24th - 25th September, 2027.
         </p>
         
       </div>
