@@ -90,6 +90,15 @@ const SteeringCommittee = () => {
             
            
           </div>
+<div className="testimonials w-[100%] bg-neutral-100 text-secondary-400">
+            <h3>Organizing Secretary(s):</h3>
+            <hr />
+            <p>Dr. Ashish Khanna</p>
+            <p>(Maharaja Agrasen Institute of Technology, GGSIPU, Delhi)</p>
+            
+            
+           
+          </div>
           <div className="flex flex-col gap-4">
             <div className="testimonials h-full w-[100%] bg-neutral-100 text-secondary-400">
               <h3>Publication Chair(s):</h3>
