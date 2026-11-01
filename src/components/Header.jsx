@@ -15,11 +15,11 @@ export default function Header() {
             src="spu_1.jpg"
             alt=""
           />
-          <img
+         {/* <img
             class="w-full h-28 object-contain"
             src="mait-logo.png"
             alt=""
-          />
+          />*/}
           {/* <img
             class="w-full h-28 object-contain"
             src="spu_2.jpg"
@@ -42,7 +42,8 @@ export default function Header() {
             <p className="text-red-500 ">
               <span className="text-black">ORGANISED BY : </span><span className="font-medium">
                  Slovak University of Agriculture in Nitra, Slovakia
-                 <br/>in association with Maharaja Agrasen Institute of Technology, Delhi, India <br/>& <br/>Institute of Technology and Business in České Budějovice, Near Prague, Czech Republic, Europe (Venue)
+                 <br/>in association with {/*Maharaja Agrasen Institute of Technology, Delhi, India <br/>& <br/>*/}
+Institute of Technology and Business in České Budějovice, Near Prague, Czech Republic, Europe (Venue)
                  <br/>& <br/>National Technical University of Ukraine “Igor Sikorsky Kyiv
 Polytechnic Institute”  & Research Center for Industrial Problems of Development of the National
 Academy of Sciences of Ukraine <br/> & <br/>Mata Sundri College for Women( University of Delhi) <br/> & <br/>Canadian Institute of Technology, Tirana<br/>
